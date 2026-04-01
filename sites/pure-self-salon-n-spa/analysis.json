@@ -1,0 +1,130 @@
+{
+  "business": {
+    "name": "Pure Self Salon N Spa",
+    "type": "AVEDA Concept Salon & Spa",
+    "address": "3985 Hwy 7 E, Unit #106, Markham, ON L3R 2A2",
+    "phone": "+1 905-604-7873",
+    "email": "info@pureselfsalon.com",
+    "bookingEmail": "booking@pureselfsalon.com",
+    "website": "https://www.pureselfsalon.com",
+    "owner": "Misha"
+  },
+  "hours": {
+    "monday": "9AM-7PM",
+    "tuesday": "9AM-7PM",
+    "wednesday": "9AM-7PM",
+    "thursday": "9AM-7PM",
+    "friday": "9AM-8PM",
+    "saturday": "9AM-8PM",
+    "sunday": "9AM-7PM"
+  },
+  "social": {
+    "instagram": {
+      "handle": "@pureselfsalonnspa",
+      "followers": 12000,
+      "url": "https://www.instagram.com/pureselfsalonnspa"
+    },
+    "facebook": {
+      "page": "PureSelfSalonNSpa",
+      "url": "https://www.facebook.com/PureSelfSalonNSpa"
+    }
+  },
+  "ratings": {
+    "google": {
+      "stars": 4.0
+    },
+    "yelp": {
+      "reviews": 27,
+      "photos": 239
+    },
+    "groupon": {
+      "stars": 4.5,
+      "reviews": 150
+    },
+    "fresha": {
+      "award": "Highly Recommended 2025"
+    }
+  },
+  "stats": {
+    "clients": "12,000+",
+    "yearsExperience": "14+",
+    "teamMembers": "8+"
+  },
+  "booking": {
+    "setmore": "https://pureselfsalon.setmore.com",
+    "fresha": true
+  },
+  "taglines": [
+    "Transform, Relax, Renew, Enhance",
+    "Holistic Beauty Awaits You"
+  ],
+  "services": {
+    "hair": {
+      "womens_cut_short": "$65",
+      "womens_cut_long": "$85",
+      "mens_cut": "$40",
+      "blowout": "$45",
+      "updos": "from $125"
+    },
+    "colour": {
+      "root_touchup": "$95",
+      "partial_highlights": "$130",
+      "full_highlights": "$200",
+      "balayage": "$300",
+      "fashion_color": "$200"
+    },
+    "treatments": {
+      "keratin_short": "$350",
+      "keratin_long": "$600",
+      "scalp_treatment": "$75",
+      "gloss": "$75"
+    },
+    "laser": {
+      "full_body": "$999",
+      "brazilian": "$200",
+      "full_face": "$200",
+      "underarms": "$100"
+    },
+    "spa": {
+      "massage_60min": "$85",
+      "aveda_facial": "$100",
+      "anti_aging_facial": "$120"
+    },
+    "lash_brow": {
+      "lash_lift": "$100",
+      "lash_tint": "$35",
+      "brow_threading": "$12"
+    },
+    "nails": {
+      "manicure": "$35",
+      "pedicure": "$55",
+      "shellac_mani": "$45"
+    },
+    "wax": {
+      "eyebrow": "$12",
+      "brazilian": "$55",
+      "full_legs": "$50"
+    }
+  },
+  "images": {
+    "logo": "https://www.pureselfsalon.com/images/logo1.webp",
+    "hero": "https://www.pureselfsalon.com/images/home/hair-style.webp",
+    "gallery": [
+      "https://www.pureselfsalon.com/images/photo-gallery/gallery-1.webp",
+      "https://www.pureselfsalon.com/images/photo-gallery/gallery-2.webp",
+      "https://www.pureselfsalon.com/images/photo-gallery/gallery-3.webp",
+      "https://www.pureselfsalon.com/images/photo-gallery/gallery-4.webp",
+      "https://www.pureselfsalon.com/images/photo-gallery/gallery-5.webp",
+      "https://www.pureselfsalon.com/images/photo-gallery/gallery-6.webp"
+    ],
+    "freshaAward": "https://www.pureselfsalon.com/images/fresha-award.webp"
+  },
+  "colorScheme": {
+    "background": "#000000",
+    "dark": "#1a1a1a",
+    "charcoal": "#252323",
+    "text": "#ffffff",
+    "accent": "#c9a96e",
+    "theme": "dark"
+  }
+}
