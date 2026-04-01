@@ -1,0 +1,46 @@
+{
+  "business_name": "Scarborough Fades",
+  "slug": "scarborough-fades",
+  "website_url": "https://www.scarboroughfades.com/",
+  "contact_email": "info@scarboroughfades.com",
+  "contact_name": "Dave",
+  "industry": "Barbershop",
+  "city": "Scarborough",
+  "address": "2231 Victoria Park Ave, Unit 2, Scarborough, ON M1R 1V8",
+  "phone": "+1-416-391-1761",
+  "instagram": "@scarborough_fades",
+  "facebook": "https://www.facebook.com/ScarboroughFades/",
+  "hours": {
+    "monday_friday": "10:00 AM - 8:00 PM",
+    "saturday": "10:00 AM - 7:00 PM",
+    "sunday": "10:00 AM - 8:00 PM"
+  },
+  "services": [
+    { "name": "Fade", "price": 40, "duration": "35 min" },
+    { "name": "Fade + Beard", "price": 50, "duration": "50 min" },
+    { "name": "Haircut (No Fade)", "price": 30, "duration": "25 min" },
+    { "name": "Haircut (No Fade) + Beard", "price": 45, "duration": "40 min" },
+    { "name": "Kid's Fade (9 and under)", "price": 35, "duration": "35 min" },
+    { "name": "Beard Trim", "price": 25, "duration": "20 min" },
+    { "name": "Line Up", "price": 15, "duration": "20 min" },
+    { "name": "Charcoal/Gold Face Mask", "price": 10, "duration": "20 min" },
+    { "name": "Men's Color", "price": 40, "duration": "45 min", "note": "starting at" }
+  ],
+  "team": [
+    { "name": "Dave", "rating": 5.0, "reviews": 20 },
+    { "name": "Grim", "rating": 5.0, "reviews": 13 },
+    { "name": "Jericho", "rating": 5.0, "reviews": 4 },
+    { "name": "Cristiano", "rating": null, "reviews": null }
+  ],
+  "rating": 5.0,
+  "total_reviews": 60,
+  "tagline": "Combining the culture and style of Scarborough. Over 60 years of combined experience.",
+  "brand": {
+    "style": "Modern, black, minimalist",
+    "tone": "Professional yet community-focused, confident, street culture influenced",
+    "personality": "Authentic neighbourhood barbershop with premium quality",
+    "colors": "Black, white, minimal accent",
+    "vibe": "Urban, clean, masculine"
+  },
+  "booking": "https://getsquire.com/discover/barbershop/scarborough-fades-scarborough"
+}
