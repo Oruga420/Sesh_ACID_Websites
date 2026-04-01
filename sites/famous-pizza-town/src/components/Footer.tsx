@@ -2,16 +2,16 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-950 text-gray-400">
+    <footer className="bg-gray-800 text-gray-400">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center text-white font-bold text-sm">
+              <div className="w-8 h-8 bg-primary-500 rounded-lg flex items-center justify-center text-white font-bold text-sm">
                 F
               </div>
-              <span className="font-display text-lg font-bold text-white">
+              <span className="text-lg font-semibold text-white">
                 Famous Pizza Town
               </span>
             </div>
@@ -69,7 +69,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-12 pt-8 text-center text-xs text-gray-500">
+        <div className="border-t border-gray-700 mt-12 pt-8 text-center text-xs text-gray-500">
           &copy; {new Date().getFullYear()} Famous Pizza Town. All rights
           reserved.
         </div>
