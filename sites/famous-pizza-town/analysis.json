@@ -1,0 +1,76 @@
+{
+  "business_name": "Famous Pizza Town",
+  "address": "1947 Victoria Park Avenue, Scarborough, Ontario, Canada, M1R 1V1",
+  "phone": "+1 (647) 352-3786",
+  "website": "https://famouspizzatown.ca/",
+  "hours": {
+    "monday_saturday": "11:00 AM - 9:00 PM",
+    "sunday": "12:00 PM - 9:00 PM"
+  },
+  "navigation": ["Home", "Menu", "About", "Contact", "Order Pickup"],
+  "services": [
+    "Dine-in",
+    "Contactless Delivery (Uber Eats, SkipTheDishes, DoorDash)",
+    "Pickup (TikMe)"
+  ],
+  "colors": {
+    "original_primary": "#0170B9",
+    "original_grays": ["#3a3a3a", "#4B4F58"],
+    "original_backgrounds": ["#F5F5F5", "#FFFFFF"],
+    "redesign_primary": "#DC2626",
+    "redesign_note": "Lead brief specifies red primary with modern minimalist style"
+  },
+  "menu_categories": {
+    "pizza": {
+      "sizes": ["Medium", "Large", "Extra-Large", "Mega", "Party"],
+      "note": "Customizable toppings, 3+ toppings standard on deals"
+    },
+    "wings": {
+      "note": "Signature item, multiple flavors"
+    },
+    "panzerotti": {
+      "note": "12-inch panzerotti with custom toppings"
+    },
+    "sides": ["Garlic Bread", "Wedges", "Fries", "Dips"],
+    "chicken": ["Chicken Fingers with Fries"],
+    "drinks": ["Pop", "2L Pop"]
+  },
+  "deals": [
+    {
+      "name": "Famous Wings Special",
+      "includes": "12 wings, 4 garlic bread, 1 lb wedges, 3 pop"
+    },
+    {
+      "name": "2 Large Pizza Deal",
+      "includes": "2 large pizzas (3 toppings each), 12 wings, garlic bread, pop, 2 dips"
+    },
+    {
+      "name": "12\" Panzerotti Deal",
+      "includes": "2 panzerotti (3 toppings), 2 pop, 2 dips"
+    },
+    {
+      "name": "3 Mega Pizza Deal",
+      "includes": "3 mega pizzas (3 toppings each), 24 wings, 2L pop, 3 dips"
+    },
+    {
+      "name": "Famous Deal",
+      "includes": "1 large pizza (3 toppings), 24 wings, 3 pop, 1 dip"
+    },
+    {
+      "name": "Manager's Special",
+      "includes": "Large pizza (5 toppings), garlic bread/wedges, dip, 2 free pop"
+    }
+  ],
+  "social_media": {
+    "facebook": "Famous-Pizza-Town",
+    "yelp": "famous-pizza-town-toronto"
+  },
+  "brand_themes": ["Quality", "Delivery", "Convenience"],
+  "tone": "Casual and Approachable",
+  "taglines": [
+    "One of the top pizza restaurants in Scarborough",
+    "Rich and flavorful dishes"
+  ],
+  "loyalty_program": true,
+  "daily_specials": true
+}
