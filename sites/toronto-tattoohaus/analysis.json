@@ -1,0 +1,125 @@
+{
+  "business": {
+    "name": "Toronto Tattoohaus",
+    "type": "Tattoo Studio",
+    "address": "873 St. Clair Ave W (Main Floor), Toronto, ON M6C 1C4",
+    "phone": "+1 647-345-3549",
+    "email": "torontotattoohaus@gmail.com",
+    "website": "https://www.torontotattoohaus.com/",
+    "owner": "Kate Doucette",
+    "platform": "Squarespace",
+    "platformRating": "6/10"
+  },
+  "hours": {
+    "monday": "Closed",
+    "tuesday": "12PM-7PM",
+    "wednesday": "12PM-7PM",
+    "thursday": "12PM-7PM",
+    "friday": "12PM-7PM",
+    "saturday": "12PM-7PM",
+    "sunday": "12PM-5PM"
+  },
+  "social": {
+    "instagram": {
+      "handle": "@torontotattoohaus",
+      "url": "https://www.instagram.com/torontotattoohaus"
+    }
+  },
+  "ratings": {
+    "google": {
+      "stars": 4.9
+    },
+    "yelp": {
+      "url": "https://www.yelp.ca/biz/toronto-tattoohaus-toronto",
+      "photos": 19
+    },
+    "bestProsInTown": {
+      "reviews": 139,
+      "rating": "Superb"
+    }
+  },
+  "artists": {
+    "resident": [
+      { "name": "Kate", "instagram": "@kate_somebody", "role": "Owner / Artist" },
+      { "name": "Carrie", "instagram": "@plustwo.ink", "role": "Resident Artist" },
+      { "name": "Isabel", "instagram": "@blackberry.inks", "role": "Resident Artist" },
+      { "name": "Rafa", "instagram": "@rafatatts", "role": "Resident Artist" }
+    ],
+    "independent": [
+      { "name": "Maxine", "instagram": "@maxinemahood" },
+      { "name": "Jame", "instagram": "@sympl.ink" },
+      { "name": "Syd", "instagram": "@babysnaykes" },
+      { "name": "Karla", "instagram": "@ksavotattoos" },
+      { "name": "Laura", "instagram": "@_razorbabe" },
+      { "name": "Caroline", "instagram": "@carolinetattoos" }
+    ]
+  },
+  "services": {
+    "styles": ["Fine line", "Illustrative", "Black and grey", "Fully custom designs"],
+    "offerings": ["Custom tattoo design", "Walk-in tattoos", "Flash day appointments", "Gift cards", "Numbing cream"],
+    "pricing": {
+      "flash_starting": "$80",
+      "junior_hourly": "$130",
+      "senior_hourly": "$200",
+      "day_rate_range": "$700-$1,000",
+      "deposit_range": "$50-$150 + tax",
+      "numbing_cream": "$30/tube"
+    },
+    "flashDays": "Tuesdays & Wednesdays, starting at $80"
+  },
+  "description": "Toronto Tattoohaus is a proudly inclusive and fully accessible tattoo studio located in Toronto, Canada. Specializing in fine line, illustrative, black and grey, and fully custom tattoo designs tailored to each client. Emphasis on collaborative design process, high safety and sterilization standards, and welcoming studio environment.",
+  "notable": [
+    "Fully accessible studio (wheelchair accessible storefront)",
+    "Flash days Tue/Wed starting at $80",
+    "Community fridge donations (non-perishable food donation box)",
+    "Inclusive and welcoming environment"
+  ],
+  "booking": {
+    "jotform": "https://form.jotform.com/200156118945251"
+  },
+  "testimonials": [
+    {
+      "name": "Anonymous",
+      "text": "My husband & I got our tattoos through Caroline and we absolutely love them! She is wonderful. Amazing artist & person, we had a blast. Worth the 2 and a half hour drive! Will be back for sure.",
+      "rating": 5,
+      "date": "November 2024"
+    },
+    {
+      "name": "Anonymous",
+      "text": "Amazing, talented, friendly women. Best experience getting a tattoo.",
+      "rating": 5,
+      "date": "January 2023"
+    },
+    {
+      "name": "Anonymous",
+      "text": "Been to this tattoo shop twice now this year and both times it's been amazing. The owner Kate Doucette did a great job doing my King Cobra portrait 7 months ago and yesterday on my birthday she did a great job doing my Demon tattoo. Kate is not only talented and gentle on my arm, but she is also easy to chat with.",
+      "rating": 5,
+      "date": "October 2022"
+    }
+  ],
+  "images": {
+    "logo": "https://images.squarespace-cdn.com/content/v1/645a279bf6479109759c303a/ee131453-9577-4ccf-894b-9e57e1bbe457/tattoohaus_vector_finalized.png",
+    "hero": "https://images.squarespace-cdn.com/content/v1/645a279bf6479109759c303a/A51A0043.jpg",
+    "studio": "https://images.squarespace-cdn.com/content/v1/645a279bf6479109759c303a/f338e5af-c0ae-49c9-abad-7198fb95839a/A51A9994.jpg",
+    "newsletter": "https://images.squarespace-cdn.com/content/v1/645a279bf6479109759c303a/A51A9890.jpg",
+    "communityFridge": "https://images.squarespace-cdn.com/content/v1/645a279bf6479109759c303a/915953c5-12a7-41c1-8914-fa6aca4e716b/smilelogocropped.png"
+  },
+  "colorScheme": {
+    "background": "#0a0a0a",
+    "dark": "#111111",
+    "charcoal": "#1a1a1a",
+    "text": "#f5f5f5",
+    "accent": "#c4a265",
+    "accentLight": "#d4b87a",
+    "accentDark": "#a88c4a",
+    "green": "#4a7c59",
+    "greenLight": "#5a9c6d",
+    "theme": "dark-moody"
+  },
+  "designAesthetic": {
+    "style": "Modern, minimalist with dark/moody undertones",
+    "typography": "Clean sans-serif with elegant serif headings",
+    "photography": "Black and white dominant with warm accents",
+    "layout": "Grid-based with semi-transparent overlays"
+  }
+}
