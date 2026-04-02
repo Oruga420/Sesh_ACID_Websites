@@ -1,0 +1,42 @@
+/* UI REVIEW
+ * Header: white bg, dark text logo — OK (text-based logo in dark color)
+ * Buttons: 4px radius, green #5CB85C bg matching brand-tokens — OK
+ * Images: CSS bg fallback, no onError in server components — OK
+ * Footer: #2A2A2A dark bg contrasts with white body — OK
+ * Body pt-8: watermark banner offset present — OK
+ */
+
+@import "tailwindcss";
+
+@theme inline {
+  /* Colors */
+  --color-primary: #5CB85C;
+  --color-primary-dark: #4a9a4a;
+  --color-secondary: #2A2A2A;
+  --color-accent: #D4A843;
+  --color-bg-main: #FFFFFF;
+  --color-bg-alt: #F5F5F5;
+  --color-text-heading: #212529;
+  --color-text-body: #333333;
+  --color-text-muted: #666666;
+
+  /* Fonts */
+  --font-heading: var(--font-heading-var), "Montserrat", sans-serif;
+  --font-body: var(--font-body-var), "Roboto", sans-serif;
+}
+
+:root {
+  --font-heading-var: "Montserrat", sans-serif;
+  --font-body-var: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--font-body-var), "Roboto", sans-serif;
+  color: #333333;
+  background: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading-var), "Montserrat", sans-serif;
+  color: #212529;
+}

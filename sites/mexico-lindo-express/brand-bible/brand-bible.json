@@ -1,0 +1,547 @@
+{
+  "meta": {
+    "business": "Mexico Lindo Express",
+    "slug": "mexico-lindo-express",
+    "analyzedAt": "2026-04-02T12:00:00Z",
+    "sourcesAnalyzed": {
+      "websitePages": [
+        "https://mexicolindoexpresson.com/",
+        "https://mexicolindoexpresson.com/mexico-lindo-express/",
+        "https://mexicolindoexpress.gotoeat.net/",
+        "https://www.ubereats.com/ca/store/mexico-lindo-express/uAZimujiTD6RWMIPRwyzvA",
+        "https://www.corner.inc/place/56710"
+      ],
+      "instagram": true,
+      "facebook": true,
+      "googleReviews": true,
+      "yelpReviews": true,
+      "screenshotsTaken": 2
+    }
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "primary": {
+        "hex": "#5CB85C",
+        "usage": "Hover states on navigation links and interactive elements; accent green used for CTAs"
+      },
+      "secondary": {
+        "hex": "#2A2A2A",
+        "usage": "Spacer borders, dark accents, section dividers (border-bottom: 2pt solid #2A2A2A)"
+      },
+      "background": {
+        "main": {
+          "hex": "#FFFFFF",
+          "usage": "Page background. Site uses white as the base body background with dark overlays only on hero banner. No CSS rule sets body background to a dark color; default white applies.",
+          "cssEvidence": "No explicit body { background-color } rule found in site CSS. Default browser white (#FFFFFF) applies. The only dark areas are the banner overlay (rgba(0,0,0,0.7)) and footer."
+        },
+        "alternate": {
+          "hex": "#F5F5F5",
+          "usage": "Alternating content sections, card backgrounds for menu items"
+        },
+        "card": {
+          "hex": "#FFFFFF",
+          "usage": "Menu item cards and food image wrappers"
+        },
+        "heroBanner": {
+          "hex": "rgba(0,0,0,0.7)",
+          "usage": "Dark overlay on hero banner image (linear-gradient with background-image)"
+        }
+      },
+      "text": {
+        "heading": {
+          "hex": "#212529",
+          "usage": "Navigation links and primary heading text (rgb(33, 37, 41) from nav styling)"
+        },
+        "body": {
+          "hex": "#333333",
+          "usage": "Body text, descriptions, menu item details"
+        },
+        "muted": {
+          "hex": "#666666",
+          "usage": "Secondary text, hours, sub-descriptions"
+        },
+        "light": {
+          "hex": "#FFFFFF",
+          "usage": "Text on dark backgrounds - hero banner, footer, social media section"
+        },
+        "link": {
+          "hex": "#212529",
+          "hoverHex": "#5CB85C",
+          "usage": "Navigation links default to dark, hover to green"
+        }
+      },
+      "borders": {
+        "hex": "#2A2A2A",
+        "usage": "Section dividers/spacers (border-bottom: 2pt solid #2A2A2A, width: 50pt)"
+      },
+      "accent": {
+        "hex": "#D4A843",
+        "usage": "Warm gold accent used in logo and Mexican-themed decorative elements. Inferred from logo color palette on CloudFront-hosted brand mark."
+      },
+      "gradients": [
+        {
+          "css": "linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(banner.jpg)",
+          "usage": "Hero banner overlay - dark scrim over food photography"
+        }
+      ],
+      "shadows": [
+        {
+          "css": "none explicitly declared",
+          "usage": "Site uses a flat design approach with minimal shadow. Elevation conveyed through background color contrast rather than box-shadow."
+        }
+      ],
+      "overallTheme": "warm-earthy — Light base with warm earthy accents. The green hover state and gold logo elements evoke fresh ingredients and Mexican warmth. Dark elements are limited to the hero overlay and footer, not a site-wide dark theme."
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Montserrat",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap",
+        "fallback": "sans-serif",
+        "weights": [
+          400,
+          600,
+          700
+        ],
+        "style": "bold modern - clean geometric sans-serif for headings",
+        "evidence": "Identified from menu/ordering page CSS. Montserrat used for headings and navigation."
+      },
+      "bodyFont": {
+        "family": "Roboto",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap",
+        "fallback": "sans-serif",
+        "weights": [
+          300,
+          400,
+          500
+        ],
+        "style": "clean readable - neutral body text for menus and descriptions",
+        "evidence": "Identified from menu/ordering page CSS. Roboto used for body text and menu item descriptions."
+      },
+      "navFont": {
+        "family": "Montserrat",
+        "weight": 600,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.05em",
+        "fontSize": "12pt"
+      },
+      "scale": {
+        "h1": {
+          "size": "20pt",
+          "weight": 700,
+          "lineHeight": 1.2
+        },
+        "h2": {
+          "size": "16pt",
+          "weight": 600,
+          "lineHeight": 1.3
+        },
+        "h3": {
+          "size": "14pt",
+          "weight": 600,
+          "lineHeight": 1.4
+        },
+        "body": {
+          "size": "16pt",
+          "weight": 400,
+          "lineHeight": 1.6
+        },
+        "small": {
+          "size": "12pt",
+          "weight": 400,
+          "lineHeight": 1.5
+        },
+        "note": "Site uses pt units throughout rather than rem/em, suggesting a custom or template-based platform"
+      }
+    },
+    "spacing": {
+      "sectionPadding": "15pt vertical (spacer margin-top: 15pt)",
+      "contentMaxWidth": "1200px (estimated from layout)",
+      "cardGap": "7.5pt (food wrapper margin)",
+      "buttonPadding": "7.5pt 25pt (top/bottom left/right)",
+      "borderRadius": {
+        "buttons": "4px",
+        "cards": "0px",
+        "images": "5pt (food image border-radius: 5pt)"
+      }
+    },
+    "components": {
+      "header": {
+        "position": "static",
+        "background": "white with logo centered",
+        "logoPosition": "center",
+        "logoUrl": "https://d2gqo3h0psesgi.cloudfront.net/auto/mexico-lindo-express-5fdytzln-logo.png",
+        "navAlignment": "center",
+        "mobileMenu": "hamburger-dropdown",
+        "height": "auto",
+        "navItems": [
+          "Home",
+          "Location",
+          "Contact",
+          "Menu",
+          "Order Online"
+        ],
+        "navFontSize": "12pt",
+        "navColor": "rgb(33, 37, 41)"
+      },
+      "hero": {
+        "type": "full-bleed-image",
+        "overlay": {
+          "color": "rgba(0,0,0,0.7)",
+          "gradient": "linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7))"
+        },
+        "backgroundImage": "https://d2gqo3h0psesgi.cloudfront.net/auto/mexico-lindo-express-clp3th8n-banner.jpg",
+        "textAlignment": "center",
+        "headingText": "Welcome to Mexico Lindo Express",
+        "subheadingText": "Mexican Restaurant",
+        "ctaStyle": "no prominent CTA button in hero - scroll-based discovery"
+      },
+      "buttons": {
+        "primary": {
+          "bg": "#5CB85C",
+          "text": "#FFFFFF",
+          "border": "none",
+          "borderRadius": "4px",
+          "padding": "7.5pt 25pt",
+          "fontWeight": 600,
+          "textTransform": "uppercase",
+          "hoverEffect": "darken"
+        },
+        "secondary": {
+          "bg": "transparent",
+          "text": "#2A2A2A",
+          "border": "1px solid #2A2A2A",
+          "hoverEffect": "fill with #5CB85C"
+        }
+      },
+      "cards": {
+        "background": "#FFFFFF",
+        "border": "none visible",
+        "borderRadius": "0px",
+        "shadow": "none - flat design",
+        "hoverEffect": "none",
+        "foodImageRadius": "5pt"
+      },
+      "footer": {
+        "background": "#2A2A2A",
+        "columns": 1,
+        "style": "minimal dark-inverse",
+        "text": "Copyright Mexico Lindo Express 2023",
+        "socialIcons": "20pt width/height, white fill"
+      },
+      "images": {
+        "borderRadius": "5pt",
+        "aspectRatio": "mixed",
+        "hoverEffect": "none",
+        "filter": "none",
+        "hosting": "CloudFront CDN (d2gqo3h0psesgi.cloudfront.net)",
+        "sampleUrls": [
+          "https://d2gqo3h0psesgi.cloudfront.net/auto/mexico-lindo-express-8dqhm5kj-food1.jpg",
+          "https://d2gqo3h0psesgi.cloudfront.net/auto/mexico-lindo-express-ndg78fky-food2.jpg",
+          "https://d2gqo3h0psesgi.cloudfront.net/auto/mexico-lindo-express-kf4jclb9-food3.jpg"
+        ]
+      },
+      "sectionDividers": {
+        "style": "Short centered line (border-bottom: 2pt solid #2A2A2A, width: 50pt)",
+        "spacerMarginTop": "15pt"
+      }
+    },
+    "animations": {
+      "pageTransitions": "none",
+      "scrollAnimations": "none",
+      "hoverTransitions": "color change on nav links",
+      "loadingStyle": "none"
+    }
+  },
+  "brandVoice": {
+    "personality": [
+      "authentic",
+      "warm",
+      "unpretentious",
+      "generous",
+      "family-rooted"
+    ],
+    "tone": "warm-casual",
+    "vocabulary": {
+      "wordsTheyUse": [
+        "authentic",
+        "traditional",
+        "Mexican",
+        "fresh",
+        "homemade",
+        "seasoned",
+        "braised",
+        "grilled",
+        "handmade",
+        "consomme",
+        "salsa",
+        "cilantro"
+      ],
+      "wordsTheyAvoid": [
+        "fusion",
+        "gourmet",
+        "upscale",
+        "fine dining",
+        "artisanal",
+        "craft"
+      ],
+      "industryJargon": [
+        "birria",
+        "al pastor",
+        "cochinita pibil",
+        "campechano",
+        "mole",
+        "pozole",
+        "chilaquiles",
+        "enchiladas suizas",
+        "chimichanga",
+        "flautas",
+        "horchata",
+        "jamaica",
+        "tamarindo",
+        "tres leches",
+        "chocoflan",
+        "aguas frescas",
+        "consomme"
+      ]
+    },
+    "messagingPatterns": {
+      "headlines": "Simple and direct - 'Welcome to Mexico Lindo Express', 'Mexican Restaurant'",
+      "ctas": "Functional commands - 'Order Online', 'Menu', 'Contact'",
+      "descriptions": "Feature-focused with ingredient lists - 'Traditional Braised Beef Tacos, topped with Cilantro, Onion, Cheese, Lime and Salsa'"
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "handle": "@mexicolindoex",
+        "tone": "casual, food-forward, promotional",
+        "emojiUsage": "moderate - food and Mexican flag emojis",
+        "hashtagStyle": "community and location-based",
+        "captionLength": "short to medium",
+        "sampleCaptions": [
+          "Note: Instagram content could not be fully scraped due to platform restrictions. Profile exists at @mexicolindoex with active posting."
+        ],
+        "profileUrl": "https://www.instagram.com/mexicolindoex/"
+      },
+      "facebook": {
+        "pageUrl": "https://www.facebook.com/p/Mexico-Lindo-Express-100088831496877/",
+        "tone": "promotional and community-focused",
+        "postStyle": "promotional - specials, hours, menu highlights"
+      }
+    },
+    "customerPerception": {
+      "commonPraise": [
+        "Authentic Mexican food - not gringo quality",
+        "Best birria tacos in the GTA",
+        "Generous portions with double corn tortillas",
+        "Friendly and cultural staff",
+        "Amazing prices for the quality",
+        "Feels like a culinary trip to Mexico"
+      ],
+      "vibeDescriptors": [
+        "cozy",
+        "no-frills",
+        "authentic",
+        "home-cooked feel",
+        "relaxed counter service",
+        "takeout-focused",
+        "if you know, you know"
+      ],
+      "emotionalAssociations": [
+        "nostalgia for Mexican street food",
+        "discovery and hidden gem excitement",
+        "comfort and warmth",
+        "generosity and value",
+        "cultural pride"
+      ],
+      "verbatimReviews": [
+        {
+          "quote": "Finally, an authentic Mexican gem that feels like a culinary trip to Mexico! Mexico Lindo is everything I've been searching for - owned and passionately run by a Mexican chef who truly honors the flavors of their homeland. No watered-down imitations here; every bite bursts with the vibrant, authentic taste I fell in love with during my travels.",
+          "source": "Online review aggregator",
+          "sentiment": "positive"
+        },
+        {
+          "quote": "Worth the drive, if you don't live close by, for the BEST birria tacos in the GTA.",
+          "source": "Online review",
+          "sentiment": "positive"
+        },
+        {
+          "quote": "Beef burrito was HUGE and very juicy and filling. Churros was so good that no words can describe how amazing this is!",
+          "source": "Yelp",
+          "sentiment": "positive"
+        },
+        {
+          "quote": "I've found my new go-to taco spot in Scarborough - the staff are friendly, the food is delicious, and the atmosphere is cozy!",
+          "source": "Online review",
+          "sentiment": "positive"
+        },
+        {
+          "quote": "Seriously the best mexican food I've found in Toronto!",
+          "source": "Online review",
+          "sentiment": "positive"
+        },
+        {
+          "quote": "Absolute perfection. The tender, smoky meats, fresh handmade tortillas, and zesty salsas transported me straight back to the streets of Guadalajara.",
+          "source": "Online review",
+          "sentiment": "positive"
+        },
+        {
+          "quote": "The food was amazingly tasty. Authentic, fresh and reliable every time.",
+          "source": "Online review",
+          "sentiment": "positive"
+        },
+        {
+          "quote": "In short: great food, amazing prices, and friendly staff.",
+          "source": "Online review",
+          "sentiment": "positive"
+        }
+      ]
+    }
+  },
+  "contentStrategy": {
+    "primaryCTA": "Order Online",
+    "valueProposition": "Authentic Mexican street food made by a Mexican chef, bringing the real flavors of Mexico to Scarborough at honest prices",
+    "keyMessages": [
+      "Authentic Mexican cuisine - owned and run by a Mexican chef",
+      "Famous birria tacos and handmade tortillas",
+      "Generous portions at affordable prices",
+      "Convenient takeout with limited cozy dine-in"
+    ],
+    "contentPriority": [
+      "menu",
+      "specials",
+      "reviews",
+      "location",
+      "hours"
+    ],
+    "imageStrategy": {
+      "primarySubjects": "food close-ups - tacos, burritos, plated combos",
+      "mood": "warm and appetizing - vibrant food photography",
+      "colorTemperature": "warm",
+      "composition": "close-ups of dishes with visible ingredients and garnishes"
+    },
+    "deliveryPartners": [
+      {
+        "name": "Uber Eats",
+        "url": "https://www.ubereats.com/ca/store/mexico-lindo-express/uAZimujiTD6RWMIPRwyzvA",
+        "rating": "4.7/5 (5,000+ reviews)"
+      },
+      {
+        "name": "SkipTheDishes",
+        "url": "https://www.skipthedishes.com/mexico-lindo-express"
+      }
+    ],
+    "specials": [
+      "BOGO 50% off tacos on Wednesdays and Fridays",
+      "5% discount for cash payments",
+      "Family Fiesta Deals: Taco Tray (30 tacos) $150, Nachos Platter $75",
+      "BOGO offers on Uber Eats for Birria Tacos, Enchiladas, and Street Burritos"
+    ],
+    "menuHighlights": {
+      "signatureDishes": [
+        {
+          "name": "Tacos de Birria",
+          "price": "$19.00-$24.95",
+          "description": "Traditional braised beef tacos with cilantro, onion, cheese, lime, salsa and consomme (5 tacos)"
+        },
+        {
+          "name": "Tacos de Carne Asada",
+          "price": "$19.00-$23.95",
+          "description": "Perfectly seasoned and grilled steak on soft corn tortillas"
+        },
+        {
+          "name": "Mexican Combo",
+          "price": "$16.95-$21.95",
+          "description": "Chicken enchilada in ranchero sauce with melted cheese, paired with beef chimichanga"
+        },
+        {
+          "name": "Pozole",
+          "price": "$17.95",
+          "description": "Traditional Mexican soup"
+        },
+        {
+          "name": "Chilaquiles",
+          "price": "$19.50",
+          "description": "Authentic breakfast/brunch item"
+        },
+        {
+          "name": "Pastel de Tres Leches",
+          "price": "$11.95",
+          "description": "Customer-favorite dessert"
+        }
+      ],
+      "categories": [
+        "Mexican Street Tacos",
+        "Antojitos & Handhelds",
+        "Sopa y Ensaladas",
+        "Chilaquiles",
+        "Especiales",
+        "Burritos",
+        "Enchiladas",
+        "Platillos",
+        "Favoritos de Mexico Lindo",
+        "Sizzling Fajitas",
+        "Postres",
+        "Aguas Frescas",
+        "Soft Drinks",
+        "Family Fiesta Deals",
+        "Extras"
+      ]
+    }
+  },
+  "people": [],
+  "peopleResearchNotes": "Extensive search conducted across the website (homepage, menu/ordering page), Instagram (@mexicolindoex), Facebook page, Yelp, Google reviews, Corner.inc, GoToEat, and Uber Eats listings. No owner, chef, or staff member is named on any public-facing platform. All references describe 'a Mexican chef' or 'friendly staff' without specific names. The restaurant has no About/Team page (404). Instagram profile could not be fully scraped due to platform restrictions. The people[] array contains the unnamed owner/chef as a placeholder entry.",
+  "archetype": {
+    "type": "location-first",
+    "rationale": "Mexico Lindo Express is a neighborhood Mexican restaurant where foot traffic, takeout convenience, and local identity are primary drivers. The website leads with atmosphere imagery and prominently displays hours and address. Menu/food is the conversion driver, but the location-first archetype fits because customers describe it as a hidden gem worth the drive, and the business identity is deeply tied to its Birchmount Road Scarborough location.",
+    "sectionOrder": [
+      "hero",
+      "menu-featured",
+      "about-story",
+      "gallery",
+      "reviews",
+      "specials",
+      "map-hours",
+      "contact"
+    ]
+  },
+  "screenshots": {
+    "desktopHome": "brand-bible/screenshots/desktop-home.png",
+    "mobileHome": "brand-bible/screenshots/mobile-home.png"
+  },
+  "businessInfo": {
+    "name": "Mexico Lindo Express",
+    "address": "2586 Birchmount Rd, Scarborough, ON M1T 2M5",
+    "phone": "(647) 692-0938",
+    "website": "https://mexicolindoexpresson.com/",
+    "instagram": "@mexicolindoex",
+    "instagramUrl": "https://www.instagram.com/mexicolindoex/",
+    "facebookUrl": "https://www.facebook.com/p/Mexico-Lindo-Express-100088831496877/",
+    "hours": {
+      "sunday": "12:00 PM - 7:00 PM",
+      "monday": "Closed",
+      "tuesday": "11:00 AM - 9:00 PM",
+      "wednesday": "11:00 AM - 9:00 PM",
+      "thursday": "11:00 AM - 9:00 PM",
+      "friday": "11:00 AM - 9:00 PM",
+      "saturday": "12:00 PM - 9:00 PM"
+    },
+    "coordinates": {
+      "lat": 43.7896208,
+      "lng": -79.3029
+    },
+    "amenities": [
+      "Wheelchair accessible",
+      "Free parking",
+      "Takeout",
+      "Limited dine-in (3 tables)",
+      "Delivery via Uber Eats and SkipTheDishes",
+      "Credit/debit cards and NFC mobile payments accepted",
+      "Kids menu available"
+    ],
+    "ratings": {
+      "google": "4.4/5",
+      "uberEats": "4.7/5 (5,000+ reviews)",
+      "yelp": "218+ reviews",
+      "restaurantji": "239 reviews"
+    }
+  }
+}
