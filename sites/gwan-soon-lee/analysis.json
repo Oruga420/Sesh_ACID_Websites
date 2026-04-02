@@ -1,0 +1,153 @@
+{
+  "business": {
+    "name": "Gwan Soon Lee Tattoos and Piercings",
+    "type": "Custom Tattoo & Piercing Studio",
+    "address": "220 Burnhamthorpe Road West, Unit 102, Mississauga, ON L5B 4N4",
+    "phone": "+1 416-909-9055",
+    "email": "gwansoontattoos@gmail.com",
+    "emailAlt": "info@gwansoontattoo.com",
+    "website": "https://gwansoonleetattoo.com/",
+    "platform": "Squarespace",
+    "platformScore": "5/10 (dated)",
+    "established": 2006,
+    "landmark": "Near Square One Mississauga"
+  },
+  "hours": {
+    "monday": "12PM-8PM",
+    "tuesday": "12PM-8PM",
+    "wednesday": "12PM-8PM",
+    "thursday": "12PM-8PM",
+    "friday": "12PM-8PM",
+    "saturday": "12PM-8PM",
+    "sunday": "12PM-8PM"
+  },
+  "social": {
+    "instagram": {
+      "handle": "@gwansoontattoos",
+      "url": "https://www.instagram.com/gwansoontattoos"
+    },
+    "facebook": {
+      "page": "gwansoontattoos",
+      "url": "https://www.facebook.com/gwansoontattoos/"
+    },
+    "pinterest": {
+      "handle": "squareonetattoo"
+    },
+    "youtube": {
+      "handle": "leegwansoon"
+    }
+  },
+  "ratings": {
+    "yelp": {
+      "reviews": 17,
+      "photos": 18,
+      "url": "https://www.yelp.ca/biz/gwan-soon-lee-tattoos-and-piercing-mississauga"
+    },
+    "bestProsInTown": {
+      "reviews": 132,
+      "photos": 29
+    },
+    "nicelocal": {
+      "stars": 4.6,
+      "recommendation": "96%"
+    },
+    "trustAnalytica": {
+      "stars": 4.4
+    },
+    "verview": {
+      "stars": 4.5
+    }
+  },
+  "stats": {
+    "yearsExperience": "25+",
+    "established": "2006"
+  },
+  "services": {
+    "tattoos": {
+      "colour_work": "Custom pricing",
+      "black_and_grey": "Custom pricing",
+      "fine_line": "Custom pricing",
+      "small_tattoos": "Custom pricing",
+      "custom_lettering": "Custom pricing",
+      "colour_realism": "Custom pricing"
+    },
+    "piercings": {
+      "ear": "Custom pricing",
+      "facial": "Custom pricing",
+      "body": "Custom pricing"
+    },
+    "other": {
+      "free_consultations": true,
+      "custom_design_mockups": true,
+      "aftercare_guides": true
+    }
+  },
+  "artists": [
+    {
+      "name": "Gwan Soon Lee",
+      "role": "Owner / Lead Artist",
+      "experience": "25+ years",
+      "specialties": ["colour realism", "black and grey", "custom design"]
+    },
+    {
+      "name": "Jina",
+      "role": "Tattoo Artist",
+      "instagram": "@jina.gwansoontattoos",
+      "specialties": ["fine line", "colour work", "small tattoos"]
+    }
+  ],
+  "taglines": [
+    "Custom tattoos and piercing studio in the heart of Mississauga",
+    "Specializing in fine line tattoos to black and grey, colour realism tattoos"
+  ],
+  "images": {
+    "logo": "https://images.squarespace-cdn.com/content/v1/5b43b4c1697a982c7acc411a/1573339212173-Z9L1AC4A2KS7DY3Y2QT7/logo.png",
+    "hero": "https://images.squarespace-cdn.com/content/v1/5b43b4c1697a982c7acc411a/1605057498811-TRGTBP8BD8X70R9U8AU9/processs.jpg",
+    "gallery": [
+      "https://images.squarespace-cdn.com/content/v1/5b43b4c1697a982c7acc411a/1605055706190-QOGFWM7BHEBZA9MHP1W3/DSC08691.JPG",
+      "https://images.squarespace-cdn.com/content/v1/5b43b4c1697a982c7acc411a/1605054980932-YE3FW5UWDX8ET59C5G9F/DSC08682.JPG",
+      "https://images.squarespace-cdn.com/content/v1/5b43b4c1697a982c7acc411a/1537398882967-D5MBQWTPZP8Z2OSS9RSI/2018-05-10+20.30.54-1.jpg",
+      "https://images.squarespace-cdn.com/content/v1/5b43b4c1697a982c7acc411a/1537399104359-CNP31L20LYUKEUE1YDKN/2016-11-10+18.19.40.jpg",
+      "https://images.squarespace-cdn.com/content/v1/5b43b4c1697a982c7acc411a/1537399176684-A0O2G0YKLZACM5AE7ANX/2017-04-05+19.17.50-2.jpg",
+      "https://images.squarespace-cdn.com/content/v1/5b43b4c1697a982c7acc411a/1537408506187-73PKCGG61JGUPHJQJI9E/2018-03-06+19.00.16-2.jpg",
+      "https://images.squarespace-cdn.com/content/v1/5b43b4c1697a982c7acc411a/1537408521553-DS75EN0JRX2XE3LKQIZ0/2017-08-30+17.05.44-2.jpg",
+      "https://images.squarespace-cdn.com/content/v1/5b43b4c1697a982c7acc411a/1537408572168-86AM2UCDRJ3WRO0OG1AX/Dollarphotoclub_81329839.jpg"
+    ]
+  },
+  "colorScheme": {
+    "background": "#0a0a0a",
+    "dark": "#111111",
+    "charcoal": "#1a1a1a",
+    "text": "#ffffff",
+    "accent": "#2d8c4e",
+    "accentLight": "#3da863",
+    "gold": "#c9a44b",
+    "theme": "dark-green-gold"
+  },
+  "testimonials": [
+    {
+      "name": "Customer Review",
+      "text": "The piercer was so kind and explained each step of the process. Made me feel comfortable as it was my first time getting a piercing.",
+      "rating": 5,
+      "source": "Yelp"
+    },
+    {
+      "name": "Satisfied Client",
+      "text": "Paid attention to detail, did templates exactly as I wanted them and was very pleasant. Cleanliness is 100%.",
+      "rating": 5,
+      "source": "Google"
+    },
+    {
+      "name": "Returning Client",
+      "text": "Excellent consumer service, pricing, cleanliness, and adherence to safety requirements. They provide an aftercare pamphlet before you go.",
+      "rating": 5,
+      "source": "Nicelocal"
+    }
+  ],
+  "emailValidation": {
+    "csvEmail": "gwansoontattoos@gmail.com",
+    "websiteEmails": ["gwansoontattoos@gmail.com", "info@gwansoontattoo.com"],
+    "match": true,
+    "validated": true
+  }
+}
