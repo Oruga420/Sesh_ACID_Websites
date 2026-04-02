@@ -125,7 +125,7 @@ export default function ContactPage() {
 
             {/* Right: Hours */}
             <div>
-              <div className="bg-brand-charcoal border border-white/10 rounded-sm p-8 mb-8">
+              <div className="bg-brand-charcoal border border-white/10  p-8 mb-8">
                 <h2 className="font-heading text-2xl text-brand-gold mb-6">Studio Hours</h2>
                 <div className="space-y-0">
                   {HOURS.map((item) => (
@@ -147,14 +147,14 @@ export default function ContactPage() {
 
               {/* Quick Info Cards */}
               <div className="space-y-4">
-                <div className="bg-brand-gold/10 border border-brand-gold/30 rounded-sm p-6">
+                <div className="bg-brand-gold/10 border border-brand-gold/30  p-6">
                   <p className="text-brand-gold font-heading text-lg mb-2">First Tattoo?</p>
                   <p className="text-white/50 text-sm">
                     We specialize in making first-timers feel at home. Our artists will walk you through
                     every step of the process.
                   </p>
                 </div>
-                <div className="bg-brand-green/10 border border-brand-green/30 rounded-sm p-6">
+                <div className="bg-brand-green/10 border border-brand-green/30  p-6">
                   <p className="text-brand-green-light font-heading text-lg mb-2">Walk-Ins Welcome</p>
                   <p className="text-white/50 text-sm">
                     Walk-ins are accepted when availability allows. Call ahead or check our Instagram
@@ -177,7 +177,7 @@ export default function ContactPage() {
             <div className="gold-divider" />
           </div>
 
-          <div className="aspect-video rounded-sm overflow-hidden border border-white/10">
+          <div className="aspect-video  overflow-hidden border border-white/10">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.5!2d-79.43!3d43.68!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b345c1c1c1c1c%3A0x0!2s873+St+Clair+Ave+W+Toronto+ON!5e0!3m2!1sen!2sca!4v1700000000000!5m2!1sen!2sca"
               width="100%"

@@ -1,18 +1,18 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Roboto } from "next/font/google";
+import { Cormorant_Garamond, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import WatermarkBanner from "@/components/WatermarkBanner";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const playfair = Playfair_Display({
+const cormorantGaramond = Cormorant_Garamond({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-heading",
   display: "swap",
 });
 
-const roboto = Roboto({
+const nunitoSans = Nunito_Sans({
   subsets: ["latin"],
   weight: ["300", "400", "500", "700"],
   variable: "--font-body",
@@ -43,8 +43,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${playfair.variable} ${roboto.variable}`}>
-      <body className="min-h-screen flex flex-col">
+    <html lang="en" className={`${cormorantGaramond.variable} ${nunitoSans.variable}`}>
+      <body className="min-h-screen flex flex-col pt-8">
         <WatermarkBanner />
         <Header />
         <main className="flex-1">{children}</main>

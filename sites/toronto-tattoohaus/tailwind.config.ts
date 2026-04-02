@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import { BRAND } from "./src/lib/brand-tokens";
 
 const config: Config = {
   content: [
@@ -10,22 +11,33 @@ const config: Config = {
     extend: {
       colors: {
         brand: {
-          black: "#0a0a0a",
-          dark: "#111111",
-          charcoal: "#1a1a1a",
-          gray: "#2a2a2a",
-          gold: "#c4a265",
-          "gold-light": "#d4b87a",
-          "gold-dark": "#a88c4a",
-          green: "#4a7c59",
-          "green-light": "#5a9c6d",
-          white: "#f5f5f5",
+          primary: BRAND.colors.primary,
+          secondary: BRAND.colors.secondary,
+          bgMain: BRAND.colors.bgMain,
+          bgAlt: BRAND.colors.bgAlt,
+          bgCard: BRAND.colors.bgCard,
+          textHeading: BRAND.colors.textHeading,
+          textBody: BRAND.colors.textBody,
+          textMuted: BRAND.colors.textMuted,
+          black: BRAND.colors.bgMain,
+          dark: BRAND.colors.bgAlt,
+          charcoal: BRAND.colors.bgCard,
+          gray: BRAND.colors.border,
+          gold: BRAND.colors.primary,
+          "gold-light": BRAND.colors.linkHover,
+          "gold-dark": BRAND.colors.goldDark,
+          green: BRAND.colors.secondary,
+          "green-light": BRAND.colors.greenLight,
+          white: BRAND.colors.textHeading,
           "off-white": "#e8e8e8",
         },
       },
       fontFamily: {
-        heading: ["Playfair Display", "serif"],
-        body: ["Roboto", "sans-serif"],
+        heading: [BRAND.fonts.heading, BRAND.fonts.headingFallback],
+        body: [BRAND.fonts.body, BRAND.fonts.bodyFallback],
+      },
+      maxWidth: {
+        content: BRAND.spacing.contentMaxWidth,
       },
     },
   },

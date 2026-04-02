@@ -1,12 +1,5 @@
 import Link from "next/link";
 
-const STATS = [
-  { value: "4.9", label: "Star Rating" },
-  { value: "139+", label: "Reviews" },
-  { value: "10+", label: "Artists" },
-  { value: "$80", label: "Flash From" },
-];
-
 const STYLE_PREVIEW = [
   {
     title: "Fine Line",
@@ -93,24 +86,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Stats Bar */}
-      <section className="bg-brand-charcoal/80 border-y border-white/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            {STATS.map((stat) => (
-              <div key={stat.label}>
-                <p className="text-brand-gold font-heading text-4xl md:text-5xl font-light">
-                  {stat.value}
-                </p>
-                <p className="text-white/50 font-body text-sm uppercase tracking-wider mt-2">
-                  {stat.label}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Styles / Services Preview */}
       <section className="section-padding bg-brand-black">
         <div className="max-w-7xl mx-auto">
@@ -128,7 +103,7 @@ export default function HomePage() {
             {STYLE_PREVIEW.map((style) => (
               <div
                 key={style.title}
-                className="bg-brand-dark border border-white/10 p-8 rounded-sm hover:border-brand-gold/30 transition-all duration-300 group"
+                className="bg-brand-dark border border-white/10 p-8  hover:border-brand-gold/30 transition-all duration-300 group"
               >
                 <h3 className="font-heading text-2xl text-brand-white mb-3 group-hover:text-brand-gold transition-colors">
                   {style.title}
@@ -189,7 +164,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="aspect-[4/3] overflow-hidden rounded-sm group">
+            <div className="aspect-[4/3] overflow-hidden  group">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="https://images.squarespace-cdn.com/content/v1/645a279bf6479109759c303a/f338e5af-c0ae-49c9-abad-7198fb95839a/A51A9994.jpg"
@@ -197,7 +172,7 @@ export default function HomePage() {
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
             </div>
-            <div className="aspect-[4/3] overflow-hidden rounded-sm group">
+            <div className="aspect-[4/3] overflow-hidden  group">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="https://images.squarespace-cdn.com/content/v1/645a279bf6479109759c303a/A51A9890.jpg"
@@ -226,7 +201,7 @@ export default function HomePage() {
             {TESTIMONIALS.map((testimonial) => (
               <div
                 key={testimonial.name}
-                className="bg-brand-dark border border-white/10 p-8 rounded-sm"
+                className="bg-brand-dark border border-white/10 p-8 "
               >
                 <div className="flex mb-4">
                   {Array.from({ length: testimonial.rating }).map((_, i) => (
@@ -266,7 +241,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="aspect-video rounded-sm overflow-hidden border border-white/10">
+          <div className="aspect-video  overflow-hidden border border-white/10">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.5!2d-79.43!3d43.68!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b345c1c1c1c1c%3A0x0!2s873+St+Clair+Ave+W+Toronto+ON!5e0!3m2!1sen!2sca!4v1700000000000!5m2!1sen!2sca"
               width="100%"

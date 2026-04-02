@@ -83,7 +83,7 @@ export default function ArtistsPage() {
             {RESIDENT_ARTISTS.map((artist) => (
               <div
                 key={artist.name}
-                className="bg-brand-charcoal border border-white/10 p-8 rounded-sm hover:border-brand-gold/30 transition-all duration-300 group"
+                className="bg-brand-charcoal border border-white/10 p-8  hover:border-brand-gold/30 transition-all duration-300 group"
               >
                 <div className="flex items-start justify-between mb-4">
                   <div>
@@ -144,7 +144,7 @@ export default function ArtistsPage() {
                 href={`https://www.instagram.com/${artist.instagram}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-brand-dark border border-white/10 p-6 rounded-sm hover:border-brand-gold/30 transition-all duration-300 text-center group"
+                className="bg-brand-dark border border-white/10 p-6  hover:border-brand-gold/30 transition-all duration-300 text-center group"
               >
                 <h3 className="font-heading text-xl text-brand-white group-hover:text-brand-gold transition-colors mb-2">
                   {artist.name}
@@ -170,17 +170,17 @@ export default function ArtistsPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-brand-dark border border-white/10 p-8 rounded-sm text-center">
+            <div className="bg-brand-dark border border-white/10 p-8  text-center">
               <p className="text-brand-gold font-heading text-lg mb-2">Flash Pieces</p>
               <p className="text-brand-white font-heading text-4xl font-light">$80+</p>
               <p className="text-white/50 text-sm mt-3">Tue &amp; Wed flash days</p>
             </div>
-            <div className="bg-brand-dark border border-brand-gold/30 p-8 rounded-sm text-center">
+            <div className="bg-brand-dark border border-brand-gold/30 p-8  text-center">
               <p className="text-brand-gold font-heading text-lg mb-2">Hourly Rate</p>
               <p className="text-brand-white font-heading text-4xl font-light">$130 - $200</p>
               <p className="text-white/50 text-sm mt-3">Junior to senior artists</p>
             </div>
-            <div className="bg-brand-dark border border-white/10 p-8 rounded-sm text-center">
+            <div className="bg-brand-dark border border-white/10 p-8  text-center">
               <p className="text-brand-gold font-heading text-lg mb-2">Day Rate</p>
               <p className="text-brand-white font-heading text-4xl font-light">$700 - $1,000</p>
               <p className="text-white/50 text-sm mt-3">Full-day sessions</p>

@@ -19,19 +19,19 @@
 @layer components {
   .btn-primary {
     @apply inline-block bg-brand-gold text-brand-black font-body font-semibold
-           px-8 py-3 rounded-sm uppercase tracking-wider text-sm
+           px-8 py-3 uppercase tracking-wider text-sm
            hover:bg-brand-gold-light transition-all duration-300;
   }
 
   .btn-outline {
     @apply inline-block border border-brand-gold text-brand-gold font-body font-semibold
-           px-8 py-3 rounded-sm uppercase tracking-wider text-sm
+           px-8 py-3 uppercase tracking-wider text-sm
            hover:bg-brand-gold hover:text-brand-black transition-all duration-300;
   }
 
   .btn-green {
     @apply inline-block bg-brand-green text-white font-body font-semibold
-           px-8 py-3 rounded-sm uppercase tracking-wider text-sm
+           px-8 py-3 uppercase tracking-wider text-sm
            hover:bg-brand-green-light transition-all duration-300;
   }
 

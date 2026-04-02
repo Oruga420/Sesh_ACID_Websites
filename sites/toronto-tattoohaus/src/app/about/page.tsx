@@ -77,7 +77,7 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="space-y-6">
-              <div className="aspect-[4/3] overflow-hidden rounded-sm border border-white/10">
+              <div className="aspect-[4/3] overflow-hidden  border border-white/10">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="https://images.squarespace-cdn.com/content/v1/645a279bf6479109759c303a/f338e5af-c0ae-49c9-abad-7198fb95839a/A51A9994.jpg"
@@ -85,7 +85,7 @@ export default function AboutPage() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="flex items-center gap-4 p-6 bg-brand-charcoal border border-white/10 rounded-sm">
+              <div className="flex items-center gap-4 p-6 bg-brand-charcoal border border-white/10 ">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="https://images.squarespace-cdn.com/content/v1/645a279bf6479109759c303a/915953c5-12a7-41c1-8914-fa6aca4e716b/smilelogocropped.png"
@@ -142,7 +142,7 @@ export default function AboutPage() {
             {VALUES.map((value) => (
               <div
                 key={value.title}
-                className="bg-brand-dark border border-white/10 p-8 rounded-sm"
+                className="bg-brand-dark border border-white/10 p-8 "
               >
                 <h3 className="font-heading text-2xl text-brand-gold mb-3">{value.title}</h3>
                 <p className="text-white/60 text-sm leading-relaxed">{value.description}</p>
@@ -152,41 +152,25 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Stats */}
+      {/* CTA */}
       <section className="section-padding bg-brand-black text-center">
         <div className="max-w-3xl mx-auto">
-          <h2 className="font-heading text-3xl md:text-4xl font-light text-brand-white mb-12">
-            By the Numbers
+          <h2 className="font-heading text-3xl md:text-4xl font-light text-brand-white mb-6">
+            Ready to Visit?
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <div>
-              <p className="text-brand-gold font-heading text-4xl font-light">4.9</p>
-              <p className="text-white/40 text-xs uppercase tracking-wider mt-2">Stars</p>
-            </div>
-            <div>
-              <p className="text-brand-gold font-heading text-4xl font-light">139+</p>
-              <p className="text-white/40 text-xs uppercase tracking-wider mt-2">Reviews</p>
-            </div>
-            <div>
-              <p className="text-brand-gold font-heading text-4xl font-light">10+</p>
-              <p className="text-white/40 text-xs uppercase tracking-wider mt-2">Artists</p>
-            </div>
-            <div>
-              <p className="text-brand-gold font-heading text-4xl font-light">$80</p>
-              <p className="text-white/40 text-xs uppercase tracking-wider mt-2">Flash From</p>
-            </div>
-          </div>
-
-          <div className="mt-16">
-            <a
-              href="https://form.jotform.com/200156118945251"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary"
-            >
-              Book Your Visit
-            </a>
-          </div>
+          <div className="gold-divider" />
+          <p className="text-white/60 text-lg mb-10 mt-6">
+            Whether it&apos;s your first tattoo or your fiftieth, our studio is a welcoming space
+            for every(body). Walk-ins welcome when available.
+          </p>
+          <a
+            href="https://form.jotform.com/200156118945251"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary"
+          >
+            Book a Tattoo
+          </a>
         </div>
       </section>
     </>
