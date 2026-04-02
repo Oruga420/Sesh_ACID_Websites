@@ -18,6 +18,16 @@ import {
   deliveryPartners,
 } from '@/lib/brand-tokens'
 
+// Real food photos from mexicolindoexpresson.com CloudFront CDN (all verified HTTP 200)
+const FOOD_IMAGES = [
+  'https://d2gqo3h0psesgi.cloudfront.net/auto/mexico-lindo-express-kf4jclb9-food3.jpg',
+  'https://d2gqo3h0psesgi.cloudfront.net/auto/mexico-lindo-express-8dqhm5kj-food1.jpg',
+  'https://d2gqo3h0psesgi.cloudfront.net/auto/mexico-lindo-express-ndg78fky-food2.jpg',
+  'https://d2gqo3h0psesgi.cloudfront.net/auto/mexico-lindo-express-85xjbf73-bk.jpg',
+  'https://d2gqo3h0psesgi.cloudfront.net/auto/mexico-lindo-express-kf4jclb9-food3.jpg',
+  'https://d2gqo3h0psesgi.cloudfront.net/auto/mexico-lindo-express-8dqhm5kj-food1.jpg',
+];
+
 export default function HomePage() {
   return (
     <>
@@ -76,15 +86,18 @@ export default function HomePage() {
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {menuHighlights.map((dish) => (
+            {menuHighlights.map((dish, i) => (
               <div
                 key={dish.name}
                 className="bg-white rounded-[5pt] overflow-hidden"
               >
-                {/* Image placeholder with brand color */}
+                {/* Real food photo from Mexico Lindo Express website */}
                 <div
                   className="h-48 bg-cover bg-center"
-                  style={{ backgroundColor: '#e8e0d4' }}
+                  style={{
+                    backgroundImage: `url(${FOOD_IMAGES[i % FOOD_IMAGES.length]})`,
+                    backgroundColor: '#e8e0d4',
+                  }}
                 />
                 <div className="p-5">
                   <div className="flex items-start justify-between gap-2 mb-2">
@@ -248,13 +261,13 @@ export default function HomePage() {
           <SectionDivider />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-            {/* Map placeholder */}
-            <div className="bg-[#e8e0d4] rounded-[5pt] min-h-[300px] flex items-center justify-center">
-              <div className="text-center p-6">
-                <p className="font-[var(--font-heading-var)] text-lg font-semibold text-[#212529] mb-2">
+            {/* Location photo */}
+            <div className="rounded-[5pt] min-h-[300px] flex items-center justify-center bg-cover bg-center relative" style={{ backgroundImage: 'url(https://d2gqo3h0psesgi.cloudfront.net/auto/mexico-lindo-express-ndg78fky-food2.jpg)', backgroundColor: '#e8e0d4' }}><div className="absolute inset-0 bg-black/50 rounded-[5pt]" />
+              <div className="text-center p-6 relative z-10">
+                <p className="font-[var(--font-heading-var)] text-lg font-semibold text-white mb-2">
                   2586 Birchmount Rd
                 </p>
-                <p className="text-[#666666] text-sm mb-4">
+                <p className="text-white/70 text-sm mb-4">
                   Scarborough, ON M1T 2M5
                 </p>
                 <a
