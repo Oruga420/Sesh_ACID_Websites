@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-black: #0a0a0a;
+  --brand-dark: #111111;
+  --brand-charcoal: #1a1a1a;
+  --brand-gold: #c8a45e;
+  --brand-gold-light: #d4b76a;
+  --brand-cream: #f5f0e8;
+  --brand-white: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-black);
+  color: var(--brand-white);
+}
+
+@layer components {
+  .btn-gold {
+    @apply inline-block px-8 py-3 bg-brand-gold text-brand-black font-semibold uppercase tracking-wider text-sm hover:bg-brand-gold-light transition-colors duration-300;
+  }
+
+  .btn-outline {
+    @apply inline-block px-8 py-3 border border-brand-gold text-brand-gold font-semibold uppercase tracking-wider text-sm hover:bg-brand-gold hover:text-brand-black transition-colors duration-300;
+  }
+
+  .section-padding {
+    @apply py-20 px-4 md:px-8 lg:px-16;
+  }
+
+  .gold-divider {
+    @apply w-20 h-0.5 bg-brand-gold mx-auto my-6;
+  }
+}
