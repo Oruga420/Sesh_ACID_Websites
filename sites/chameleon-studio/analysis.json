@@ -1,0 +1,140 @@
+{
+  "business": {
+    "name": "Chameleon Studio",
+    "legalName": "Chameleon Tattoo Studio",
+    "slug": "chameleon-studio",
+    "tagline": "Where Art Meets Individuality",
+    "founded": "May 2022",
+    "founder": "Regine Rose",
+    "description": "Built on creativity, inclusivity, and precision — offering custom tattoos, barbering, piercings, nail artistry, and holistic body treatments to help clients express their true self.",
+    "platform": "WordPress/Astra/Elementor",
+    "platformScore": "6/10"
+  },
+  "contact": {
+    "email": "contact@chameleonstudio.ca",
+    "phone": "+1 (647) 328-8992",
+    "website": "https://chameleonstudio.ca/",
+    "bookingUrl": "https://chameleonstudiosv.as.me",
+    "address": {
+      "street": "248 Queen Street S",
+      "city": "Mississauga",
+      "province": "ON",
+      "postalCode": "L5M 1L8",
+      "country": "Canada",
+      "neighborhood": "Streetsville"
+    }
+  },
+  "hours": {
+    "monday": "Closed",
+    "tuesday": "10:00 AM - 8:00 PM",
+    "wednesday": "10:00 AM - 8:00 PM",
+    "thursday": "10:00 AM - 8:00 PM",
+    "friday": "10:00 AM - 8:00 PM",
+    "saturday": "10:00 AM - 8:00 PM",
+    "sunday": "10:00 AM - 6:00 PM"
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/chameleonstudio.ca/",
+    "facebook": "https://www.facebook.com/chameleonstudio.ca/",
+    "tiktok": "https://www.tiktok.com/@chameleonstudiosv"
+  },
+  "services": [
+    {
+      "category": "Custom Tattoos",
+      "description": "Modern, script, traditional, blackwork, anime, Chicano, fineline, oriental styles",
+      "pricing": {
+        "small": "$80-$150 (1-2 inches, 30-60 min)",
+        "medium": "$150-$350 (3-5 inches, 1-2 hrs)",
+        "large": "$350-$600+ (full sleeve/back, 2-4+ hrs)",
+        "coverUps": "$200-$600+",
+        "custom": "$100-$150/hr or $850/day",
+        "touchUps": "$50-$150+ (free within 1 month)"
+      }
+    },
+    {
+      "category": "Piercings",
+      "description": "Ears, nose, navel, eyebrow; baby piercings 3+ months",
+      "pricing": {
+        "lobes": "$40-$80",
+        "helix": "$80",
+        "noseNavelEyebrow": "$120"
+      }
+    },
+    {
+      "category": "Barbering",
+      "description": "Cuts, fades, beard care",
+      "pricing": {
+        "haircuts": "$30-$50",
+        "beard": "$20-$30",
+        "combo": "$50-$60",
+        "kids": "$30-$35"
+      }
+    },
+    {
+      "category": "Nail Artistry",
+      "description": "Acrylic, gel, gel-X; men's manicures available"
+    },
+    {
+      "category": "Aesthetic Injections",
+      "description": "Botox, fillers, PRP/PRF, fat dissolving — by licensed nurse injectors"
+    },
+    {
+      "category": "Semi-Permanent Makeup",
+      "description": "Professional semi-permanent makeup services"
+    },
+    {
+      "category": "Body Contouring",
+      "description": "Body sculpting, lymphatic massage, post-op massage"
+    },
+    {
+      "category": "Hair Services",
+      "description": "Braids, twists, perms, facials"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Best tattoo shop around. Very fair pricing and the quality of work is unreal.",
+      "source": "Google"
+    },
+    {
+      "text": "Aimee did an amazing job of my fine line tattoo and was able to give me exactly what I wanted.",
+      "source": "Google"
+    },
+    {
+      "text": "Clean, professional environment, filled with good energy and friendly staff. Reg is very professional and skilled.",
+      "source": "Google"
+    }
+  ],
+  "policies": {
+    "deposit": "$50 non-refundable for tattoos/PMU",
+    "cancellation": "24-hour advance notice; 2-hour minimum",
+    "ageRequirement": "18+ solo; 14+ with guardian",
+    "walkIns": "Welcome when availability exists",
+    "payment": "Cash, debit, credit cards, e-transfers, tap-to-pay"
+  },
+  "branding": {
+    "primaryColor": "#f9ad4a",
+    "secondaryColor": "#1a1a1a",
+    "logo": "https://chameleonstudio.ca/wp-content/uploads/2025/11/our-logo-233x71.png"
+  },
+  "images": {
+    "logo": "https://chameleonstudio.ca/wp-content/uploads/2025/11/our-logo-233x71.png",
+    "footerBg": "https://chameleonstudio.ca/wp-content/uploads/2025/11/ChatGPT-Image-Nov-2-2025-03_18_41-PM.png"
+  },
+  "hiring": [
+    "Registered Nurse Injector",
+    "Esthetician",
+    "Lash Technicians",
+    "Body Contouring Specialist"
+  ],
+  "competitors": "Various tattoo shops in Mississauga area",
+  "seoOpportunities": [
+    "Poor image optimization on current site",
+    "Limited content pages (only homepage and price chart found)",
+    "No dedicated service pages",
+    "No team/about page found (404)",
+    "Missing structured data/schema markup",
+    "No blog or content marketing"
+  ],
+  "researchDate": "2026-04-01"
+}
