@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { WatermarkBanner } from "@/components/WatermarkBanner";
+import { ChatbotDemo } from "@/components/ChatbotDemo";
 
 const averiaSansLibre = Averia_Sans_Libre({
   variable: "--font-heading",
@@ -40,6 +41,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <ChatbotDemo />
       </body>
     </html>
   );

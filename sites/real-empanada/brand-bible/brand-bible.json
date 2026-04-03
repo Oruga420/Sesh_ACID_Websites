@@ -244,6 +244,12 @@
     "rationale": "Real Empanada is a restaurant/food manufacturer with multiple locations, farmers market presence, and strong neighbourhood identity — foot traffic, hours, and local community are key drivers",
     "sectionOrder": ["hero", "menu", "story", "gallery", "reviews", "locations", "contact"]
   },
+  "demographics": {
+    "primaryLanguage": "en",
+    "secondaryLanguage": "es",
+    "neighborhood": "Dundas West / Beaches",
+    "targetCustomer": "Local families, Colombian diaspora, food lovers seeking authentic gluten-free and halal empanadas"
+  },
   "screenshots": {
     "desktopHome": "brand-bible/screenshots/desktop-home.png",
     "mobileHome": "brand-bible/screenshots/mobile-home.png",

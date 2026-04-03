@@ -1,57 +1,57 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
 const MENU_HIGHLIGHTS = [
   {
-    name: "Empanada Variety Pack",
-    description: "Beef, chicken, cheese & veggie — crispy, gluten-free, and halal. Served with complimentary Mama's Salsa.",
-    price: "3 for $10",
-    image: "https://realempanada.com/wp-content/uploads/2025/07/empanada-variety-pack.jpg",
+    name: 'Empanada Variety Pack',
+    description: 'Beef, chicken, cheese & veggie — crispy, gluten-free, and halal. Served with complimentary Mama\'s Salsa.',
+    price: '3 for $10',
+    image: 'https://realempanada.com/wp-content/uploads/2025/07/empanada-variety-pack.jpg',
   },
   {
-    name: "BBQ Chicharron",
-    description: "Slow-cooked pork belly grilled to crispy perfection — a Colombian classic straight from the barbecue.",
-    price: "Market Price",
-    image: "https://realempanada.com/wp-content/uploads/2025/07/Chicharron-on-the-b-q.png",
+    name: 'BBQ Chicharron',
+    description: 'Slow-cooked pork belly grilled to crispy perfection — a Colombian classic straight from the barbecue.',
+    price: 'Market Price',
+    image: 'https://realempanada.com/wp-content/uploads/2025/07/Chicharron-on-the-b-q.png',
   },
   {
     name: "Mama's Signature Salsa",
     description: "Four heat levels — Mild, Medium-Hot, Hot, and Fire. Mother's secret recipe, made fresh in-house.",
-    price: "$12.99 jar",
-    image: "https://realempanada.com/wp-content/uploads/2025/07/Salsa-jars.png",
+    price: '$12.99 jar',
+    image: 'https://realempanada.com/wp-content/uploads/2025/07/Salsa-jars.png',
   },
   {
-    name: "Tropical Paletas",
-    description: "Handmade popsicles in Mango, Guava, Coconut, Passion Fruit, Strawberry, Blackberry & more.",
-    price: "$5.00 each",
-    image: "https://realempanada.com/wp-content/uploads/2025/07/5-POPCYCLE-FLAVOURS.jpg",
+    name: 'Tropical Paletas',
+    description: 'Handmade popsicles in Mango, Guava, Coconut, Passion Fruit, Strawberry, Blackberry & more.',
+    price: '$5.00 each',
+    image: 'https://realempanada.com/wp-content/uploads/2025/07/5-POPCYCLE-FLAVOURS.jpg',
   },
 ] as const;
 
 const REVIEWS = [
   {
-    text: "Absolutely delicious, flavorful, and fresh. The salsas are super fresh too!",
-    author: "Google Review",
+    text: 'Absolutely delicious, flavorful, and fresh. The salsas are super fresh too!',
+    author: 'Google Review',
     stars: 5,
   },
   {
     text: "The cheese was soft and the dough wasn't too dry or too greasy. Perfect every time.",
-    author: "Google Review",
+    author: 'Google Review',
     stars: 5,
   },
   {
     text: "A Colombian uncle brought these empanadas and I haven't stopped thinking about them.",
-    author: "Google Review",
+    author: 'Google Review',
     stars: 5,
   },
   {
-    text: "Simple, easy, tasty food, norm price, good people. Terrific empanadas and amazing homemade salsa.",
-    author: "Google Review",
+    text: 'Simple, easy, tasty food, norm price, good people. Terrific empanadas and amazing homemade salsa.',
+    author: 'Google Review',
     stars: 5,
   },
   {
-    text: "Well-stuffed empanadas with good tasting filling. The fire sauce is no joke — delicious!",
-    author: "Google Review",
+    text: 'Well-stuffed empanadas with good tasting filling. The fire sauce is no joke — delicious!',
+    author: 'Google Review',
     stars: 5,
   },
 ] as const;
@@ -113,9 +113,9 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
             {[
-              { label: "Gluten-Free", desc: "All empanadas are naturally gluten-free" },
-              { label: "Halal Certified", desc: "Prepared following halal standards" },
-              { label: "Locally Sourced", desc: "Fresh, sustainable, ethical ingredients" },
+              { label: 'Gluten-Free', desc: 'All empanadas are naturally gluten-free' },
+              { label: 'Halal Certified', desc: 'Prepared following halal standards' },
+              { label: 'Locally Sourced', desc: 'Fresh, sustainable, ethical ingredients' },
             ].map((feature) => (
               <div key={feature.label} className="py-4">
                 <h3 className="font-heading text-lg font-bold text-heading">{feature.label}</h3>
@@ -126,15 +126,18 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Menu Highlights */}
+      {/* Menu Highlights — Our Empanadas / Nuestras Empanadas */}
       <section className="py-20 bg-cream">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
-            <h2 className="font-heading text-3xl sm:text-4xl font-bold text-heading mb-3">
-              Toronto&apos;s Favourite
+            <h2 className="font-heading text-3xl sm:text-4xl font-bold text-heading mb-1">
+              Our Empanadas
             </h2>
+            <p className="text-primary font-heading text-lg font-bold mb-3">
+              Nuestras Empanadas
+            </p>
             <p className="text-body/80 text-lg font-body max-w-2xl mx-auto">
-              From our empanadas to Mama&apos;s Signature Salsa and tropical paletas — every item is made with love and authentic Colombian flavour.
+              From our empanadas to Mama&apos;s Signature Salsa and tropical paletas &mdash; every item is made with love and authentic Colombian flavour.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -164,13 +167,13 @@ export default function HomePage() {
               href="/menu"
               className="inline-block bg-primary hover:bg-primary-dark text-white font-bold py-3 px-8 rounded-lg uppercase text-sm tracking-wide transition-colors duration-200"
             >
-              Full Menu
+              Full Menu / Men&uacute; Completo
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Story Preview */}
+      {/* Story Preview — Our Story / Nuestra Historia */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -183,9 +186,12 @@ export default function HomePage() {
               />
             </div>
             <div>
-              <h2 className="font-heading text-3xl sm:text-4xl font-bold text-heading mb-6">
-                The Real Empanada Story
+              <h2 className="font-heading text-3xl sm:text-4xl font-bold text-heading mb-1">
+                Our Story
               </h2>
+              <p className="text-primary font-heading text-lg font-bold mb-6">
+                Nuestra Historia
+              </p>
               <p className="text-body font-body text-lg leading-relaxed mb-4">
                 Richard Porras grew up in his parents&apos; family restaurant, Motivos, in west-end Toronto.
                 At age 13, he was left as head chef for a day and created a fusion empanada recipe that
@@ -193,7 +199,7 @@ export default function HomePage() {
               </p>
               <p className="text-body font-body text-lg leading-relaxed mb-6">
                 After leaving corporate life on Bay Street in 2017, Richard brought his family&apos;s recipe
-                to farmer&apos;s markets across the GTA. The response was overwhelming — and Real Empanada
+                to farmer&apos;s markets across the GTA. The response was overwhelming &mdash; and Real Empanada
                 was born.
               </p>
               <Link
@@ -211,9 +217,12 @@ export default function HomePage() {
       <section className="py-20 bg-cream">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
-            <h2 className="font-heading text-3xl sm:text-4xl font-bold text-heading mb-3">
+            <h2 className="font-heading text-3xl sm:text-4xl font-bold text-heading mb-1">
               What Our Customers Say
             </h2>
+            <p className="text-primary font-heading text-lg font-bold mb-3">
+              Lo Que Dicen Nuestros Clientes
+            </p>
             <p className="text-body/80 text-lg font-body">
               Rated 4.7 stars on Google with hundreds of happy customers
             </p>
@@ -234,14 +243,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Location / Hours */}
+      {/* Location / Hours — Locations / Ubicaciones */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="font-heading text-3xl sm:text-4xl font-bold text-heading mb-6">
-                Visit Us in the Beaches
+              <h2 className="font-heading text-3xl sm:text-4xl font-bold text-heading mb-1">
+                Locations
               </h2>
+              <p className="text-primary font-heading text-lg font-bold mb-6">
+                Ubicaciones
+              </p>
               <div className="space-y-4 font-body text-body text-lg">
                 <p>
                   <strong className="text-heading">Address:</strong><br />
@@ -287,6 +299,37 @@ export default function HomePage() {
                 className="object-cover"
               />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact CTA — Contact / Contacto */}
+      <section className="py-16 bg-dark text-white text-center">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="font-heading text-3xl font-bold mb-1">
+            Contact Us
+          </h2>
+          <p className="text-coral font-heading text-lg font-bold mb-4">
+            Cont&aacute;ctanos
+          </p>
+          <p className="text-white/80 font-body text-lg mb-8">
+            Wholesale, catering, or just craving empanadas? Reach out &mdash; we&apos;d love to hear from you.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://www.ubereats.com/store/real-empanada-company/-WODgvr7Wa6qSJErIfRq3A"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-primary hover:bg-primary-dark text-white font-bold py-3 px-8 rounded-lg uppercase text-sm tracking-wide transition-colors duration-200"
+            >
+              Order Now
+            </a>
+            <Link
+              href="/contact"
+              className="border-2 border-white text-white hover:bg-white/10 font-bold py-3 px-8 rounded-lg uppercase text-sm tracking-wide transition-colors duration-200"
+            >
+              Get In Touch
+            </Link>
           </div>
         </div>
       </section>

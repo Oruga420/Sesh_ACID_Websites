@@ -61,7 +61,7 @@ export default function MenuPage() {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/60" />
         <div className="relative z-10 text-center px-4">
-          <h1 className="font-heading text-4xl sm:text-5xl font-bold text-white">Our Menu</h1>
+          <h1 className="font-heading text-4xl sm:text-5xl font-bold text-white">Our Menu / Nuestro Men&uacute;</h1>
           <p className="text-white/80 font-body text-lg mt-2">
             Authentic Colombian flavours, made fresh daily
           </p>
