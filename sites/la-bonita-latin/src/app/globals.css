@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --color-brand-offwhite: #FFF9F2;
+  --color-brand-cream: #FDF0E1;
+  --color-brand-white: #FFFFFF;
+  --color-brand-red: #E8443A;
+  --color-brand-red-dark: #C73830;
+  --color-brand-gold: #F7B731;
+  --color-brand-gold-dark: #D9A020;
+  --color-brand-green: #2D8E4E;
+  --color-brand-espresso: #2B1810;
+  --color-brand-brown: #4A3520;
+  --color-brand-muted: #8B7355;
+  --color-brand-border: #E8DDD0;
+}
+
+@theme inline {
+  --color-brand-offwhite: var(--color-brand-offwhite);
+  --color-brand-cream: var(--color-brand-cream);
+  --color-brand-white: var(--color-brand-white);
+  --color-brand-red: var(--color-brand-red);
+  --color-brand-red-dark: var(--color-brand-red-dark);
+  --color-brand-gold: var(--color-brand-gold);
+  --color-brand-gold-dark: var(--color-brand-gold-dark);
+  --color-brand-green: var(--color-brand-green);
+  --color-brand-espresso: var(--color-brand-espresso);
+  --color-brand-brown: var(--color-brand-brown);
+  --color-brand-muted: var(--color-brand-muted);
+  --color-brand-border: var(--color-brand-border);
+  --font-heading: var(--font-libre-baskerville);
+  --font-body: var(--font-nunito-sans);
+}
+
+body {
+  background: var(--color-brand-offwhite);
+  color: var(--color-brand-brown);
+  font-family: var(--font-body), sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), serif;
+  color: var(--color-brand-espresso);
+}

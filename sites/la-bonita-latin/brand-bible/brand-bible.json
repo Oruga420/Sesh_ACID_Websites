@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "business": "La Bonita Latin American Restaurant",
+    "slug": "la-bonita-latin",
+    "analyzedAt": "2026-04-02T18:00:00Z",
+    "sourcesAnalyzed": {
+      "websitePages": [
+        "http://labonitalatinamericanrestaurant.com/ (domain expired — redirects to parking page)"
+      ],
+      "instagram": true,
+      "facebook": true,
+      "googleReviews": true,
+      "yelp": true,
+      "wanderlog": true,
+      "screenshotsTaken": 3,
+      "notes": "Primary website domain expired. Brand research sourced from Instagram @labonita.latin.restaurant, Facebook /labonitalatina, Yelp (79 photos, 32 reviews), Google Reviews (851 reviews, 4.3/5), Wanderlog, TripAdvisor, Visit Mississauga, and DoorDash listings."
+    }
+  },
+  "archetype": {
+    "type": "location-first",
+    "rationale": "Latin American restaurant where foot traffic, neighbourhood identity, and authentic dining atmosphere are the primary draw. Customers describe the cozy space, generous portions, and family-style warmth. Located in a strip plaza at Canadian Place in Mississauga — foot traffic and local word-of-mouth drive business.",
+    "sectionOrder": ["hero", "menu-highlights", "about-story", "gallery", "reviews", "map-hours", "contact"]
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "primary": { "hex": "#E8443A", "usage": "CTA buttons, accent highlights — inspired by the red South America silhouette in La Bonita's logo and Colombian cultural warmth" },
+      "secondary": { "hex": "#F7B731", "usage": "Secondary accents, hover states, gold/yellow warmth — evokes Latin sunshine, tropical fruits, and the Colombian flag yellow" },
+      "accent": { "hex": "#2D8E4E", "usage": "Tertiary accent — Colombian green from the flag, freshness indicators, garnish accents" },
+      "background": {
+        "main": { "hex": "#FFF9F2", "usage": "Page background — warm off-white, inviting and light like a family kitchen" },
+        "alternate": { "hex": "#FDF0E1", "usage": "Alternating sections — slightly warmer cream tone" },
+        "card": { "hex": "#FFFFFF", "usage": "Card and elevated surface backgrounds" }
+      },
+      "text": {
+        "heading": { "hex": "#2B1810", "usage": "Deep espresso brown for headings — ties to Colombian cafe culture" },
+        "body": { "hex": "#4A3520", "usage": "Warm dark brown for body text — readable and earthy" },
+        "muted": { "hex": "#8B7355", "usage": "Muted captions, secondary text, timestamps" },
+        "link": { "hex": "#E8443A", "hoverHex": "#C73830" }
+      },
+      "borders": { "hex": "#E8DDD0", "usage": "Dividers, card borders — warm subtle tone" },
+      "gradients": [
+        { "css": "linear-gradient(180deg, rgba(43,24,16,0.75) 0%, rgba(43,24,16,0.3) 100%)", "usage": "Hero overlay for text readability over food photography" }
+      ],
+      "shadows": [
+        { "css": "0 4px 12px rgba(43,24,16,0.08)", "usage": "Card elevation" },
+        { "css": "0 2px 8px rgba(43,24,16,0.12)", "usage": "Button hover lift" }
+      ],
+      "overallTheme": "warm-earthy — Light off-white backgrounds (#FFF9F2) with deep espresso-brown text (#2B1810) and vibrant Latin red (#E8443A) and gold (#F7B731) accents. CSS evidence: Original website domain expired; storefront signage uses dark grey/black background with script 'La' and sans-serif 'Bonita' in white/light text, with a pink/red South America map silhouette as logo. Instagram grid shows bright, warm food photography with colorful Colombian platters against clean table surfaces. bgMain source: No live site CSS available (domain expired). Default to light/warm based on Instagram grid aesthetic showing bright food on light surfaces, and storefront OPEN sign with clean glass exterior."
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Libre Baskerville",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap",
+        "fallback": "serif",
+        "weights": [400, 700],
+        "style": "elegant and warm — inspired by the script/serif 'La' lettering on the storefront sign. Libre Baskerville provides the traditional warmth and established feel appropriate for a family restaurant since 2016"
+      },
+      "bodyFont": {
+        "family": "Nunito Sans",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700&display=swap",
+        "fallback": "sans-serif",
+        "weights": [300, 400, 500, 600, 700],
+        "style": "friendly and approachable — rounded sans-serif that matches the warm, family-oriented atmosphere. The 'Bonita' text on the storefront uses a clean sans-serif, and Nunito Sans captures that friendliness"
+      },
+      "navFont": {
+        "family": "Nunito Sans",
+        "weight": 600,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.05em"
+      },
+      "scale": {
+        "h1": { "size": "3rem", "weight": 700, "lineHeight": 1.2 },
+        "h2": { "size": "2.25rem", "weight": 700, "lineHeight": 1.3 },
+        "h3": { "size": "1.5rem", "weight": 600, "lineHeight": 1.4 },
+        "body": { "size": "1rem", "weight": 400, "lineHeight": 1.6 },
+        "small": { "size": "0.875rem", "weight": 400, "lineHeight": 1.5 }
+      }
+    },
+    "spacing": {
+      "sectionPadding": "80px",
+      "contentMaxWidth": "1200px",
+      "cardGap": "24px",
+      "borderRadius": {
+        "buttons": "8px",
+        "cards": "12px",
+        "images": "8px"
+      }
+    },
+    "components": {
+      "header": {
+        "position": "sticky",
+        "background": "solid",
+        "logoPosition": "left",
+        "navAlignment": "right",
+        "mobileMenu": "hamburger-dropdown",
+        "height": "72px"
+      },
+      "hero": {
+        "type": "full-bleed-image",
+        "overlay": { "color": "rgba(43,24,16,0.6)", "gradient": "linear-gradient(180deg, rgba(43,24,16,0.75) 0%, rgba(43,24,16,0.3) 100%)" },
+        "textAlignment": "center",
+        "ctaStyle": "dual-buttons"
+      },
+      "buttons": {
+        "primary": {
+          "bg": "#E8443A",
+          "text": "#FFFFFF",
+          "border": "none",
+          "borderRadius": "8px",
+          "padding": "12px 28px",
+          "fontWeight": 600,
+          "textTransform": "none",
+          "hoverEffect": "darken"
+        },
+        "secondary": {
+          "bg": "transparent",
+          "text": "#E8443A",
+          "border": "2px solid #E8443A",
+          "hoverEffect": "fill"
+        }
+      },
+      "cards": {
+        "background": "#FFFFFF",
+        "border": "1px solid #E8DDD0",
+        "borderRadius": "12px",
+        "shadow": "soft",
+        "hoverEffect": "lift"
+      },
+      "footer": {
+        "background": "#2B1810",
+        "columns": 3,
+        "style": "dark-inverse"
+      },
+      "images": {
+        "borderRadius": "8px",
+        "aspectRatio": "4:3",
+        "hoverEffect": "zoom",
+        "filter": "slight-saturation-boost"
+      }
+    },
+    "animations": {
+      "pageTransitions": "none",
+      "scrollAnimations": "fade-up",
+      "hoverTransitions": "0.3s ease-in-out",
+      "loadingStyle": "none"
+    }
+  },
+  "brandVoice": {
+    "personality": ["warm", "family-oriented", "generous", "authentic", "proud"],
+    "tone": "warm",
+    "vocabulary": {
+      "wordsTheyUse": ["Latin American", "Colombian", "authentic", "fresh", "homemade", "family", "grandmother", "cozy", "delicious", "passion"],
+      "wordsTheyAvoid": ["gourmet", "upscale", "fine dining", "exclusive", "premium"],
+      "industryJargon": ["bandeja paisa", "empanadas", "sancocho", "tres leches", "arepa", "patacon", "churrasco", "pupusas", "tostones"]
+    },
+    "messagingPatterns": {
+      "headlines": "Short and warm — family/home references",
+      "ctas": "Soft invitation — 'Come taste', 'Visit us'",
+      "descriptions": "Story-driven — grandmother's legacy, family recipes"
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "tone": "warm, proud, food-focused",
+        "emojiUsage": "moderate",
+        "hashtagStyle": "community",
+        "captionLength": "short",
+        "sampleCaptions": [
+          "Ven a disfrutar de nuestros platos tipicos! Come enjoy our traditional dishes!",
+          "Bandeja Paisa hecha con amor. Made with love.",
+          "La Bonita - highlighting Latin culture through exquisite dishes that will delight the palate of the whole family"
+        ]
+      },
+      "facebook": {
+        "tone": "warm, bilingual, community-focused",
+        "postStyle": "conversational"
+      }
+    },
+    "customerPerception": {
+      "commonPraise": ["huge portions", "fresh food", "amazing service", "authentic taste", "hidden gem", "tres leches is a must-try", "cozy atmosphere"],
+      "vibeDescriptors": ["cozy", "family-oriented", "hidden gem", "authentic", "warm", "clean"],
+      "emotionalAssociations": ["nostalgia", "home-cooking", "discovery", "generosity", "warmth"]
+    }
+  },
+  "contentStrategy": {
+    "primaryCTA": "Call Us",
+    "valueProposition": "Authentic Latin American cuisine from grandmother's recipes — Colombian classics with generous portions and warm family hospitality since 2016",
+    "keyMessages": [
+      "I grew up working in my grandmother's restaurant — La Bonita follows her footsteps",
+      "Generous portions of authentic Colombian dishes made fresh daily",
+      "A cozy neighbourhood gem where every guest is treated like family"
+    ],
+    "contentPriority": ["menu", "atmosphere", "reviews", "story", "location"],
+    "imageStrategy": {
+      "primarySubjects": "food platters, traditional dishes",
+      "mood": "bright and warm",
+      "colorTemperature": "warm",
+      "composition": "overhead food shots, plated dishes, generous portions"
+    }
+  },
+  "images": {
+    "hero": "https://itin-dev.wanderlogstatic.com/freeImage/PznxWnNJbXXoejM77Q8zrgWDNfmFErOn",
+    "logo": null,
+    "food": [
+      { "url": "https://itin-dev.wanderlogstatic.com/freeImage/1MVkqd4KfRdiBYHqvzTl9P0UnRzh9g5Y", "description": "Sancocho — traditional Colombian beef and vegetable soup with rice, avocado sides", "verified": true },
+      { "url": "https://itin-dev.wanderlogstatic.com/freeImage/PznxWnNJbXXoejM77Q8zrgWDNfmFErOn", "description": "Churrasco feast platter — grilled steak, chorizo, fried plantains, salad, sides on display", "verified": true },
+      { "url": "https://itin-dev.wanderlogstatic.com/freeImage/1MVkqd4KfRdiBYHqvzTl9P0UnRzh9g5Y", "description": "Sancocho Antioqueno — hearty soup with corn, potatoes, beef, cilantro garnish", "verified": true }
+    ],
+    "gallery": [],
+    "atmosphere": [
+      { "url": "https://itin-dev.wanderlogstatic.com/freeImage/YUVcC6oRCWhxbgBKvFYmoBKvmza7VWeR", "description": "La Bonita storefront — grey signage with script lettering, South America silhouette logo, OPEN sign, glass doors at 1065 Canadian Place", "verified": true }
+    ]
+  },
+  "people": [
+    {
+      "name": "Owner (name not publicly listed)",
+      "role": "Owner / Head Chef",
+      "instagram": "labonita.latin.restaurant",
+      "instagramUrl": "https://www.instagram.com/labonita.latin.restaurant/",
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": "I grew up working in my Grandmother's restaurant and seeing her passion and love with which she created a high quality menu and variety of flavors, I decided to follow her footsteps in creating a space with a cozy atmosphere, offering typical Latin American dishes especially Colombia.",
+      "featured": true,
+      "photoVerified": false
+    }
+  ],
+  "screenshots": {
+    "desktopHome": "brand-bible/screenshots/desktop-home.png",
+    "mobileHome": "brand-bible/screenshots/mobile-home.png",
+    "innerPage": "brand-bible/screenshots/inner-page.png"
+  }
+}
