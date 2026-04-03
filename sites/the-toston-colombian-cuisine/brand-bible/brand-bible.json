@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "business": "The Toston Colombian Cuisine",
+    "slug": "the-toston-colombian-cuisine",
+    "analyzedAt": "2026-04-02T12:00:00Z",
+    "sourcesAnalyzed": {
+      "websitePages": [
+        "https://www.thetostoncolombiancuisine.com/",
+        "https://www.thetostoncolombiancuisine.com/menu",
+        "https://www.thetostoncolombiancuisine.com/contact-us"
+      ],
+      "instagram": true,
+      "facebook": true,
+      "googleReviews": true,
+      "screenshotsTaken": 3
+    }
+  },
+  "archetype": {
+    "type": "location-first",
+    "rationale": "Colombian restaurant where foot traffic, neighbourhood identity, and dining atmosphere matter most. Customers describe the cozy 18-seat space, family vibes, and authentic cultural experience.",
+    "sectionOrder": ["hero", "menu-highlights", "about-story", "gallery", "reviews", "map-hours", "contact"]
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "primary": { "hex": "#D4A843", "usage": "CTA buttons, accent highlights, Colombian gold warmth" },
+      "secondary": { "hex": "#C0392B", "usage": "Secondary accents, hover states — Colombian red reminiscent of flag" },
+      "accent": { "hex": "#2E7D32", "usage": "Tertiary accent — Colombian green from flag, used for freshness indicators" },
+      "background": {
+        "main": { "hex": "#FDF8F0", "usage": "Page background — warm cream, inviting and light" },
+        "alternate": { "hex": "#F5EDE0", "usage": "Alternating sections — slightly darker warm cream" },
+        "card": { "hex": "#FFFFFF", "usage": "Card and elevated surface backgrounds" }
+      },
+      "text": {
+        "heading": { "hex": "#2C1810", "usage": "Deep coffee brown for headings — ties to Colombian cafe culture" },
+        "body": { "hex": "#4A3728", "usage": "Warm brown for body text" },
+        "muted": { "hex": "#8B7355", "usage": "Muted captions, secondary text" },
+        "link": { "hex": "#C0392B", "hoverHex": "#A93226" }
+      },
+      "borders": { "hex": "#E0D5C3", "usage": "Dividers, card borders — subtle warm tone" },
+      "gradients": [
+        { "css": "linear-gradient(180deg, rgba(44,24,16,0.7) 0%, rgba(44,24,16,0.3) 100%)", "usage": "Hero overlay for text readability" }
+      ],
+      "shadows": [
+        { "css": "0 4px 12px rgba(44,24,16,0.08)", "usage": "Card elevation" },
+        { "css": "0 2px 8px rgba(44,24,16,0.12)", "usage": "Button hover lift" }
+      ],
+      "overallTheme": "warm-earthy — Light cream backgrounds (#FDF8F0) with deep coffee-brown text (#2C1810) and Colombian gold (#D4A843) accents. CSS evidence: Wix site uses default white/light body background with warm food photography. bgMain source: Wix platform default light background, no dark body background-color rule found in any stylesheet. Site sections alternate between white and very light warm tones."
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Cormorant Garamond",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap",
+        "fallback": "serif",
+        "weights": [400, 500, 600, 700],
+        "style": "elegant — closest Google Fonts match to Wix site's serif headings which evoke traditional Colombian cafe culture and warmth"
+      },
+      "bodyFont": {
+        "family": "Source Sans 3",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600&display=swap",
+        "fallback": "sans-serif",
+        "weights": [300, 400, 500, 600],
+        "style": "clean and readable — closest match to Wix site's Helvetica/Arial system font stack, but with more personality"
+      },
+      "navFont": {
+        "family": "Source Sans 3",
+        "weight": 600,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.05em"
+      },
+      "scale": {
+        "h1": { "size": "3rem", "weight": 700, "lineHeight": 1.2 },
+        "h2": { "size": "2.25rem", "weight": 600, "lineHeight": 1.3 },
+        "h3": { "size": "1.5rem", "weight": 600, "lineHeight": 1.4 },
+        "body": { "size": "1rem", "weight": 400, "lineHeight": 1.6 },
+        "small": { "size": "0.875rem", "weight": 400, "lineHeight": 1.5 }
+      }
+    },
+    "spacing": {
+      "sectionPadding": "80px",
+      "contentMaxWidth": "1200px",
+      "cardGap": "24px",
+      "borderRadius": {
+        "buttons": "8px",
+        "cards": "12px",
+        "images": "8px"
+      }
+    },
+    "components": {
+      "header": {
+        "position": "sticky",
+        "background": "solid",
+        "logoPosition": "left",
+        "navAlignment": "right",
+        "mobileMenu": "hamburger-slide",
+        "height": "72px"
+      },
+      "hero": {
+        "type": "full-bleed-image",
+        "overlay": { "color": "rgba(44,24,16,0.5)", "gradient": "linear-gradient(180deg, rgba(44,24,16,0.6) 0%, rgba(44,24,16,0.2) 100%)" },
+        "textAlignment": "center",
+        "ctaStyle": "dual-buttons"
+      },
+      "buttons": {
+        "primary": {
+          "bg": "#D4A843",
+          "text": "#2C1810",
+          "border": "none",
+          "borderRadius": "8px",
+          "padding": "14px 28px",
+          "fontWeight": 600,
+          "textTransform": "none",
+          "hoverEffect": "darken"
+        },
+        "secondary": {
+          "bg": "transparent",
+          "text": "#D4A843",
+          "border": "2px solid #D4A843",
+          "hoverEffect": "fill"
+        }
+      },
+      "cards": {
+        "background": "#FFFFFF",
+        "border": "1px solid #E0D5C3",
+        "borderRadius": "12px",
+        "shadow": "soft",
+        "hoverEffect": "lift"
+      },
+      "footer": {
+        "background": "#2C1810",
+        "columns": 3,
+        "style": "dark-inverse"
+      },
+      "images": {
+        "borderRadius": "8px",
+        "aspectRatio": "4:3",
+        "hoverEffect": "zoom",
+        "filter": "slight-saturation-boost"
+      }
+    },
+    "animations": {
+      "pageTransitions": "none",
+      "scrollAnimations": "fade-up",
+      "hoverTransitions": "0.3s ease-in-out",
+      "loadingStyle": "none"
+    }
+  },
+  "brandVoice": {
+    "personality": ["warm", "authentic", "family-oriented", "proud", "welcoming"],
+    "tone": "warm",
+    "vocabulary": {
+      "wordsTheyUse": ["authentic", "traditional", "Colombian", "paisa", "fresh-made", "homemade", "café culture", "toston", "empanadas", "love"],
+      "wordsTheyAvoid": ["gourmet", "fusion", "trendy", "upscale", "fast food"],
+      "industryJargon": ["bandeja paisa", "arepa", "toston", "empanada", "ajiaco", "chicharron", "yuca", "platano"]
+    },
+    "messagingPatterns": {
+      "headlines": "Short and warm — inviting, personal",
+      "ctas": "Soft invitation — 'Visit Us', 'See Our Menu', 'Come Taste Colombia'",
+      "descriptions": "Story-driven — connecting food to Colombian heritage and family tradition"
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "tone": "warm and proud, celebrating Colombian culture",
+        "emojiUsage": "moderate — Colombian flag, food emojis",
+        "hashtagStyle": "community — #ColombianFood #MarkhamEats #TorontoFoodie",
+        "captionLength": "medium",
+        "sampleCaptions": [
+          "Fresh-made empanadas — the way abuela used to make them 🇨🇴",
+          "Bringing Colombia's rich café culture to Markham, one plate at a time",
+          "Bandeja Paisa — the king of Colombian dishes. Have you tried ours yet?"
+        ]
+      },
+      "facebook": {
+        "tone": "friendly and conversational",
+        "postStyle": "conversational"
+      }
+    },
+    "customerPerception": {
+      "commonPraise": [
+        "Friendly hospitality and warm service",
+        "Food is delicious and made with love",
+        "Amazing hole in the wall with authentic feel",
+        "Best Colombian food in the area",
+        "Cristina and Alex made everything with love"
+      ],
+      "vibeDescriptors": ["cozy", "family vibes", "authentic", "warm", "welcoming", "hole in the wall gem"],
+      "emotionalAssociations": ["feeling at home", "discovering a gem", "cultural experience", "comfort food"]
+    }
+  },
+  "contentStrategy": {
+    "primaryCTA": "Visit Us",
+    "valueProposition": "Husband-and-wife team bringing authentic Colombian paisa food and café culture to Markham — handmade with love in an intimate 18-seat setting.",
+    "keyMessages": [
+      "Authentic Colombian cuisine made from scratch by Chef Alexander",
+      "Cozy 18-seat family restaurant with warm hospitality",
+      "Fresh-made empanadas and traditional dishes like Bandeja Paisa"
+    ],
+    "contentPriority": ["menu", "atmosphere", "story", "reviews", "location"],
+    "imageStrategy": {
+      "primarySubjects": "food photos and restaurant atmosphere",
+      "mood": "warm and inviting — natural lighting, rich food colors",
+      "colorTemperature": "warm",
+      "composition": "close-ups of dishes and wide shots of the cozy space"
+    }
+  },
+  "images": {
+    "hero": "https://live.staticflickr.com/65535/54066603963_608c6b5982_o.jpg",
+    "logo": null,
+    "food": [
+      { "url": "https://live.staticflickr.com/65535/54066733549_05928f6086_o.jpg", "description": "Empanadas — crispy chicken, beef, and cheese with salsa", "verified": true },
+      { "url": "https://live.staticflickr.com/65535/54066676489_6b00674d87_o.jpg", "description": "Combo 2 — Tostone with pulled beef, salad, and avocado", "verified": true },
+      { "url": "https://live.staticflickr.com/65535/54066345906_d60e6f10d0_o.jpg", "description": "Bandeja Paisa — rice, plantain, sausage, pork belly, beans, avocado, beef, egg, arepa", "verified": true },
+      { "url": "https://live.staticflickr.com/65535/54066809755_8b237485f2_o.jpg", "description": "Ajiaco — Colombian chicken and potato soup with rice and plantain sides", "verified": true },
+      { "url": "https://cdn.gotoeat.net/thetoston/4300-albums-1.jpg", "description": "Restaurant food presentation", "verified": true },
+      { "url": "https://cdn.gotoeat.net/thetoston/4300-albums-2.jpg", "description": "Colombian dish plating", "verified": true }
+    ],
+    "gallery": [
+      { "url": "https://live.staticflickr.com/65535/54066809615_4974896899_o.jpg", "description": "Menu cover photo", "verified": true },
+      { "url": "https://cdn.gotoeat.net/thetoston/4300-albums-3.jpg", "description": "Restaurant gallery photo", "verified": true }
+    ],
+    "atmosphere": [
+      { "url": "https://live.staticflickr.com/65535/54066676359_f7536d073f_o.jpg", "description": "Storefront exterior — The Toston Colombian Cuisine signage", "verified": true },
+      { "url": "https://cdn.gotoeat.net/thetoston/4300-albums-4.jpg", "description": "Restaurant interior ambiance", "verified": true }
+    ]
+  },
+  "people": [
+    {
+      "name": "Alexander Sandoval",
+      "role": "Chef & Co-Owner",
+      "instagram": "thetostoncuisine",
+      "instagramUrl": "https://www.instagram.com/thetostoncuisine/",
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": "Chef Alexander cooks up a menu of traditional Colombian paisa food. Most closely connected to the signature toston — a labour-intensive dish where he fries the whole plantain before flattening it to create a base for sauteed vegetables or meat.",
+      "featured": true,
+      "photoVerified": false
+    },
+    {
+      "name": "Cristina Arbelaez",
+      "role": "Co-Owner & Front of House",
+      "instagram": "thetostoncuisine",
+      "instagramUrl": "https://www.instagram.com/thetostoncuisine/",
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": "Co-owner Cristina manages the front of the restaurant. 'We wanted to bring Colombia's rich cafe culture to Canada, so everything here is themed after coffee.'",
+      "featured": true,
+      "photoVerified": false
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Oh my gosh from the food to the staff so amazing. She explained us the menu and the culture.",
+      "author": "Monique F.",
+      "rating": 5,
+      "source": "Google"
+    },
+    {
+      "text": "We had such a wonderful experience here! They welcomed us so warmly and was incredibly friendly.",
+      "author": "Mina Y.",
+      "rating": 5,
+      "source": "Google"
+    },
+    {
+      "text": "A gem. There's a reason why it's so highly rated. Warm, friendly, cozy and family vibes.",
+      "author": "J.R. M.",
+      "rating": 5,
+      "source": "Google"
+    },
+    {
+      "text": "What an amazing hole in the wall in East Markham! This place has such an authentic and warm feel.",
+      "author": "Randa",
+      "rating": 5,
+      "source": "Google"
+    },
+    {
+      "text": "Super friendly and the food just AMAZING. The food is delicious and made with love.",
+      "author": "Google Reviewer",
+      "rating": 5,
+      "source": "Google"
+    },
+    {
+      "text": "This is the best chicken I ever try in Toronto. Cristina and Alex made everything with love.",
+      "author": "Google Reviewer",
+      "rating": 5,
+      "source": "Google"
+    }
+  ],
+  "screenshots": {
+    "desktopHome": "brand-bible/screenshots/desktop-home.png",
+    "mobileHome": "brand-bible/screenshots/mobile-home.png",
+    "innerPage": "brand-bible/screenshots/inner-page.png"
+  }
+}
