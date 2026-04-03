@@ -1,0 +1,288 @@
+{
+  "meta": {
+    "business": "Esto es Colombia",
+    "slug": "esto-es-colombia",
+    "analyzedAt": "2026-04-02T12:00:00Z",
+    "sourcesAnalyzed": {
+      "websitePages": [
+        "https://estoescolombiarestaurant.ca/",
+        "https://estoescolombiarestaurant.ca/our-story/",
+        "https://estoescolombiarestaurant.ca/secondfloor/",
+        "https://estoescolombiarestaurant.ca/toronto/"
+      ],
+      "instagram": true,
+      "facebook": true,
+      "googleReviews": true,
+      "screenshotsTaken": 3
+    }
+  },
+  "archetype": {
+    "type": "location-first",
+    "rationale": "Colombian restaurant where foot traffic, neighborhood identity, and the dining atmosphere are the primary draw. Customers come for the authentic experience of feeling like they are in Colombia.",
+    "sectionOrder": ["hero", "menu-highlights", "about-story", "gallery", "reviews", "map-hours", "contact"]
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "primary": { "hex": "#FBF800", "usage": "Main CTA buttons, accent highlights, button backgrounds" },
+      "secondary": { "hex": "#2EA3F2", "usage": "Links, secondary accents, vivid cyan-blue highlights" },
+      "accent": { "hex": "#FB0000", "usage": "Red accent links on second-floor venue page, urgency CTAs" },
+      "background": {
+        "main": { "hex": "#FFFFFF", "usage": "Page background — body default is white per Divi theme base CSS" },
+        "alternate": { "hex": "#F7F7F7", "usage": "Alternating sections, light gray background panels" },
+        "card": { "hex": "#FFFFFF", "usage": "Card surfaces, menu item cards" },
+        "dark": { "hex": "#1A1A1A", "usage": "Footer background, dark accent sections" }
+      },
+      "text": {
+        "heading": { "hex": "#333333" },
+        "body": { "hex": "#666666" },
+        "muted": { "hex": "#999999" },
+        "onDark": { "hex": "#FFFFFF" },
+        "link": { "hex": "#2EA3F2", "hoverHex": "#1A8CD8" }
+      },
+      "borders": { "hex": "#E2E2E2", "usage": "Dividers, card borders, input outlines" },
+      "gradients": [
+        { "css": "linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 100%)", "usage": "Hero image overlay for text readability" }
+      ],
+      "shadows": [
+        { "css": "0 2px 8px rgba(0,0,0,0.1)", "usage": "Card elevation, subtle depth" }
+      ],
+      "overallTheme": "Warm-vibrant with white base — CSS evidence: Divi theme body background defaults to #FFFFFF, sections alternate between white and light gray (#F7F7F7). Yellow (#FBF800) buttons and blue (#2EA3F2) links provide Latin-inspired vibrancy. The dark background (#1A1A1A) is only used in footer and hero overlay, not as the dominant theme. bgMain source: body default background-color: #FFFFFF in Divi theme base stylesheet."
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Poppins",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap",
+        "fallback": "sans-serif",
+        "weights": [300, 400, 500, 600, 700],
+        "style": "modern, clean, slightly rounded — used for selected headings at weight 300 for elegance"
+      },
+      "bodyFont": {
+        "family": "Open Sans",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap",
+        "fallback": "Arial, sans-serif",
+        "weights": [300, 400, 500, 600, 700],
+        "style": "clean, highly readable — the default body font per CSS font-family: Open Sans, Arial, sans-serif; font-size: 14px"
+      },
+      "navFont": {
+        "family": "Montserrat",
+        "weight": 500,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.05em"
+      },
+      "accentFont": {
+        "family": "Montserrat",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap",
+        "usage": "Buttons (20px uppercase), navigation items, CTAs"
+      },
+      "scale": {
+        "h1": { "size": "2.5rem", "weight": 700, "lineHeight": 1.2 },
+        "h2": { "size": "2rem", "weight": 600, "lineHeight": 1.3 },
+        "h3": { "size": "1.5rem", "weight": 600, "lineHeight": 1.4 },
+        "body": { "size": "1rem", "weight": 400, "lineHeight": 1.6 },
+        "small": { "size": "0.875rem", "weight": 400, "lineHeight": 1.5 }
+      }
+    },
+    "spacing": {
+      "sectionPadding": "80px",
+      "contentMaxWidth": "1200px",
+      "cardGap": "24px",
+      "borderRadius": {
+        "buttons": "0px",
+        "cards": "8px",
+        "images": "8px"
+      }
+    },
+    "components": {
+      "header": {
+        "position": "sticky",
+        "background": "solid",
+        "logoPosition": "left",
+        "navAlignment": "right",
+        "mobileMenu": "hamburger-dropdown",
+        "height": "80px"
+      },
+      "hero": {
+        "type": "full-bleed-image",
+        "overlay": { "color": "rgba(0,0,0,0.5)", "gradient": "linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 100%)" },
+        "textAlignment": "center",
+        "ctaStyle": "prominent-button"
+      },
+      "buttons": {
+        "primary": {
+          "bg": "#FBF800",
+          "text": "#000000",
+          "border": "none",
+          "borderRadius": "0px",
+          "padding": "12px 28px",
+          "fontWeight": 600,
+          "textTransform": "uppercase",
+          "hoverEffect": "darken"
+        },
+        "secondary": {
+          "bg": "transparent",
+          "text": "#2EA3F2",
+          "border": "2px solid #2EA3F2",
+          "hoverEffect": "fill"
+        }
+      },
+      "cards": {
+        "background": "#FFFFFF",
+        "border": "1px solid #E2E2E2",
+        "borderRadius": "8px",
+        "shadow": "soft",
+        "hoverEffect": "lift"
+      },
+      "footer": {
+        "background": "#1A1A1A",
+        "columns": 3,
+        "style": "dark-inverse"
+      },
+      "images": {
+        "borderRadius": "8px",
+        "aspectRatio": "4:3",
+        "hoverEffect": "zoom",
+        "filter": "slight-saturation-boost"
+      }
+    },
+    "animations": {
+      "pageTransitions": "none",
+      "scrollAnimations": "fade-up",
+      "hoverTransitions": "0.3s ease-in-out",
+      "loadingStyle": "none"
+    }
+  },
+  "brandVoice": {
+    "personality": ["warm", "authentic", "vibrant", "proud", "welcoming"],
+    "tone": "warm",
+    "vocabulary": {
+      "wordsTheyUse": ["authentic", "Colombian", "homemade", "traditional", "live music", "events", "vibrant", "Latin atmosphere", "Toronto"],
+      "wordsTheyAvoid": ["cheap", "fast food", "generic", "ordinary"],
+      "industryJargon": ["bandeja paisa", "cazuela de mariscos", "arepas", "empanadas", "chicharron", "chorizo", "sancocho"]
+    },
+    "messagingPatterns": {
+      "headlines": "Bold cultural pride statements — 'The best Colombian Restaurant & Bar in Toronto'",
+      "ctas": "Direct invitations — 'Reserve Now', 'Order Online', 'Explore Our Menu'",
+      "descriptions": "Benefit-focused with cultural authenticity — emphasizing real Colombian flavors and atmosphere"
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "tone": "Warm, proud, community-focused — celebrating Colombian culture",
+        "emojiUsage": "moderate",
+        "hashtagStyle": "community",
+        "captionLength": "medium",
+        "sampleCaptions": [
+          "Lo mejor de la comida colombiana lo tenemos aqui!",
+          "Authentic homemade Colombian food in the heart of Toronto",
+          "Live music, great food, and the best Latin atmosphere in North York"
+        ]
+      },
+      "facebook": {
+        "tone": "Warm, event-focused, bilingual (Spanish/English)",
+        "postStyle": "conversational"
+      }
+    },
+    "customerPerception": {
+      "commonPraise": [
+        "The food is incredibly delicious and authentically Colombian",
+        "Big portions and amazing value for money",
+        "Feels like you are eating in Colombia",
+        "Friendly staff with Latin American hospitality",
+        "The arepas are perfectly crispy"
+      ],
+      "vibeDescriptors": ["homey", "cozy", "festive", "vibrant", "authentic", "like being in Colombia"],
+      "emotionalAssociations": ["nostalgia", "cultural pride", "warmth", "celebration", "community"]
+    }
+  },
+  "contentStrategy": {
+    "primaryCTA": "Reserve Now",
+    "valueProposition": "The most authentic Colombian dining experience in Toronto — real recipes from Cali brought to North York by celebrated chef Diana Arizala",
+    "keyMessages": [
+      "Authentic Colombian cuisine made by a celebrated chef from Cali",
+      "Live music and events create a vibrant Latin atmosphere",
+      "A community hub for Colombians and Latin culture lovers in Toronto"
+    ],
+    "contentPriority": ["location", "menu", "reviews", "events", "story"],
+    "imageStrategy": {
+      "primarySubjects": "food close-ups and restaurant atmosphere",
+      "mood": "bright and warm with Latin vibrancy",
+      "colorTemperature": "warm",
+      "composition": "close-ups of dishes and wide shots of the dining space"
+    }
+  },
+  "images": {
+    "hero": "https://estoescolombiarestaurant.ca/wp-content/uploads/2024/04/esto-es-colombia-logo-and-latina-beer-e1713223979140.png",
+    "logo": "https://estoescolombiarestaurant.ca/wp-content/uploads/2024/04/esto-es-colombia-logo-and-latina-beer-e1713223979140.png",
+    "food": [
+      { "url": "https://blogto-production2-baselayer-display.blogto.com/uploads/2022/12/23/1671826923-20221216-EstoEsColumbia-1.jpg", "description": "Restaurant interior and food spread — BlogTO feature photo", "verified": true },
+      { "url": "https://blogto-production2-baselayer-display.blogto.com/uploads/2022/12/23/1671826943-20221216-EstoEsColumbia-9.jpg", "description": "Colombian dish close-up from BlogTO feature", "verified": true },
+      { "url": "https://blogto-production2-baselayer-display.blogto.com/uploads/2022/12/23/1671827577-20221216-EstoEsColumbia-10.jpg", "description": "Bandeja paisa platter — Colombia's national dish", "verified": true },
+      { "url": "https://blogto-production2-baselayer-display.blogto.com/uploads/2022/12/23/1671829838-20221216-EstoEsColumbia-11.jpg", "description": "Cazuela de mariscos seafood stew", "verified": true },
+      { "url": "https://blogto-production2-baselayer-display.blogto.com/uploads/2022/12/23/1671826989-20221216-EstoEsColumbia-2.jpg", "description": "Empanadas and appetizer plate", "verified": true },
+      { "url": "https://blogto-production2-baselayer-display.blogto.com/uploads/2022/12/23/1671827049-20221216-EstoEsColumbia-4.jpg", "description": "Traditional Colombian dish presentation", "verified": true }
+    ],
+    "gallery": [
+      { "url": "https://blogto-production2-baselayer-display.blogto.com/uploads/2022/12/23/1671827095-20221216-EstoEsColumbia-20.jpg", "description": "Restaurant interior atmosphere", "verified": true },
+      { "url": "https://blogto-production2-baselayer-display.blogto.com/uploads/2022/12/23/1671827113-20221216-EstoEsColumbia-19.jpg", "description": "Dining area with Colombian decor", "verified": true }
+    ],
+    "atmosphere": [
+      { "url": "https://blogto-production2-baselayer-display.blogto.com/uploads/2022/12/23/1671827129-20221216-EstoEsColumbia-14.jpg", "description": "Restaurant storefront or interior wide shot", "verified": true },
+      { "url": "https://blogto-production2-baselayer-display.blogto.com/uploads/2022/12/23/1671827150-20221216-EstoEsColumbia-15.jpg", "description": "Bar area and Latin atmosphere", "verified": true }
+    ]
+  },
+  "people": [
+    {
+      "name": "Diana Patricia Arizala",
+      "role": "Owner & Head Chef",
+      "instagram": "estoescolombiarest",
+      "instagramUrl": "https://www.instagram.com/estoescolombiarest/",
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": "Celebrated Colombian chef from Cali, Colombia. Arrived in Canada with her four children and a dream to conquer Canada. After living in Winnipeg, she moved to Toronto and opened Esto es Colombia in 2016. She has been cooking her entire life and her passion is sharing authentic Colombian cuisine with the world.",
+      "featured": true,
+      "photoVerified": false
+    }
+  ],
+  "reviews": [
+    {
+      "source": "Google/Wanderlog",
+      "author": "David Orozco",
+      "rating": 5,
+      "text": "A little taste of Colombia here in North York! We had empanadas followed by the bandeja paisa which massive and absolutely delicious!"
+    },
+    {
+      "source": "Google/Wanderlog",
+      "author": "Carlos Castro",
+      "rating": 5,
+      "text": "I love the atmosphere like if you were in a restaurant in Medellin, Cartagena or Bogota, service is phenomenal and the food so good."
+    },
+    {
+      "source": "Google/Wanderlog",
+      "author": "Paola Vela Duarte",
+      "rating": 5,
+      "text": "The best Colombian restaurant that I've tried moment in Toronto. Place: clean, warm space where you remember things of your country."
+    },
+    {
+      "source": "Google/Wanderlog",
+      "author": "Jonathan Prias",
+      "rating": 4,
+      "text": "It's a nice spot with plenty of Colombian options. The portions are generous, and the food is good, though not outstanding in my opinion."
+    },
+    {
+      "source": "BlogTO",
+      "author": "BlogTO Editorial",
+      "rating": 5,
+      "text": "Toronto's Colombian community's go-to place for authentic and honest plates. You feel like you're in Colombia here."
+    },
+    {
+      "source": "Web Reviews Aggregate",
+      "author": "Multiple Reviewers",
+      "rating": 5,
+      "text": "The food is incredibly delicious and authentically Colombian with big portions and amazing value for money. Seafood dishes filled with high-quality seafood. Staff are friendly with Latin American hospitality."
+    }
+  ],
+  "screenshots": {
+    "desktopHome": "brand-bible/screenshots/desktop-home.png",
+    "mobileHome": "brand-bible/screenshots/mobile-home.png",
+    "innerPage": "brand-bible/screenshots/inner-page.png"
+  }
+}
