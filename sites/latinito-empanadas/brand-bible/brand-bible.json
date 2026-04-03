@@ -1,0 +1,318 @@
+{
+  "meta": {
+    "business": "Latinito Empanadas",
+    "slug": "latinito-empanadas",
+    "analyzedAt": "2026-04-02T12:00:00Z",
+    "sourcesAnalyzed": {
+      "websitePages": [
+        "https://www.latinito.ca/",
+        "https://www.latinito.ca/menu",
+        "https://www.latinito.ca/story",
+        "https://www.latinito.ca/location"
+      ],
+      "instagram": true,
+      "facebook": true,
+      "googleReviews": true,
+      "screenshotsTaken": 3
+    }
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "primary": { "hex": "#FFD700", "usage": "Logo background, empanada crust motif, badge border, primary brand color" },
+      "secondary": { "hex": "#E31B23", "usage": "Heading text (EMPANADAS, DIPS, CHURROS, COMBOS), maple leaf accent, CTA buttons, underline accents" },
+      "accent": { "hex": "#C8102E", "usage": "Darker red for hover states and combo card borders" },
+      "background": {
+        "main": { "hex": "#FFFFFF", "usage": "Page background — clean white, Squarespace default body bg" },
+        "alternate": { "hex": "#FFF8E1", "usage": "Warm cream section backgrounds for alternating content areas" },
+        "card": { "hex": "#FFFFFF", "usage": "Card surfaces, combo cards with red borders" }
+      },
+      "text": {
+        "heading": { "hex": "#E31B23" },
+        "body": { "hex": "#222222" },
+        "muted": { "hex": "#666666" },
+        "link": { "hex": "#E31B23", "hoverHex": "#C8102E" }
+      },
+      "borders": { "hex": "#E31B23", "usage": "Combo card borders, section dividers, accent lines under headings" },
+      "gradients": [],
+      "shadows": [
+        { "css": "0 2px 8px rgba(0,0,0,0.1)", "usage": "Subtle card shadows" }
+      ],
+      "overallTheme": "light-clean with bold yellow and red brand accents — bgMain source: Squarespace default white body background, confirmed via rgba(255,255,255,1) in site CSS and white page rendering across all 4 pages analyzed"
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Passion One",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap",
+        "fallback": "sans-serif",
+        "weights": [700, 900],
+        "style": "bold-display — closest Google Fonts match to Latinito's bold uppercase italic display headings (EMPANADAS, DIPS, CHURROS, COMBOS) which use a compressed, high-impact sans-serif with strong Latin flavor"
+      },
+      "bodyFont": {
+        "family": "Nunito Sans",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap",
+        "fallback": "sans-serif",
+        "weights": [300, 400, 600, 700],
+        "style": "clean-friendly — closest match to Squarespace system sans-serif stack used on site body text, warm and rounded for a family-friendly food brand"
+      },
+      "navFont": {
+        "family": "Nunito Sans",
+        "weight": 600,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.05em"
+      },
+      "scale": {
+        "h1": { "size": "3rem", "weight": 900, "lineHeight": 1.1 },
+        "h2": { "size": "2.25rem", "weight": 700, "lineHeight": 1.2 },
+        "h3": { "size": "1.5rem", "weight": 700, "lineHeight": 1.3 },
+        "body": { "size": "1rem", "weight": 400, "lineHeight": 1.6 },
+        "small": { "size": "0.875rem", "weight": 400, "lineHeight": 1.5 }
+      }
+    },
+    "spacing": {
+      "sectionPadding": "80px",
+      "contentMaxWidth": "1200px",
+      "cardGap": "24px",
+      "borderRadius": {
+        "buttons": "8px",
+        "cards": "12px",
+        "images": "8px"
+      }
+    },
+    "components": {
+      "header": {
+        "position": "sticky",
+        "background": "solid",
+        "logoPosition": "left",
+        "navAlignment": "right",
+        "mobileMenu": "hamburger-dropdown",
+        "height": "72px"
+      },
+      "hero": {
+        "type": "full-bleed-image",
+        "overlay": { "color": "rgba(0,0,0,0.4)", "gradient": "none" },
+        "textAlignment": "center",
+        "ctaStyle": "prominent-button"
+      },
+      "buttons": {
+        "primary": {
+          "bg": "#E31B23",
+          "text": "#FFFFFF",
+          "border": "none",
+          "borderRadius": "8px",
+          "padding": "14px 32px",
+          "fontWeight": 700,
+          "textTransform": "uppercase",
+          "hoverEffect": "darken"
+        },
+        "secondary": {
+          "bg": "transparent",
+          "text": "#E31B23",
+          "border": "2px solid #E31B23",
+          "hoverEffect": "fill"
+        }
+      },
+      "cards": {
+        "background": "#FFFFFF",
+        "border": "2px solid #E31B23",
+        "borderRadius": "12px",
+        "shadow": "soft",
+        "hoverEffect": "lift"
+      },
+      "footer": {
+        "background": "#222222",
+        "columns": 3,
+        "style": "dark-inverse"
+      },
+      "images": {
+        "borderRadius": "8px",
+        "aspectRatio": "4:3",
+        "hoverEffect": "zoom",
+        "filter": "none"
+      }
+    },
+    "animations": {
+      "pageTransitions": "none",
+      "scrollAnimations": "fade-up",
+      "hoverTransitions": "0.2s ease",
+      "loadingStyle": "none"
+    }
+  },
+  "brandVoice": {
+    "personality": ["warm", "family-friendly", "proud", "inviting", "authentic"],
+    "tone": "casual",
+    "vocabulary": {
+      "wordsTheyUse": ["delicious", "authentic", "fresh", "homemade", "Latin American", "empanadas", "pastries", "quality", "unique"],
+      "wordsTheyAvoid": ["gourmet", "artisan", "fine dining", "upscale", "molecular"],
+      "industryJargon": ["empanadas", "churros", "chimichurri", "dulce de leche", "halal", "sazon", "picante"]
+    },
+    "messagingPatterns": {
+      "headlines": "Short and punchy — bold uppercase single words or short phrases",
+      "ctas": "Direct command — Order Now, Come Try Something New",
+      "descriptions": "Benefit-focused — emphasizing freshness, daily preparation, and authenticity"
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "tone": "casual-enthusiastic",
+        "emojiUsage": "moderate",
+        "hashtagStyle": "community",
+        "captionLength": "short",
+        "sampleCaptions": [
+          "So Good, One Just Isn't Enough!",
+          "Come Try Something New! We welcome everyone to visit our takeout spot at 860 North Park Dr. in Brampton",
+          "Try our CLASSIC CHURROS paired with our homemade dipping sauces!"
+        ]
+      },
+      "facebook": {
+        "tone": "warm-inviting",
+        "postStyle": "conversational"
+      }
+    },
+    "customerPerception": {
+      "commonPraise": [
+        "hidden gem in Brampton",
+        "amazing empanadas",
+        "best in the Greater Toronto Area",
+        "friendly service",
+        "hot and crispy"
+      ],
+      "vibeDescriptors": [
+        "welcoming",
+        "authentic",
+        "family-run",
+        "affordable",
+        "fresh"
+      ],
+      "emotionalAssociations": [
+        "comfort food",
+        "discovery and excitement",
+        "Latin American warmth",
+        "Canadian-Latin fusion pride"
+      ]
+    }
+  },
+  "contentStrategy": {
+    "primaryCTA": "Order Now",
+    "valueProposition": "Fresh, authentic South American empanadas made daily in Brampton — introducing Latin American comfort food to Canada since 2020",
+    "keyMessages": [
+      "So Good, One Just Isn't Enough!",
+      "Fresh dough made daily, cooked to order",
+      "Halal beef and chicken options available",
+      "Catering for events — trusted by SickKids, Toyota, Cargill"
+    ],
+    "contentPriority": ["menu", "story", "location", "reviews", "catering"],
+    "imageStrategy": {
+      "primarySubjects": "food products — empanadas, churros, dips, combos",
+      "mood": "bright and appetizing",
+      "colorTemperature": "warm",
+      "composition": "product close-ups on white backgrounds, infographic-style menu boards"
+    }
+  },
+  "images": {
+    "hero": "https://images.squarespace-cdn.com/content/v1/5ff4c4650debdf5d1feff481/eb9249be-9ac6-4dd1-b8cd-002972440a95/LAST+LAST+LAST+STORY+PAGE.png",
+    "logo": "https://images.squarespace-cdn.com/content/v1/5ff4c4650debdf5d1feff481/3c4ef3fa-6386-423b-973c-618e6e64c801/SUPER+FINAL+LOGO+CIRCLE.png",
+    "food": [
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/5ff4c4650debdf5d1feff481/bc593b1d-86eb-4439-b207-a4ed82cb1fd2/Screenshot+2023-09-12+234217.png",
+        "description": "Empanadas menu board — all 8 varieties (Carne, Pollo, Chorizo, Tuna Cheddar, Ham Swiss, Corn Havarti, Queso, Veggie Sazon) with cross-section photos and prices",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/5ff4c4650debdf5d1feff481/ae300142-ad78-42b2-835d-d515486a8cf5/DIPS+V2.png",
+        "description": "Dipping sauces menu — Latino, Chimichurri, Picante, Chipotle Lime, Chocolate, Dulce de Leche at $0.75 each",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/5ff4c4650debdf5d1feff481/cb66803d-3fe7-45e5-b70b-172a9236736d/churros+website.png",
+        "description": "Churros menu — Cinnamon, Vanilla, Coconut flavors with pricing (Single $1.99, Triple $5.49, Dozen $19.99)",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/5ff4c4650debdf5d1feff481/329bcca2-ece0-46a3-8aa3-669757baf6b9/Screenshot+2023-09-12+221642.png",
+        "description": "Combo deals menu board — 6 combo options from $9.99 to $52.99 Fiesta pack",
+        "verified": true
+      }
+    ],
+    "gallery": [],
+    "atmosphere": [
+      {
+        "url": "https://static1.squarespace.com/static/5ff4c4650debdf5d1feff481/t/611afc8aef102d31359a7ee4/1742007030066/",
+        "description": "Location/storefront image from location page",
+        "verified": true
+      }
+    ]
+  },
+  "people": [
+    {
+      "name": "Matthew",
+      "role": "Founder & Owner",
+      "instagram": "latinito.ca",
+      "instagramUrl": "https://www.instagram.com/latinito.ca/",
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": "Matthew has enjoyed cooking and watching his mother prepare many South American dishes since he was a child. His favourite food has always been empanadas, and the thought that many people in Ontario have never even heard of them inspired him to start an empanada business.",
+      "featured": true,
+      "photoVerified": false
+    },
+    {
+      "name": "Graciela",
+      "role": "Co-Founder (Matthew's mother)",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": "Graciela moved to Canada from Paraguay. She inspired Matthew's love of South American cuisine and together they made Latinito Empanadas a reality.",
+      "featured": true,
+      "photoVerified": false
+    }
+  ],
+  "reviews": [
+    {
+      "text": "The empanadas were amazing, fresh ingredients. Try every empanada you will not be disappointed.",
+      "source": "Google Reviews"
+    },
+    {
+      "text": "A friend brought me to Latinito Empanadas, saying they were one of the best in the Greater Toronto Area. After trying them, I have to agree!",
+      "reviewer": "Rach",
+      "rating": 5,
+      "source": "Wanderlog"
+    },
+    {
+      "text": "The empanadas are fried per order, so they come out hot and crispy. I am truly in love with their Corn Havarti empanadas, and their chimichurri salsa is delicious, adding a tangy and fresh flavor. I will definitely come back, and I will be telling all my friends about this hidden gem in Brampton.",
+      "source": "Google Reviews"
+    },
+    {
+      "text": "Decided to uber eats some empanadas on a night in and we were obsessed with how AMAZING they tasted!!!!",
+      "reviewer": "Ishani Ranasinghe",
+      "rating": 5,
+      "source": "Wanderlog"
+    },
+    {
+      "text": "This place is a hidden gem in Brampton. We went for ice cream next door and thought we should try it.",
+      "reviewer": "Helen Tran-Tran",
+      "rating": 5,
+      "source": "Wanderlog"
+    },
+    {
+      "text": "My first time having empanadas and they were AMAZING! Loved the quick service and the many options to choose from.",
+      "reviewer": "Raeesah Chowdhury",
+      "rating": 5,
+      "source": "Wanderlog"
+    },
+    {
+      "text": "Great empanadas, would recommend and will come back, beef is good and all other options we tried were great.",
+      "reviewer": "Yassin Mahboub",
+      "rating": 5,
+      "source": "Wanderlog"
+    }
+  ],
+  "screenshots": {
+    "desktopHome": "brand-bible/screenshots/desktop-home.png",
+    "mobileHome": "brand-bible/screenshots/mobile-home.png",
+    "innerPage": "brand-bible/screenshots/inner-page.png"
+  },
+  "archetype": {
+    "type": "location-first",
+    "rationale": "Latinito is a takeout empanada shop where foot traffic and neighborhood identity matter — menu, hours, and address are the primary conversion drivers. Content priority leads with menu.",
+    "sectionOrder": ["hero", "menu", "about", "gallery", "reviews", "location", "contact"]
+  }
+}
