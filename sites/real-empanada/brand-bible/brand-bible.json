@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "business": "Real Empanada",
+    "slug": "real-empanada",
+    "analyzedAt": "2026-04-02T12:00:00Z",
+    "sourcesAnalyzed": {
+      "websitePages": [
+        "https://realempanada.com/",
+        "https://realempanada.com/the-real-empanada-story",
+        "https://realempanada.com/empanada-beaches-location",
+        "https://realempanada.com/contact"
+      ],
+      "instagram": true,
+      "facebook": true,
+      "googleReviews": true,
+      "screenshotsTaken": 3
+    }
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "primary": { "hex": "#31a16e", "usage": "Accent green — CTAs, highlights, fresh/natural feel" },
+      "secondary": { "hex": "#ee9982", "usage": "Coral/salmon accent — WordPress theme accent, warm highlight" },
+      "tertiary": { "hex": "#dd9933", "usage": "Gold/amber — section overlays, premium feel" },
+      "background": {
+        "main": { "hex": "#fffceb", "usage": "Page background — warm cream, found in body CSS" },
+        "alternate": { "hex": "#ffffff", "usage": "Card and section backgrounds" },
+        "card": { "hex": "#ffffff", "usage": "Elevated card surfaces" },
+        "dark": { "hex": "#253544", "usage": "Footer and dark sections" }
+      },
+      "text": {
+        "heading": { "hex": "#263341", "usage": "Dark navy — menu and heading text" },
+        "body": { "hex": "#35485d", "usage": "Slightly lighter navy for body copy" },
+        "muted": { "hex": "#abb8c3", "usage": "Cyan-bluish-gray — subdued text" },
+        "link": { "hex": "#31a16e", "hoverHex": "#28855a" },
+        "light": { "hex": "#ffffff", "usage": "Text on dark backgrounds" }
+      },
+      "borders": { "hex": "#abb8c3", "usage": "Subtle gray borders and dividers" },
+      "gradients": [
+        { "css": "linear-gradient(rgba(0,0,0,0.42), rgba(0,0,0,0.66))", "usage": "Hero image overlay" },
+        { "css": "linear-gradient(rgba(221,153,51,0.5), rgba(221,181,51,0.32))", "usage": "Gold accent section overlay" }
+      ],
+      "shadows": [
+        { "css": "0 4px 12px rgba(0,0,0,0.1)", "usage": "Cards, dropdowns" }
+      ],
+      "overallTheme": "warm-earthy — cream page background (#fffceb from body CSS), dark navy footer (#253544), warm gold and coral accents. CSS evidence: body background-color: #fffceb found in site stylesheet, preloader background: #fffcec"
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Averia Sans Libre",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@400;700&display=swap",
+        "fallback": "sans-serif",
+        "weights": [400, 700],
+        "style": "friendly handwritten-feel sans-serif — warm and approachable"
+      },
+      "bodyFont": {
+        "family": "Nunito Sans",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap",
+        "originalSiteFont": "Brandon Grotesque (Adobe/Typekit — not available on Google Fonts)",
+        "closestGoogleMatch": "Nunito Sans — similar geometric humanist proportions and warmth to Brandon Grotesque",
+        "fallback": "sans-serif",
+        "weights": [300, 400, 500, 600],
+        "style": "clean geometric humanist sans-serif — readable and modern"
+      },
+      "navFont": {
+        "family": "Averia Sans Libre",
+        "weight": 700,
+        "textTransform": "none",
+        "letterSpacing": "normal"
+      },
+      "scale": {
+        "h1": { "size": "3rem", "weight": 700, "lineHeight": 1.2 },
+        "h2": { "size": "2rem", "weight": 700, "lineHeight": 1.3 },
+        "h3": { "size": "1.5rem", "weight": 600, "lineHeight": 1.4 },
+        "body": { "size": "1rem", "weight": 400, "lineHeight": 1.6 },
+        "small": { "size": "0.875rem", "weight": 400, "lineHeight": 1.5 }
+      }
+    },
+    "spacing": {
+      "sectionPadding": "80px",
+      "contentMaxWidth": "1200px",
+      "cardGap": "24px",
+      "borderRadius": {
+        "buttons": "8px",
+        "cards": "12px",
+        "images": "8px"
+      }
+    },
+    "components": {
+      "header": {
+        "position": "sticky",
+        "background": "solid-cream",
+        "logoPosition": "left",
+        "navAlignment": "right",
+        "mobileMenu": "hamburger-dropdown",
+        "height": "80px"
+      },
+      "hero": {
+        "type": "full-bleed-image",
+        "overlay": { "color": "rgba(0,0,0,0.5)", "gradient": "linear-gradient(rgba(0,0,0,0.42), rgba(0,0,0,0.66))" },
+        "textAlignment": "center",
+        "ctaStyle": "prominent-button"
+      },
+      "buttons": {
+        "primary": {
+          "bg": "#31a16e",
+          "text": "#ffffff",
+          "border": "none",
+          "borderRadius": "8px",
+          "padding": "14px 28px",
+          "fontWeight": 700,
+          "textTransform": "uppercase",
+          "hoverEffect": "darken"
+        },
+        "secondary": {
+          "bg": "transparent",
+          "text": "#31a16e",
+          "border": "2px solid #31a16e",
+          "hoverEffect": "fill"
+        }
+      },
+      "cards": {
+        "background": "#ffffff",
+        "border": "none",
+        "borderRadius": "12px",
+        "shadow": "soft",
+        "hoverEffect": "lift"
+      },
+      "footer": {
+        "background": "#253544",
+        "columns": 3,
+        "style": "dark-inverse"
+      },
+      "images": {
+        "borderRadius": "8px",
+        "aspectRatio": "4:3",
+        "hoverEffect": "zoom",
+        "filter": "slight-saturation-boost"
+      }
+    },
+    "animations": {
+      "pageTransitions": "none",
+      "scrollAnimations": "fade-up",
+      "hoverTransitions": "0.3s ease-in-out",
+      "loadingStyle": "spinner"
+    }
+  },
+  "brandVoice": {
+    "personality": ["authentic", "family-oriented", "warm", "proud", "approachable"],
+    "tone": "warm-casual",
+    "vocabulary": {
+      "wordsTheyUse": ["authentic", "Colombian", "Mama's", "gluten-free", "halal", "wholesome", "fresh", "real", "handmade", "family"],
+      "wordsTheyAvoid": ["artisan", "gourmet", "upscale", "fine-dining", "fusion"],
+      "industryJargon": ["empanada", "salsa", "paleta", "chicharron", "chorripapa", "carnitas"]
+    },
+    "messagingPatterns": {
+      "headlines": "Short and proud — emphasizing authenticity and Colombian heritage",
+      "ctas": "Direct command — ORDER NOW, Click to Call, Get Directions",
+      "descriptions": "Benefit-focused with heritage storytelling"
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "handle": "realempanadaco",
+        "tone": "warm, proud, community-focused",
+        "emojiUsage": "moderate",
+        "hashtagStyle": "community",
+        "captionLength": "medium",
+        "sampleCaptions": [
+          "100% Authentic Colombian Empanadas — Gluten-Free, Crispy and Halal",
+          "Mama's Signature Salsa with every order"
+        ]
+      },
+      "facebook": {
+        "handle": "realempanadaco",
+        "tone": "conversational, community-oriented",
+        "postStyle": "promotional and conversational"
+      }
+    },
+    "customerPerception": {
+      "commonPraise": [
+        "Absolutely delicious, flavorful, and fresh",
+        "The cheese was soft and the dough wasn't too dry or too greasy",
+        "The salsas are super fresh",
+        "Simple, easy, tasty food, norm price, good people",
+        "Well-stuffed empanadas with good tasting filling",
+        "Terrific empanadas and amazing homemade salsa",
+        "A Colombian uncle brought these and I haven't stopped thinking about them"
+      ],
+      "vibeDescriptors": ["homey", "family-run", "authentic", "friendly", "welcoming"],
+      "emotionalAssociations": ["nostalgia", "home cooking", "family gathering", "Colombian pride"]
+    }
+  },
+  "contentStrategy": {
+    "primaryCTA": "Order Now",
+    "valueProposition": "100% authentic Colombian empanadas — gluten-free, halal, handmade with Mama's signature recipe",
+    "keyMessages": [
+      "Family recipe perfected over decades since Richard's parents' restaurant Motivos",
+      "Gluten-free, halal, and made with fresh locally sourced ingredients",
+      "Available hot and fresh, frozen for home, wholesale, and delivery"
+    ],
+    "contentPriority": ["menu", "story", "locations", "reviews", "ordering"],
+    "imageStrategy": {
+      "primarySubjects": "food products and storefront",
+      "mood": "bright and warm",
+      "colorTemperature": "warm",
+      "composition": "close-ups of food, storefront shots"
+    }
+  },
+  "images": {
+    "hero": "https://realempanada.com/wp-content/uploads/2020/06/colombian-Empanadas.jpg",
+    "logo": "https://realempanada.com/wp-content/uploads/2020/06/real-empanda-log.png",
+    "food": [
+      { "url": "https://realempanada.com/wp-content/uploads/2025/07/empanada-variety-pack.jpg", "description": "Empanada variety pack — assorted beef, chicken, cheese empanadas", "verified": true },
+      { "url": "https://realempanada.com/wp-content/uploads/2025/07/Chicharron-on-the-b-q.png", "description": "BBQ chicharron/pork belly on the grill", "verified": true },
+      { "url": "https://realempanada.com/wp-content/uploads/2025/07/chicharron-pork-belly-and-empanada-special.jpg", "description": "Chicharron pork belly and empanada special platter", "verified": true },
+      { "url": "https://realempanada.com/wp-content/uploads/2020/06/empanada-at-fresh.jpg", "description": "Fresh empanadas ready to serve", "verified": true },
+      { "url": "https://realempanada.com/wp-content/uploads/2020/06/empanada-at-home.jpg", "description": "Empanadas prepared at home", "verified": true },
+      { "url": "https://realempanada.com/wp-content/uploads/2025/07/5-POPCYCLE-FLAVOURS.jpg", "description": "Tropical paletas/popsicles in five flavours", "verified": true },
+      { "url": "https://realempanada.com/wp-content/uploads/2025/07/Salsa-jars.png", "description": "Mama's Signature Salsa jars lineup", "verified": true }
+    ],
+    "gallery": [
+      { "url": "https://realempanada.com/wp-content/uploads/2020/06/1580150851-20200125-RealEmpanadaCo7.jpg", "description": "Real Empanada food spread and preparation", "verified": true }
+    ],
+    "atmosphere": [
+      { "url": "https://realempanada.com/wp-content/uploads/2025/07/Beaches-store-front.jpg", "description": "Beaches location storefront", "verified": true },
+      { "url": "https://realempanada.com/wp-content/uploads/2025/07/Empanada-storefront.jpg", "description": "Real Empanada storefront exterior", "verified": true },
+      { "url": "https://realempanada.com/wp-content/uploads/2022/03/realempanada-east-end-1.jpeg", "description": "East end location exterior", "verified": true }
+    ]
+  },
+  "people": [
+    {
+      "name": "Richard Porras",
+      "role": "Founder & Owner",
+      "instagram": "realempanadaco",
+      "instagramUrl": "https://www.instagram.com/realempanadaco/",
+      "profilePhotoUrl": "https://beachmetro.com/wp-content/uploads/2024/09/web-Real-Empanada-pic-0217.jpg",
+      "portfolioPhotos": [],
+      "bio": "Richard grew up in his parents' family restaurant Motivos. At age 13 he created a fusion empanada recipe that became the house favourite. After his parents closed the restaurant in 2012, he left corporate life on Bay Street in 2017 to follow his cooking passion, launching Real Empanada at farmer's markets before opening his first brick-and-mortar at 825 Dundas St. W in 2019.",
+      "featured": true,
+      "photoVerified": true
+    }
+  ],
+  "archetype": {
+    "type": "location-first",
+    "rationale": "Real Empanada is a restaurant/food manufacturer with multiple locations, farmers market presence, and strong neighbourhood identity — foot traffic, hours, and local community are key drivers",
+    "sectionOrder": ["hero", "menu", "story", "gallery", "reviews", "locations", "contact"]
+  },
+  "screenshots": {
+    "desktopHome": "brand-bible/screenshots/desktop-home.png",
+    "mobileHome": "brand-bible/screenshots/mobile-home.png",
+    "innerPage": "brand-bible/screenshots/inner-page.png"
+  }
+}
