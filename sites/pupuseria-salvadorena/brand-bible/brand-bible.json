@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "business": "Pupuseria Salvadorena & Authentic Mexican Foods",
+    "slug": "pupuseria-salvadorena",
+    "analyzedAt": "2026-04-02T18:00:00Z",
+    "sourcesAnalyzed": {
+      "websitePages": [
+        "https://pupuseriasalvadorenamexicanfoodson.com/",
+        "https://pupuseriasalvadorenamexicanfoodson.com/#location",
+        "https://pupuseriasalvadorenamexicanfoodson.com/#contact",
+        "https://pupuseriasalvadorenamexicanfoodson.com/pupuseria-salvadorena--mexican-foods/"
+      ],
+      "instagram": true,
+      "facebook": false,
+      "googleReviews": true,
+      "screenshotsTaken": 3
+    }
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "primary": { "hex": "#990000", "usage": "Primary accent, CTA buttons, heading emphasis — deep maroon/crimson from site" },
+      "secondary": { "hex": "#FFD700", "usage": "Secondary accent, highlights, warm gold complement to maroon" },
+      "background": {
+        "main": { "hex": "#FFFFFF", "usage": "Page background — light theme confirmed from site body" },
+        "alternate": { "hex": "#FFF8F0", "usage": "Alternating sections — warm off-white" },
+        "card": { "hex": "#FEFEFE", "usage": "Card/elevated surfaces — near-white from modal background" }
+      },
+      "text": {
+        "heading": { "hex": "#2A2A2A", "usage": "Primary heading color from border/text styling" },
+        "body": { "hex": "#333333", "usage": "Body text — dark gray from navbar and text areas" },
+        "muted": { "hex": "#888888", "usage": "Muted/secondary text from modal borders" },
+        "link": { "hex": "#990000", "hoverHex": "#CC0000" }
+      },
+      "borders": { "hex": "#2A2A2A", "usage": "Dividers, card borders" },
+      "gradients": [
+        { "css": "linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.3))", "usage": "Hero banner overlay" }
+      ],
+      "shadows": [
+        { "css": "0 2px 8px rgba(0,0,0,0.15)", "usage": "Cards, nav dropdown" }
+      ],
+      "overallTheme": "warm-earthy — light background with deep maroon (#990000) accents. bgMain source: body background defaults to white, no dark body CSS rule found. Banner uses rgba(0,0,0,0.7) overlay on hero image only. Inline styles use #333 navbar bg for header only."
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Bitter",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Bitter:wght@400;600;700&display=swap",
+        "fallback": "serif",
+        "weights": [400, 600, 700],
+        "style": "warm traditional serif — matches the earthy Salvadoran restaurant feel. Unidentified font on original site (no Google Fonts link detected, no @font-face). Closest Google Fonts match: Bitter because it conveys warmth and tradition, pairs well with Latin American cuisine branding."
+      },
+      "bodyFont": {
+        "family": "Nunito",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap",
+        "fallback": "sans-serif",
+        "weights": [300, 400, 600, 700],
+        "style": "friendly rounded sans-serif — approachable and warm. Closest match for the site's system sans-serif stack."
+      },
+      "navFont": {
+        "family": "Nunito",
+        "weight": 600,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.05em"
+      },
+      "scale": {
+        "h1": { "size": "3rem", "weight": 700, "lineHeight": 1.2 },
+        "h2": { "size": "2rem", "weight": 600, "lineHeight": 1.3 },
+        "h3": { "size": "1.5rem", "weight": 600, "lineHeight": 1.4 },
+        "body": { "size": "1rem", "weight": 400, "lineHeight": 1.6 },
+        "small": { "size": "0.875rem", "weight": 400, "lineHeight": 1.5 }
+      }
+    },
+    "spacing": {
+      "sectionPadding": "80px",
+      "contentMaxWidth": "1200px",
+      "cardGap": "24px",
+      "borderRadius": {
+        "buttons": "8px",
+        "cards": "12px",
+        "images": "8px"
+      }
+    },
+    "components": {
+      "header": {
+        "position": "sticky",
+        "background": "solid",
+        "logoPosition": "left",
+        "navAlignment": "right",
+        "mobileMenu": "hamburger-dropdown",
+        "height": "72px"
+      },
+      "hero": {
+        "type": "full-bleed-image",
+        "overlay": { "color": "rgba(0,0,0,0.6)", "gradient": "linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.3))" },
+        "textAlignment": "center",
+        "ctaStyle": "prominent-button"
+      },
+      "buttons": {
+        "primary": {
+          "bg": "#990000",
+          "text": "#FFFFFF",
+          "border": "none",
+          "borderRadius": "8px",
+          "padding": "12px 28px",
+          "fontWeight": 700,
+          "textTransform": "uppercase",
+          "hoverEffect": "darken"
+        },
+        "secondary": {
+          "bg": "transparent",
+          "text": "#990000",
+          "border": "2px solid #990000",
+          "hoverEffect": "fill"
+        }
+      },
+      "cards": {
+        "background": "#FEFEFE",
+        "border": "1px solid #E5E5E5",
+        "borderRadius": "12px",
+        "shadow": "soft",
+        "hoverEffect": "lift"
+      },
+      "footer": {
+        "background": "#2A2A2A",
+        "columns": 3,
+        "style": "dark-inverse"
+      },
+      "images": {
+        "borderRadius": "8px",
+        "aspectRatio": "4:3",
+        "hoverEffect": "zoom",
+        "filter": "slight-saturation-boost"
+      }
+    },
+    "animations": {
+      "pageTransitions": "none",
+      "scrollAnimations": "none",
+      "hoverTransitions": "0.2s ease",
+      "loadingStyle": "none"
+    }
+  },
+  "brandVoice": {
+    "personality": ["authentic", "family-run", "warm", "welcoming", "traditional"],
+    "tone": "casual",
+    "vocabulary": {
+      "wordsTheyUse": ["authentic", "pupusas", "Salvadoran", "Mexican", "tamales", "order online", "promo code"],
+      "wordsTheyAvoid": ["gourmet", "artisan", "fusion", "molecular", "elevated"],
+      "industryJargon": ["pupusas", "curtido", "chicharron", "yuca", "horchata", "tamarindo", "jamaica", "loroco"]
+    },
+    "messagingPatterns": {
+      "headlines": "Direct and simple — business name + category",
+      "ctas": "Direct command — Order Online, Call Us",
+      "descriptions": "Feature-focused with authenticity emphasis"
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "tone": "casual and warm, community-focused",
+        "emojiUsage": "moderate",
+        "hashtagStyle": "community",
+        "captionLength": "short",
+        "sampleCaptions": [
+          "dedicated to bringing authentic and delicious pupusas to the Area",
+          "Come try our famous pupusas! Best in the city"
+        ]
+      },
+      "facebook": {
+        "tone": "casual",
+        "postStyle": "promotional"
+      }
+    },
+    "customerPerception": {
+      "commonPraise": [
+        "Delicious pupusas",
+        "Authentic Salvadoran food",
+        "Reminds me of home",
+        "Reasonably priced",
+        "Favourite spot for pupusas"
+      ],
+      "vibeDescriptors": [
+        "authentic",
+        "welcoming",
+        "cozy",
+        "family-owned",
+        "hidden gem"
+      ],
+      "emotionalAssociations": [
+        "nostalgia for home cooking",
+        "warmth and comfort",
+        "discovery of hidden gem",
+        "affordable indulgence"
+      ]
+    }
+  },
+  "contentStrategy": {
+    "primaryCTA": "Order Online",
+    "valueProposition": "Authentic Salvadoran pupusas and Mexican favorites, made with traditional recipes in the heart of North York",
+    "keyMessages": [
+      "Authentic Salvadoran and Mexican cuisine since day one",
+      "Handmade pupusas — the real taste of El Salvador in Toronto",
+      "Open 7 days a week with extended hours on weekends"
+    ],
+    "contentPriority": ["menu", "location", "reviews", "hours", "ordering"],
+    "imageStrategy": {
+      "primarySubjects": "food photos — pupusas, tamales, tacos, platters",
+      "mood": "warm and inviting",
+      "colorTemperature": "warm",
+      "composition": "close-ups and plated dishes"
+    }
+  },
+  "images": {
+    "hero": "https://d2gqo3h0psesgi.cloudfront.net/auto/pupuseria-salvadorena--mexican-foods-26zn94bv-banner.jpg",
+    "logo": "https://d2gqo3h0psesgi.cloudfront.net/auto/pupuseria-salvadorena--mexican-foods-cp6l9mfz-logo.png",
+    "food": [
+      { "url": "https://d2gqo3h0psesgi.cloudfront.net/auto/pupuseria-salvadorena--mexican-foods-rjldtbf5-food1.jpg", "description": "Pupusas platter — signature dish", "verified": true },
+      { "url": "https://d2gqo3h0psesgi.cloudfront.net/auto/pupuseria-salvadorena--mexican-foods-4ndl7y6s-food2.jpg", "description": "Traditional Mexican food plate", "verified": true },
+      { "url": "https://d2gqo3h0psesgi.cloudfront.net/auto/pupuseria-salvadorena--mexican-foods-2qb974gz-food3.jpg", "description": "Authentic Salvadoran dish", "verified": true },
+      { "url": "https://itin-dev.wanderlogstatic.com/freeImage/G8zMs0wEn3t86LKh1xZN1rcNDj5Fre2U", "description": "Beef soup — sopa de res", "verified": true },
+      { "url": "https://itin-dev.wanderlogstatic.com/freeImage/ucvqSw90CGK3gd48xh7hRt9XIThIMVLO", "description": "Pupusa close-up from customer photo", "verified": true }
+    ],
+    "gallery": [
+      { "url": "https://itin-dev.wanderlogstatic.com/freeImage/FqNAGbustgz3GkG4jhC3B51gvmy0YeQ8", "description": "Restaurant exterior/storefront", "verified": true },
+      { "url": "https://itin-dev.wanderlogstatic.com/freeImage/0oeMowCec7GnDcqMYDmf0uFpepcYmqHX", "description": "Interior dining area", "verified": true }
+    ],
+    "atmosphere": [
+      { "url": "https://itin-dev.wanderlogstatic.com/freeImage/FqNAGbustgz3GkG4jhC3B51gvmy0YeQ8", "description": "Storefront on Finch Ave", "verified": true }
+    ]
+  },
+  "people": [
+    {
+      "name": "Owner (unnamed)",
+      "role": "Owner",
+      "instagram": "pupuseria_salvadorena07",
+      "instagramUrl": "https://www.instagram.com/pupuseria_salvadorena07/",
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": "Dedicated to bringing authentic and delicious pupusas to the Area. Owner-operated Salvadoran restaurant on Finch Ave W in North York.",
+      "featured": true,
+      "photoVerified": false
+    }
+  ],
+  "screenshots": {
+    "desktopHome": "brand-bible/screenshots/desktop-home.png",
+    "mobileHome": "brand-bible/screenshots/mobile-home.png",
+    "innerPage": "brand-bible/screenshots/inner-page.png"
+  },
+  "archetype": {
+    "type": "location-first",
+    "rationale": "Salvadoran restaurant where foot traffic, neighbourhood identity, and hours/location matter most — menu items and food photos lead, followed by reviews and map",
+    "sectionOrder": ["hero", "featured-dishes", "about", "gallery", "reviews", "map-hours", "contact"]
+  }
+}
