@@ -1,0 +1,172 @@
+{
+  "business": {
+    "name": "Niro Tharmakulasingam - RE/MAX Community Realty",
+    "legalName": "Remax Community Real Estate Services Ltd.",
+    "brokerage": "RE/MAX Community Realty Inc. Brokerage",
+    "agent": "Niro Tharmakulasingam",
+    "title": "Broker",
+    "licenseNumber": "4797081",
+    "industry": "Real Estate Agent",
+    "yearsExperience": 9,
+    "languages": ["English", "Tamil"],
+    "website": "https://www.realtorniro.com/",
+    "email": "contact@realtorniro.com",
+    "phone": "647-244-9878",
+    "officePhone": "(416) 287-2222",
+    "address": {
+      "street": "1265 Morningside Ave, Suite 203",
+      "city": "Scarborough",
+      "province": "ON",
+      "postalCode": "M1B 3V9",
+      "country": "Canada"
+    },
+    "hours": {
+      "weekdays": "Mon-Fri 08:00 AM - 08:00 PM",
+      "weekends": "By appointment",
+      "note": "Also states 24 hours 7 days a week"
+    }
+  },
+  "services": [
+    {
+      "name": "Home Buying",
+      "description": "Full-service buyer representation including first-time homebuyers, helping find properties that exceed expectations"
+    },
+    {
+      "name": "Home Selling",
+      "description": "Strategic marketing through internet, social media, MLS to maximize sale price. First-time seller support included."
+    },
+    {
+      "name": "Investment Properties",
+      "description": "Investment property analysis and acquisition assistance"
+    },
+    {
+      "name": "Home Staging",
+      "description": "Professional full-range home staging services to make properties look their best during sales without renovation costs"
+    },
+    {
+      "name": "Real Estate Appraisal",
+      "description": "Assistance with property appraisal reports for purchasing or refinancing"
+    },
+    {
+      "name": "Mortgage Assistance",
+      "description": "Team of mortgage brokers providing free consultations for mortgage questions"
+    },
+    {
+      "name": "Second Mortgage & Refinancing",
+      "description": "Second mortgage services and refinancing/purchase assistance"
+    },
+    {
+      "name": "Comparative Market Analysis",
+      "description": "Free home evaluation and comparative market analysis"
+    },
+    {
+      "name": "Digital Transaction Management",
+      "description": "Faster transactions using DocuSign Rooms technology"
+    }
+  ],
+  "areasServed": [
+    "Toronto", "Markham", "Scarborough", "Vaughan", "Ajax", "Pickering",
+    "Brampton", "Mississauga", "Etobicoke", "North York", "Newmarket", "Oshawa", "Whitby"
+  ],
+  "taglines": [
+    "Local Real Estate / Marketed Internationally",
+    "Client Focused. Results Driven.",
+    "The Right Broker Makes The Difference",
+    "Treating customers like family"
+  ],
+  "testimonials": [
+    {
+      "quote": "Niro was a referral from one of my friends and we found him to be extremely professional and experienced. We chose him to buy and sell our home and had the most amazing experience.",
+      "author": "John McCain",
+      "location": "Scarborough"
+    },
+    {
+      "quote": "By far Niro is the best Professional Realtor in GTA! He works hard for his clients and he never gives up until the best results are achieved.",
+      "author": "Taylor Quinn",
+      "location": "Pickering"
+    },
+    {
+      "quote": "It was such a pleasure working with Niro Tharmakulasingam, who seems to have all the answers for first time homebuyers. Very helpful and knowledgeable person. Good at negotiating.",
+      "author": "Verified Client",
+      "location": "GTA"
+    },
+    {
+      "quote": "Niro truly lives up to his reputation and words. He is very much knowledgeable and experienced.",
+      "author": "Ushananthy Ananthasivam",
+      "location": "Toronto",
+      "rating": 5
+    },
+    {
+      "quote": "Niro provides exceptional professional real estate service to sell our house even in a buyer's market.",
+      "author": "Tahir Hussain",
+      "location": "Toronto",
+      "rating": 5
+    },
+    {
+      "quote": "Niro Thrama is one of the best realtors in the business. He is a very professional and knowledgeable realtor.",
+      "author": "Verified Client",
+      "location": "GTA"
+    }
+  ],
+  "socialMedia": {
+    "instagram": "@realtor.niro",
+    "instagramUrl": "https://www.instagram.com/realtor.niro/",
+    "facebook": "Realtor Niro | Toronto ON",
+    "facebookUrl": "https://www.facebook.com/realtorniro/",
+    "youtube": "https://www.youtube.com/embed/kl6K2e_c4vc",
+    "note": "Social links on website are placeholder '#' URLs - not connected"
+  },
+  "ratings": {
+    "rankMyAgent": {
+      "rating": 5.0,
+      "totalReviews": 2
+    },
+    "remax": {
+      "trustedBrand": "BrandSpark Canadian Trust Study 2017-2025"
+    }
+  },
+  "tools": [
+    "Mortgage Calculator",
+    "Mortgage Affordability Calculator",
+    "CMHC Calculator",
+    "Credit Card Comparison",
+    "Land Transfer Calculator"
+  ],
+  "guides": [
+    "Buyers Guide",
+    "Sellers Guide"
+  ],
+  "blogPosts": [
+    {
+      "title": "Best & Worst Places To Live in Toronto",
+      "date": "2019-01-21"
+    },
+    {
+      "title": "Has Toronto 'Met Its Waterloo?'",
+      "date": "2019-01-23"
+    },
+    {
+      "title": "Household Debt vs. Mortgage Debt: The Good, The Bad, & The Ugly",
+      "date": "2019-01-23"
+    }
+  ],
+  "websiteAnalysis": {
+    "platform": "WordPress",
+    "theme": "Goodlayers",
+    "lastUpdated": "2019 (blog posts)",
+    "issues": [
+      "Outdated WordPress/Goodlayers theme from mid-2010s",
+      "Blog posts last updated January 2019",
+      "Social media links are placeholder '#' URLs",
+      "References demo.goodlayers.com",
+      "Cluttered multi-section homepage",
+      "Contact page map shows London UK instead of Scarborough",
+      "Some banner images are charity logos (SickKids) not real estate"
+    ]
+  },
+  "emailValidation": {
+    "csvEmail": "contact@realtorniro.com",
+    "websiteEmail": "contact@realtorniro.com",
+    "match": true
+  }
+}

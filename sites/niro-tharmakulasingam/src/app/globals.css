@@ -1,0 +1,55 @@
+/* UI REVIEW
+ * Header: navy #003B6F bg, white logo — OK
+ * Buttons: 6px radius, red #C8102E primary, navy secondary — OK
+ * Images: CSS bg fallback for broken images — OK
+ * Footer: dark navy #0A1628 contrasts with white body — OK
+ * Body pt-10: watermark banner offset present — OK
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;800&family=Open+Sans:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+:root {
+  --brand-primary: #003B6F;
+  --brand-secondary: #C8102E;
+  --brand-accent: #1A6BB5;
+  --brand-bg-main: #FFFFFF;
+  --brand-bg-alt: #F5F7FA;
+  --brand-bg-hero: #0A1628;
+  --brand-text-heading: #1A202C;
+  --brand-text-body: #4A5568;
+  --brand-text-muted: #A0AEC0;
+  --brand-text-light: #FFFFFF;
+  --brand-border: #E2E8F0;
+  --background: #FFFFFF;
+  --foreground: #4A5568;
+}
+
+@theme inline {
+  --color-brand-primary: var(--brand-primary);
+  --color-brand-secondary: var(--brand-secondary);
+  --color-brand-accent: var(--brand-accent);
+  --color-brand-bg-main: var(--brand-bg-main);
+  --color-brand-bg-alt: var(--brand-bg-alt);
+  --color-brand-bg-hero: var(--brand-bg-hero);
+  --color-brand-text-heading: var(--brand-text-heading);
+  --color-brand-text-body: var(--brand-text-body);
+  --color-brand-text-muted: var(--brand-text-muted);
+  --color-brand-text-light: var(--brand-text-light);
+  --color-brand-border: var(--brand-border);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-heading: 'Raleway', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+}
+
+body {
+  background: var(--brand-bg-main);
+  color: var(--brand-text-body);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--brand-text-heading);
+}

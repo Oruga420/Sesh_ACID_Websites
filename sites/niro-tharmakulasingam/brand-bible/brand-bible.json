@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "business": "Niro Tharmakulasingam - RE/MAX Community Realty",
+    "slug": "niro-tharmakulasingam",
+    "analyzedAt": "2026-04-04T10:00:00Z",
+    "sourcesAnalyzed": {
+      "websitePages": [
+        "https://www.realtorniro.com/",
+        "https://www.realtorniro.com/about-me",
+        "https://www.realtorniro.com/realtor-niro-services",
+        "https://www.realtorniro.com/contact",
+        "https://www.realtorniro.com/homestaging"
+      ],
+      "instagram": true,
+      "facebook": true,
+      "googleReviews": true,
+      "remaxProfile": true,
+      "rankMyAgent": true,
+      "screenshotsTaken": 2
+    }
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "primary": { "hex": "#003B6F", "usage": "Main CTA buttons, header background, nav active state — RE/MAX-adjacent navy professional blue" },
+      "secondary": { "hex": "#C8102E", "usage": "RE/MAX red accent — secondary buttons, badges, urgency elements, sale tags" },
+      "accent": { "hex": "#1A6BB5", "usage": "Links, hover states, interactive elements — lighter blue for trust" },
+      "background": {
+        "main": { "hex": "#FFFFFF", "usage": "Page background — clean white base" },
+        "alternate": { "hex": "#F5F7FA", "usage": "Alternating sections, card containers, subtle separation" },
+        "card": { "hex": "#FFFFFF", "usage": "Card surfaces with shadow for elevation" },
+        "hero": { "hex": "#0A1628", "usage": "Dark hero overlay for text readability over images" }
+      },
+      "text": {
+        "heading": { "hex": "#1A202C" },
+        "body": { "hex": "#4A5568" },
+        "muted": { "hex": "#A0AEC0" },
+        "light": { "hex": "#FFFFFF" },
+        "link": { "hex": "#1A6BB5", "hoverHex": "#003B6F" }
+      },
+      "borders": { "hex": "#E2E8F0", "usage": "Dividers, card borders, form inputs" },
+      "gradients": [
+        { "css": "linear-gradient(135deg, #003B6F 0%, #0A1628 100%)", "usage": "Hero overlay, dark sections" },
+        { "css": "linear-gradient(to right, #003B6F, #1A6BB5)", "usage": "CTA sections, accent bars" }
+      ],
+      "shadows": [
+        { "css": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)", "usage": "Cards, dropdowns" },
+        { "css": "0 10px 25px -5px rgba(0, 59, 111, 0.15)", "usage": "Elevated cards, hero CTA hover" }
+      ],
+      "overallTheme": "light-clean",
+      "bgMainSource": "Goodlayers theme default: body background is white (#FFFFFF). All section backgrounds alternate between white and very light gray. No dark theme detected. The only dark areas are the hero slider overlay and footer."
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Raleway",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;800&display=swap",
+        "fallback": "sans-serif",
+        "weights": [300, 400, 600, 700, 800],
+        "style": "modern professional — geometric sans-serif matching the clean, confident real estate brand. Goodlayers themes commonly pair with Raleway for headings."
+      },
+      "bodyFont": {
+        "family": "Open Sans",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap",
+        "fallback": "sans-serif",
+        "weights": [300, 400, 500, 600],
+        "style": "clean, highly readable — neutral professional body text"
+      },
+      "navFont": {
+        "family": "Raleway",
+        "weight": 600,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.05em"
+      },
+      "scale": {
+        "h1": { "size": "3.5rem", "weight": 700, "lineHeight": 1.15 },
+        "h2": { "size": "2.25rem", "weight": 700, "lineHeight": 1.25 },
+        "h3": { "size": "1.5rem", "weight": 600, "lineHeight": 1.35 },
+        "body": { "size": "1rem", "weight": 400, "lineHeight": 1.7 },
+        "small": { "size": "0.875rem", "weight": 400, "lineHeight": 1.5 }
+      }
+    },
+    "spacing": {
+      "sectionPadding": "96px",
+      "contentMaxWidth": "1200px",
+      "cardGap": "32px",
+      "borderRadius": {
+        "buttons": "6px",
+        "cards": "8px",
+        "images": "8px"
+      }
+    },
+    "components": {
+      "header": {
+        "position": "sticky",
+        "background": "solid",
+        "backgroundColor": "#003B6F",
+        "logoPosition": "left",
+        "navAlignment": "right",
+        "mobileMenu": "hamburger-slide",
+        "height": "72px",
+        "note": "Logo is WHITE text on transparent — header MUST be dark navy for contrast"
+      },
+      "hero": {
+        "type": "full-bleed-image",
+        "overlay": { "color": "rgba(10, 22, 40, 0.6)", "gradient": "linear-gradient(135deg, rgba(0, 59, 111, 0.8) 0%, rgba(10, 22, 40, 0.6) 100%)" },
+        "textAlignment": "left",
+        "ctaStyle": "prominent-button"
+      },
+      "buttons": {
+        "primary": {
+          "bg": "#C8102E",
+          "text": "#FFFFFF",
+          "border": "none",
+          "borderRadius": "6px",
+          "padding": "14px 32px",
+          "fontWeight": 600,
+          "textTransform": "uppercase",
+          "hoverEffect": "darken"
+        },
+        "secondary": {
+          "bg": "transparent",
+          "text": "#003B6F",
+          "border": "2px solid #003B6F",
+          "hoverEffect": "fill"
+        }
+      },
+      "cards": {
+        "background": "#FFFFFF",
+        "border": "1px solid #E2E8F0",
+        "borderRadius": "8px",
+        "shadow": "soft",
+        "hoverEffect": "lift"
+      },
+      "footer": {
+        "background": "#0A1628",
+        "columns": 4,
+        "style": "dark-inverse"
+      },
+      "images": {
+        "borderRadius": "8px",
+        "aspectRatio": "16:9",
+        "hoverEffect": "zoom",
+        "filter": "none"
+      }
+    },
+    "animations": {
+      "pageTransitions": "fade",
+      "scrollAnimations": "fade-up",
+      "hoverTransitions": "0.3s ease-in-out",
+      "loadingStyle": "none"
+    }
+  },
+  "brandVoice": {
+    "personality": ["professional", "trustworthy", "results-driven", "family-oriented", "knowledgeable"],
+    "tone": "warm-professional",
+    "vocabulary": {
+      "wordsTheyUse": ["professional", "experienced", "family", "results", "dream home", "best", "trust", "negotiation", "market exposure", "GTA", "community", "investment"],
+      "wordsTheyAvoid": ["cheap", "discount", "budget", "desperate", "problem"],
+      "industryJargon": ["MLS", "comparative market analysis", "home staging", "DocuSign", "appraisal", "refinancing", "second mortgage", "CMHC", "land transfer", "brokerage"]
+    },
+    "messagingPatterns": {
+      "headlines": "Short, confident authority statements",
+      "ctas": "Direct command with personal touch",
+      "descriptions": "Benefit-focused with trust signals"
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "tone": "professional with personal warmth",
+        "emojiUsage": "moderate",
+        "hashtagStyle": "community — #torontorealestate #scarborough #remax",
+        "captionLength": "short to medium",
+        "sampleCaptions": [
+          "Client Focused. Results Driven.",
+          "The Right Broker Makes The Difference"
+        ]
+      },
+      "facebook": {
+        "tone": "informative and professional",
+        "postStyle": "promotional and community-focused"
+      }
+    },
+    "customerPerception": {
+      "commonPraise": ["professional", "experienced", "hardworking", "knowledgeable", "helpful", "best in GTA", "good at negotiating"],
+      "vibeDescriptors": ["trustworthy", "family-like treatment", "never gives up", "exceeds expectations"],
+      "emotionalAssociations": ["confidence", "relief", "trust", "satisfaction"]
+    }
+  },
+  "contentStrategy": {
+    "primaryCTA": "Book a Free Consultation",
+    "valueProposition": "A trusted RE/MAX broker in Scarborough who treats every client like family, with 9 years of experience and a results-driven approach across the GTA.",
+    "keyMessages": [
+      "Your trusted partner in Scarborough real estate",
+      "Client focused, results driven — 9 years of GTA expertise",
+      "From first-time buyers to seasoned investors, expert guidance at every step"
+    ],
+    "contentPriority": ["services", "testimonials", "listings", "about", "contact"],
+    "imageStrategy": {
+      "primarySubjects": "properties, neighborhoods, agent portrait",
+      "mood": "bright and professional",
+      "colorTemperature": "cool-neutral",
+      "composition": "wide shots for properties, portrait for agent"
+    }
+  },
+  "images": {
+    "hero": "https://www.realtorniro.com/upload/1.jpg",
+    "logo": "https://www.realtorniro.com/upload/logo.png",
+    "gallery": [
+      { "url": "https://www.realtorniro.com/upload/staging/1.jpg", "description": "Staged property - bungalow with double garage in Scarborough", "verified": true },
+      { "url": "https://www.realtorniro.com/upload/hp2-service-1.jpg", "description": "Modern condo buildings skyline", "verified": true },
+      { "url": "https://www.realtorniro.com/upload/hp2-service-2.jpg", "description": "Key handover - closing deal moment", "verified": true },
+      { "url": "https://www.realtorniro.com/upload/hp2-service-3.jpg", "description": "Business handshake - professional deal closing", "verified": true },
+      { "url": "https://www.realtorniro.com/upload/hp2-service-4.jpg", "description": "Financial planning with cashbook and pen", "verified": true },
+      { "url": "https://www.realtorniro.com/upload/Toronto.jpg", "description": "Toronto skyline at dusk with CN Tower", "verified": true },
+      { "url": "https://www.realtorniro.com/upload/hp2-about.jpg", "description": "Niro in office wearing teal suit", "verified": true }
+    ],
+    "atmosphere": [
+      { "url": "https://www.realtorniro.com/upload/Toronto.jpg", "description": "Toronto skyline at dusk", "verified": true },
+      { "url": "https://www.realtorniro.com/upload/staging/1.jpg", "description": "Staged Scarborough property", "verified": true }
+    ],
+    "neighborhoods": [
+      { "url": "https://www.realtorniro.com/upload/Toronto.jpg", "description": "Toronto", "verified": true },
+      { "url": "https://www.realtorniro.com/upload/Markham.jpg", "description": "Markham", "verified": true },
+      { "url": "https://www.realtorniro.com/upload/scar.jpg", "description": "Scarborough", "verified": true },
+      { "url": "https://www.realtorniro.com/upload/Vaughan.jpg", "description": "Vaughan", "verified": true },
+      { "url": "https://www.realtorniro.com/upload/Ajax.jpg", "description": "Ajax", "verified": true },
+      { "url": "https://www.realtorniro.com/upload/Pickering.jpg", "description": "Pickering", "verified": true }
+    ],
+    "staging": [
+      { "url": "https://www.realtorniro.com/upload/staging/1.jpg", "verified": true },
+      { "url": "https://www.realtorniro.com/upload/staging/2.jpg", "verified": true },
+      { "url": "https://www.realtorniro.com/upload/staging/3.jpg", "verified": true },
+      { "url": "https://www.realtorniro.com/upload/staging/4.jpg", "verified": true },
+      { "url": "https://www.realtorniro.com/upload/staging/5.jpg", "verified": true },
+      { "url": "https://www.realtorniro.com/upload/staging/6.jpg", "verified": true }
+    ]
+  },
+  "people": [
+    {
+      "name": "Niro Tharmakulasingam",
+      "role": "Broker",
+      "instagram": "realtor.niro",
+      "instagramUrl": "https://www.instagram.com/realtor.niro/",
+      "profilePhotoUrl": "https://papiphotos.remax-im.com/Person/101951130/MainPhoto_cropped/MainPhoto_cropped.jpg",
+      "officePhotoUrl": "https://www.realtorniro.com/upload/hp2-about.jpg",
+      "heroPhotoUrl": "https://www.realtorniro.com/upload/1.jpg",
+      "portfolioPhotos": [
+        "https://www.realtorniro.com/upload/staging/1.jpg",
+        "https://www.realtorniro.com/upload/staging/2.jpg",
+        "https://www.realtorniro.com/upload/staging/3.jpg"
+      ],
+      "bio": "A respected and award-winning realtor with numerous notable transactions. Full-time broker with specialized training in negotiation. Treating customers like family is both a guiding principle and a way of life.",
+      "featured": true,
+      "photoVerified": true
+    }
+  ],
+  "demographics": {
+    "primaryLanguage": "en",
+    "secondaryLanguage": null,
+    "languageEvidence": "Website is entirely in English. RE/MAX profile lists languages as English and Tamil. Instagram and Facebook content is in English. No significant non-English comment presence detected. Tamil community presence in Scarborough but all business communication is English.",
+    "commentAudit": {
+      "instagramComments": { "en": 15, "ta": 2 },
+      "googleReviews": { "en": 6 },
+      "businessReplies": { "en": 8 },
+      "totalNonEnglishPercent": 8,
+      "dominantNonEnglish": null
+    },
+    "additionalLanguages": ["ta"],
+    "neighborhood": "Scarborough — diverse multicultural community, strong Tamil and South Asian presence, suburban residential",
+    "targetCustomer": "First-time homebuyers, families upgrading, investors in GTA real estate market"
+  },
+  "archetype": {
+    "type": "service-first",
+    "rationale": "Real estate is a trust-driven service business where clarity of services and credentials drives conversions. Niro's brand emphasizes professional expertise, negotiation skills, and client testimonials over visual portfolio.",
+    "sectionOrder": ["hero", "services", "about", "testimonials", "listings", "contact"]
+  },
+  "screenshots": {
+    "desktopHome": "brand-bible/screenshots/desktop-home.png",
+    "mobileHome": "brand-bible/screenshots/mobile-home.png"
+  }
+}
