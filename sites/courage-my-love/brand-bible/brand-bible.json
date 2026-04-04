@@ -1,0 +1,297 @@
+{
+  "meta": {
+    "business": "Courage My Love",
+    "slug": "courage-my-love",
+    "analyzedAt": "2026-04-03T12:00:00Z",
+    "sourcesAnalyzed": {
+      "websitePages": [
+        "https://www.couragemylove.com/ (redirect only — no real content)",
+        "https://couragemylove1975.tumblr.com/ (Tumblr blog, frozen ~2012)",
+        "https://www.blogto.com/fashion/couragemylove/",
+        "https://curiocity.com/courage-my-love-toronto-50-years/"
+      ],
+      "instagram": true,
+      "facebook": false,
+      "googleReviews": true,
+      "screenshotsTaken": 3
+    }
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "primary": { "hex": "#2A7CB8", "usage": "Signature storefront blue — awning, exterior paint, brand recognition color" },
+      "secondary": { "hex": "#F9ECBA", "usage": "Cream/golden accents — headers on Tumblr blog, warm highlight for headings" },
+      "accent": { "hex": "#C73E3E", "usage": "Deep red/burgundy — interior wall color, warm accent for vintage feel" },
+      "warmGold": { "hex": "#D4A024", "usage": "Amber/gold — antique jewelry tones, button highlights, price tags" },
+      "background": {
+        "main": { "hex": "#F5F0E6", "usage": "Warm cream page background — matches the eclectic warmth" },
+        "alternate": { "hex": "#E8DCC8", "usage": "Sandy/parchment sections — antique paper feel" },
+        "card": { "hex": "#FFFFFF", "usage": "White cards for product showcases" }
+      },
+      "text": {
+        "heading": { "hex": "#2D1F14", "usage": "Espresso dark — rich, warm heading text" },
+        "body": { "hex": "#4A3728", "usage": "Warm brown body text — earthy, vintage feel" },
+        "muted": { "hex": "#7A6B5D", "usage": "Muted brown for secondary text" },
+        "link": { "hex": "#2A7CB8", "hoverHex": "#1E5A8A" }
+      },
+      "borders": { "hex": "#C4B590", "usage": "Khaki/tan dividers and borders" },
+      "gradients": [
+        { "css": "linear-gradient(135deg, #2A7CB8 0%, #1E5A8A 100%)", "usage": "CTA buttons, accent strips" },
+        { "css": "linear-gradient(to bottom, rgba(45,31,20,0.7), rgba(45,31,20,0.3))", "usage": "Hero text overlay on images" }
+      ],
+      "shadows": [
+        { "css": "0 4px 12px rgba(45,31,20,0.15)", "usage": "Cards and elevated surfaces" },
+        { "css": "0 2px 6px rgba(45,31,20,0.1)", "usage": "Buttons and small elements" }
+      ],
+      "overallTheme": "warm-eclectic — light cream base with rich pops of signature blue, burgundy, and amber/gold accents; bohemian vintage market feel"
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Hammersmith One",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap",
+        "fallback": "sans-serif",
+        "weights": [400],
+        "style": "bold industrial-vintage — matches their Tumblr blog font exactly"
+      },
+      "bodyFont": {
+        "family": "Source Sans 3",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600&display=swap",
+        "fallback": "sans-serif",
+        "weights": [300, 400, 500, 600],
+        "style": "clean modern readable — balances the strong heading font"
+      },
+      "navFont": {
+        "family": "Hammersmith One",
+        "weight": 400,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.08em"
+      },
+      "scale": {
+        "h1": { "size": "3.5rem", "weight": 400, "lineHeight": 1.1 },
+        "h2": { "size": "2.25rem", "weight": 400, "lineHeight": 1.2 },
+        "h3": { "size": "1.5rem", "weight": 400, "lineHeight": 1.3 },
+        "body": { "size": "1rem", "weight": 400, "lineHeight": 1.7 },
+        "small": { "size": "0.875rem", "weight": 400, "lineHeight": 1.5 }
+      }
+    },
+    "spacing": {
+      "sectionPadding": "96px",
+      "contentMaxWidth": "1200px",
+      "cardGap": "24px",
+      "borderRadius": {
+        "buttons": "4px",
+        "cards": "8px",
+        "images": "4px"
+      }
+    },
+    "components": {
+      "header": {
+        "position": "sticky",
+        "background": "solid",
+        "logoPosition": "left",
+        "navAlignment": "right",
+        "mobileMenu": "hamburger-slide",
+        "height": "72px"
+      },
+      "hero": {
+        "type": "full-bleed-image",
+        "overlay": { "color": "rgba(45,31,20,0.5)", "gradient": "linear-gradient(to bottom, rgba(45,31,20,0.6), rgba(45,31,20,0.2))" },
+        "textAlignment": "left",
+        "ctaStyle": "prominent-button"
+      },
+      "buttons": {
+        "primary": {
+          "bg": "#2A7CB8",
+          "text": "#FFFFFF",
+          "border": "none",
+          "borderRadius": "4px",
+          "padding": "14px 28px",
+          "fontWeight": 600,
+          "textTransform": "uppercase",
+          "hoverEffect": "darken"
+        },
+        "secondary": {
+          "bg": "transparent",
+          "text": "#2A7CB8",
+          "border": "2px solid #2A7CB8",
+          "hoverEffect": "fill"
+        }
+      },
+      "cards": {
+        "background": "#FFFFFF",
+        "border": "1px solid #C4B590",
+        "borderRadius": "8px",
+        "shadow": "soft",
+        "hoverEffect": "lift"
+      },
+      "footer": {
+        "background": "#2D1F14",
+        "columns": 3,
+        "style": "dark-inverse"
+      },
+      "images": {
+        "borderRadius": "4px",
+        "aspectRatio": "4:3",
+        "hoverEffect": "zoom",
+        "filter": "slight-saturation-boost"
+      }
+    },
+    "animations": {
+      "pageTransitions": "fade",
+      "scrollAnimations": "fade-up",
+      "hoverTransitions": "0.3s ease-in-out",
+      "loadingStyle": "none"
+    }
+  },
+  "brandVoice": {
+    "personality": ["eclectic", "warm", "adventurous", "heritage-proud", "unpretentious"],
+    "tone": "warm-casual — like a friend who's travelled the world and brought back treasures to share",
+    "vocabulary": {
+      "wordsTheyUse": ["vintage", "treasures", "one-of-a-kind", "handmade", "curated", "discover", "eclectic", "antique", "handcrafted", "global", "heritage"],
+      "wordsTheyAvoid": ["luxury", "exclusive", "premium", "corporate", "franchise", "trendy", "fast fashion"],
+      "industryJargon": ["estate pieces", "deadstock", "consignment", "mid-century", "retro", "boho"]
+    },
+    "messagingPatterns": {
+      "headlines": "Short, evocative — naming what you'll find rather than what they are",
+      "ctas": "Warm invitations — 'Come explore', 'Discover', 'Visit us'",
+      "descriptions": "Story-driven — where things come from, who made them"
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "tone": "warm, proud, community-focused",
+        "emojiUsage": "moderate",
+        "hashtagStyle": "community — #KensingtonMarket #TorontoVintage #VintageFinds",
+        "captionLength": "medium",
+        "sampleCaptions": [
+          "50 years of treasures from around the world. Come dig through the racks.",
+          "Stewart is still at it — handcrafting one-of-a-kind pieces at 86.",
+          "New arrivals from our latest trip. Beads, buttons, and baubles."
+        ]
+      },
+      "facebook": {
+        "tone": "community-oriented",
+        "postStyle": "conversational"
+      }
+    },
+    "customerPerception": {
+      "commonPraise": [
+        "Treasure trove of finds",
+        "Best prices for vintage in Toronto",
+        "Incredibly organized for a vintage shop",
+        "Staff is friendly and knowledgeable",
+        "International treasures you won't find elsewhere"
+      ],
+      "vibeDescriptors": [
+        "eclectic bazaar",
+        "organized chaos in the best way",
+        "feels like exploring a global market",
+        "warm and inviting",
+        "iconic Kensington atmosphere"
+      ],
+      "emotionalAssociations": [
+        "discovery",
+        "nostalgia",
+        "adventure",
+        "belonging",
+        "authenticity"
+      ]
+    }
+  },
+  "contentStrategy": {
+    "primaryCTA": "Visit Us",
+    "valueProposition": "50 years of handpicked vintage treasures, global beads, and one-of-a-kind jewelry in the heart of Kensington Market",
+    "keyMessages": [
+      "A Kensington Market institution since 1975",
+      "Globally sourced — beads from Mexico, Indonesia, Egypt, Afghanistan",
+      "Three generations of the Scriver family curating treasures",
+      "Stewart still handcrafts jewelry at 86"
+    ],
+    "contentPriority": ["gallery", "story", "products", "location", "reviews"],
+    "imageStrategy": {
+      "primarySubjects": "products and store atmosphere — vintage clothing, beads, jewelry, storefront",
+      "mood": "warm and eclectic — colorful, layered, treasure-hunt feeling",
+      "colorTemperature": "warm",
+      "composition": "mixed — close-ups of beads and jewelry, wide shots of packed racks and blue storefront"
+    }
+  },
+  "images": {
+    "hero": "https://images.curiocity.com/uploads/2025/01/20250105-CourageMyLove-28-1.jpg",
+    "logo": null,
+    "food": [],
+    "gallery": [
+      { "url": "https://blogto-production2-baselayer-display.blogto.com/uploads/2018/09/16/20180911-CourageMyLove6.jpg", "description": "Vintage clothing rack — earth tones, tweeds, colorful jackets against red wall", "verified": true },
+      { "url": "https://blogto-production2-baselayer-display.blogto.com/uploads/2018/09/16/20180911-CourageMyLove12.jpg", "description": "Vintage teacups and fine china collection — floral patterns, gold rims", "verified": true },
+      { "url": "https://blogto-production2-baselayer-display.blogto.com/uploads/2018/09/16/20180911-CourageMyLove8.jpg", "description": "Colorful scarves and textiles — $10 bins, wicker baskets, blue wall", "verified": true },
+      { "url": "https://blogto-production2-baselayer-display.blogto.com/uploads/2018/09/16/20180911-CourageMyLove1.jpg", "description": "Blue storefront exterior — COURAGE MY LOVE blue awning, boots outside, mannequins on roof", "verified": true },
+      { "url": "https://blogto-production2-baselayer-display.blogto.com/listings/20180911-CourageMyLove13.jpg", "description": "Store listing hero image from blogTO", "verified": true },
+      { "url": "https://blogto-production2-baselayer-display.blogto.com/uploads/2018/09/16/20180911-CourageMyLove9.jpg", "description": "Interior products shot", "verified": true },
+      { "url": "https://blogto-production2-baselayer-display.blogto.com/uploads/2018/09/16/20180911-CourageMyLove4.jpg", "description": "Interior products shot", "verified": true }
+    ],
+    "atmosphere": [
+      { "url": "https://blogto-production2-baselayer-display.blogto.com/uploads/2018/09/16/20180911-CourageMyLove1.jpg", "description": "Blue storefront at 14 Kensington Ave", "verified": true },
+      { "url": "https://images.curiocity.com/uploads/2025/01/20250105-CourageMyLove-28-1.jpg", "description": "Cece Scriver inside the store, surrounded by jewelry cases and vintage clothing", "verified": true }
+    ]
+  },
+  "people": [
+    {
+      "name": "Cece Scriver",
+      "role": "Co-owner",
+      "instagram": "cececourage",
+      "instagramUrl": "https://www.instagram.com/cececourage/",
+      "profilePhotoUrl": "https://images.curiocity.com/uploads/2025/01/20250105-CourageMyLove-28-1.jpg",
+      "portfolioPhotos": [],
+      "bio": "Daughter of founders Stewart and Patricia. Was 2 years old when the store opened in 1975. Now runs day-to-day operations with husband Owen.",
+      "featured": true,
+      "photoVerified": true
+    },
+    {
+      "name": "Stewart Scriver",
+      "role": "Co-founder",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": "Co-founded Courage My Love in 1975. Former special education teacher. At 86, still repairs and customizes vintage jewelry.",
+      "featured": true,
+      "photoVerified": false
+    },
+    {
+      "name": "Patricia Scriver",
+      "role": "Co-founder",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": "Co-founded Courage My Love in 1975. Had tenure at University of Toronto before leaving to pursue antiques and fashion.",
+      "featured": false,
+      "photoVerified": false
+    },
+    {
+      "name": "Owen",
+      "role": "Co-owner (Cece's husband)",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": "Former chef, now works at the store. Part of the third generation keeping the family business alive.",
+      "featured": false,
+      "photoVerified": false
+    }
+  ],
+  "demographics": {
+    "primaryLanguage": "en",
+    "secondaryLanguage": null,
+    "languageEvidence": "All social media content in English. Google reviews in English. Kensington Market is multicultural but the store's primary customer base communicates in English. No consistent secondary language pattern found — customers come from all backgrounds (Chinese, Portuguese, Latin American, Caribbean communities all overlap in Kensington Market but the store does not serve any single non-English community predominantly).",
+    "neighborhood": "Kensington Market — one of Toronto's most diverse, bohemian neighborhoods. Multicultural but English-dominant for commerce.",
+    "targetCustomer": "Vintage enthusiasts, tourists exploring Kensington Market, creative types, students, treasure hunters, bead crafters, jewelry makers"
+  },
+  "archetype": {
+    "type": "portfolio-first",
+    "rationale": "Courage My Love is a visual treasure trove where the products ARE the experience — vintage clothing, beads, jewelry, antiques. The gallery of what's in store is the primary conversion driver. Visitors need to SEE the eclectic collection to feel the pull to visit.",
+    "sectionOrder": ["hero", "gallery", "story", "products", "team", "reviews", "visit", "contact"]
+  },
+  "screenshots": {
+    "desktopHome": "brand-bible/screenshots/desktop-home.png",
+    "mobileHome": "brand-bible/screenshots/mobile-home.png",
+    "innerPage": "brand-bible/screenshots/inner-page.png"
+  }
+}

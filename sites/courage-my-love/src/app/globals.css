@@ -1,0 +1,55 @@
+/* UI REVIEW
+ * ✓ Header: cream bg (#F5F0E6), espresso text — OK
+ * ✓ Buttons: 4px radius, Courage Blue bg — OK
+ * ✓ Images: real blogTO/curiocity URLs, CSS bg fallback — OK
+ * ✓ Footer: espresso dark bg contrasts with cream body — OK
+ * ✓ Body pt-10: watermark banner offset present — OK
+ * ✓ Gallery: dark bg to make product photos pop — OK
+ */
+
+@import "tailwindcss";
+
+:root {
+  --brand-primary: #2A7CB8;
+  --brand-secondary: #F9ECBA;
+  --brand-accent: #C73E3E;
+  --brand-warm-gold: #D4A024;
+  --brand-bg-main: #F5F0E6;
+  --brand-bg-alt: #E8DCC8;
+  --brand-bg-card: #FFFFFF;
+  --brand-text-heading: #2D1F14;
+  --brand-text-body: #4A3728;
+  --brand-text-muted: #7A6B5D;
+  --brand-border: #C4B590;
+  --brand-espresso: #2D1F14;
+}
+
+@theme inline {
+  --color-brand-primary: var(--brand-primary);
+  --color-brand-secondary: var(--brand-secondary);
+  --color-brand-accent: var(--brand-accent);
+  --color-brand-warm-gold: var(--brand-warm-gold);
+  --color-brand-bg-main: var(--brand-bg-main);
+  --color-brand-bg-alt: var(--brand-bg-alt);
+  --color-brand-bg-card: var(--brand-bg-card);
+  --color-brand-text-heading: var(--brand-text-heading);
+  --color-brand-text-body: var(--brand-text-body);
+  --color-brand-text-muted: var(--brand-text-muted);
+  --color-brand-border: var(--brand-border);
+  --color-brand-espresso: var(--brand-espresso);
+  --font-heading: 'Hammersmith One', sans-serif;
+  --font-body: 'Source Sans 3', sans-serif;
+}
+
+body {
+  background-color: var(--brand-bg-main);
+  color: var(--brand-text-body);
+  font-family: var(--font-body);
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--brand-text-heading);
+  line-height: 1.1;
+}

@@ -1,0 +1,70 @@
+{
+  "business_name": "Courage My Love",
+  "slug": "courage-my-love",
+  "website_url": "https://www.couragemylove.com/",
+  "contact_email": "ceceandstewart@yahoo.ca",
+  "industry": "vintage_clothing_jewelry",
+  "address": "14 Kensington Ave, Toronto, ON M5T 2J7",
+  "phone": "416-979-1992",
+  "city": "Toronto",
+  "neighborhood": "Kensington Market",
+  "established": 1975,
+  "hours": {
+    "monday": "11:30 AM - 6:00 PM",
+    "tuesday": "11:30 AM - 6:00 PM",
+    "wednesday": "11:30 AM - 6:00 PM",
+    "thursday": "11:30 AM - 6:00 PM",
+    "friday": "11:30 AM - 6:00 PM",
+    "saturday": "11:00 AM - 6:00 PM",
+    "sunday": "1:00 PM - 5:00 PM"
+  },
+  "owners": [
+    { "name": "Stewart Scriver", "role": "Co-founder", "age": 86, "notes": "Special education teacher turned antique dealer, still repairs jewelry" },
+    { "name": "Patricia Scriver", "role": "Co-founder", "age": 86, "notes": "Had tenure at University of Toronto" },
+    { "name": "Cece Scriver", "role": "Co-owner (daughter)", "notes": "Was 2 years old when store opened, now runs operations" },
+    { "name": "Owen", "role": "Co-owner (Cece's husband)", "notes": "Former chef, now works at the store" }
+  ],
+  "services": [
+    "Vintage clothing (50s-80s cocktail dresses, tweed blazers, cashmere)",
+    "Handmade & antique beads (glass, carved bone, gemstone, from around the world)",
+    "Silver jewelry from Mexico and Asia",
+    "Handmade buttons from Indonesian family company",
+    "Beaded products from Mexican workshops",
+    "Antique & repurposed jewelry (Stewart crafts one-of-a-kind pieces)",
+    "Stained glass lamps & colored glassware",
+    "Vintage boots (displayed outside)",
+    "Luchador masks, scarves, incense, leather goods, patches",
+    "$5 rack and $2 grab bags"
+  ],
+  "social_media": {
+    "instagram": "@couragemylove",
+    "instagram_cece": "@cececourage",
+    "tumblr": "https://couragemylove1975.tumblr.com/",
+    "facebook": null
+  },
+  "ratings": {
+    "blogto": { "score": 4.3, "reviews": 15 },
+    "yelp": { "reviews": 38 },
+    "tripadvisor": { "available": true }
+  },
+  "notable_facts": [
+    "Celebrating 50 years in 2025 — Kensington Market institution since 1975",
+    "Building dates to 1900",
+    "Celebrity clientele includes Blondie and royalty",
+    "Supplied props for TV shows",
+    "Entire family lives in Kensington Market, walks to work",
+    "Stewart still repairs & customizes vintage jewelry at 86",
+    "First day sales exceeded $100, never dropped below that daily",
+    "Tumblr blog frozen since ~2012",
+    "Website is a redirect with no real content (couragemylove.com redirects to /lander, returns 403)"
+  ],
+  "customer_perception": [
+    "Treasure trove of vintage finds",
+    "Great prices — especially the $5 rack",
+    "Organized and clean unlike other vintage shops",
+    "Friendly, knowledgeable staff",
+    "Separated into little stalls for jewelry, beads, incense, scarves",
+    "Back section with its own attendant for beads and small jewelry",
+    "International treasures from global sourcing trips"
+  ]
+}
