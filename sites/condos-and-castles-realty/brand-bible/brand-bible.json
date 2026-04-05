@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "business": "Condos and Castles Realty Inc.",
+    "slug": "condos-and-castles-realty",
+    "analyzedAt": "2026-04-04T12:00:00Z",
+    "sourcesAnalyzed": {
+      "websitePages": [
+        "http://www.condosandcastles.com/",
+        "http://www.condosandcastles.com/?page_id=2",
+        "http://www.condosandcastles.com/?page_id=27",
+        "http://www.condosandcastles.com/?page_id=51"
+      ],
+      "instagram": false,
+      "facebook": true,
+      "googleReviews": true,
+      "screenshotsTaken": 0
+    }
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "primary": { "hex": "#1B3A5C", "usage": "Main CTA buttons, hero overlay, header/nav background - deep navy blue for trust/authority" },
+      "secondary": { "hex": "#C9A84C", "usage": "Accent borders, highlights, premium touches - warm gold for heritage/prestige" },
+      "background": {
+        "main": { "hex": "#F8F6F1", "usage": "Page background - warm off-white" },
+        "alternate": { "hex": "#EDE8DD", "usage": "Alternating sections - warm linen" },
+        "card": { "hex": "#FFFFFF", "usage": "Card/elevated surfaces, listing cards" }
+      },
+      "text": {
+        "heading": { "hex": "#1A1A2E", "usage": "Primary headings - near black with blue undertone" },
+        "body": { "hex": "#3D3D3D", "usage": "Body text" },
+        "muted": { "hex": "#7A7A7A", "usage": "Secondary text, captions" },
+        "link": { "hex": "#1B3A5C", "hoverHex": "#C9A84C" }
+      },
+      "accent": { "hex": "#2E7D32", "usage": "Green accent for eco-friendly messaging, success states" },
+      "borders": { "hex": "#D4CFC4", "usage": "Dividers, card borders - warm gray" },
+      "gradients": [
+        { "css": "linear-gradient(135deg, #1B3A5C 0%, #0D253F 100%)", "usage": "Hero overlay, header gradient" },
+        { "css": "linear-gradient(to right, #C9A84C, #E8D48B)", "usage": "Gold accent line, premium highlights" }
+      ],
+      "shadows": [
+        { "css": "0 4px 20px rgba(27,58,92,0.08)", "usage": "Cards, elevated surfaces" },
+        { "css": "0 8px 32px rgba(27,58,92,0.12)", "usage": "Featured listing cards, hover state" }
+      ],
+      "overallTheme": "light-warm-premium"
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Cormorant Garamond",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap",
+        "fallback": "serif",
+        "weights": [400, 500, 600, 700],
+        "style": "elegant-classical — matches the neoclassical heritage and 1402 family tradition"
+      },
+      "bodyFont": {
+        "family": "DM Sans",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap",
+        "fallback": "sans-serif",
+        "weights": [300, 400, 500, 600, 700],
+        "style": "clean-modern-readable"
+      },
+      "navFont": {
+        "family": "DM Sans",
+        "weight": 500,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.08em"
+      },
+      "scale": {
+        "h1": { "size": "3.5rem", "weight": 600, "lineHeight": 1.1 },
+        "h2": { "size": "2.25rem", "weight": 600, "lineHeight": 1.2 },
+        "h3": { "size": "1.5rem", "weight": 500, "lineHeight": 1.3 },
+        "body": { "size": "1rem", "weight": 400, "lineHeight": 1.7 },
+        "small": { "size": "0.875rem", "weight": 400, "lineHeight": 1.5 }
+      }
+    },
+    "spacing": {
+      "sectionPadding": "96px",
+      "contentMaxWidth": "1200px",
+      "cardGap": "24px",
+      "borderRadius": {
+        "buttons": "4px",
+        "cards": "8px",
+        "images": "4px"
+      }
+    },
+    "components": {
+      "header": {
+        "position": "sticky",
+        "background": "solid-dark",
+        "logoPosition": "left",
+        "navAlignment": "right",
+        "mobileMenu": "hamburger-slide",
+        "height": "72px"
+      },
+      "hero": {
+        "type": "full-bleed-image",
+        "overlay": { "color": "rgba(27,58,92,0.55)", "gradient": "linear-gradient(135deg, rgba(27,58,92,0.7) 0%, rgba(13,37,63,0.5) 100%)" },
+        "textAlignment": "left",
+        "ctaStyle": "dual-buttons"
+      },
+      "buttons": {
+        "primary": {
+          "bg": "#C9A84C",
+          "text": "#1A1A2E",
+          "border": "none",
+          "borderRadius": "4px",
+          "padding": "14px 32px",
+          "fontWeight": 600,
+          "textTransform": "none",
+          "hoverEffect": "darken"
+        },
+        "secondary": {
+          "bg": "transparent",
+          "text": "#FFFFFF",
+          "border": "2px solid #C9A84C",
+          "hoverEffect": "fill"
+        }
+      },
+      "cards": {
+        "background": "#FFFFFF",
+        "border": "1px solid #D4CFC4",
+        "borderRadius": "8px",
+        "shadow": "soft",
+        "hoverEffect": "lift"
+      },
+      "footer": {
+        "background": "#0D253F",
+        "columns": 4,
+        "style": "dark-inverse"
+      },
+      "images": {
+        "borderRadius": "4px",
+        "aspectRatio": "16:9",
+        "hoverEffect": "zoom",
+        "filter": "none"
+      }
+    },
+    "animations": {
+      "pageTransitions": "none",
+      "scrollAnimations": "fade-up",
+      "hoverTransitions": "0.3s ease",
+      "loadingStyle": "none"
+    }
+  },
+  "brandVoice": {
+    "personality": ["established", "trustworthy", "knowledgeable", "family-oriented", "community-minded"],
+    "tone": "professional-warm",
+    "vocabulary": {
+      "wordsTheyUse": ["boutique brokerage", "expertise", "knowledge", "downtown core", "family tradition", "hands-on", "green", "independent", "one-stop shop", "heritage"],
+      "wordsTheyAvoid": ["discount", "cheap", "mass market", "franchise"],
+      "industryJargon": ["MLS", "brokerage", "listing", "CERC", "ABR", "broker of record", "virtual tour"]
+    },
+    "messagingPatterns": {
+      "headlines": "Heritage-first with authority — lead with years of experience and tradition",
+      "ctas": "Professional invitation — Book a Consultation, Explore Listings, Get a Valuation",
+      "descriptions": "Benefit-focused with heritage weight"
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "tone": "N/A — no Instagram presence found",
+        "emojiUsage": "none",
+        "hashtagStyle": "none",
+        "captionLength": "N/A",
+        "sampleCaptions": []
+      },
+      "facebook": {
+        "tone": "professional-community",
+        "postStyle": "informational with property listings and community involvement"
+      }
+    },
+    "customerPerception": {
+      "commonPraise": ["knowledgeable", "patient service", "hands-on approach", "low pressure", "responsive", "extensive knowledge of downtown condo market"],
+      "vibeDescriptors": ["professional", "family feel", "personal touch", "breath of fresh air"],
+      "emotionalAssociations": ["trust", "confidence", "comfort", "personal care"]
+    }
+  },
+  "contentStrategy": {
+    "primaryCTA": "Schedule a Consultation",
+    "valueProposition": "Toronto's original independent boutique brokerage since 1999, offering one-stop real estate services with in-house legal and mortgage expertise across downtown's most coveted neighborhoods.",
+    "keyMessages": [
+      "25+ years of downtown Toronto expertise since 1999",
+      "Independent boutique brokerage — not a franchise",
+      "One-stop shop: realtor, lawyer, and mortgage broker under one roof",
+      "Family tradition of real estate since 1402",
+      "One of Toronto's greenest brokerages"
+    ],
+    "contentPriority": ["services", "listings", "team", "reviews", "location"],
+    "imageStrategy": {
+      "primarySubjects": "Toronto skyline, properties, team, neighborhoods",
+      "mood": "clean and premium",
+      "colorTemperature": "warm",
+      "composition": "wide shots of cityscapes and properties"
+    }
+  },
+  "images": {
+    "hero": "http://www.condosandcastles.com/wp-content/uploads/2026/02/header_3-revised.jpg",
+    "logo": null,
+    "gallery": [
+      { "url": "http://www.condosandcastles.com/wp-content/uploads/2026/02/header_3-revised.jpg", "description": "Header banner showing Toronto skyline and properties", "verified": true },
+      { "url": "http://www.condosandcastles.com/wp-content/uploads/2008/07/raszewski_0207w300h240.jpg", "description": "Founder Paul Raszewski portrait", "verified": true },
+      { "url": "http://www.condosandcastles.com/wp-content/uploads/2011/02/herb2.jpg", "description": "Family coat of arms / heritage crest since 1402", "verified": true }
+    ],
+    "atmosphere": [
+      { "url": "http://www.condosandcastles.com/wp-content/uploads/2026/02/header_3-revised.jpg", "description": "Toronto cityscape header banner", "verified": true }
+    ],
+    "food": []
+  },
+  "people": [
+    {
+      "name": "Paul Raszewski",
+      "role": "President/Broker of Record",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": "http://www.condosandcastles.com/wp-content/uploads/2008/07/clip_image001.jpg",
+      "portfolioPhotos": [],
+      "bio": "Involved in Toronto Real Estate market since 1985, including ownership and management of residential properties. Founded Condos and Castles Realty in 1999. Opened first real estate brokerage in King West in 1999. MVA, ABR, CERC Relocation Specialist.",
+      "featured": true,
+      "photoVerified": true
+    },
+    {
+      "name": "Alexandra Raszewska",
+      "role": "In-house Lawyer, J.D. Barrister and Solicitor",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": "http://www.condosandcastles.com/wp-content/uploads/2024/01/1-300x300.png",
+      "portfolioPhotos": [],
+      "bio": "In-house lawyer providing legal services for real estate transactions.",
+      "featured": true,
+      "photoVerified": true
+    },
+    {
+      "name": "Jason Shiff",
+      "role": "Broker",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": "http://www.condosandcastles.com/wp-content/uploads/2008/07/jasons.jpg",
+      "portfolioPhotos": [],
+      "bio": null,
+      "featured": true,
+      "photoVerified": true
+    },
+    {
+      "name": "Ella Raszewska",
+      "role": "Vice President / CFO",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": "http://www.condosandcastles.com/wp-content/uploads/2024/01/13aug08-003crop1-183x300.jpg",
+      "portfolioPhotos": [],
+      "bio": "Company co-founder, in charge of Administration, Accounting, Recruitment, Marketing. Experienced decorator, designer, construction manager.",
+      "featured": true,
+      "photoVerified": true
+    },
+    {
+      "name": "Paul A. Raszewski Jr.",
+      "role": "Creative Director",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": "http://www.condosandcastles.com/wp-content/uploads/2024/01/img_36101crop1-219x300.jpg",
+      "portfolioPhotos": [],
+      "bio": "Helps with design of marketing materials and creating advertising campaigns and creative videos.",
+      "featured": false,
+      "photoVerified": true
+    },
+    {
+      "name": "John Grabowski",
+      "role": "Marketing Assistant",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": "http://www.condosandcastles.com/wp-content/uploads/2011/12/john.jpg",
+      "portfolioPhotos": [],
+      "bio": null,
+      "featured": false,
+      "photoVerified": true
+    },
+    {
+      "name": "Mykolai Chmilenko",
+      "role": "IT and Cybersecurity Director",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": "http://www.condosandcastles.com/wp-content/uploads/2024/01/signal-2024-01-14-16-49-49-898-195x300.jpg",
+      "portfolioPhotos": [],
+      "bio": null,
+      "featured": false,
+      "photoVerified": true
+    }
+  ],
+  "demographics": {
+    "primaryLanguage": "en",
+    "secondaryLanguage": null,
+    "languageEvidence": "No Instagram presence. Facebook primarily English-language posts. Google reviews in English. Team speaks many languages but client-facing content is English-only. Under 30% non-English threshold.",
+    "commentAudit": {
+      "instagramComments": {},
+      "googleReviews": { "en": 15 },
+      "businessReplies": { "en": 10 },
+      "totalNonEnglishPercent": 0,
+      "dominantNonEnglish": null
+    },
+    "additionalLanguages": [],
+    "neighborhood": "High Park / Swansea / Roncesvalles — established residential, mixed demographics",
+    "targetCustomer": "Downtown Toronto professionals, condo buyers/sellers, property investors, first-time homebuyers in the west end and downtown core"
+  },
+  "archetype": {
+    "type": "service-first",
+    "rationale": "Real estate brokerage where trust, expertise, and service clarity drive conversions. Not portfolio-first (no visual portfolio of work to show), not location-first (serves all of downtown, not one neighborhood).",
+    "sectionOrder": ["hero", "services", "about", "testimonials", "team", "listings-teaser", "contact"]
+  },
+  "screenshots": {
+    "desktopHome": null,
+    "mobileHome": null,
+    "innerPage": null
+  }
+}

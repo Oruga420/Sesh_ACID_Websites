@@ -1,0 +1,158 @@
+{
+  "business": {
+    "name": "Condos and Castles Realty Inc.",
+    "slug": "condos-and-castles-realty",
+    "website": "http://www.condosandcastles.com/",
+    "phone": "416-703-0600",
+    "email": "candcreception@rogers.com",
+    "address": "203 Fern Ave, Toronto, ON M6R 1K5",
+    "established": 1999,
+    "industry": "Real Estate Brokerage",
+    "type": "Boutique Real Estate Brokerage",
+    "tagline": "King West's Original Boutique Brokerage since 1999"
+  },
+  "contact": {
+    "name": "Cris Castles",
+    "email": "candcreception@rogers.com",
+    "phone": "416-703-0600"
+  },
+  "services": [
+    "Residential buying",
+    "Residential selling",
+    "Condo sales",
+    "House sales",
+    "Rental services",
+    "Property leasing",
+    "Investment services",
+    "Cottage/waterfront sales",
+    "World sales (international)",
+    "MLS property search",
+    "In-house legal services",
+    "In-house mortgage brokerage",
+    "Relocation services",
+    "Property valuation"
+  ],
+  "areas_served": [
+    "King West Village",
+    "Liberty Village",
+    "Queen West Fashion District",
+    "Entertainment District",
+    "Corktown",
+    "St. Lawrence Market",
+    "Historic Distillery District",
+    "Little Italy",
+    "Beaconsfield Village",
+    "The Annex",
+    "High Park",
+    "Roncesvalles Village",
+    "Parkdale",
+    "Bloor West Village",
+    "The Kingsway",
+    "Sunnylea",
+    "Mimico",
+    "Riverdale",
+    "The Beaches",
+    "Leslieville",
+    "Port McNicoll (Georgian Bay)"
+  ],
+  "team": [
+    {
+      "name": "Paul Raszewski",
+      "role": "President/Broker of Record",
+      "credentials": "MVA, ABR, CERC Relocation Specialist",
+      "phone": "(416) 505-3682",
+      "email": "paul@condosandcastles.com",
+      "photo": "http://www.condosandcastles.com/wp-content/uploads/2008/07/clip_image001.jpg"
+    },
+    {
+      "name": "Alexandra Raszewska",
+      "role": "In-house Lawyer, J.D. Barrister and Solicitor",
+      "phone": "647-526-6560",
+      "email": "araszewska@legaclosing.ca",
+      "photo": "http://www.condosandcastles.com/wp-content/uploads/2024/01/1-300x300.png"
+    },
+    {
+      "name": "Jason Shiff",
+      "role": "Broker",
+      "phone": "(416) 575-8061",
+      "email": "jshiff@rogers.com",
+      "photo": "http://www.condosandcastles.com/wp-content/uploads/2008/07/jasons.jpg"
+    },
+    {
+      "name": "John Grabowski",
+      "role": "Marketing Assistant",
+      "email": "jgrabos65@gmail.com",
+      "phone": "705-796-5646",
+      "photo": "http://www.condosandcastles.com/wp-content/uploads/2011/12/john.jpg"
+    },
+    {
+      "name": "Ella Raszewska",
+      "role": "Chief Financial and Administration Officer / VP",
+      "email": "eraszewska@rogers.com",
+      "photo": "http://www.condosandcastles.com/wp-content/uploads/2024/01/13aug08-003crop1-183x300.jpg"
+    },
+    {
+      "name": "Paul A. Raszewski Jr.",
+      "role": "Creative Director",
+      "email": "info@teva.one",
+      "photo": "http://www.condosandcastles.com/wp-content/uploads/2024/01/img_36101crop1-219x300.jpg"
+    },
+    {
+      "name": "Mykolai Chmilenko",
+      "role": "IT and Cybersecurity Director",
+      "email": "mykolai.chmilenko@bell.net",
+      "photo": "http://www.condosandcastles.com/wp-content/uploads/2024/01/signal-2024-01-14-16-49-49-898-195x300.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "text": "His extensive knowledge of the downtown condo market makes them a natural choice when if you are thinking of selling your home.",
+      "author": "Bob Kamino",
+      "location": "Richmond St W"
+    },
+    {
+      "text": "The customer service from Paul and his team was unparalleled. We were always in contact about different issues.",
+      "author": "Stuart Horn",
+      "location": "East Liberty St"
+    },
+    {
+      "text": "Our experience with Paul from Condos and Castles was extremely positive. During the process of buying our new house, and the sale our condo we felt that Paul always had our best interests at heart.",
+      "author": "James Davidson and Fran Bianchi",
+      "location": "Front St W"
+    },
+    {
+      "text": "Condos and Castles was recommended to us by friends when we were moving to Toronto. I was so happy with the very knowledgeable and patient service.",
+      "author": "Jennie Rubio",
+      "location": "Palmerston Ave"
+    },
+    {
+      "text": "Paul's uniquely hands on, low pressure approach was a breath of fresh air when compared to the higher pressure buying and selling tactics we have experienced with other agents.",
+      "author": "Brock Tully",
+      "location": "Navy Wharf Court"
+    }
+  ],
+  "social_media": {
+    "facebook": "https://www.facebook.com/condosandcastles",
+    "linkedin": "https://www.linkedin.com/company/condos-and-castles-realty-inc.-brokerage",
+    "twitter": "@candcrealty",
+    "instagram": null
+  },
+  "languages": ["English", "French", "Polish", "Russian", "Swedish", "German", "Arabic", "Italian", "Portuguese", "Spanish", "Mandarin", "Cantonese", "Hebrew", "Hindi", "Serbian", "Latvian", "Urdu"],
+  "unique_selling_points": [
+    "Original boutique brokerage in King West since 1999",
+    "Family tradition of land ownership since 1402",
+    "One of Toronto's greenest brokerages - LED lighting, 100% recycling, first brokerage with electric car",
+    "One-stop shop: realtor + lawyer + banker",
+    "Georgian Bay waterfront branch",
+    "In-house lawyer and mortgage broker",
+    "25+ years of downtown Toronto expertise"
+  ],
+  "website_tech": {
+    "platform": "WordPress 2.6",
+    "theme": "Neoclassical by Chris Pearson",
+    "ssl": false,
+    "responsive": false,
+    "fonts": "Georgia, Times New Roman, Times, serif",
+    "observations": "Extremely outdated WordPress 2.6 (circa 2008). No HTTPS. No responsive design. IE6/IE7 CSS hacks still present. Skype integration. Table-based layouts. 885px fixed width."
+  }
+}

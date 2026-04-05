@@ -1,0 +1,32 @@
+/* UI REVIEW
+ * Header: navy (#1B3A5C) bg, white text/logo — OK
+ * Buttons: 4px radius, gold bg matching brand-tokens — OK
+ * Hero: full-bleed image with navy overlay — OK
+ * Footer: deep navy (#0D253F) contrasts with warm off-white body — OK
+ * Body pt-10: watermark banner offset present — OK
+ * overallTheme: light-warm-premium — light backgrounds throughout — OK
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #3D3D3D;
+  background-color: #F8F6F1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Garamond', serif;
+  color: #1A1A2E;
+}
+
+::selection {
+  background-color: #C9A84C;
+  color: #1A1A2E;
+}
