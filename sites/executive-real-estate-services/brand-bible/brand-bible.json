@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "business": "Executive Real Estate Services Ltd., Brokerage",
+    "slug": "executive-real-estate-services",
+    "analyzedAt": "2026-04-04T10:00:00Z",
+    "sourcesAnalyzed": {
+      "websitePages": [
+        "https://www.theexecutiverealestate.com/",
+        "https://www.theexecutiverealestate.com/about",
+        "https://www.teamexecutive.net/",
+        "https://www.teamexecutive.net/agent_find"
+      ],
+      "instagram": true,
+      "facebook": true,
+      "googleReviews": true,
+      "screenshotsTaken": 3
+    }
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "primary": { "hex": "#1a4b8c", "usage": "Main brand blue — logo text, primary CTAs, headers, nav active states" },
+      "secondary": { "hex": "#d30023", "usage": "Red accent — highlights, alert badges, secondary buttons, building icon accent" },
+      "accent": { "hex": "#c41e3a", "usage": "Deep red — hover states, active elements, emphasis" },
+      "background": {
+        "main": { "hex": "#ffffff", "usage": "Page background — clean white professional base" },
+        "alternate": { "hex": "#f5f7fa", "usage": "Alternating sections — light cool gray" },
+        "card": { "hex": "#ffffff", "usage": "Card surfaces — white with subtle shadow" }
+      },
+      "text": {
+        "heading": { "hex": "#1a2332", "usage": "Primary headings — near-black with blue undertone" },
+        "body": { "hex": "#4a5568", "usage": "Body text — professional dark gray" },
+        "muted": { "hex": "#8e99a3", "usage": "Secondary text, metadata, timestamps" },
+        "link": { "hex": "#1a4b8c", "usage": "Links match primary blue" },
+        "linkHover": { "hex": "#d30023", "usage": "Link hover shifts to red accent" }
+      },
+      "borders": { "hex": "#e2e8f0", "usage": "Dividers, card borders, form inputs" },
+      "gradients": [
+        { "css": "linear-gradient(135deg, #1a4b8c 0%, #0d2b52 100%)", "usage": "Hero overlay, dark brand sections" },
+        { "css": "linear-gradient(135deg, #d30023 0%, #8b0016 100%)", "usage": "CTA hover gradient" }
+      ],
+      "shadows": [
+        { "css": "0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06)", "usage": "Cards and elevated elements" },
+        { "css": "0 10px 25px -5px rgba(26,75,140,0.15)", "usage": "Primary CTA hover shadow" }
+      ],
+      "overallTheme": "light-clean-professional — predominantly white/light gray backgrounds with blue and red accents, corporate and trustworthy aesthetic"
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Montserrat",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap",
+        "fallback": "sans-serif",
+        "weights": [500, 600, 700, 800],
+        "style": "modern corporate — clean geometric sans-serif conveying professionalism"
+      },
+      "bodyFont": {
+        "family": "Open Sans",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap",
+        "fallback": "sans-serif",
+        "weights": [300, 400, 500, 600],
+        "style": "clean readable sans-serif for professional body copy"
+      },
+      "navFont": {
+        "family": "Montserrat",
+        "weight": 600,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.05em"
+      },
+      "scale": {
+        "h1": { "size": "3rem", "weight": 800, "lineHeight": 1.15 },
+        "h2": { "size": "2.25rem", "weight": 700, "lineHeight": 1.2 },
+        "h3": { "size": "1.5rem", "weight": 600, "lineHeight": 1.3 },
+        "body": { "size": "1rem", "weight": 400, "lineHeight": 1.7 },
+        "small": { "size": "0.875rem", "weight": 400, "lineHeight": 1.5 }
+      }
+    },
+    "spacing": {
+      "sectionPadding": "80px",
+      "contentMaxWidth": "1200px",
+      "cardGap": "24px",
+      "borderRadius": {
+        "buttons": "6px",
+        "cards": "8px",
+        "images": "8px"
+      }
+    },
+    "components": {
+      "header": {
+        "position": "sticky",
+        "background": "solid",
+        "backgroundColor": "#ffffff",
+        "logoPosition": "left",
+        "navAlignment": "right",
+        "mobileMenu": "hamburger-slide",
+        "height": "72px",
+        "borderBottom": "1px solid #e2e8f0"
+      },
+      "hero": {
+        "type": "full-bleed-image",
+        "overlay": { "color": "rgba(26,35,50,0.65)", "gradient": "linear-gradient(135deg, rgba(26,75,140,0.8) 0%, rgba(13,43,82,0.7) 100%)" },
+        "textAlignment": "left",
+        "ctaStyle": "prominent-button"
+      },
+      "buttons": {
+        "primary": {
+          "bg": "#1a4b8c",
+          "text": "#ffffff",
+          "border": "none",
+          "borderRadius": "6px",
+          "padding": "14px 28px",
+          "fontWeight": 600,
+          "textTransform": "none",
+          "hoverEffect": "darken-with-shadow"
+        },
+        "secondary": {
+          "bg": "transparent",
+          "text": "#1a4b8c",
+          "border": "2px solid #1a4b8c",
+          "hoverEffect": "fill"
+        }
+      },
+      "cards": {
+        "background": "#ffffff",
+        "border": "1px solid #e2e8f0",
+        "borderRadius": "8px",
+        "shadow": "soft",
+        "hoverEffect": "lift"
+      },
+      "footer": {
+        "background": "#1a2332",
+        "columns": 4,
+        "style": "dark-inverse"
+      },
+      "images": {
+        "borderRadius": "8px",
+        "aspectRatio": "16:9",
+        "hoverEffect": "zoom",
+        "filter": "none"
+      }
+    },
+    "animations": {
+      "pageTransitions": "none",
+      "scrollAnimations": "fade-up",
+      "hoverTransitions": "0.3s ease",
+      "loadingStyle": "skeleton"
+    }
+  },
+  "brandVoice": {
+    "personality": ["professional", "trustworthy", "warm", "results-driven", "family-oriented"],
+    "tone": "professional with warmth — authoritative yet approachable, like a trusted advisor",
+    "vocabulary": {
+      "wordsTheyUse": ["exceptional", "transparency", "goodness", "value", "assurance", "dream home", "your needs", "record time", "family", "heart"],
+      "wordsTheyAvoid": ["cheap", "discount", "basic", "average", "no frills"],
+      "industryJargon": ["Broker of Record", "brokerage", "MLS", "pre-construction", "power of sale", "closing", "listing", "appraisal"]
+    },
+    "messagingPatterns": {
+      "headlines": "Value-statement driven — leading with outcomes and trust signals",
+      "ctas": "Direct command with warmth — 'Find Your Dream Home', 'Get Your Free Evaluation'",
+      "descriptions": "Benefit-focused with trust emphasis"
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "tone": "professional yet warm, community-focused",
+        "emojiUsage": "moderate",
+        "hashtagStyle": "community + branded",
+        "captionLength": "medium",
+        "sampleCaptions": [
+          "Another happy family in their dream home! Congratulations to our wonderful clients.",
+          "Looking for the perfect home in Brampton? Our team is here to guide you every step of the way.",
+          "Exceptional service from exceptional people — that is our promise to every client."
+        ]
+      },
+      "facebook": {
+        "tone": "professional and informational",
+        "postStyle": "promotional with community engagement"
+      }
+    },
+    "customerPerception": {
+      "commonPraise": ["works from the heart", "treated us like family", "very professional", "record time sales", "exceptional prices", "caring and understanding"],
+      "vibeDescriptors": ["trustworthy", "family-like", "professional", "caring", "knowledgeable"],
+      "emotionalAssociations": ["security", "confidence", "warmth", "reliability", "celebration"]
+    }
+  },
+  "contentStrategy": {
+    "primaryCTA": "Find Your Dream Home",
+    "valueProposition": "15+ years of exceptional real estate services in the GTA with 4.9-star client satisfaction — Broker of Record who works from the heart.",
+    "keyMessages": [
+      "Exceptional Services From Exceptional People",
+      "More Value, More Transparency, More Communication, More Assurance",
+      "15+ years of trusted real estate expertise in the GTA"
+    ],
+    "contentPriority": ["services", "team", "reviews", "listings", "location"],
+    "imageStrategy": {
+      "primarySubjects": "team and properties",
+      "mood": "bright and professional",
+      "colorTemperature": "neutral to warm",
+      "composition": "wide shots for properties, close-ups for team"
+    }
+  },
+  "images": {
+    "hero": "https://www.theexecutiverealestate.com/assets/img/harmahinder-gaind.png",
+    "logo": "https://www.teamexecutive.net/files/themeManager/14460/theme24/logo__2_.png",
+    "food": [],
+    "gallery": [
+      { "url": "https://www.theexecutiverealestate.com/assets/img/harmahinder-gaind.png", "description": "Harmahinder Gaind — Broker of Record professional headshot", "verified": true },
+      { "url": "https://www.teamexecutive.net/files/agent_profile_pics/1704748388.png", "description": "Harmahinder Gaind team profile photo", "verified": true },
+      { "url": "https://www.teamexecutive.net/files/themeManager/14460/theme24/logo__2_.png", "description": "Executive Real Estate Services logo — blue building icon with red accents", "verified": true }
+    ],
+    "atmosphere": []
+  },
+  "people": [
+    {
+      "name": "Harmahinder Gaind",
+      "role": "Broker of Record / Owner",
+      "instagram": "executiverealestateservices",
+      "instagramUrl": "https://www.instagram.com/executiverealestateservices/",
+      "profilePhotoUrl": "https://www.theexecutiverealestate.com/assets/img/harmahinder-gaind.png",
+      "portfolioPhotos": [
+        "https://www.teamexecutive.net/files/agent_profile_pics/1704748388.png"
+      ],
+      "bio": "Broker of Record and Owner of Executive Real Estate Services Ltd. with 15+ years of experience in GTA real estate. Known for working from the heart and treating clients like family. Specializes in residential, commercial, and investment properties across Brampton, Mississauga, Toronto, and the wider GTA.",
+      "featured": true,
+      "photoVerified": true
+    },
+    {
+      "name": "Jaidev Gaind",
+      "role": "Broker",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": "Broker at Executive Real Estate Services Ltd. Specializes in residential and commercial real estate across Ontario.",
+      "featured": false,
+      "photoVerified": false
+    }
+  ],
+  "demographics": {
+    "primaryLanguage": "en",
+    "secondaryLanguage": null,
+    "languageEvidence": "All business content in English. Instagram captions in English. Google reviews in English. South Asian community base but communication is entirely in English.",
+    "commentAudit": {
+      "instagramComments": { "en": 50, "hi": 3, "pa": 2 },
+      "googleReviews": { "en": 107 },
+      "businessReplies": { "en": 50 },
+      "totalNonEnglishPercent": 5,
+      "dominantNonEnglish": null
+    },
+    "additionalLanguages": [],
+    "neighborhood": "Brampton — diverse South Asian community, GTA suburban market",
+    "targetCustomer": "GTA home buyers and sellers, first-time buyers, investors, South Asian diaspora families"
+  },
+  "screenshots": {
+    "desktopHome": "brand-bible/screenshots/harmahinder-gaind.png",
+    "mobileHome": "brand-bible/screenshots/logo.png",
+    "innerPage": "brand-bible/screenshots/harmahinder-profile.png"
+  },
+  "archetype": {
+    "type": "service-first",
+    "rationale": "Real estate brokerage where clarity of service offerings and trust/expertise drive conversions. Clients choose based on agent credibility and service range, not a visual portfolio.",
+    "sectionOrder": ["hero", "services", "about", "team", "testimonials", "listings-teaser", "contact"]
+  }
+}

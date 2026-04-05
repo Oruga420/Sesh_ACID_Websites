@@ -1,0 +1,71 @@
+{
+  "business": {
+    "name": "Executive Real Estate Services Ltd., Brokerage",
+    "slug": "executive-real-estate-services",
+    "website": "https://www.theexecutiverealestate.com/",
+    "alternateWebsite": "https://www.teamexecutive.net/",
+    "industry": "Real Estate Brokerage",
+    "address": "5B Conestoga Dr, Brampton, ON L6Z 4N5",
+    "phone": "905-514-5555",
+    "officePhone": "289-752-4088",
+    "fax": "289-752-6188",
+    "email": "hp@gaind.ca",
+    "alternateEmail": "deals@teamexecutive.net",
+    "whatsapp": "+16474081944",
+    "hours": "9:30 AM - 5:30 PM Daily",
+    "city": "Brampton",
+    "province": "Ontario",
+    "established": "15+ years",
+    "googleRating": 4.9,
+    "googleReviewCount": 107
+  },
+  "contact": {
+    "name": "Harmahinder Gaind",
+    "role": "Broker of Record / Owner",
+    "phone": "647-408-1944",
+    "email": "hp@gaind.ca",
+    "personalWebsite": "https://harmahinder.com/"
+  },
+  "team": [
+    { "name": "Harmahinder Gaind", "role": "Broker of Record", "phone": "647-408-1944", "photoUrl": "https://www.theexecutiverealestate.com/assets/img/harmahinder-gaind.png" },
+    { "name": "Jaidev Gaind", "role": "Broker", "phone": "905-609-1944", "website": "https://www.gaind.ca" },
+    { "name": "Dimple Longia", "role": "Sales Representative", "phone": "647-856-8459" },
+    { "name": "Raminder Pal Singh", "role": "Sales Representative", "phone": "647-818-0097" },
+    { "name": "Asma Ali", "role": "Sales Representative", "phone": "647-448-8655" },
+    { "name": "Surbi Bains", "role": "Sales Representative", "phone": "289-752-4088", "website": "https://www.teambains.ca" }
+  ],
+  "services": [
+    "Residential Sales",
+    "Condo Sales",
+    "Commercial Real Estate",
+    "Mortgage Services",
+    "Lawyer Assistance",
+    "Free Home Evaluation",
+    "Dream Home Finder",
+    "Pre-Construction Condos",
+    "Foreclosure/Power of Sale Listings"
+  ],
+  "socialMedia": {
+    "instagram": "@executiverealestateservices",
+    "instagramUrl": "https://www.instagram.com/executiverealestateservices/",
+    "instagramFollowers": 1704,
+    "instagramPosts": 1185,
+    "facebook": "https://www.facebook.com/executiverealestateservices/",
+    "facebookLikes": 938
+  },
+  "navigation": ["Home", "Residential", "Condo", "Commercial", "Mortgage Services", "Lawyer Assistance", "About Us", "Contact Us", "Careers"],
+  "techStack": {
+    "frontend": ["jQuery", "Owl Carousel", "Swiper.js", "Angular (partial)"],
+    "backend": "Laravel",
+    "features": ["CSRF tokens", "reCAPTCHA", "Google Maps API", "Google Tag Manager"]
+  },
+  "reviews": [
+    { "source": "Google", "rating": 4.9, "count": 107 },
+    { "quote": "Harmahinder works from the heart and treated us like family.", "source": "Google" },
+    { "quote": "Helped us in getting new house but helped us in making financial decisions that will pay us off in the coming years.", "source": "Google" },
+    { "quote": "Very professional, caring and understand your needs. Sold our unit in record time and got an exceptional good price.", "source": "Google" }
+  ],
+  "coreValues": ["Quality", "Integrity", "Agility", "Courage", "Accountability", "Innovation"],
+  "tagline": "Exceptional Services From Exceptional People",
+  "serviceAreas": ["Brampton", "Mississauga", "Toronto", "Oakville", "Hamilton", "Cambridge"]
+}
