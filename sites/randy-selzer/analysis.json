@@ -1,0 +1,122 @@
+{
+  "business": {
+    "name": "Randy Selzer - Sutton Group Summit Realty",
+    "slug": "randy-selzer",
+    "type": "Real Estate Agent",
+    "industry": "Real Estate",
+    "established": "1993",
+    "yearsInBusiness": 33,
+    "website": "https://www.randyselzer.com/",
+    "websiteStatus": "SSL expired - site unreachable via HTTPS",
+    "googleSitesMirror": "https://sites.google.com/view/randyselzer/"
+  },
+  "contact": {
+    "name": "Randy Selzer",
+    "title": "Sales Representative",
+    "email": "rselzer@sutton.com",
+    "phone": "416-433-3556",
+    "officePhone": "905-897-9555",
+    "address": "33 Pearl St, Mississauga, ON L5M 1X1",
+    "brokerage": "Sutton Group - Summit Realty Inc., Brokerage"
+  },
+  "social": {
+    "instagram": "@randyselzer",
+    "instagramUrl": "https://www.instagram.com/randyselzer/",
+    "instagramFollowers": "10K",
+    "facebook": "https://www.facebook.com/randyselzer.realestate/",
+    "twitter": "https://twitter.com/randyselzer",
+    "youtube": "https://www.youtube.com/user/randyselzer/",
+    "linkedin": "https://www.linkedin.com/in/randyselzer/",
+    "podcast": {
+      "name": "Randy Selzer Real Estate Podcast",
+      "platform": "Podbean, Apple Podcasts, Spotify, iHeart",
+      "episodes": 73,
+      "downloads": "33,900+",
+      "url": "https://randyselzer.podbean.com/",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/randy-selzer-real-estate-podcast/id1223795971",
+      "spotifyUrl": "https://open.spotify.com/show/6Mkf1ZkyFbiNBeyC1DhpzA",
+      "coverArtUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/1623725/PodcastCover.jpg",
+      "ranking": "Top 25 real estate podcasts in Toronto, Top 70 in Canada"
+    }
+  },
+  "services": [
+    "Residential real estate sales",
+    "Buyer representation",
+    "Seller representation",
+    "Investment property advisory",
+    "First-time home buyer guidance",
+    "Luxury real estate",
+    "Condos and townhomes",
+    "Free home staging consultation ($200 value)",
+    "Market analysis and pricing",
+    "Offer negotiation",
+    "Financing guidance with trusted lenders"
+  ],
+  "serviceAreas": [
+    "Mississauga",
+    "Oakville",
+    "Toronto",
+    "Erin Mills",
+    "Credit Mills",
+    "Lorne Park",
+    "Gordon Woods",
+    "Credit Pointe",
+    "Etobicoke",
+    "Milton"
+  ],
+  "awards": [
+    "Platinum Award Winner",
+    "Top 25 Real Estate Podcasts in Toronto (Feedspot)",
+    "Top 70 Real Estate Podcasts in Canada (Feedspot)"
+  ],
+  "memberships": [
+    "Canadian Real Estate Association (CREA)",
+    "Ontario Real Estate Association (OREA)",
+    "Toronto Regional Real Estate Board (TRREB)"
+  ],
+  "background": {
+    "origin": "Originally from Regina, Saskatchewan",
+    "relocatedTo": "Toronto area in 1976",
+    "livedIn": ["Toronto", "Mississauga", "Oakville"],
+    "careerStart": 1993
+  },
+  "testimonials": [
+    {
+      "text": "Randy helped us purchase our dream home and sold our current home in record time. His guidance and market expertise made the selling experience very positive. I would highly recommend Randy as a real estate agent.",
+      "attribution": "Home buyer/seller client"
+    },
+    {
+      "text": "Working with Randy was a pleasure. He helped us find a beautiful condo for our daughter. He knows the market and Mississauga area very well, is always on time to appointments, and returns calls or emails very quickly.",
+      "attribution": "Condo buyer client"
+    },
+    {
+      "text": "Randy is a pleasure to work with. He helped clients sell their home quickly and for top dollar, found them a new home in a different city, and was fast and efficient in getting documentation completed.",
+      "attribution": "Mortgage professional referral"
+    }
+  ],
+  "images": {
+    "headshot": "https://assets.rew.ca/property-agent/image/105337/8151_Randy_Selzer_large_file.jpg",
+    "podcastCover": "https://pbcdn1.podbean.com/imglogo/image-logo/1623725/PodcastCover.jpg",
+    "podcastCoverApple": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/81/95/de/8195deae-a059-0e5f-7406-796776f7fed5/mza_6183920227770601950.jpg/1200x1200bf.webp",
+    "googleSitesHero": "https://lh3.googleusercontent.com/sitesv/APaQ0SSDWBsHoovaF_iudUyKAFN_qfE7R-v_itmfHNo_0FXPA4FuhEFb9rKwfnJv3PN4nrY5w8HLIlFQjaDz8VpUDYZhGbwk-f56BUCvJw1DDnJ4Xxb4zN-tamYFEdR_j2M8EJyPbdExFQZpfw5eQQC8HsOImCMUlHNXUQY=w16383"
+  },
+  "websiteAnalysis": {
+    "platform": "Google Sites (mirror), WordPress blog (defunct/410), original site SSL expired",
+    "fonts": ["Lato"],
+    "primaryColor": "rgba(34,110,147,1) — teal/blue",
+    "theme": "Light with white backgrounds and teal accents",
+    "structure": "Simple: Home, Photo Gallery, About, Randy Selzer Files",
+    "issues": [
+      "SSL certificate expired on main domain",
+      "Google Sites mirror is basic/template",
+      "WordPress blog returns 410 Gone",
+      "No modern responsive design",
+      "Limited online presence consolidation"
+    ]
+  },
+  "googleReviews": {
+    "rating": 5.0,
+    "source": "Google Maps listing at 33 Pearl St, Mississauga"
+  },
+  "brandPromise": "Experience world class service that is both friendly and efficient"
+}

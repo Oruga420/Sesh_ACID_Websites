@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "business": "Randy Selzer - Sutton Group Summit Realty",
+    "slug": "randy-selzer",
+    "analyzedAt": "2026-04-04T12:00:00Z",
+    "sourcesAnalyzed": {
+      "websitePages": [
+        "https://sites.google.com/view/randyselzer/",
+        "https://sites.google.com/view/randyselzer/about-randy-selzer",
+        "https://sites.google.com/view/randyselzer/randy-selzer-photo-gallery",
+        "https://www.rew.ca/agents/105337/randy-selzer"
+      ],
+      "instagram": true,
+      "facebook": true,
+      "googleReviews": true,
+      "podcast": true,
+      "screenshotsTaken": 2
+    }
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "primary": { "hex": "#1B5E7A", "usage": "Main CTA buttons, header accents, nav active state — derived from Randy's existing teal brand color" },
+      "secondary": { "hex": "#C8963E", "usage": "Gold accents, award badges, podcast highlights — matches his gold tie and podcast branding amber/gold" },
+      "accent": { "hex": "#2A8CB5", "usage": "Links, hover states, lighter blue highlights" },
+      "background": {
+        "main": { "hex": "#FAFAF7", "usage": "Page background — warm off-white, clean and professional" },
+        "alternate": { "hex": "#F0EDE6", "usage": "Alternating sections — warm sand tone for depth" },
+        "card": { "hex": "#FFFFFF", "usage": "Card surfaces, elevated content areas" },
+        "dark": { "hex": "#1A2332", "usage": "Footer, dark sections, hero overlay base" }
+      },
+      "text": {
+        "heading": { "hex": "#1A2332" },
+        "body": { "hex": "#3D4A5C" },
+        "muted": { "hex": "#7A8599" },
+        "link": { "hex": "#1B5E7A", "hoverHex": "#2A8CB5" },
+        "light": { "hex": "#FFFFFF" }
+      },
+      "borders": { "hex": "#DDD8CE", "usage": "Dividers, card borders, subtle separators" },
+      "gradients": [
+        { "css": "linear-gradient(135deg, #1A2332 0%, #1B5E7A 100%)", "usage": "Hero overlay" },
+        { "css": "linear-gradient(180deg, rgba(26,35,50,0.8) 0%, rgba(26,35,50,0.4) 100%)", "usage": "Image overlay for text readability" }
+      ],
+      "shadows": [
+        { "css": "0 4px 20px rgba(26,35,50,0.08)", "usage": "Cards, dropdowns" },
+        { "css": "0 8px 32px rgba(26,35,50,0.12)", "usage": "Elevated cards, modals" }
+      ],
+      "overallTheme": "light-clean — professional warm white with teal and gold accents. Randy's Google Sites uses white backgrounds. His brand colors are teal/blue with gold accents from his tie/podcast branding."
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Cormorant Garamond",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap",
+        "fallback": "serif",
+        "weights": [400, 500, 600, 700],
+        "style": "elegant — a sophisticated serif that conveys established authority and heritage. Randy has 30+ years in real estate; this is not a startup."
+      },
+      "bodyFont": {
+        "family": "Lato",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700&display=swap",
+        "fallback": "sans-serif",
+        "weights": [300, 400, 500, 700],
+        "style": "clean — Lato is already used on Randy's Google Sites, maintaining brand continuity while being highly readable."
+      },
+      "navFont": {
+        "family": "Lato",
+        "weight": 500,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.08em"
+      },
+      "scale": {
+        "h1": { "size": "3.5rem", "weight": 600, "lineHeight": 1.1 },
+        "h2": { "size": "2.25rem", "weight": 600, "lineHeight": 1.2 },
+        "h3": { "size": "1.5rem", "weight": 600, "lineHeight": 1.3 },
+        "body": { "size": "1rem", "weight": 400, "lineHeight": 1.7 },
+        "small": { "size": "0.875rem", "weight": 400, "lineHeight": 1.5 }
+      }
+    },
+    "spacing": {
+      "sectionPadding": "96px",
+      "contentMaxWidth": "1200px",
+      "cardGap": "28px",
+      "borderRadius": {
+        "buttons": "6px",
+        "cards": "10px",
+        "images": "8px"
+      }
+    },
+    "components": {
+      "header": {
+        "position": "sticky",
+        "background": "solid white with shadow on scroll",
+        "logoPosition": "left",
+        "navAlignment": "right",
+        "mobileMenu": "hamburger-slide",
+        "height": "72px"
+      },
+      "hero": {
+        "type": "split-layout",
+        "overlay": { "color": "rgba(26,35,50,0.6)", "gradient": "linear-gradient(135deg, #1A2332 0%, #1B5E7A 100%)" },
+        "textAlignment": "left",
+        "ctaStyle": "prominent-button"
+      },
+      "buttons": {
+        "primary": {
+          "bg": "#1B5E7A",
+          "text": "#FFFFFF",
+          "border": "none",
+          "borderRadius": "6px",
+          "padding": "14px 28px",
+          "fontWeight": 600,
+          "textTransform": "none",
+          "hoverEffect": "darken"
+        },
+        "secondary": {
+          "bg": "transparent",
+          "text": "#1B5E7A",
+          "border": "2px solid #1B5E7A",
+          "hoverEffect": "fill"
+        }
+      },
+      "cards": {
+        "background": "#FFFFFF",
+        "border": "1px solid #DDD8CE",
+        "borderRadius": "10px",
+        "shadow": "soft",
+        "hoverEffect": "lift"
+      },
+      "footer": {
+        "background": "#1A2332",
+        "columns": 4,
+        "style": "detailed"
+      },
+      "images": {
+        "borderRadius": "8px",
+        "aspectRatio": "16:9",
+        "hoverEffect": "zoom",
+        "filter": "none"
+      }
+    },
+    "animations": {
+      "pageTransitions": "none",
+      "scrollAnimations": "fade-up",
+      "hoverTransitions": "0.3s ease",
+      "loadingStyle": "none"
+    }
+  },
+  "brandVoice": {
+    "personality": ["authoritative", "friendly", "experienced", "approachable", "knowledgeable"],
+    "tone": "warm-professional — confident but not corporate, approachable but not casual. Like a trusted advisor who's also a neighbor.",
+    "vocabulary": {
+      "wordsTheyUse": ["world class service", "friendly and efficient", "competitive fees", "dream home", "top dollar", "market expertise", "buyers and sellers", "all price points", "insider knowledge", "track record"],
+      "wordsTheyAvoid": ["disrupting", "innovative", "startup", "cutting-edge", "hack"],
+      "industryJargon": ["REALTOR", "brokerage", "listing", "MLS", "closing", "staging", "market analysis", "offer negotiation"]
+    },
+    "messagingPatterns": {
+      "headlines": "Statement-based with authority: '30 Years. Thousands of Clients. Your Move.'",
+      "ctas": "Direct and warm: 'Let's Talk About Your Home', 'Start Your Search'",
+      "descriptions": "Benefit-focused with experience backing"
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "tone": "informative-professional",
+        "emojiUsage": "moderate",
+        "hashtagStyle": "community",
+        "captionLength": "medium",
+        "sampleCaptions": [
+          "Market update: What's happening in Mississauga real estate this spring",
+          "New episode of the Randy Selzer Real Estate Podcast is live"
+        ]
+      },
+      "facebook": {
+        "tone": "informative",
+        "postStyle": "conversational with market insights"
+      }
+    },
+    "customerPerception": {
+      "commonPraise": ["market expertise", "always on time", "returns calls quickly", "friendly", "efficient", "top dollar"],
+      "vibeDescriptors": ["trustworthy", "experienced", "reliable", "knowledgeable"],
+      "emotionalAssociations": ["confidence", "trust", "relief", "professionalism"]
+    }
+  },
+  "contentStrategy": {
+    "primaryCTA": "Contact Randy",
+    "valueProposition": "30+ years of Platinum award-winning real estate expertise in Mississauga, Oakville, and the GTA — with a podcast to prove his market knowledge.",
+    "keyMessages": [
+      "Platinum Award Winner with 30+ years of real estate experience",
+      "Deep local knowledge across Mississauga, Oakville, and the GTA",
+      "Real estate podcast host with 73 episodes and 33,900+ downloads",
+      "World-class service that is both friendly and efficient"
+    ],
+    "contentPriority": ["services", "about/credentials", "testimonials", "podcast", "contact"],
+    "imageStrategy": {
+      "primarySubjects": "agent headshot, Mississauga cityscape, homes",
+      "mood": "bright and professional",
+      "colorTemperature": "warm",
+      "composition": "wide shots for hero, portrait for about"
+    }
+  },
+  "images": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Mississsauga_Skyline_crop.jpg",
+    "logo": null,
+    "gallery": [
+      { "url": "https://assets.rew.ca/property-agent/image/105337/8151_Randy_Selzer_large_file.jpg", "description": "Randy Selzer professional headshot", "verified": true },
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Downtown_Mississauga.jpg", "description": "Downtown Mississauga cityscape", "verified": true },
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Square_One%2C_Mississauga.jpg", "description": "Square One area, Mississauga", "verified": true },
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Mississauga_skyline_from_Pearson.jpg", "description": "Mississauga skyline from Pearson area", "verified": true },
+      { "url": "https://pbcdn1.podbean.com/imglogo/image-logo/1623725/PodcastCover.jpg", "description": "Randy Selzer Real Estate Podcast cover art", "verified": true }
+    ],
+    "atmosphere": [
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Mississauga_Skyline1.jpg", "description": "Mississauga skyline panoramic", "verified": true },
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Mississauga_amidst_the_trees_2011.jpg", "description": "Mississauga amongst trees", "verified": true }
+    ]
+  },
+  "people": [
+    {
+      "name": "Randy Selzer",
+      "role": "Sales Representative / REALTOR",
+      "instagram": "randyselzer",
+      "instagramUrl": "https://www.instagram.com/randyselzer/",
+      "profilePhotoUrl": "https://assets.rew.ca/property-agent/image/105337/8151_Randy_Selzer_large_file.jpg",
+      "portfolioPhotos": [],
+      "bio": "Platinum award-winning Real Estate Agent serving Mississauga, Oakville, and the Greater Toronto Area since 1993. Originally from Regina, Saskatchewan, relocated to Toronto area in 1976. Host of the Randy Selzer Real Estate Podcast with 73 episodes and 33,900+ downloads. Member of CREA, OREA, and TRREB.",
+      "featured": true,
+      "photoVerified": true
+    }
+  ],
+  "demographics": {
+    "primaryLanguage": "en",
+    "secondaryLanguage": null,
+    "languageEvidence": "English-only market. Mississauga is diverse but Randy's content, podcast, and client communications are entirely in English. No significant non-English comment presence detected.",
+    "commentAudit": {
+      "instagramComments": { "en": 50 },
+      "googleReviews": { "en": 10 },
+      "businessReplies": { "en": 20 },
+      "totalNonEnglishPercent": 0,
+      "dominantNonEnglish": null
+    },
+    "additionalLanguages": [],
+    "neighborhood": "Mississauga — suburban GTA, diverse professionals and families",
+    "targetCustomer": "Home buyers, sellers, and investors in Mississauga, Oakville, and the GTA. First-time buyers to luxury properties."
+  },
+  "archetype": {
+    "type": "service-first",
+    "rationale": "Randy is a service-driven real estate agent where clarity of offering and trust/expertise drive conversions. His 30+ year track record, Platinum awards, and podcast establish authority — this is not a portfolio business.",
+    "sectionOrder": ["hero", "services", "about", "testimonials", "podcast", "contact"]
+  },
+  "screenshots": {
+    "desktopHome": "brand-bible/screenshots/desktop-home.png",
+    "mobileHome": "brand-bible/screenshots/mobile-home.png"
+  }
+}

@@ -1,0 +1,40 @@
+/* UI REVIEW
+ * Logo/Name: dark text on white header — OK
+ * Buttons: 6px radius, teal bg #1B5E7A matching brand-tokens — OK
+ * Hero: split layout with real headshot + cityscape — OK
+ * Footer: dark #1A2332 contrasts with warm white body — OK
+ * Body pt-10: watermark banner offset present — OK
+ * Cards: white bg with border #DDD8CE and soft shadow — OK
+ * Gold accent #C8963E used for awards/badges — OK
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-primary: #1B5E7A;
+  --brand-secondary: #C8963E;
+  --brand-accent: #2A8CB5;
+  --brand-bg-main: #FAFAF7;
+  --brand-bg-alt: #F0EDE6;
+  --brand-bg-dark: #1A2332;
+  --brand-text-heading: #1A2332;
+  --brand-text-body: #3D4A5C;
+  --brand-text-muted: #7A8599;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: var(--brand-text-body);
+  background-color: var(--brand-bg-main);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Garamond', serif;
+  color: var(--brand-text-heading);
+}
