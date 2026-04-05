@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "business": "Upperside Real Estate Limited",
+    "slug": "upperside-real-estate",
+    "analyzedAt": "2026-04-04T12:00:00Z",
+    "sourcesAnalyzed": {
+      "websitePages": [
+        "https://www.uppersiderealestate.com/",
+        "https://www.uppersiderealestate.com/agent_find",
+        "https://www.uppersiderealestate.com/node/719985",
+        "https://www.propertygta.com/"
+      ],
+      "instagram": true,
+      "facebook": true,
+      "googleReviews": true,
+      "screenshotsTaken": 0
+    }
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "primary": { "hex": "#bba545", "usage": "Main CTA buttons, gold accents, featured listing ribbons, brand identity" },
+      "secondary": { "hex": "#5c5b5a", "usage": "Navigation background, header, footer, dark sections" },
+      "accent": { "hex": "#c4b679", "usage": "Hover states on gold elements, lighter gold accents" },
+      "background": {
+        "main": { "hex": "#ffffff", "usage": "Page background — site is light-themed throughout" },
+        "alternate": { "hex": "#f7f7f7", "usage": "Alternating sections, card backgrounds" },
+        "card": { "hex": "#fbfbfb", "usage": "Card surfaces, listing cards" }
+      },
+      "text": {
+        "heading": { "hex": "#222222", "usage": "Main headings, dark prominent text" },
+        "body": { "hex": "#4a4a4a", "usage": "Body text, descriptions" },
+        "muted": { "hex": "#6b6b6b", "usage": "Secondary text, captions, metadata" },
+        "link": { "hex": "#bba545", "hoverHex": "#c4b679" }
+      },
+      "borders": { "hex": "#ececeb", "usage": "Card borders, dividers, section separators" },
+      "gradients": [
+        { "css": "linear-gradient(135deg, rgba(93,91,90,0.85) 0%, rgba(34,34,34,0.9) 100%)", "usage": "Hero overlay on dark sections" }
+      ],
+      "shadows": [
+        { "css": "0 2px 8px rgba(0,0,0,0.08)", "usage": "Card hover, elevated surfaces" },
+        { "css": "0 4px 16px rgba(0,0,0,0.12)", "usage": "Featured listing cards" }
+      ],
+      "overallTheme": "light-clean with gold and charcoal accents"
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Montserrat",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap",
+        "fallback": "sans-serif",
+        "weights": [400, 500, 600, 700, 800],
+        "style": "modern professional"
+      },
+      "bodyFont": {
+        "family": "Open Sans",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap",
+        "fallback": "sans-serif",
+        "weights": [300, 400, 500, 600],
+        "style": "clean readable"
+      },
+      "navFont": {
+        "family": "Montserrat",
+        "weight": 600,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.05em"
+      },
+      "scale": {
+        "h1": { "size": "3rem", "weight": 800, "lineHeight": 1.1 },
+        "h2": { "size": "2.25rem", "weight": 700, "lineHeight": 1.2 },
+        "h3": { "size": "1.5rem", "weight": 600, "lineHeight": 1.3 },
+        "body": { "size": "1rem", "weight": 400, "lineHeight": 1.7 },
+        "small": { "size": "0.875rem", "weight": 400, "lineHeight": 1.5 }
+      }
+    },
+    "spacing": {
+      "sectionPadding": "80px",
+      "contentMaxWidth": "1280px",
+      "cardGap": "24px",
+      "borderRadius": {
+        "buttons": "6px",
+        "cards": "8px",
+        "images": "8px"
+      }
+    },
+    "components": {
+      "header": {
+        "position": "sticky",
+        "background": "solid",
+        "logoPosition": "left",
+        "navAlignment": "right",
+        "mobileMenu": "hamburger-slide",
+        "height": "72px"
+      },
+      "hero": {
+        "type": "full-bleed-image",
+        "overlay": { "color": "rgba(34,34,34,0.6)", "gradient": "linear-gradient(135deg, rgba(93,91,90,0.85) 0%, rgba(34,34,34,0.7) 100%)" },
+        "textAlignment": "center",
+        "ctaStyle": "prominent-button"
+      },
+      "buttons": {
+        "primary": {
+          "bg": "#bba545",
+          "text": "#ffffff",
+          "border": "none",
+          "borderRadius": "6px",
+          "padding": "14px 28px",
+          "fontWeight": 600,
+          "textTransform": "uppercase",
+          "hoverEffect": "darken"
+        },
+        "secondary": {
+          "bg": "transparent",
+          "text": "#bba545",
+          "border": "2px solid #bba545",
+          "hoverEffect": "fill"
+        }
+      },
+      "cards": {
+        "background": "#ffffff",
+        "border": "1px solid #ececeb",
+        "borderRadius": "8px",
+        "shadow": "soft",
+        "hoverEffect": "lift"
+      },
+      "footer": {
+        "background": "#222222",
+        "columns": 4,
+        "style": "dark-inverse"
+      },
+      "images": {
+        "borderRadius": "8px",
+        "aspectRatio": "4:3",
+        "hoverEffect": "zoom",
+        "filter": "none"
+      }
+    },
+    "animations": {
+      "pageTransitions": "none",
+      "scrollAnimations": "fade-up",
+      "hoverTransitions": "0.3s ease",
+      "loadingStyle": "none"
+    }
+  },
+  "brandVoice": {
+    "personality": ["professional", "trustworthy", "established", "knowledgeable", "approachable"],
+    "tone": "professional",
+    "vocabulary": {
+      "wordsTheyUse": ["dream home", "brokerage", "GTA", "residential", "commercial", "pre-construction", "listing", "market evaluation", "power of sale", "investment"],
+      "wordsTheyAvoid": ["cheap", "budget", "discount", "basic"],
+      "industryJargon": ["MLS", "REALTOR", "CREA", "brokerage", "broker of record", "pre-construction"]
+    },
+    "messagingPatterns": {
+      "headlines": "Direct and confident — Finding your DREAM HOME has never been this easy!",
+      "ctas": "Direct command — Contact Us, Get Started, Find Your Dream Home",
+      "descriptions": "Feature-focused with emphasis on team expertise and market coverage"
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "tone": "Professional with property showcases",
+        "emojiUsage": "moderate",
+        "hashtagStyle": "community",
+        "captionLength": "short",
+        "sampleCaptions": [
+          "New listing alert! Beautiful detached home in Vaughan. Contact us for details.",
+          "Just sold! Congratulations to our clients on their new home."
+        ]
+      },
+      "facebook": {
+        "tone": "professional",
+        "postStyle": "promotional"
+      }
+    },
+    "customerPerception": {
+      "commonPraise": ["trustworthy team", "knowledgeable agents", "outstanding realtors", "helped with buy and sell"],
+      "vibeDescriptors": ["professional", "reliable", "experienced"],
+      "emotionalAssociations": ["trust", "confidence", "home"]
+    }
+  },
+  "contentStrategy": {
+    "primaryCTA": "Find Your Dream Home",
+    "valueProposition": "Vaughan's premier real estate brokerage with 70+ experienced agents serving the Greater Toronto Area",
+    "keyMessages": [
+      "70+ agents with deep local expertise across the GTA",
+      "Full-service brokerage — buying, selling, and pre-construction",
+      "20+ years of experience in residential and commercial real estate"
+    ],
+    "contentPriority": ["listings", "agents", "services", "testimonials", "contact"],
+    "imageStrategy": {
+      "primarySubjects": "properties and team",
+      "mood": "bright and professional",
+      "colorTemperature": "warm",
+      "composition": "wide shots of properties, headshots of agents"
+    }
+  },
+  "images": {
+    "hero": "https://www.uppersiderealestate.com/themes/bannertheme/lead_formsbg/bg2/calculation.jpg",
+    "logo": "https://www.uppersiderealestate.com/files/themeManager/9119/theme24/Surendran_Sam_fl_1.jpg",
+    "food": [],
+    "gallery": [
+      { "url": "https://storage.googleapis.com/canadian/69cc19b20a7da2e7f58f5e23.jpeg", "description": "17 St Anne Way listing photo", "verified": true },
+      { "url": "https://storage.googleapis.com/canadian/69d17f7e57b9be4d65442c04.jpeg", "description": "1 Radley Street listing photo", "verified": true },
+      { "url": "https://storage.googleapis.com/canadian/69cde1a257b9be4d6543a65a.jpeg", "description": "208 Cabernet Road listing photo", "verified": true }
+    ],
+    "atmosphere": []
+  },
+  "people": [
+    {
+      "name": "Art Arinkin",
+      "role": "Broker",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": "https://www.uppersiderealestate.com/files/agent_profile_pics/1714514373.png",
+      "portfolioPhotos": [],
+      "bio": "Knowledgeable Real Estate Broker with 20 years of experience in Commercial and Residential real estate. Adept at financial planning and contracting with knowledge in legal fields.",
+      "featured": true,
+      "photoVerified": true
+    },
+    {
+      "name": "Tirdad Gharachorloo",
+      "role": "Broker of Record",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": null,
+      "featured": true,
+      "photoVerified": false
+    },
+    {
+      "name": "Igor Fishman",
+      "role": "Broker",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": null,
+      "featured": true,
+      "photoVerified": false
+    },
+    {
+      "name": "Mike Mayer",
+      "role": "Broker",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": null,
+      "featured": false,
+      "photoVerified": false
+    }
+  ],
+  "demographics": {
+    "primaryLanguage": "en",
+    "secondaryLanguage": null,
+    "languageEvidence": "Website is entirely in English. Team reflects diverse backgrounds but all content is English-only. No bilingual content detected.",
+    "commentAudit": {
+      "instagramComments": { "en": 10 },
+      "googleReviews": { "en": 5 },
+      "businessReplies": { "en": 5 },
+      "totalNonEnglishPercent": 0,
+      "dominantNonEnglish": null
+    },
+    "additionalLanguages": [],
+    "neighborhood": "Vaughan — Bathurst corridor, multicultural suburban community",
+    "targetCustomer": "GTA homebuyers and sellers — diverse multicultural families, investors, first-time buyers"
+  },
+  "archetype": {
+    "type": "service-first",
+    "rationale": "Real estate brokerage where trust, team expertise, and service breadth drive conversions. Listings and agent roster are the primary draws.",
+    "sectionOrder": ["hero", "services", "agents-preview", "about", "testimonials", "contact"]
+  },
+  "screenshots": {
+    "desktopHome": "brand-bible/screenshots/desktop-home.png",
+    "mobileHome": "brand-bible/screenshots/mobile-home.png",
+    "innerPage": "brand-bible/screenshots/inner-page.png"
+  }
+}

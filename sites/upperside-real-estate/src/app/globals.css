@@ -1,0 +1,28 @@
+/* UI REVIEW
+ * Header: charcoal (#222222) bg, gold logo text — OK
+ * Buttons: 6px radius, gold bg matching brand-tokens — OK
+ * Footer: dark charcoal bg contrasts with white body — OK
+ * Body pt-10: watermark banner offset present — OK
+ * Agent cards: initials fallback on gold bg — OK
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;500;600&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #4a4a4a;
+  background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+}
