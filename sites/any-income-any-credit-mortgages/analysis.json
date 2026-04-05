@@ -1,0 +1,88 @@
+{
+  "business": {
+    "name": "Any Income Any Credit Mortgages",
+    "slug": "any-income-any-credit-mortgages",
+    "website": "https://www.anyincomeanycreditmortgages.ca/",
+    "industry": "Mortgage Broker",
+    "city": "Brampton",
+    "province": "Ontario",
+    "address": "204 - 341 Main St N, Brampton, ON L6X 3C7",
+    "phone": "365-231-9115",
+    "email": "info@anyincomeanycreditmortgages.ca",
+    "brokerage_license": "13448",
+    "regulator": "Financial Services Regulatory Authority of Ontario (FSRAO)"
+  },
+  "team": [
+    {
+      "name": "Adarsh Chawla",
+      "role": "CEO, AIAC Group of Companies",
+      "bio": "CEO of AIAC Group. Also operates AIAC Driving School in Brampton with 20+ years teaching experience.",
+      "linkedin": "https://www.linkedin.com/in/adarsh-chawla-82448432/"
+    },
+    {
+      "name": "Harjeet Chawla",
+      "role": "Principal Mortgage Broker",
+      "bio": "Principal Mortgage Broker at Any Income Any Credit Mortgages. True professional with extensive experience in alternative lending.",
+      "facebook": "https://www.facebook.com/chawmonaa/"
+    }
+  ],
+  "services": [
+    "First Mortgages",
+    "Second Mortgages",
+    "Third Mortgages",
+    "Bad Credit Mortgages",
+    "Self-Employed Mortgages",
+    "New Immigrant Mortgages",
+    "Mortgage Refinancing",
+    "Debt Consolidation",
+    "Home Equity Loans",
+    "Private Lending",
+    "Consumer Proposal Mortgages",
+    "Bankruptcy Discharged Mortgages",
+    "Cash Income Mortgages",
+    "Mortgage Renewals"
+  ],
+  "service_areas": ["Brampton", "Mississauga", "Toronto", "Oakville", "Ontario-wide"],
+  "social_media": {
+    "facebook": "https://www.facebook.com/anyincomeanycreditmortgages/",
+    "facebook_likes": 516,
+    "instagram": null
+  },
+  "reviews": [
+    {
+      "source": "Facebook",
+      "text": "I have been working with Ms Harjeet Chawala a principal mortgage broker on a number of occasions and she is true professional.",
+      "rating": 5
+    }
+  ],
+  "bbb": {
+    "rating": "A",
+    "accredited": false,
+    "file_opened": "2025-07-30"
+  },
+  "website_analysis": {
+    "framework": "Bootstrap 4",
+    "issues": [
+      "Bootstrap 4-only rendering with no visible page content in source",
+      "Non-functional or poorly rendered pages",
+      "Minimal custom design",
+      "Outdated framework",
+      "CSS-only extraction — actual HTML content not rendered without JavaScript",
+      "No custom fonts — system font stack only",
+      "Default Bootstrap color palette"
+    ],
+    "fonts": "System fonts (-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial)",
+    "colors": "Default Bootstrap palette (#007bff primary, #6c757d secondary, #343a40 dark)",
+    "pages_found": ["home", "about", "team", "contact", "2nd-3rd-mortgages"]
+  },
+  "niche": "Alternative lending for people with credit challenges, low income, self-employment, consumer proposals, and bankruptcy discharge",
+  "value_proposition": "Get approved for a mortgage regardless of income level or credit history",
+  "target_audience": [
+    "People with bad or no credit",
+    "Self-employed individuals",
+    "New immigrants to Canada",
+    "People who have gone through consumer proposals or bankruptcy",
+    "Cash-income earners",
+    "First-time homebuyers with non-traditional income"
+  ]
+}

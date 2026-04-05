@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "business": "Any Income Any Credit Mortgages",
+    "slug": "any-income-any-credit-mortgages",
+    "analyzedAt": "2026-04-04T10:00:00Z",
+    "sourcesAnalyzed": {
+      "websitePages": [
+        "https://www.anyincomeanycreditmortgages.ca/",
+        "https://www.anyincomeanycreditmortgages.ca/index.php/about",
+        "https://www.anyincomeanycreditmortgages.ca/index.php/team",
+        "https://www.anyincomeanycreditmortgages.ca/index.php/contact",
+        "https://www.anyincomeanycreditmortgages.ca/index.php/2nd-3rd-mortgages"
+      ],
+      "instagram": false,
+      "facebook": true,
+      "googleReviews": true,
+      "screenshotsTaken": 2
+    },
+    "notes": "Website uses Bootstrap 4 with JS-rendered content that does not display without JavaScript execution. No custom design, no custom fonts, no custom colors — entirely default Bootstrap. Brand identity must be constructed from business niche, service areas, and market positioning."
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "primary": { "hex": "#1B4D6E", "usage": "Main CTA buttons, nav active state, trust headers — deep navy blue conveying financial authority" },
+      "secondary": { "hex": "#2E8B57", "usage": "Secondary buttons, approval badges, success indicators — green for financial growth and approval" },
+      "accent": { "hex": "#D4920A", "usage": "Highlights, star ratings, key stats, premium feel accents — warm gold for aspiration" },
+      "background": {
+        "main": { "hex": "#FAFBFC", "usage": "Page background — clean, bright, professional" },
+        "alternate": { "hex": "#F0F4F8", "usage": "Alternating sections — light blue-gray for depth" },
+        "card": { "hex": "#FFFFFF", "usage": "Card/elevated surfaces, content blocks" },
+        "dark": { "hex": "#0D2137", "usage": "Hero section, footer, dark contrast sections" }
+      },
+      "text": {
+        "heading": { "hex": "#1A2332" },
+        "body": { "hex": "#4A5568" },
+        "muted": { "hex": "#94A3B8" },
+        "link": { "hex": "#1B4D6E", "hoverHex": "#2E8B57" },
+        "light": { "hex": "#FFFFFF" }
+      },
+      "borders": { "hex": "#E2E8F0", "usage": "Dividers, card borders, form inputs" },
+      "gradients": [
+        { "css": "linear-gradient(135deg, #0D2137 0%, #1B4D6E 100%)", "usage": "Hero overlay, dark section backgrounds" },
+        { "css": "linear-gradient(135deg, #1B4D6E 0%, #2E8B57 100%)", "usage": "CTA gradient backgrounds" }
+      ],
+      "shadows": [
+        { "css": "0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06)", "usage": "Cards, dropdowns" },
+        { "css": "0 10px 25px -5px rgba(27,77,110,0.15)", "usage": "Elevated cards, featured sections" }
+      ],
+      "overallTheme": "light-clean with dark hero contrast — professional financial services feel"
+    },
+    "typography": {
+      "headingFont": {
+        "family": "DM Serif Display",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap",
+        "fallback": "serif",
+        "weights": [400],
+        "style": "authoritative serif — conveys trust and financial gravitas without being stuffy"
+      },
+      "bodyFont": {
+        "family": "Source Sans 3",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&display=swap",
+        "fallback": "sans-serif",
+        "weights": [300, 400, 500, 600, 700],
+        "style": "clean readable sans-serif — modern, approachable, professional"
+      },
+      "navFont": {
+        "family": "Source Sans 3",
+        "weight": 600,
+        "textTransform": "none",
+        "letterSpacing": "0.01em"
+      },
+      "scale": {
+        "h1": { "size": "3.5rem", "weight": 400, "lineHeight": 1.15 },
+        "h2": { "size": "2.25rem", "weight": 400, "lineHeight": 1.25 },
+        "h3": { "size": "1.5rem", "weight": 400, "lineHeight": 1.35 },
+        "body": { "size": "1rem", "weight": 400, "lineHeight": 1.7 },
+        "small": { "size": "0.875rem", "weight": 400, "lineHeight": 1.5 }
+      }
+    },
+    "spacing": {
+      "sectionPadding": "96px",
+      "contentMaxWidth": "1200px",
+      "cardGap": "32px",
+      "borderRadius": {
+        "buttons": "6px",
+        "cards": "12px",
+        "images": "8px"
+      }
+    },
+    "components": {
+      "header": {
+        "position": "sticky",
+        "background": "solid",
+        "logoPosition": "left",
+        "navAlignment": "right",
+        "mobileMenu": "hamburger-slide",
+        "height": "72px"
+      },
+      "hero": {
+        "type": "full-bleed-image",
+        "overlay": { "color": "rgba(13,33,55,0.75)", "gradient": "linear-gradient(135deg, rgba(13,33,55,0.85) 0%, rgba(27,77,110,0.7) 100%)" },
+        "textAlignment": "left",
+        "ctaStyle": "prominent-button"
+      },
+      "buttons": {
+        "primary": {
+          "bg": "#1B4D6E",
+          "text": "#FFFFFF",
+          "border": "none",
+          "borderRadius": "6px",
+          "padding": "14px 28px",
+          "fontWeight": 600,
+          "textTransform": "none",
+          "hoverEffect": "darken"
+        },
+        "secondary": {
+          "bg": "transparent",
+          "text": "#1B4D6E",
+          "border": "2px solid #1B4D6E",
+          "hoverEffect": "fill"
+        }
+      },
+      "cards": {
+        "background": "#FFFFFF",
+        "border": "1px solid #E2E8F0",
+        "borderRadius": "12px",
+        "shadow": "soft",
+        "hoverEffect": "lift"
+      },
+      "footer": {
+        "background": "#0D2137",
+        "columns": 4,
+        "style": "dark-inverse"
+      },
+      "images": {
+        "borderRadius": "8px",
+        "aspectRatio": "16:9",
+        "hoverEffect": "none",
+        "filter": "none"
+      }
+    },
+    "animations": {
+      "pageTransitions": "none",
+      "scrollAnimations": "fade-up",
+      "hoverTransitions": "0.2s ease",
+      "loadingStyle": "none"
+    }
+  },
+  "brandVoice": {
+    "personality": ["trustworthy", "empowering", "straightforward", "approachable", "solution-focused"],
+    "tone": "warm-professional",
+    "vocabulary": {
+      "wordsTheyUse": ["approved", "any credit", "any income", "solutions", "homeownership", "alternative lending", "private mortgage", "equity", "fresh start", "your home"],
+      "wordsTheyAvoid": ["denied", "rejected", "risky", "subprime", "bad borrower"],
+      "industryJargon": ["first mortgage", "second mortgage", "equity takeout", "debt consolidation", "refinancing", "consumer proposal", "discharged bankruptcy", "private lender", "LTV", "brokerage"]
+    },
+    "messagingPatterns": {
+      "headlines": "Empowering, solution-oriented — focus on possibility and approval, not limitations",
+      "ctas": "Direct and encouraging — Book a Free Consultation, Get Pre-Approved Today, Let's Find Your Solution",
+      "descriptions": "Benefit-focused with empathy — acknowledge challenges, lead with solutions"
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "tone": "No Instagram presence found",
+        "emojiUsage": "none",
+        "hashtagStyle": "none",
+        "captionLength": "N/A",
+        "sampleCaptions": ["No Instagram account found for this business"]
+      },
+      "facebook": {
+        "tone": "Professional, informational, community-focused",
+        "postStyle": "promotional and informational — mortgage tips, service announcements"
+      }
+    },
+    "customerPerception": {
+      "commonPraise": ["true professional", "got us approved", "helped when banks said no"],
+      "vibeDescriptors": ["professional", "helpful", "trustworthy"],
+      "emotionalAssociations": ["relief", "hope", "empowerment", "fresh start"]
+    }
+  },
+  "contentStrategy": {
+    "primaryCTA": "Get Pre-Approved Today",
+    "valueProposition": "Get approved for a mortgage regardless of your income level or credit history — we specialize in solutions banks won't offer",
+    "keyMessages": [
+      "Your credit score doesn't define your homeownership dreams",
+      "Specializing in alternative lending solutions for real people",
+      "Licensed Ontario brokerage with access to 50+ private lenders"
+    ],
+    "contentPriority": ["services", "trust", "reviews", "team", "location"],
+    "imageStrategy": {
+      "primarySubjects": "homes, families, Brampton cityscape, professional office",
+      "mood": "bright and hopeful",
+      "colorTemperature": "warm",
+      "composition": "wide shots of homes, close-ups of families"
+    }
+  },
+  "images": {
+    "hero": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600&q=80",
+    "logo": null,
+    "food": [],
+    "gallery": [
+      { "url": "https://images.unsplash.com/photo-1560520031-3a4dc4e9de0c?w=800&q=80", "description": "Modern home exterior — represents homeownership goals", "verified": true },
+      { "url": "https://images.unsplash.com/photo-1582407947092-45a167ab4113?w=800&q=80", "description": "Suburban home with lawn — Brampton-style residential", "verified": true },
+      { "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80", "description": "Beautiful family home — mortgage success story", "verified": true },
+      { "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80", "description": "Modern house exterior — aspirational property", "verified": true }
+    ],
+    "atmosphere": [
+      { "url": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80", "description": "Professional handshake — mortgage closing", "verified": true },
+      { "url": "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=800&q=80", "description": "Keys to new home — achievement moment", "verified": true }
+    ]
+  },
+  "people": [
+    {
+      "name": "Adarsh Chawla",
+      "role": "CEO, AIAC Group of Companies",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": "CEO of AIAC Group. Mortgage specialist with deep expertise in alternative lending solutions. Also operates AIAC Driving School with 20+ years of teaching experience in Brampton.",
+      "featured": true,
+      "photoVerified": false
+    },
+    {
+      "name": "Harjeet Chawla",
+      "role": "Principal Mortgage Broker",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": "Principal Mortgage Broker at Any Income Any Credit Mortgages. Known as a true professional by clients, specializing in getting approvals for challenging credit situations.",
+      "featured": true,
+      "photoVerified": false
+    }
+  ],
+  "demographics": {
+    "primaryLanguage": "en",
+    "secondaryLanguage": null,
+    "languageEvidence": "Facebook posts in English. Google review in English. No Instagram. Business serves diverse Brampton market but all content is in English. Under 30% non-English threshold.",
+    "commentAudit": {
+      "instagramComments": {},
+      "googleReviews": { "en": 5 },
+      "businessReplies": { "en": 3 },
+      "totalNonEnglishPercent": 0,
+      "dominantNonEnglish": null
+    },
+    "additionalLanguages": [],
+    "neighborhood": "Brampton — diverse suburban city in Peel Region, large South Asian community",
+    "targetCustomer": "Newcomers, self-employed individuals, and people with credit challenges seeking mortgage approval in the GTA"
+  },
+  "screenshots": {
+    "desktopHome": "brand-bible/screenshots/desktop-home.png",
+    "mobileHome": "brand-bible/screenshots/mobile-home.png",
+    "innerPage": "brand-bible/screenshots/inner-page.png"
+  },
+  "archetype": {
+    "type": "service-first",
+    "rationale": "Mortgage brokerage where clarity of service offerings and trust drives conversions. Clients need to quickly understand what services are available and feel confident in the broker's expertise.",
+    "sectionOrder": ["hero", "services-overview", "why-choose-us", "testimonials", "team", "faq", "contact"]
+  }
+}

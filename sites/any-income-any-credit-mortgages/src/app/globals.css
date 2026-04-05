@@ -1,0 +1,57 @@
+/* UI REVIEW
+ * Header: white bg, navy text logo — OK (no image logo available)
+ * Buttons: 6px radius, navy #1B4D6E primary, green #2E8B57 secondary — OK
+ * Images: CSS bg fallback for broken images — OK
+ * Footer: dark #0D2137 contrasts with light #FAFBFC body — OK
+ * Body pt-10: watermark banner offset present — OK
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --brand-primary: #1B4D6E;
+  --brand-secondary: #2E8B57;
+  --brand-accent: #D4920A;
+  --brand-bg-main: #FAFBFC;
+  --brand-bg-alt: #F0F4F8;
+  --brand-bg-card: #FFFFFF;
+  --brand-bg-dark: #0D2137;
+  --brand-text-heading: #1A2332;
+  --brand-text-body: #4A5568;
+  --brand-text-muted: #94A3B8;
+  --brand-text-light: #FFFFFF;
+  --brand-border: #E2E8F0;
+  --background: #FAFBFC;
+  --foreground: #4A5568;
+}
+
+@theme inline {
+  --color-brand-primary: var(--brand-primary);
+  --color-brand-secondary: var(--brand-secondary);
+  --color-brand-accent: var(--brand-accent);
+  --color-brand-bg-main: var(--brand-bg-main);
+  --color-brand-bg-alt: var(--brand-bg-alt);
+  --color-brand-bg-card: var(--brand-bg-card);
+  --color-brand-bg-dark: var(--brand-bg-dark);
+  --color-brand-text-heading: var(--brand-text-heading);
+  --color-brand-text-body: var(--brand-text-body);
+  --color-brand-text-muted: var(--brand-text-muted);
+  --color-brand-text-light: var(--brand-text-light);
+  --color-brand-border: var(--brand-border);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-heading: 'DM Serif Display', serif;
+  --font-body: 'Source Sans 3', sans-serif;
+}
+
+body {
+  background: var(--brand-bg-main);
+  color: var(--brand-text-body);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--brand-text-heading);
+}
