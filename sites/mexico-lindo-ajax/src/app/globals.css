@@ -13,22 +13,22 @@
   --color-text-muted: #7A6A5A;
   --color-border: #E0D0B8;
 
-  --font-heading: var(--font-heading-var), "Playfair Display", serif;
-  --font-body: var(--font-body-var), "Lato", sans-serif;
+  --font-heading: var(--font-heading-var), "Cormorant Garamond", serif;
+  --font-body: var(--font-body-var), "Nunito Sans", sans-serif;
 }
 
 :root {
-  --font-heading-var: "Playfair Display", serif;
-  --font-body-var: "Lato", sans-serif;
+  --font-heading-var: "Cormorant Garamond", serif;
+  --font-body-var: "Nunito Sans", sans-serif;
 }
 
 body {
-  font-family: var(--font-body-var), "Lato", sans-serif;
+  font-family: var(--font-body-var), "Nunito Sans", sans-serif;
   color: #3A2A1A;
   background: #FFFDF8;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-heading-var), "Playfair Display", serif;
+  font-family: var(--font-heading-var), "Cormorant Garamond", serif;
   color: #1E1209;
 }

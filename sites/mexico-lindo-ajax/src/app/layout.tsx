@@ -1,18 +1,18 @@
 import type { Metadata } from 'next'
-import { Playfair_Display, Lato } from 'next/font/google'
+import { Cormorant_Garamond, Nunito_Sans } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import WatermarkBanner from '@/components/WatermarkBanner'
 import ChatbotDemo from '@/components/ChatbotDemo'
 
-const playfair = Playfair_Display({
+const cormorant = Cormorant_Garamond({
   subsets: ['latin'],
-  weight: ['400', '700', '900'],
+  weight: ['400', '600', '700'],
   variable: '--font-heading-var',
 })
 
-const lato = Lato({
+const nunitoSans = Nunito_Sans({
   subsets: ['latin'],
   weight: ['300', '400', '700'],
   variable: '--font-body-var',
@@ -45,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${playfair.variable} ${lato.variable} bg-[#FFFDF8] text-[#3A2A1A] pt-8`}
+        className={`${cormorant.variable} ${nunitoSans.variable} bg-[#FFFDF8] text-[#3A2A1A] pt-8`}
       >
         <WatermarkBanner />
         <Header />

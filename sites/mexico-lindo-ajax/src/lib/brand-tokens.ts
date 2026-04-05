@@ -22,17 +22,17 @@ export const colors = {
 
 export const fonts = {
   heading: {
-    family: 'Playfair Display',
+    family: 'Cormorant Garamond',
     fallback: 'serif',
-    weights: [400, 700, 900] as const,
+    weights: [400, 600, 700] as const,
   },
   body: {
-    family: 'Lato',
+    family: 'Nunito Sans',
     fallback: 'sans-serif',
     weights: [300, 400, 700] as const,
   },
   nav: {
-    family: 'Lato',
+    family: 'Nunito Sans',
     weight: 700,
     textTransform: 'uppercase' as const,
     letterSpacing: '0.08em',
