@@ -1,0 +1,62 @@
+/* UI REVIEW
+ * Header: white bg, blue/red logo — OK (logo is dark blue on white)
+ * Buttons: 6px radius, brand primary blue bg — OK
+ * Footer: dark navy #0F2440, white text — OK
+ * Body pt-10: watermark banner offset present — OK
+ * Cards: white with subtle border, lift on hover — OK
+ * Images: real property photos from Unsplash — mortgage context appropriate
+ */
+
+@import "tailwindcss";
+
+@theme inline {
+  --color-brand-primary: #1B4F8A;
+  --color-brand-secondary: #C8292E;
+  --color-brand-accent: #2A7DE1;
+  --color-brand-bg-main: #FFFFFF;
+  --color-brand-bg-alt: #F5F7FA;
+  --color-brand-bg-dark: #0F2440;
+  --color-brand-text-heading: #0F2440;
+  --color-brand-text-body: #374151;
+  --color-brand-text-muted: #6B7280;
+  --color-brand-border: #E5E7EB;
+  --font-heading: 'DM Serif Display', serif;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+:root {
+  --background: #FFFFFF;
+  --foreground: #374151;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: #0F2440;
+}
+
+/* Smooth scroll for non-anchor navigation */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fade-up animation for scroll reveals */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.6s ease-out forwards;
+}

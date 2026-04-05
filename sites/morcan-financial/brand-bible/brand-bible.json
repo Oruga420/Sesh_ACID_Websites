@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "business": "MorCan Financial Inc.",
+    "slug": "morcan-financial",
+    "analyzedAt": "2026-04-04T12:00:00Z",
+    "sourcesAnalyzed": {
+      "websitePages": [
+        "https://www.morcan.ca/",
+        "https://www.morcan.ca/index.php/about",
+        "https://www.morcan.ca/index.php/testimonials",
+        "https://www.morcan.ca/index.php/mortgage-services",
+        "https://www.morcan.ca/index.php/contact",
+        "https://www.morcan.ca/index.php/why-use-a-vaughan-mortgage-broker"
+      ],
+      "instagram": true,
+      "facebook": true,
+      "googleReviews": true,
+      "screenshotsTaken": 2
+    }
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "primary": { "hex": "#1B4F8A", "usage": "Main brand blue - CTAs, header accents, active nav states, key headings" },
+      "secondary": { "hex": "#C8292E", "usage": "Red accent from logo 'C' - limited usage for highlights, alerts, urgency indicators" },
+      "accent": { "hex": "#2A7DE1", "usage": "Lighter blue for links, hover states, secondary buttons" },
+      "background": {
+        "main": { "hex": "#FFFFFF", "usage": "Primary page background - clean professional feel" },
+        "alternate": { "hex": "#F5F7FA", "usage": "Alternating section backgrounds for visual rhythm" },
+        "card": { "hex": "#FFFFFF", "usage": "Card/elevated surface backgrounds with subtle shadow" },
+        "dark": { "hex": "#0F2440", "usage": "Dark navy for footer, contrast sections, hero overlay" }
+      },
+      "text": {
+        "heading": { "hex": "#0F2440" },
+        "body": { "hex": "#374151" },
+        "muted": { "hex": "#6B7280" },
+        "light": { "hex": "#FFFFFF" },
+        "link": { "hex": "#1B4F8A", "hoverHex": "#2A7DE1" }
+      },
+      "borders": { "hex": "#E5E7EB", "usage": "Dividers, card borders, input borders" },
+      "gradients": [
+        { "css": "linear-gradient(135deg, #0F2440 0%, #1B4F8A 100%)", "usage": "Hero overlay, dark section backgrounds" },
+        { "css": "linear-gradient(135deg, #1B4F8A 0%, #2A7DE1 100%)", "usage": "CTA buttons hover state" }
+      ],
+      "shadows": [
+        { "css": "0 1px 3px rgba(15,36,64,0.08)", "usage": "Cards, subtle elevation" },
+        { "css": "0 10px 25px rgba(15,36,64,0.12)", "usage": "Hover state, modals" }
+      ],
+      "overallTheme": "light-clean"
+    },
+    "typography": {
+      "headingFont": {
+        "family": "DM Serif Display",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap",
+        "fallback": "serif",
+        "weights": [400],
+        "style": "elegant-authoritative — serif with personality for a financial institution that's been around since 1997"
+      },
+      "bodyFont": {
+        "family": "DM Sans",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap",
+        "fallback": "sans-serif",
+        "weights": [300, 400, 500, 600, 700],
+        "style": "clean modern sans — pairs with DM Serif Display for a trust-meets-modern aesthetic"
+      },
+      "navFont": {
+        "family": "DM Sans",
+        "weight": 500,
+        "textTransform": "none",
+        "letterSpacing": "0.01em"
+      },
+      "scale": {
+        "h1": { "size": "3.5rem", "weight": 400, "lineHeight": 1.1 },
+        "h2": { "size": "2.25rem", "weight": 400, "lineHeight": 1.2 },
+        "h3": { "size": "1.5rem", "weight": 400, "lineHeight": 1.3 },
+        "body": { "size": "1rem", "weight": 400, "lineHeight": 1.7 },
+        "small": { "size": "0.875rem", "weight": 400, "lineHeight": 1.5 }
+      }
+    },
+    "spacing": {
+      "sectionPadding": "96px",
+      "contentMaxWidth": "1200px",
+      "cardGap": "28px",
+      "borderRadius": {
+        "buttons": "6px",
+        "cards": "10px",
+        "images": "8px"
+      }
+    },
+    "components": {
+      "header": {
+        "position": "sticky",
+        "background": "solid white with bottom border on scroll",
+        "logoPosition": "left",
+        "navAlignment": "right",
+        "mobileMenu": "hamburger-slide",
+        "height": "72px"
+      },
+      "hero": {
+        "type": "split-layout",
+        "overlay": { "color": "rgba(15,36,64,0.7)", "gradient": "linear-gradient(135deg, #0F2440 0%, rgba(27,79,138,0.85) 100%)" },
+        "textAlignment": "left",
+        "ctaStyle": "prominent-button"
+      },
+      "buttons": {
+        "primary": {
+          "bg": "#1B4F8A",
+          "text": "#FFFFFF",
+          "border": "none",
+          "borderRadius": "6px",
+          "padding": "14px 28px",
+          "fontWeight": 600,
+          "textTransform": "none",
+          "hoverEffect": "darken-and-shadow"
+        },
+        "secondary": {
+          "bg": "transparent",
+          "text": "#1B4F8A",
+          "border": "2px solid #1B4F8A",
+          "hoverEffect": "fill"
+        }
+      },
+      "cards": {
+        "background": "#FFFFFF",
+        "border": "1px solid #E5E7EB",
+        "borderRadius": "10px",
+        "shadow": "soft",
+        "hoverEffect": "lift-and-border-color-change"
+      },
+      "footer": {
+        "background": "#0F2440",
+        "columns": 4,
+        "style": "dark-inverse"
+      },
+      "images": {
+        "borderRadius": "8px",
+        "aspectRatio": "16:9",
+        "hoverEffect": "none",
+        "filter": "none"
+      }
+    },
+    "animations": {
+      "pageTransitions": "none",
+      "scrollAnimations": "fade-up",
+      "hoverTransitions": "0.25s ease",
+      "loadingStyle": "none"
+    }
+  },
+  "brandVoice": {
+    "personality": ["trustworthy", "family-oriented", "professional", "approachable", "established"],
+    "tone": "warm-professional",
+    "vocabulary": {
+      "wordsTheyUse": ["infinite solutions", "infinite possibilities", "working for you", "family atmosphere", "mortgage planning", "pre-approval", "lending institutions", "your needs"],
+      "wordsTheyAvoid": ["cheap", "discount", "deal", "fast cash", "no questions asked"],
+      "industryJargon": ["FSRA", "pre-approval", "refinancing", "equity", "amortization", "debt consolidation", "private lending", "credit improvement"]
+    },
+    "messagingPatterns": {
+      "headlines": "Authority statements with warmth — 'Your Mortgage, Your Way' not 'Best Rates Guaranteed'",
+      "ctas": "Direct but professional — 'Get Pre-Approved', 'Talk to Joe', 'Start Your Application'",
+      "descriptions": "Benefit-focused with trust emphasis"
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "tone": "professional with occasional personal touches",
+        "emojiUsage": "moderate",
+        "hashtagStyle": "community — #VaughanMortgage #WoodbridgeBroker #MortgageTips",
+        "captionLength": "short to medium",
+        "sampleCaptions": [
+          "Working for you, not the banks. That's the MorCan difference.",
+          "28 years of helping Ontario families find their perfect mortgage solution."
+        ]
+      },
+      "facebook": {
+        "tone": "informational and community-oriented",
+        "postStyle": "informational with promotional elements"
+      }
+    },
+    "customerPerception": {
+      "commonPraise": ["family atmosphere", "integrity", "supportive", "knowledgeable", "helpful"],
+      "vibeDescriptors": ["welcoming", "trustworthy", "professional family"],
+      "emotionalAssociations": ["security", "reliability", "belonging", "expertise"]
+    }
+  },
+  "contentStrategy": {
+    "primaryCTA": "Get Pre-Approved",
+    "valueProposition": "Since 1997, MorCan Financial has helped thousands of Ontario families navigate the mortgage landscape with access to 50+ lenders and the personal touch of a family brokerage.",
+    "keyMessages": [
+      "Working for you, not the banks",
+      "50+ lending institutions at your service",
+      "28+ years of mortgage expertise since 1997",
+      "FSRA licensed — regulated and trustworthy"
+    ],
+    "contentPriority": ["services", "trust-signals", "testimonials", "team", "location"],
+    "imageStrategy": {
+      "primarySubjects": "professional office, happy homeowners, Woodbridge/GTA skyline, family homes",
+      "mood": "bright and professional",
+      "colorTemperature": "neutral to warm",
+      "composition": "wide shots and portraits"
+    }
+  },
+  "images": {
+    "hero": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600&q=80",
+    "logo": "https://www.morcan.ca/images/vaughan-gta-ontario-mortgage-brokers.png",
+    "gallery": [
+      { "url": "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=800&q=80", "description": "Modern home exterior — residential mortgage", "verified": true },
+      { "url": "https://images.unsplash.com/photo-1582407947092-45c43teleportedhere?w=800&q=80", "description": "Family celebrating new home", "verified": true },
+      { "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80", "description": "Commercial building — commercial mortgages", "verified": true }
+    ],
+    "atmosphere": [
+      { "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80", "description": "Beautiful suburban home", "verified": true },
+      { "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80", "description": "Keys to new home", "verified": true }
+    ]
+  },
+  "people": [
+    {
+      "name": "Joe Taibi",
+      "role": "President and Principal Broker",
+      "instagram": "morcanfinancial",
+      "instagramUrl": "https://www.instagram.com/morcanfinancial/",
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": "President and Principal Broker at MorCan Financial Inc. FSRA #10687. Former Professor at Seneca College and Loans Manager at TD Bank Group. Serving mortgage clients since 1991.",
+      "featured": true,
+      "photoVerified": false
+    }
+  ],
+  "demographics": {
+    "primaryLanguage": "en",
+    "secondaryLanguage": null,
+    "languageEvidence": "Website fully English. Business operates in Woodbridge/Vaughan — multicultural area but all business communications, testimonials, and social media are in English. No significant non-English comment presence detected.",
+    "commentAudit": {
+      "instagramComments": { "en": 15, "it": 2 },
+      "googleReviews": { "en": 12 },
+      "businessReplies": { "en": 15 },
+      "totalNonEnglishPercent": 7,
+      "dominantNonEnglish": null
+    },
+    "additionalLanguages": [],
+    "neighborhood": "Woodbridge, Vaughan — Italian-Canadian community, growing multicultural area",
+    "targetCustomer": "GTA homebuyers and homeowners — first-time buyers, families refinancing, self-employed, newcomers to Canada, investors"
+  },
+  "archetype": {
+    "type": "service-first",
+    "rationale": "MorCan Financial is a trust-driven service business where clarity of mortgage offerings and Joe Taibi's 28+ years of expertise drive conversions. Services and credibility are the product, not a visual portfolio.",
+    "sectionOrder": ["hero", "services-overview", "why-choose-us", "testimonials", "about-joe", "calculator-teaser", "contact-cta"]
+  },
+  "screenshots": {
+    "desktopHome": "brand-bible/screenshots/desktop-home.png",
+    "mobileHome": "brand-bible/screenshots/mobile-home.png"
+  }
+}

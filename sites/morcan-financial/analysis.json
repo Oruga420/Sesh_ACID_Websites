@@ -1,0 +1,96 @@
+{
+  "business": {
+    "name": "MorCan Financial Inc.",
+    "slug": "morcan-financial",
+    "website": "https://www.morcan.ca/",
+    "phone": "905-850-8100",
+    "fax": "905-856-8053",
+    "email": "info@morcan.ca",
+    "address": "Suite 346, 14-3650 Langstaff Road, Woodbridge, ON L4L 9A8",
+    "city": "Woodbridge",
+    "province": "Ontario",
+    "postalCode": "L4L 9A8",
+    "founded": 1997,
+    "industry": "Mortgage Broker",
+    "fsraLicense": "10687",
+    "googleRating": 4.5,
+    "trustAnalyticaRating": 3.7
+  },
+  "team": [
+    {
+      "name": "Joe Taibi",
+      "role": "President and Principal Broker",
+      "fsra": "10687",
+      "background": "Former Professor at Seneca College, former Loans Manager at TD Bank Group",
+      "servingSince": 1991
+    }
+  ],
+  "services": [
+    "Pre-Approval",
+    "First Time Home Buyers",
+    "Private Mortgage Lending",
+    "Bad or Poor Credit Mortgages",
+    "Self-Employed Mortgages",
+    "New to Canada",
+    "Investment Properties",
+    "Debt Consolidation",
+    "Mortgage Renewals",
+    "Mortgage Refinancing",
+    "Renovation Financing",
+    "Credit Improvement",
+    "Vacation Homes",
+    "Commercial Mortgages"
+  ],
+  "socialMedia": {
+    "facebook": "https://www.facebook.com/MorCan-Financial-Inc-187439207983145",
+    "twitter": "https://twitter.com/MorCanMortgages",
+    "instagram": "https://www.instagram.com/morcanfinancial/",
+    "youtube": "https://www.youtube.com/user/MorcanFinancial/videos"
+  },
+  "tagline": "Infinite Solutions, Infinite Possibilities",
+  "valueProposition": "Working for you, not the Banks. Access to 50+ lending institutions.",
+  "testimonials": [
+    {
+      "name": "Sandra Burke",
+      "quote": "Morcan Financial has been my home as a mortgage professional for almost 20 years. Joe and staff have helped me grow my knowledge of the industry: all while making me feel like part of a family."
+    },
+    {
+      "name": "Rob Couse",
+      "quote": "Joe and his staff have been very helpful to me and my family for any of my mortgage needs and questions. I do not hesitate giving Morcan the two thumbs up."
+    },
+    {
+      "name": "Jordell James",
+      "quote": "The owner, Joe Taibi is the #1 reason I recommend MorCan to anyone I come across who is looking for a brokerage that they can learn and grow with."
+    },
+    {
+      "name": "John Benstead",
+      "title": "Top agent in Canada, Morcan Agent since 2005",
+      "quote": "The family atmosphere together with the integrity that matches my own, allows me to unequivocally endorse Morcan, as the only brokerage for me."
+    },
+    {
+      "name": "Christina Burke",
+      "title": "Top agent in Canada, With Morcan since 1997",
+      "quote": "I have been with Morcan Financial since 1997. None match the value proposition and the family atmosphere of Morcan Financial."
+    },
+    {
+      "name": "Kerryon Nugent",
+      "title": "Top agent in Canada, Morcan Team Leader since 2003",
+      "quote": "Ever since I started with Morcan I knew this was the company I wanted to be with. The support I receive, the family atmosphere and the ease and flexibility of getting paid is 2nd to none."
+    }
+  ],
+  "serviceAreas": "Vaughan, Woodbridge, GTA, Ontario (40+ municipalities)",
+  "lenderNetwork": "50+ lending institutions including major banks, credit unions, trusts, national and regional lenders",
+  "websiteAnalysis": {
+    "platform": "Custom PHP",
+    "theme": "light",
+    "issues": [
+      "Placeholder/lazyload images throughout",
+      "Dated visual design",
+      "Functional but uninspired aesthetic",
+      "No modern responsive framework",
+      "Images use lazyload-placeholder.png instead of real images"
+    ],
+    "logoUrl": "https://www.morcan.ca/images/vaughan-gta-ontario-mortgage-brokers.png",
+    "logoDescription": "Blue text 'MorCan Financial Inc.' with red 'C' in MorCan, on transparent/white background"
+  }
+}
