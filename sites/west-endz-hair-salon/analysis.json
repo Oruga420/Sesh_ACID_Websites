@@ -1,0 +1,109 @@
+{
+  "businessName": "West Endz Hair Salon",
+  "slug": "west-endz-hair-salon",
+  "website": "https://westendzsalon.com/",
+  "address": "825 Brown's Line, Alderwood Plaza, Etobicoke, ON M8W 3V7",
+  "phone": "416-255-2131",
+  "email": "westendz@rogers.com",
+  "established": "1960s (60+ years)",
+  "hours": {
+    "monday": "Closed",
+    "tuesday": "9:00 AM - 6:00 PM",
+    "wednesday": "9:00 AM - 6:00 PM",
+    "thursday": "9:00 AM - 7:00 PM",
+    "friday": "9:00 AM - 7:00 PM",
+    "saturday": "9:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "services": [
+    "Haircuts (Women & Men)",
+    "Hair Coloring (Mon Platin products)",
+    "Highlights",
+    "Balayage",
+    "Perms",
+    "Hair Extensions (Hair Treats certified)",
+    "Keratin Treatment",
+    "Blow Dry",
+    "Children's Haircut",
+    "Hair Braiding",
+    "Special Event Styling (weddings, proms, graduations)",
+    "Waxing / Hair Removal"
+  ],
+  "pricing": {
+    "seniorDiscount": "20% off for clients 65+ on Tuesdays and Wednesdays"
+  },
+  "team": [
+    {
+      "name": "Lucy Zollerano",
+      "role": "Owner & Master Hair Stylist",
+      "experience": "25+ years",
+      "specialties": ["Hair cutting", "Hair coloring", "Highlighting", "Hair extensions"],
+      "certifications": ["Top Mon Platin color specialist in west Toronto", "Hair Treats certified specialist"],
+      "philosophy": "Don't limit yourself, always strive for more"
+    },
+    {
+      "name": "Mary Taffuri",
+      "role": "Hair Stylist",
+      "experience": "20+ years",
+      "specialties": ["Haircuts", "Styling", "Coloring", "Highlights", "Perms", "Event hair styling"],
+      "philosophy": "Be your own person. Don't be a follower"
+    },
+    {
+      "name": "Darlene",
+      "role": "Hair Stylist",
+      "specialties": ["Hair cutting", "Coloring", "Highlighting", "Color correction"],
+      "philosophy": "Be the best you can be"
+    }
+  ],
+  "testimonials": [
+    {
+      "author": "Biagina Cianfrogna",
+      "text": "Highlights, colour and cut is exactly what I want, and she gets it right all the time!!"
+    },
+    {
+      "author": "Filomena Paoletta",
+      "text": "Mary is my stylist and she is AMAZING! She always cuts exactly how I want it."
+    },
+    {
+      "author": "Kimberly McBride",
+      "text": "Staff made nervous clients feel at ease"
+    },
+    {
+      "author": "Rena Scitures",
+      "text": "Quality of services is amazing and affordable"
+    },
+    {
+      "author": "Heather Barlow",
+      "text": "Love this Salon everyone is amazing"
+    },
+    {
+      "author": "Colette Gagne",
+      "text": "I must take a moment to shout out to Darlene she's a wonderful hair stylist kind caring and truly an amazing at her job."
+    },
+    {
+      "author": "Jolanta Miszkiel",
+      "text": "I have been a customer at West Ends Hair Salon for many years, and I continue to be impressed, and very happy with the professionalism, excellent service, and friendliness of all staff."
+    },
+    {
+      "author": "Stella Harrison",
+      "text": "Darlene is the heart and soul in that place...She definitely knows how to cut hair well. My hair has never felt or looked as good."
+    },
+    {
+      "author": "Silvana Campese",
+      "text": "Mary did an awesome job on cutting my hair going to support local business in the area."
+    }
+  ],
+  "socialMedia": {
+    "instagram": "@salonwestendz",
+    "instagramUrl": "https://www.instagram.com/salonwestendz/",
+    "facebook": "https://www.facebook.com/WestEndzHairSalon/",
+    "socialMediaManager": "Jenna (@jennhunt612)"
+  },
+  "ratings": {
+    "birdeye": { "rating": 4.3, "reviews": 92 },
+    "google": { "rating": 4.4, "reviews": 84 }
+  },
+  "products": ["Mon Platin professional hair color products", "Hair Treats extensions"],
+  "neighborhood": "Alderwood, South Etobicoke",
+  "serviceArea": "South Etobicoke, Alderwood, Mississauga, West End Toronto"
+}

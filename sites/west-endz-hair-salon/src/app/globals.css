@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+/* UI REVIEW
+ * Logo: gold/dark text on white header — OK (dark logo on light bg)
+ * Buttons: green primary #56c477, 4px radius per brand-tokens — OK
+ * Footer: dark #1a1a1a bg contrasts with #FAFAF7 body — OK
+ * Body pt-10: watermark banner offset present — OK
+ * Theme: LIGHT — no dark mode, confirmed by brand bible overallTheme
+ */
+
+@theme inline {
+  /* Brand Colors */
+  --color-brand-primary: #56c477;
+  --color-brand-secondary: #039146;
+  --color-brand-accent: #c4a35a;
+  --color-brand-bg-main: #FAFAF7;
+  --color-brand-bg-alt: #F0EDE6;
+  --color-brand-bg-card: #FFFFFF;
+  --color-brand-text-heading: #1a1a1a;
+  --color-brand-text-body: #4a4a4a;
+  --color-brand-text-muted: #7a7a7a;
+  --color-brand-footer-bg: #1a1a1a;
+  --color-brand-footer-text: #c4b590;
+
+  /* Typography */
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Lato', Helvetica, Arial, sans-serif;
+
+  /* Spacing */
+  --radius-buttons: 4px;
+  --radius-cards: 8px;
+  --radius-images: 6px;
+}
+
+body {
+  background-color: #FAFAF7;
+  color: #4a4a4a;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  color: #1a1a1a;
+}
+
+/* Scroll-triggered animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-in-up {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}

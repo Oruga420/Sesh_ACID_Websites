@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "businessName": "West Endz Hair Salon",
+    "slug": "west-endz-hair-salon",
+    "website": "https://westendzsalon.com/",
+    "dateAnalyzed": "2026-04-11",
+    "pagesAnalyzed": ["homepage", "about-us", "salon-services", "contact-us"]
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "overallTheme": "light-clean with green accents and warm gold",
+      "primary": { "hex": "#56c477", "usage": "Buttons, CTA, accent elements, hover states" },
+      "secondary": { "hex": "#039146", "usage": "Header background, dark green accents, emphasis" },
+      "accent": { "hex": "#c4a35a", "usage": "Logo gold, premium accents, decorative elements" },
+      "background": {
+        "main": { "hex": "#FAFAF7", "usage": "Page body background, main content areas" },
+        "alternate": { "hex": "#F0EDE6", "usage": "Alternating sections, subtle contrast" },
+        "card": { "hex": "#FFFFFF", "usage": "Service cards, testimonial cards, content blocks" }
+      },
+      "text": {
+        "heading": { "hex": "#1a1a1a", "usage": "Main headings, business name, nav items" },
+        "body": { "hex": "#4a4a4a", "usage": "Body text, descriptions, paragraphs" },
+        "muted": { "hex": "#7a7a7a", "usage": "Secondary info, captions, metadata" }
+      },
+      "gradients": [],
+      "shadows": {
+        "card": "0 2px 12px rgba(0,0,0,0.08)",
+        "elevated": "0 8px 24px rgba(0,0,0,0.12)"
+      }
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Cormorant Garamond",
+        "fallback": "Georgia, serif",
+        "weights": [400, 500, 600, 700],
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap",
+        "rationale": "The site logo uses an elegant serif with thin strokes and classic proportions. Cormorant Garamond matches the refined, feminine elegance of the West Endz brand — heritage salon with 60+ years of history. Not Playfair Display (BANNED). CSS forensics found serif headings with light weight."
+      },
+      "bodyFont": {
+        "family": "Lato",
+        "fallback": "Helvetica, Arial, sans-serif",
+        "weights": [300, 400, 700],
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",
+        "rationale": "Clean, warm sans-serif that pairs well with Cormorant Garamond. The site uses simple sans-serif body text. Lato has warmth and approachability matching the salon's friendly, community-oriented personality. Not Roboto or Inter (BANNED)."
+      },
+      "navFont": {
+        "weight": 500,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.12em"
+      },
+      "scale": {
+        "h1": { "size": "4rem", "lineHeight": "1.1", "weight": 400 },
+        "h2": { "size": "2.5rem", "lineHeight": "1.2", "weight": 500 },
+        "h3": { "size": "1.5rem", "lineHeight": "1.3", "weight": 600 },
+        "body": { "size": "1rem", "lineHeight": "1.7", "weight": 400 },
+        "small": { "size": "0.875rem", "lineHeight": "1.5", "weight": 400 }
+      }
+    },
+    "components": {
+      "header": {
+        "type": "sticky",
+        "position": "sticky",
+        "background": "#FFFFFF",
+        "logoPosition": "left",
+        "navAlignment": "right",
+        "height": "72px",
+        "borderBottom": "1px solid #F0EDE6",
+        "notes": "Dark logo (gold text) on white/light header. Logo has gold Z icon with dark text."
+      },
+      "hero": {
+        "type": "full-bleed-image",
+        "overlayStyle": "gradient from bottom, semi-transparent",
+        "textAlignment": "left",
+        "cta": "Book an Appointment"
+      },
+      "buttons": {
+        "primary": {
+          "background": "#56c477",
+          "color": "#FFFFFF",
+          "borderRadius": "4px",
+          "padding": "14px 28px",
+          "textTransform": "uppercase",
+          "letterSpacing": "0.08em",
+          "fontWeight": 600,
+          "hoverEffect": "darken background, subtle scale"
+        },
+        "borderRadius": "4px",
+        "padding": "14px 28px",
+        "textTransform": "uppercase",
+        "letterSpacing": "0.08em",
+        "fontWeight": 600,
+        "hoverEffect": "darken background, subtle scale"
+      },
+      "cards": {
+        "background": "#FFFFFF",
+        "borderRadius": "8px",
+        "shadow": "0 2px 12px rgba(0,0,0,0.08)",
+        "hoverEffect": "lift + shadow increase",
+        "border": "none"
+      },
+      "footer": {
+        "background": "#1a1a1a",
+        "textColor": "#c4b590",
+        "style": "dark anchor, 3-column layout"
+      },
+      "images": {
+        "borderRadius": "6px",
+        "hoverEffect": "scale 1.03 with overflow hidden",
+        "aspectRatio": "4/3 for gallery, square for portraits"
+      }
+    }
+  },
+  "spacing": {
+    "sectionPadding": "5rem 0",
+    "contentMaxWidth": "1200px",
+    "cardGap": "2rem",
+    "borderRadius": {
+      "buttons": "4px",
+      "cards": "8px",
+      "images": "6px"
+    }
+  },
+  "brandVoice": {
+    "tone": "warm, welcoming, professional, community-oriented",
+    "personality": ["friendly", "approachable", "experienced", "trusted", "neighborhood"],
+    "messagingPatterns": {
+      "headlines": ["Your hair, your way", "60+ years of making you beautiful", "Where style meets tradition"],
+      "ctas": ["Book Your Appointment", "Call Us Today", "Visit Our Salon"]
+    },
+    "vocabulary": {
+      "wordsTheyUse": ["salon", "stylist", "haircut", "colour", "highlights", "extensions", "styling", "beautiful", "amazing", "community", "Alderwood"],
+      "wordsTheyAvoid": ["cheap", "discount", "basic"]
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "handle": "@salonwestendz",
+        "followers": 263,
+        "posts": 38,
+        "bio": "An unassuming, low-key, attitude-free salon turning out some serious hair",
+        "socialMediaManager": "Jenna (@jennhunt612)",
+        "sampleCaptions": [
+          "An unassuming, low-key, attitude-free salon turning out some serious hair",
+          "Highlights, colour and cut is exactly what I want, and she gets it right all the time!!",
+          "Quality of services is amazing and affordable"
+        ],
+        "toneNotes": "Casual, confident, unpretentious. Emphasizes quality and the lack of salon attitude. Low-key pride in their work."
+      }
+    }
+  },
+  "customerPerception": {
+    "overallRating": 4.3,
+    "totalReviews": 92,
+    "themes": [
+      "Friendly and welcoming staff",
+      "High quality coloring and highlights",
+      "Darlene is exceptional — 'heart and soul' of the salon",
+      "Mary consistently delivers perfect cuts",
+      "Lucy is a master colorist",
+      "Long-standing loyal customers (many years)",
+      "Affordable pricing",
+      "Community-oriented local salon",
+      "Some complaints about phone communication"
+    ],
+    "vibeDescriptors": ["low-key", "attitude-free", "friendly", "professional", "welcoming", "community"]
+  },
+  "people": [
+    {
+      "name": "Lucy Zollerano",
+      "role": "Owner & Master Hair Stylist",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": "Over 25 years experience in hair cutting, hair colouring, highlighting and hair extensions. Top Mon Platin color specialist in west Toronto. Hair Treats certified specialist. Philosophy: Don't limit yourself, always strive for more.",
+      "featured": true,
+      "photoVerified": false,
+      "certifications": ["Top Mon Platin color specialist", "Hair Treats certified specialist"]
+    },
+    {
+      "name": "Mary Taffuri",
+      "role": "Hair Stylist",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": "Over 20 years experience in haircuts, styling, coloring, highlights, perms, and event hair styling. Philosophy: Be your own person. Don't be a follower.",
+      "featured": true,
+      "photoVerified": false
+    },
+    {
+      "name": "Darlene",
+      "role": "Hair Stylist",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": "Experienced in hair cutting, coloring, highlighting, and color correction. Described by clients as 'the heart and soul' of the salon. Philosophy: Be the best you can be.",
+      "featured": true,
+      "photoVerified": false
+    }
+  ],
+  "images": {
+    "hero": "https://westendzsalon.com/wp-content/uploads/2018/04/landing-top-background-img.jpg",
+    "logo": "https://westendzsalon.com/wp-content/uploads/2022/11/WestEndz-Dark-2022.png",
+    "logoLight": "https://westendzsalon.com/wp-content/uploads/2022/11/WestEndz-Light-2022.png",
+    "logoFooter": "https://westendzsalon.com/wp-content/uploads/2022/08/logo.png",
+    "gallery": [
+      { "url": "https://westendzsalon.com/wp-content/uploads/2018/05/h5-slider2-background-img.jpg", "description": "Male hairstyle portrait - professional styling", "verified": true },
+      { "url": "https://westendzsalon.com/wp-content/uploads/2020/06/h3-team-img-2.jpg", "description": "Female model with styled hair - salon portfolio", "verified": true },
+      { "url": "https://westendzsalon.com/wp-content/uploads/2018/04/landing-top-background-img.jpg", "description": "Dark salon tools background - hair styling equipment (rollers, comb, scissors)", "verified": true },
+      { "url": "https://westendzsalon.com/wp-content/uploads/2022/10/Mon_Platin_Banner.png", "description": "Mon Platin Professional banner - four models with styled hair", "verified": true }
+    ],
+    "atmosphere": [
+      { "url": "https://westendzsalon.com/wp-content/uploads/2018/04/landing-top-background-img.jpg", "description": "Salon tools on dark background", "verified": true }
+    ]
+  },
+  "demographics": {
+    "primaryLanguage": "en",
+    "secondaryLanguage": null,
+    "languageEvidence": "All reviews and testimonials are in English. The salon is in Alderwood, a predominantly English-speaking neighborhood in south Etobicoke. Instagram bio and all social media content is in English. No evidence of non-English customer comments.",
+    "commentAudit": {
+      "googleReviews": { "en": 92, "other": 0 },
+      "instagramComments": { "en": 38, "other": 0 },
+      "totalNonEnglishPercent": 0
+    },
+    "neighborhood": "Alderwood, South Etobicoke — established residential community, mostly English-speaking, family-oriented",
+    "targetCustomer": "Local women 30-65+ in Alderwood and south Etobicoke seeking trusted, experienced hair stylists for regular cuts, color, and styling"
+  },
+  "archetype": {
+    "type": "portfolio-first",
+    "rationale": "Hair salon where the stylists' work IS the product. Portfolio/gallery should showcase hair transformations. Team pages showing individual stylists builds trust.",
+    "sectionOrder": ["hero", "gallery-teaser", "cta", "services", "team", "testimonials", "contact"]
+  },
+  "contentStrategy": {
+    "primaryCTA": "Book Your Appointment",
+    "secondaryCTA": "Call Us Today",
+    "keyMessages": [
+      "60+ years serving Alderwood",
+      "Master stylists with 20-25+ years experience",
+      "Low-key, attitude-free salon",
+      "Mon Platin color specialists"
+    ]
+  }
+}
