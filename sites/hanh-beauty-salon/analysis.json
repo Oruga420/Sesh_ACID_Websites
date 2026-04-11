@@ -1,0 +1,72 @@
+{
+  "businessName": "Hanh Beauty Salon & Spa",
+  "slug": "hanh-beauty-salon",
+  "website": "https://www.hanhbeauty.com/",
+  "address": "11495 Hurontario St, Brampton, ON L6Z 0B1",
+  "phone": "905-452-0855",
+  "email": "info@hanhbeauty.com",
+  "hours": {
+    "monFri": "10:00 AM - 7:00 PM",
+    "saturday": "10:00 AM - 6:00 PM",
+    "sunday": "10:00 AM - 6:00 PM"
+  },
+  "industry": "Beauty Salon / Spa / Medispa",
+  "city": "Brampton, ON",
+  "instagram": "@hanhsalonandspa2024",
+  "instagramUrl": "https://www.instagram.com/hanhsalonandspa2024/",
+  "facebook": "https://www.facebook.com/HanhSalonAndSpa/",
+  "platform": "Wix (Thunderbolt)",
+  "multipleLocations": true,
+  "locations": [
+    "11495 Hurontario St (Mayfield Location)",
+    "7900 Hurontario St (Steeles/Wellness Location)"
+  ],
+  "services": {
+    "facials": {
+      "expressFacial": "$60",
+      "signatureFacial": "$65",
+      "lightTeenFacial": "$50",
+      "pureOxygenFacial": "$70"
+    },
+    "massage": {
+      "bodyMassage30min": "$45",
+      "bodyMassage45min": "$50",
+      "bodyMassage60min": "$60",
+      "zenShiatsu45min": "$45",
+      "reflexology30min": "$45",
+      "reflexology60min": "$65"
+    },
+    "pedicures": {
+      "classicPedicure": "$35",
+      "frenchPedicure": "$45",
+      "hotParaffinPedicure": "$45",
+      "spaPedicure": "$55",
+      "shellacPedicure": "$55",
+      "childsPedicure": "$20"
+    },
+    "manicures": {
+      "classicManicure": "$20",
+      "frenchManicure": "$25",
+      "spaManicure": "$30",
+      "shellacManicure": "$30",
+      "childsManicure": "$10"
+    },
+    "medispa": ["Photo Facials", "Microdermabrasion", "Laser Treatments", "Registered Massage Therapy"],
+    "hair": ["Hair Coloring", "Perms", "Straightening", "Hair Updos"],
+    "other": ["Waxing", "Threading", "Body Sculpting", "Bridal Makeup", "Dermaplaning"]
+  },
+  "reviews": {
+    "birdeye": { "mayfield": "3.9 stars / 411 reviews", "steeles": "3.5 stars / 1105 reviews" },
+    "highlights": [
+      "Extremely reasonable prices",
+      "Professional service",
+      "Clean facility",
+      "Good for facials and spa treatments",
+      "Largest salon in Brampton"
+    ]
+  },
+  "description": "Hanh Beauty Salon & Spa is Brampton's largest salon with 4 locations. They offer facials, body treatments, pedicures, manicures, waxing, medispa services, laser treatments, massage therapy, and full hair services.",
+  "pages": ["home", "services", "spa-services", "spa-gallery", "spa-packages", "locations"],
+  "tripadvisorPhotos": 16,
+  "yelpPhotos": 10
+}
