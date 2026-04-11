@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "business": "Neelkanth Beauty Parlour",
+    "slug": "neelkanth-beauty-parlour",
+    "analyzedAt": "2026-04-11T12:00:00Z",
+    "sourcesAnalyzed": {
+      "websitePages": [
+        "https://neelkanthbeautyparlour.com/"
+      ],
+      "instagram": true,
+      "facebook": false,
+      "googleReviews": true,
+      "screenshotsTaken": 0
+    }
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "primary": { "hex": "#B00910", "usage": "Brand red — logo script, CTA buttons, links, accent elements" },
+      "secondary": { "hex": "#1B1B1B", "usage": "Dark text, logo 'BEAUTY PARLOUR' text, strong headings" },
+      "accent": { "hex": "#920611", "usage": "Hover state for buttons and links, dark red emphasis" },
+      "background": {
+        "main": { "hex": "#FFFFFF", "usage": "Page background — clean white base" },
+        "alternate": { "hex": "#F6F6F6", "usage": "Alternating sections, card backgrounds" },
+        "card": { "hex": "#FFFFFF", "usage": "Service cards, elevated surfaces" }
+      },
+      "text": {
+        "heading": { "hex": "#1B1B1B", "usage": "Main headings, dark near-black" },
+        "body": { "hex": "#575757", "usage": "Body text, descriptions, secondary content" },
+        "muted": { "hex": "#455A64", "usage": "Subdued text, metadata, labels" },
+        "link": { "hex": "#B00910", "hoverHex": "#920611" }
+      },
+      "borders": { "hex": "#E2E2E2", "usage": "Dividers, card borders, subtle separators" },
+      "gold": { "hex": "#C9A84C", "usage": "Luxury accent — used sparingly for premium feel, bridal section highlights" },
+      "warmCream": { "hex": "#FFF8F0", "usage": "Warm section backgrounds — evokes South Asian warmth and hospitality" },
+      "gradients": [
+        { "css": "linear-gradient(to bottom, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 100%)", "usage": "Hero overlay on current site" },
+        { "css": "linear-gradient(135deg, #B00910 0%, #920611 100%)", "usage": "CTA gradient accent" }
+      ],
+      "shadows": [
+        { "css": "0 2px 6px rgba(0,0,0,0.3)", "usage": "Subtle card shadow" },
+        { "css": "0 4px 12px rgba(176,9,16,0.15)", "usage": "Brand-tinted hover shadow" }
+      ],
+      "overallTheme": "light-clean"
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Playfair Display",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap",
+        "fallback": "serif",
+        "weights": [400, 700, 900],
+        "style": "elegant"
+      },
+      "bodyFont": {
+        "family": "Source Sans Pro",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap",
+        "fallback": "sans-serif",
+        "weights": [300, 400, 700],
+        "style": "clean"
+      },
+      "navFont": {
+        "family": "Montserrat",
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap",
+        "weight": 600,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.08em"
+      },
+      "scale": {
+        "h1": { "size": "3.5rem", "weight": 700, "lineHeight": 1.1 },
+        "h2": { "size": "2rem", "weight": 700, "lineHeight": 1.3 },
+        "h3": { "size": "1.5rem", "weight": 600, "lineHeight": 1.4 },
+        "body": { "size": "1rem", "weight": 400, "lineHeight": 1.6 },
+        "small": { "size": "0.875rem", "weight": 400, "lineHeight": 1.5 }
+      }
+    },
+    "spacing": {
+      "sectionPadding": "80px",
+      "contentMaxWidth": "1200px",
+      "cardGap": "24px",
+      "borderRadius": {
+        "buttons": "6px",
+        "cards": "8px",
+        "images": "8px"
+      }
+    },
+    "components": {
+      "header": {
+        "position": "sticky",
+        "background": "solid",
+        "logoPosition": "left",
+        "navAlignment": "right",
+        "mobileMenu": "hamburger-slide",
+        "height": "72px"
+      },
+      "hero": {
+        "type": "full-bleed-image",
+        "overlay": { "color": "rgba(0,0,0,0.55)", "gradient": "linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.3))" },
+        "textAlignment": "center",
+        "ctaStyle": "prominent-button"
+      },
+      "buttons": {
+        "primary": {
+          "bg": "#B00910",
+          "text": "#FFFFFF",
+          "border": "none",
+          "borderRadius": "6px",
+          "padding": "14px 32px",
+          "fontWeight": 700,
+          "textTransform": "uppercase",
+          "hoverEffect": "darken"
+        },
+        "secondary": {
+          "bg": "transparent",
+          "text": "#B00910",
+          "border": "2px solid #B00910",
+          "hoverEffect": "fill"
+        }
+      },
+      "cards": {
+        "background": "#FFFFFF",
+        "border": "1px solid #E2E2E2",
+        "borderRadius": "8px",
+        "shadow": "soft",
+        "hoverEffect": "lift"
+      },
+      "footer": {
+        "background": "#1B1B1B",
+        "columns": 3,
+        "style": "dark-inverse"
+      },
+      "images": {
+        "borderRadius": "8px",
+        "aspectRatio": "4:3",
+        "hoverEffect": "zoom",
+        "filter": "slight-saturation-boost"
+      }
+    },
+    "animations": {
+      "pageTransitions": "fade",
+      "scrollAnimations": "fade-up",
+      "hoverTransitions": "0.3s ease",
+      "loadingStyle": "skeleton"
+    }
+  },
+  "brandVoice": {
+    "personality": ["warm", "welcoming", "professional", "nurturing", "feminine"],
+    "tone": "warm",
+    "vocabulary": {
+      "wordsTheyUse": ["beauty", "passion", "relaxation", "rejuvenation", "self-care", "pampering", "glow", "bridal", "threading", "facial"],
+      "wordsTheyAvoid": ["cheap", "discount", "basic", "ugly", "corporate", "clinical"],
+      "industryJargon": ["threading", "waxing", "facial", "bleach", "cleanup", "hardra", "bridal makeup", "party makeup", "mani-pedi"]
+    },
+    "messagingPatterns": {
+      "headlines": "Short and emotive — aspirational beauty statements",
+      "ctas": "Direct command — 'Book Your Appointment', 'Call Now'",
+      "descriptions": "Benefit-focused — emphasizing the experience and result"
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "tone": "warm, celebratory, community-oriented",
+        "emojiUsage": "moderate",
+        "hashtagStyle": "community",
+        "captionLength": "short",
+        "sampleCaptions": [
+          "#neelkanthbeautyparlour #beautyparlour #markham #threading #waxing #bridal",
+          "Your Beauty, Our Passion"
+        ]
+      },
+      "facebook": {
+        "tone": "warm, promotional",
+        "postStyle": "promotional"
+      }
+    },
+    "customerPerception": {
+      "commonPraise": ["attentive staff", "affordable prices", "comfortable atmosphere", "skilled stylists", "great eyebrow threading"],
+      "vibeDescriptors": ["warm", "inviting", "comfortable", "welcoming", "homey"],
+      "emotionalAssociations": ["pampered", "cared for", "beautiful", "relaxed", "treated like family"]
+    }
+  },
+  "contentStrategy": {
+    "primaryCTA": "Book Now",
+    "valueProposition": "Affordable South Asian beauty services with warm, personalized care in the heart of Markham",
+    "keyMessages": [
+      "Your Beauty, Our Passion",
+      "Expert threading, facials & bridal makeup",
+      "Affordable luxury — walk-in friendly",
+      "Where beauty meets warm hospitality"
+    ],
+    "contentPriority": ["services", "portfolio", "location", "reviews", "team"],
+    "imageStrategy": {
+      "primarySubjects": "beauty services, bridal looks, facials, threading",
+      "mood": "bright and warm",
+      "colorTemperature": "warm",
+      "composition": "close-ups and beauty portraits"
+    }
+  },
+  "images": {
+    "hero": "https://img1.wsimg.com/isteam/stock/Y8DjaN9/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1280",
+    "logo": "https://img1.wsimg.com/isteam/ip/827f85d2-55b1-4f05-ad2d-0dafd6b6eb33/Untitled%20design%20(1).png",
+    "food": [],
+    "gallery": [
+      { "url": "https://img1.wsimg.com/isteam/stock/Y8DjaN9/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600", "description": "Beauty portrait — woman with smooth hair and elegant makeup", "verified": true },
+      { "url": "https://img1.wsimg.com/isteam/stock/Y8DjaN9/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400", "description": "Beauty portrait — professional beauty shot (small)", "verified": true }
+    ],
+    "atmosphere": []
+  },
+  "people": [],
+  "demographics": {
+    "primaryLanguage": "en",
+    "secondaryLanguage": "hi",
+    "languageEvidence": "Business name 'Neelkanth' is Hindi/Sanskrit. Located on 'New Delhi Dr' in a South Asian commercial corridor in Markham. Instagram hashtags include Hindi-community beauty terms. The South Asian community in Markham is predominantly Hindi/Punjabi/Gujarati-speaking. Based on location and cultural context, Hindi is the secondary language.",
+    "commentAudit": {
+      "instagramComments": { "en": 0, "hi": 0 },
+      "googleReviews": { "en": 1 },
+      "businessReplies": { "en": 0 },
+      "totalNonEnglishPercent": 0,
+      "dominantNonEnglish": null
+    },
+    "additionalLanguages": ["pa", "gu"],
+    "neighborhood": "New Delhi Dr / Markham Rd — South Asian commercial corridor with Indian groceries, restaurants, and services",
+    "targetCustomer": "South Asian women seeking traditional beauty services (threading, facials, bridal makeup) at affordable prices"
+  },
+  "archetype": {
+    "type": "portfolio-first",
+    "rationale": "Beauty parlour where the quality of work (threading, facials, bridal makeup) IS the product. Clients choose based on results they can see.",
+    "sectionOrder": ["hero", "services-teaser", "gallery-teaser", "reviews", "cta", "contact"]
+  },
+  "screenshots": {
+    "desktopHome": null,
+    "mobileHome": null,
+    "innerPage": null
+  }
+}

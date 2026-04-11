@@ -1,0 +1,85 @@
+{
+  "business_name": "Neelkanth Beauty Parlour",
+  "slug": "neelkanth-beauty-parlour",
+  "website_url": "https://neelkanthbeautyparlour.com/",
+  "contact_email": "neelkanthbeautyparlour@gmail.com",
+  "phone": "(647) 674-8191",
+  "whatsapp": "+16476748191",
+  "address": "7393 Markham Rd, Unit 77, Markham, ON L3S 0B5",
+  "address_alt": "20 New Delhi Dr, Unit 77, Markham, ON L3S 0B5",
+  "city": "Markham",
+  "province": "Ontario",
+  "country": "Canada",
+  "hours": {
+    "monday": "10:00 AM - 9:00 PM",
+    "tuesday": "10:00 AM - 9:00 PM",
+    "wednesday": "10:00 AM - 9:00 PM",
+    "thursday": "10:00 AM - 9:00 PM",
+    "friday": "10:00 AM - 9:00 PM",
+    "saturday": "10:00 AM - 9:00 PM",
+    "sunday": "10:00 AM - 9:00 PM"
+  },
+  "industry": "Beauty Salon / Parlour",
+  "instagram": "@neelkanthbeautyparlour",
+  "instagram_url": "https://www.instagram.com/neelkanthbeautyparlour/",
+  "instagram_followers": 201,
+  "instagram_posts": 570,
+  "facebook": null,
+  "tagline": "Your Beauty, Our Passion",
+  "platform": "GoDaddy Website Builder",
+  "copyright_year": 2023,
+  "established": null,
+  "rating": 5.0,
+  "review_count": 1,
+  "services": {
+    "threading": [
+      { "name": "Eyebrows", "price": 5 },
+      { "name": "Upper Lips", "price": 5 },
+      { "name": "Forehead", "price": 3 },
+      { "name": "Full Face", "price": 15 }
+    ],
+    "waxing": [
+      { "name": "Full Legs", "price": 20 },
+      { "name": "Arms & Armpits", "price": 20 },
+      { "name": "Legs, Arms & Armpits", "price": 35 },
+      { "name": "Full Body", "price": 75 }
+    ],
+    "facials": [
+      { "name": "Basic Facial", "price": 45 },
+      { "name": "Fruit Facial", "price": 50 },
+      { "name": "Hardra Facial", "price": 65 },
+      { "name": "Bleach", "price": 20 },
+      { "name": "Cleanup", "price": 35 },
+      { "name": "Bleach with Cleanup", "price": 40 },
+      { "name": "Facial Whitening", "price": 55 }
+    ],
+    "manicure_pedicure": [
+      { "name": "Manicure", "price": 50 },
+      { "name": "Pedicure", "price": 50 },
+      { "name": "Manicure & Pedicure", "price": 80 }
+    ],
+    "massage": [
+      { "name": "Shoulder / Upper Body", "price": 35 },
+      { "name": "Back / Lower Body", "price": 45 },
+      { "name": "Full Body Massage", "price": 85 }
+    ],
+    "makeup": [
+      { "name": "Party / Casual Makeup", "price": 35 },
+      { "name": "Bridal Makeup", "price": 50 }
+    ],
+    "hair": [
+      { "name": "Hair Style", "price": 50 }
+    ]
+  },
+  "team": [],
+  "testimonials": [],
+  "reviews_summary": {
+    "atmosphere": "Warm and inviting, clients feel comfortable from arrival",
+    "staff": "Professional, attentive, polite; offer complimentary tea, coffee, and snacks",
+    "pricing": "Affordable, great value for quality",
+    "specialties": "Eyebrow threading, haircuts, bridal makeup",
+    "consideration": "Wait times can be longer during peak hours"
+  },
+  "nearby_landmarks": "Close to Hakka Legend & A1 Bakery",
+  "neighborhood": "South Asian commercial corridor on Markham Rd / New Delhi Dr"
+}
