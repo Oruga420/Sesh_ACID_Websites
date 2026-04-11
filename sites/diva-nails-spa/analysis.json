@@ -1,0 +1,104 @@
+{
+  "businessName": "Diva Nails & Head Spa",
+  "legalName": "Diva Nails Ltd",
+  "slug": "diva-nails-spa",
+  "website": "https://divanailsspa.ca/",
+  "address": "2639 Eglinton Ave E, Scarborough, ON M1K 2S2",
+  "phone": "(416) 267-6245",
+  "email": null,
+  "owner": "Nguyen, Thi Lieu Hanh",
+  "hours": {
+    "monday": "9:00 AM - 8:00 PM",
+    "tuesday": "9:00 AM - 8:00 PM",
+    "wednesday": "9:00 AM - 8:00 PM",
+    "thursday": "9:00 AM - 8:00 PM",
+    "friday": "9:00 AM - 8:00 PM",
+    "saturday": "9:00 AM - 8:00 PM",
+    "sunday": "9:00 AM - 6:00 PM"
+  },
+  "staff": [
+    { "name": "Jenny", "role": "Nail Technician" },
+    { "name": "Van", "role": "Nail Technician" },
+    { "name": "Marry", "role": "Nail Technician" },
+    { "name": "Julia", "role": "Nail Technician" }
+  ],
+  "services": {
+    "headSpa": [
+      { "name": "Head Spa 60 min", "price": 60 },
+      { "name": "Head Spa 90 min", "price": 80 }
+    ],
+    "naturalNails": [
+      { "name": "Manicure", "price": 25, "duration": "30 min" },
+      { "name": "Pedicure", "price": 35, "duration": "30 min" },
+      { "name": "Pedicure For Men", "price": 40, "duration": "45 min" },
+      { "name": "Manicure & Pedicure", "price": 50, "duration": "60 min" },
+      { "name": "Manicure & Pedicure For Men", "price": 55, "duration": "60 min" }
+    ],
+    "shellac": [
+      { "name": "Shellac Manicure", "price": 35 },
+      { "name": "Shellac Pedicure", "price": 45 },
+      { "name": "Shellac Combo", "price": 70 }
+    ],
+    "gelNails": [
+      { "name": "Bio Seaweed Gel Fullset", "price": 60, "duration": "45 min" },
+      { "name": "Bio Seaweed Gel Refill", "price": 50, "duration": "45 min" },
+      { "name": "UV Powder Fullset", "price": 50 },
+      { "name": "UV Powder Refill", "price": 45 }
+    ],
+    "ombreDipping": [
+      { "name": "Ombre / Dipping Powder Full Set", "price": 50 }
+    ],
+    "acrylicNails": [
+      { "name": "Acrylic Full Set With Colour", "price": 50, "duration": "30 min" },
+      { "name": "Acrylic Fill With Colour", "price": 45, "duration": "30 min" }
+    ],
+    "waxing": [
+      { "name": "Eyebrows", "price": 10 },
+      { "name": "Upper Lip", "price": 7 },
+      { "name": "Chin", "price": 7 },
+      { "name": "Full Face", "price": 25 },
+      { "name": "Full Arm", "price": 30 },
+      { "name": "Full Legs", "price": 45 },
+      { "name": "Brazilian", "price": 40 },
+      { "name": "Back", "price": 40 }
+    ],
+    "eyelashExtensions": [
+      { "name": "Full Set", "price": 100, "duration": "90 min" },
+      { "name": "Refill", "price": 80, "duration": "60 min" }
+    ],
+    "facials": [
+      { "name": "Basic Facial", "price": 50, "duration": "45 min" }
+    ]
+  },
+  "ratings": {
+    "groupon": { "score": 4.7, "reviews": 85 },
+    "dashBooking": { "score": 4.35, "reviews": 20 }
+  },
+  "testimonials": [
+    {
+      "text": "This was a glorious experience! The place is super clean! The staff is so sweet and accommodating! What a relaxing time. Can't wait to do it again!",
+      "source": "Dash Booking"
+    },
+    {
+      "text": "Came in for the 60 Minute Headspa with Candi. I caught myself dozing off because it was that relaxing. A mini mask and shoulder and neck massage was an added bonus.",
+      "source": "Dash Booking"
+    },
+    {
+      "text": "Was nice and clean and service was good except that the staff were talking though parts of it. Kinda took me out of the experience a bit but overall a good experience.",
+      "source": "Dash Booking"
+    }
+  ],
+  "socialMedia": {
+    "instagram": ["@divanailltd", "@divanails_headspa"],
+    "facebook": "https://www.facebook.com/divanail2639/",
+    "tiktok": null
+  },
+  "bookingPlatform": "Dash Booking",
+  "bookingUrl": "https://www.dashbooking.com/salon/diva-nails-spa-scarborough/booking",
+  "currentWebsite": {
+    "template": "Dash Booking template",
+    "badSignals": 5,
+    "issues": ["Broken links", "Empty sections", "No email", "Template design", "Missing testimonial content"]
+  },
+  "promotions": ["10% off on all nail services $50 and up for birthday clients"]
+}

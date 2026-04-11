@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "slug": "diva-nails-spa",
+    "businessName": "Diva Nails & Head Spa",
+    "generatedAt": "2026-04-11T12:00:00Z",
+    "version": "1.0"
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "overallTheme": "light-warm-feminine",
+      "primary": { "hex": "#D4A0B9", "usage": "Main brand accent, buttons, active states — soft mauve pink reflecting nail salon femininity" },
+      "secondary": { "hex": "#8B6F5E", "usage": "Warm taupe for grounding elements, footer, secondary buttons" },
+      "accent": { "hex": "#E8C4A0", "usage": "Gold-blush warmth — highlights, badge backgrounds, subtle accents" },
+      "accentBright": { "hex": "#C97B9A", "usage": "Deeper rose for hover states and emphasis" },
+      "background": {
+        "main": { "hex": "#FDF8F5", "usage": "Warm cream — main page background" },
+        "alternate": { "hex": "#F5EDE8", "usage": "Slightly warmer cream — alternating sections" },
+        "card": { "hex": "#FFFFFF", "usage": "White — card surfaces for contrast" },
+        "dark": { "hex": "#3D2E2A", "usage": "Deep espresso brown — footer, contrast sections" }
+      },
+      "text": {
+        "heading": { "hex": "#2D2226", "usage": "Near-black warm brown — headings" },
+        "body": { "hex": "#5A4A44", "usage": "Warm dark brown — body copy" },
+        "muted": { "hex": "#9B8A82", "usage": "Taupe — captions, labels, secondary text" },
+        "light": { "hex": "#FFFFFF", "usage": "White — text on dark backgrounds" }
+      },
+      "gradients": [
+        { "name": "heroOverlay", "value": "linear-gradient(135deg, rgba(212,160,185,0.15) 0%, rgba(232,196,160,0.1) 100%)" },
+        { "name": "sectionFade", "value": "linear-gradient(180deg, #FDF8F5 0%, #F5EDE8 100%)" }
+      ],
+      "shadows": [
+        { "name": "cardShadow", "value": "0 4px 20px rgba(61,46,42,0.08)" },
+        { "name": "buttonShadow", "value": "0 2px 8px rgba(212,160,185,0.3)" }
+      ]
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Cormorant Garamond",
+        "fallback": "Georgia, serif",
+        "weights": [400, 500, 600, 700],
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap",
+        "rationale": "Elegant serif with high stroke contrast — evokes luxury nail salon sophistication without being generic. NOT Playfair Display."
+      },
+      "bodyFont": {
+        "family": "Nunito Sans",
+        "fallback": "system-ui, sans-serif",
+        "weights": [300, 400, 600],
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap",
+        "rationale": "Warm, rounded sans-serif that feels approachable and modern. Complements the serif heading elegantly."
+      },
+      "navFont": {
+        "weight": 600,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.12em",
+        "fontSize": "13px"
+      },
+      "scale": {
+        "h1": { "size": "clamp(2.5rem, 5vw, 4rem)", "weight": 600, "lineHeight": 1.05, "letterSpacing": "-0.02em" },
+        "h2": { "size": "clamp(1.75rem, 3.5vw, 2.5rem)", "weight": 500, "lineHeight": 1.15, "letterSpacing": "-0.01em" },
+        "h3": { "size": "clamp(1.25rem, 2vw, 1.5rem)", "weight": 600, "lineHeight": 1.3 },
+        "body": { "size": "16px", "weight": 400, "lineHeight": 1.7 },
+        "small": { "size": "14px", "weight": 400, "lineHeight": 1.5 },
+        "label": { "size": "12px", "weight": 600, "textTransform": "uppercase", "letterSpacing": "0.2em" }
+      }
+    },
+    "components": {
+      "header": {
+        "style": "sticky",
+        "position": "sticky",
+        "background": "#FFFFFF",
+        "backgroundScrolled": "rgba(255,255,255,0.95)",
+        "backdropFilter": "blur(10px)",
+        "height": "72px",
+        "logoPosition": "left",
+        "navPosition": "right",
+        "borderBottom": "1px solid rgba(212,160,185,0.2)"
+      },
+      "hero": {
+        "style": "split",
+        "layout": "text-left-image-right",
+        "overlay": "subtle warm gradient",
+        "textAlignment": "left",
+        "minHeight": "85vh"
+      },
+      "buttons": {
+        "primary": {
+          "background": "#D4A0B9",
+          "text": "#FFFFFF",
+          "borderRadius": "8px",
+          "padding": "14px 32px",
+          "textTransform": "none",
+          "fontWeight": 600,
+          "hover": "background darken to #C97B9A, translateY(-1px)"
+        },
+        "secondary": {
+          "background": "transparent",
+          "text": "#D4A0B9",
+          "border": "2px solid #D4A0B9",
+          "borderRadius": "8px",
+          "padding": "12px 28px"
+        }
+      },
+      "cards": {
+        "background": "#FFFFFF",
+        "borderRadius": "12px",
+        "shadow": "0 4px 20px rgba(61,46,42,0.08)",
+        "border": "none",
+        "hover": "translateY(-4px), shadow intensify"
+      },
+      "images": {
+        "borderRadius": "12px",
+        "hover": "scale(1.02) with overflow hidden",
+        "aspectRatio": "3/4 for portraits, 4/3 for landscape"
+      },
+      "footer": {
+        "background": "#3D2E2A",
+        "text": "#D4A0B9",
+        "secondaryText": "#9B8A82",
+        "style": "warm dark contrast section"
+      }
+    },
+    "spacing": {
+      "sectionPadding": "clamp(60px, 8vw, 100px) 0",
+      "contentMaxWidth": "1200px",
+      "cardGap": "24px",
+      "borderRadius": {
+        "buttons": "8px",
+        "cards": "12px",
+        "images": "12px"
+      }
+    },
+    "animations": {
+      "sectionEntrance": "fade-up 0.6s ease",
+      "cardHover": "translateY(-4px) 0.3s ease",
+      "imageHover": "scale(1.02) 0.4s ease",
+      "buttonHover": "translateY(-1px) 0.2s ease"
+    }
+  },
+  "brandVoice": {
+    "tone": "warm, inviting, pampering, professional but approachable",
+    "personality": ["luxurious", "caring", "meticulous", "relaxing", "welcoming"],
+    "vocabulary": {
+      "wordsTheyUse": ["pampering", "relaxing", "expert care", "exceptional service", "personalized", "hygiene", "high-quality", "consultation", "glorious", "sweet", "accommodating"],
+      "wordsTheyAvoid": ["cheap", "basic", "discount", "budget", "quick"]
+    },
+    "messagingPatterns": {
+      "headlines": [
+        "Expert Care Meets Exceptional Beauty",
+        "Your Relaxation Starts Here",
+        "Scarborough's Destination for Nails & Head Spa"
+      ],
+      "ctas": [
+        "Book Your Appointment",
+        "Explore Our Services",
+        "Experience the Diva Difference"
+      ]
+    },
+    "socialMediaSamples": [
+      "Come experience the viral head spa right in Scarborough!",
+      "Treat yourself to a relaxing pampering session",
+      "Your nails deserve expert care"
+    ],
+    "socialMediaVoice": {
+      "instagram": {
+        "sampleCaptions": [
+          "Come experience the viral head spa right in Scarborough! Book your 60 or 90 min session today",
+          "Treat yourself — you deserve it! Fresh set by our talented team",
+          "Gel nails looking fresh and fabulous. Walk-ins welcome, appointments preferred!",
+          "Your nails deserve expert care. Book with us at Diva Nails & Head Spa",
+          "New nail art designs available! Come check out our gallery and get inspired"
+        ],
+        "tone": "warm, encouraging, casual with emojis, pampering-focused",
+        "hashtagStyle": "#divanails #scarborough #headspa #nailart #nailsofinstagram"
+      }
+    }
+  },
+  "archetype": {
+    "type": "portfolio-first",
+    "sectionOrder": ["hero", "services-teaser", "gallery-preview", "head-spa-feature", "testimonials", "cta"],
+    "rationale": "Nail salon where the work IS the product (portfolio-driven) combined with strong local Scarborough identity. Head spa is their differentiator — the viral service that draws people in."
+  },
+  "contentStrategy": {
+    "primaryCTA": "Book Your Appointment",
+    "uniqueSellingPoints": [
+      "Viral head spa experience — 60 or 90 min relaxation",
+      "Expert nail artistry — gel, acrylic, ombre, dipping powder",
+      "Full beauty services — lashes, facials, waxing under one roof",
+      "Clean, hygienic, relaxing environment",
+      "4.7 stars on Groupon with 85+ reviews"
+    ],
+    "heroHeadline": "Nails, Lashes & Head Spa — Scarborough's Feel-Good Destination",
+    "heroSubheadline": "Expert nail artistry and the viral head spa experience. Walk in stressed, walk out glowing."
+  },
+  "people": [
+    { "name": "Jenny", "role": "Nail Technician", "profilePhotoUrl": null, "portfolioPhotos": ["https://divanailsspa.ca/photos/home/1.jpg"], "bio": "Skilled nail technician specializing in gel and acrylic designs", "instagram": null, "featured": true },
+    { "name": "Van", "role": "Nail Technician", "profilePhotoUrl": null, "portfolioPhotos": ["https://divanailsspa.ca/photos/home/2.jpg"], "bio": "Expert in nail care and custom nail art", "instagram": null, "featured": true },
+    { "name": "Marry", "role": "Nail Technician", "profilePhotoUrl": null, "portfolioPhotos": [], "bio": "Dedicated nail technician with expertise in shellac and natural nails", "instagram": null, "featured": true },
+    { "name": "Julia", "role": "Nail Technician", "profilePhotoUrl": null, "portfolioPhotos": [], "bio": "Experienced technician offering manicures, pedicures, and nail extensions", "instagram": null, "featured": true }
+  ],
+  "images": {
+    "hero": { "url": "https://divanailsspa.ca/photos/home/1.jpg", "description": "Salon hero image — nail art showcase", "verified": true },
+    "logo": { "url": null, "description": "No standalone logo image found — use text-based logo", "verified": false },
+    "gallery": [
+      { "url": "https://divanailsspa.ca/photos/home/1.jpg", "description": "Nail art showcase 1", "verified": true },
+      { "url": "https://divanailsspa.ca/photos/home/2.jpg", "description": "Salon interior or nail art 2", "verified": true },
+      { "url": "https://divanailsspa.ca/photos/home/3.jpg", "description": "Nail art or head spa 3", "verified": true },
+      { "url": "https://divanailsspa.ca/photos/home/4.jpg", "description": "Salon showcase 4", "verified": true }
+    ],
+    "atmosphere": []
+  },
+  "demographics": {
+    "primaryLanguage": "en",
+    "secondaryLanguage": "vi",
+    "neighborhood": "Eglinton East / Scarborough",
+    "targetCustomer": "Women 20-55 in Scarborough and East Toronto seeking quality nail care, head spa relaxation, and beauty treatments at accessible prices",
+    "ownerHeritage": "Vietnamese",
+    "communityContext": "Multicultural Scarborough neighborhood, mix of Vietnamese, South Asian, Caribbean, and Filipino communities along Eglinton East corridor"
+  },
+  "customerPerception": {
+    "positiveThemes": ["super clean", "relaxing", "sweet staff", "accommodating", "glorious experience", "dozing off from relaxation"],
+    "negativeThemes": ["staff talking during treatments", "water management during head spa"],
+    "overallSentiment": "Strongly positive — customers praise cleanliness, relaxation quality, and friendly staff"
+  }
+}
