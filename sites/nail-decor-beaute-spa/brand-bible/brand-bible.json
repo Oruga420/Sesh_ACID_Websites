@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "businessName": "Nail Decor Beaute & Spa",
+    "slug": "nail-decor-beaute-spa",
+    "website": "https://www.naildecorbeauteandspa.com/",
+    "generatedAt": "2026-04-11T00:00:00Z"
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "primary": { "hex": "#D4A0A0", "usage": "Primary brand color - soft rose/blush for headers, CTAs, accents" },
+      "secondary": { "hex": "#8B6F6F", "usage": "Secondary warm mauve for subheadings, borders, hover states" },
+      "accent": { "hex": "#F0C8C8", "usage": "Light pink accent for highlights, badges, card borders" },
+      "gold": { "hex": "#C9A96E", "usage": "Gold accent for premium service highlights and price tags" },
+      "background": {
+        "main": { "hex": "#FFF9F7", "usage": "Main page background - warm off-white/cream" },
+        "alternate": { "hex": "#FDF0ED", "usage": "Alternate section background - soft blush tint" },
+        "card": { "hex": "#FFFFFF", "usage": "Card and content block backgrounds" },
+        "dark": { "hex": "#3D2B2B", "usage": "Footer, testimonial sections, dark contrast areas" }
+      },
+      "text": {
+        "heading": { "hex": "#2D1B1B", "usage": "Main headings - deep warm brown" },
+        "body": { "hex": "#5C4444", "usage": "Body text - warm dark brown" },
+        "muted": { "hex": "#9B8585", "usage": "Captions, labels, secondary text" },
+        "light": { "hex": "#FFFFFF", "usage": "Text on dark backgrounds" }
+      },
+      "overallTheme": "light-warm-feminine",
+      "gradients": [
+        "linear-gradient(135deg, #D4A0A0 0%, #F0C8C8 100%)",
+        "linear-gradient(180deg, rgba(61,43,43,0.85) 0%, rgba(61,43,43,0.6) 100%)"
+      ],
+      "shadows": [
+        "0 2px 12px rgba(212,160,160,0.15)",
+        "0 4px 20px rgba(0,0,0,0.08)"
+      ]
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Cormorant Garamond",
+        "fallback": "Georgia, serif",
+        "weights": [400, 500, 600, 700],
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap"
+      },
+      "bodyFont": {
+        "family": "Nunito Sans",
+        "fallback": "system-ui, sans-serif",
+        "weights": [300, 400, 600],
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap"
+      },
+      "navFont": {
+        "weight": 600,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.12em"
+      },
+      "scale": {
+        "h1": { "size": "clamp(3rem, 7vw, 7rem)", "weight": 400, "lineHeight": 0.95 },
+        "h2": { "size": "clamp(2rem, 4vw, 3.5rem)", "weight": 500, "lineHeight": 1.1 },
+        "h3": { "size": "1.5rem", "weight": 600, "lineHeight": 1.3 },
+        "body": { "size": "1.05rem", "weight": 400, "lineHeight": 1.7 },
+        "small": { "size": "0.85rem", "weight": 300, "lineHeight": 1.5 }
+      }
+    },
+    "components": {
+      "header": {
+        "style": "sticky top-0, transparent on hero then solid on scroll",
+        "background": "#FFFFFF with subtle shadow on scroll",
+        "logoPlacement": "left",
+        "navAlignment": "right"
+      },
+      "hero": {
+        "style": "full-bleed image with warm overlay gradient",
+        "overlay": "linear-gradient(180deg, rgba(61,43,43,0.75) 0%, rgba(61,43,43,0.5) 100%)",
+        "textAlignment": "center",
+        "minHeight": "85vh"
+      },
+      "buttons": {
+        "primary": {
+          "background": "#D4A0A0",
+          "color": "#FFFFFF",
+          "borderRadius": "9999px",
+          "padding": "14px 36px",
+          "textTransform": "uppercase",
+          "letterSpacing": "0.08em",
+          "hoverBackground": "#8B6F6F"
+        },
+        "secondary": {
+          "background": "transparent",
+          "color": "#D4A0A0",
+          "border": "2px solid #D4A0A0",
+          "borderRadius": "9999px",
+          "hoverBackground": "#D4A0A0",
+          "hoverColor": "#FFFFFF"
+        }
+      },
+      "cards": {
+        "background": "#FFFFFF",
+        "borderRadius": "16px",
+        "shadow": "0 2px 12px rgba(212,160,160,0.15)",
+        "hoverShadow": "0 8px 30px rgba(212,160,160,0.25)",
+        "hoverTransform": "translateY(-4px)"
+      },
+      "images": {
+        "borderRadius": "16px",
+        "hoverScale": 1.03,
+        "aspectRatio": "4/5"
+      },
+      "footer": {
+        "background": "#3D2B2B",
+        "textColor": "#F0C8C8",
+        "accentColor": "#D4A0A0"
+      }
+    },
+    "spacing": {
+      "sectionPadding": "clamp(3rem, 8vw, 6rem) 0",
+      "contentMaxWidth": "1280px",
+      "cardGap": "1.5rem",
+      "borderRadius": {
+        "buttons": "9999px",
+        "cards": "16px",
+        "images": "16px"
+      }
+    },
+    "animations": {
+      "sectionReveal": "fade-in-up 0.6s ease-out",
+      "cardHover": "transform 0.3s ease, box-shadow 0.3s ease",
+      "imageHover": "transform 0.4s ease"
+    }
+  },
+  "brandVoice": {
+    "tone": "warm, welcoming, elegant, approachable",
+    "personality": ["relaxing", "feminine", "friendly", "professional", "pampering"],
+    "messagingPatterns": {
+      "headlines": [
+        "Your Nails Deserve This",
+        "Beaute Begins Here",
+        "Where Relaxation Meets Artistry"
+      ],
+      "ctas": [
+        "Book Your Appointment",
+        "Treat Yourself Today",
+        "See Our Services"
+      ]
+    },
+    "vocabulary": {
+      "wordsTheyUse": ["beaute", "relaxing", "welcoming", "quality", "nail art", "spa", "pampering", "treat yourself"],
+      "wordsTheyAvoid": ["cheap", "discount", "basic", "quick"]
+    },
+    "socialMediaSamples": [
+      "Call in 416-609-2227 Or book on our website",
+      "Manicure, pedicure, waxing and eyelash extensions",
+      "Creating a relaxing and welcoming environment"
+    ]
+  },
+  "contentStrategy": {
+    "primaryCTA": "Book Your Appointment",
+    "secondaryCTA": "View Our Services"
+  },
+  "archetype": {
+    "type": "GALLERY-FORWARD + NEIGHBORHOOD",
+    "sectionOrder": ["hero", "servicesTeaser", "gallery", "testimonials", "booking"]
+  },
+  "people": [],
+  "images": {
+    "hero": "https://api.booknailsalon.ca/files/mer_110_9bdb2af6799204a299c603994b8e400e4b1fd625efdb74066cc869fee42c9df3_1741056771657.jpg",
+    "logo": null,
+    "gallery": [
+      { "url": "https://api.booknailsalon.ca/files/mer_110_9bdb2af6799204a299c603994b8e400e4b1fd625efdb74066cc869fee42c9df3_1741056771657.jpg", "description": "Nail salon interior/work", "verified": true }
+    ],
+    "atmosphere": [],
+    "food": []
+  },
+  "demographics": {
+    "primaryLanguage": "en",
+    "secondaryLanguage": null,
+    "neighborhood": "Morningside, Scarborough",
+    "targetCustomer": "Women 18-55 in Scarborough seeking quality nail care, spa treatments, and lash services in a relaxing environment"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "businessName": "Nail Decor Beaute & Spa",
+  "slug": "nail-decor-beaute-spa",
+  "website": "https://www.naildecorbeauteandspa.com/",
+  "address": "4-2130 Morningside Ave, Scarborough, ON M1X 0C9",
+  "phone": "(416) 609-2227",
+  "altPhone": "416-396-3994",
+  "email": "nailbeautespa@gmail.com",
+  "ownerEmail": "minh_pham519@hotmail.com",
+  "hours": "10:00 AM - 8:00 PM daily",
+  "industry": "Nail Salon / Beauty Spa",
+  "city": "Scarborough, ON",
+  "instagram": "@naildecorbeaute_spa",
+  "instagramUrl": "https://www.instagram.com/naildecorbeaute_spa/",
+  "instagramFollowers": 1506,
+  "instagramPosts": 70,
+  "bookingUrl": "https://booksalon.ca/nail-decor-beaute-spa/booking",
+  "platform": "Wix (Thunderbolt)",
+  "services": {
+    "nailExtensions": {
+      "bioGelFullSet": { "price": "$55-$65", "duration": "60 min" },
+      "uvGelFullSet": { "price": "$55-$65", "duration": "60 min" },
+      "acrylicFullSet": { "price": "$55-$65", "duration": "60 min" },
+      "refills": { "price": "$45-$50", "duration": "50 min" },
+      "toeNails": { "price": "$60-$90" }
+    },
+    "handTreatment": {
+      "classicManicure": { "price": "$25-$35", "duration": "25-30 min" },
+      "nailBeaute": { "price": "$45-$55", "duration": "45 min" },
+      "deluxe": { "price": "$55-$65", "duration": "45-60 min" }
+    },
+    "footTreatment": {
+      "classicPedicure": { "price": "$35-$50", "duration": "40-45 min" },
+      "rosePedicure": { "price": "$70-$80", "duration": "55-65 min" },
+      "aloeVeraPedicure": { "price": "$80-$100", "duration": "65-75 min" },
+      "volcanoPedicure": { "price": "$100-$120", "duration": "75-85 min" }
+    },
+    "comboServices": { "price": "$55-$80", "duration": "60-70 min" },
+    "colorChange": { "price": "$15-$30", "duration": "15-25 min" },
+    "additionalServices": {
+      "frenchTips": "$10-$15",
+      "chromeOmbre": "$15",
+      "paraffin": "$10",
+      "massage": "$10-$15"
+    },
+    "kidsMenu": { "price": "$10-$45", "duration": "10-40 min", "note": "10 years & under" },
+    "hairRemoval": {
+      "face": "$5-$40",
+      "body": "$7-$230"
+    },
+    "eyelashExtensions": {
+      "newSets": { "price": "$100-$130", "duration": "75-90 min" },
+      "refills": { "price": "$50-$100", "duration": "35-60 min" },
+      "lashLift": { "price": "$70", "duration": "60 min" }
+    }
+  },
+  "reviews": {
+    "highlights": [
+      "Friendly staff dedicated to providing exceptional service",
+      "Prides itself on cleanliness and a bright atmosphere",
+      "Attentive staff who take time to ensure quality results",
+      "Variety of color options available",
+      "Skilled technicians for manicures and pedicures",
+      "Relaxing and professional ambiance"
+    ],
+    "concerns": [
+      "Busy weekends can lead to longer wait times",
+      "Book ahead especially on weekends"
+    ]
+  },
+  "description": "Nail Decor Beaute & Spa is a nail salon in Scarborough providing manicure, pedicure, waxing and eyelash extensions. Their goal is to create a relaxing and welcoming environment where clients can enjoy high quality nail and customer services.",
+  "pages": ["home", "about", "treatments/menu", "gallery"],
+  "currency": "CAD",
+  "timezone": "America/Toronto",
+  "giftCards": true,
+  "onlineBooking": true
+}
