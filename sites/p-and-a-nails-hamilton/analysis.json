@@ -1,0 +1,111 @@
+{
+  "businessName": "P & A Nails Hamilton Mountain",
+  "slug": "p-and-a-nails-hamilton",
+  "website": "http://www.panailshamilton.ca/",
+  "address": "598 Upper Sherman Ave, Hamilton, ON L8V 3M2",
+  "phone": "(905) 387-8246",
+  "textPhone": "905-921-8246",
+  "email": "panails@hotmail.com",
+  "hours": {
+    "mondayToSaturday": "8:30 AM - 9:00 PM",
+    "sunday": "9:00 AM - 8:00 PM"
+  },
+  "established": "10+ years ago",
+  "industry": "Nail Salon / Beauty Salon",
+  "city": "Hamilton",
+  "neighborhood": "Hamilton Mountain",
+  "servingAreas": ["Hamilton", "Ancaster", "Dundas", "Stoney Creek", "Burlington", "Grimsby"],
+  "socialMedia": {
+    "instagram": "@panailhamilton",
+    "instagramUrl": "https://www.instagram.com/panailhamilton/",
+    "facebook": "https://www.facebook.com/profile.php?id=100017882670994",
+    "instagramFollowers": 522,
+    "instagramPosts": 1817
+  },
+  "ratings": {
+    "overall": 4.29,
+    "google": 4.2,
+    "facebook": 5.0,
+    "nicelocal": 4.4
+  },
+  "owner": "Janet",
+  "knownStaff": ["Janet", "Paul", "Sally"],
+  "services": {
+    "manicure": {
+      "classicManicure": 25,
+      "shellacColourHands": 25,
+      "shellacWithManicure": 35,
+      "frenchShellacHands": 30,
+      "frenchShellacWithManicure": 40
+    },
+    "pedicure": {
+      "classicPedicure": 37,
+      "shellacColourFeet": 30,
+      "shellacWithPedicure": 50,
+      "frenchShellacFeet": 35,
+      "frenchShellacWithPedicure": 55
+    },
+    "packages": {
+      "maniPedi": 55,
+      "maniPediShellacHands": 70,
+      "shellacManiPedi": 85
+    },
+    "nails": {
+      "acrylicFullSet": 50,
+      "acrylicRefill": 45,
+      "uvGelFullSet": 50,
+      "uvGelRefill": 45,
+      "solarFullSet": 60,
+      "solarRefill": 50,
+      "bioGelFullSet": 60,
+      "bioGelRefill": 50
+    },
+    "waxing": {
+      "eyebrows": 10,
+      "upperLip": 6,
+      "chin": 8,
+      "face": 30,
+      "underArms": 15,
+      "fullArms": 35,
+      "halfArms": 25,
+      "fullLegs": 45,
+      "halfLegs": 30,
+      "bikiniLine": 35,
+      "brazilian": 55,
+      "chest": 30,
+      "back": 40
+    },
+    "tinting": {
+      "eyebrows": 15,
+      "eyelashes": 20,
+      "fakeEyelashes": 10
+    },
+    "extras": {
+      "paraffinHands": 10,
+      "paraffinFeet": 12,
+      "massage30min": 30
+    }
+  },
+  "testimonials": [
+    { "name": "Aylin Ozturk", "quote": "Janet and her husband are so lovely - the atmosphere of the nail salon is so warm and welcoming from the moment you walk in!" },
+    { "name": "Ashley Nicole", "quote": "Been going here for over 15 years- I wait until I'm back to get my nails done if out of the country/city." },
+    { "name": "Jodi Peirson Heller", "quote": "Been coming here for over 10 years. I've tried other places but none are as good." },
+    { "name": "Mrs Cunningham", "quote": "Paul did such a good job on my nails he was friendly, considerate, and definitely recommend and will be back!" },
+    { "name": "Tracy Cane Hind", "quote": "Sally is usually the girl that does my manicures and I love her. She does a great job and makes my nails look soooo pretty!!!!" },
+    { "name": "Phoenix Walker", "quote": "My nails have stayed on for 3 weeks, haven't broken and stayed in great condition." },
+    { "name": "Lannaa", "quote": "Came here for the first time today and I loved it! Amazing service and I have social anxiety but everyone made me feel so welcomed and safe" },
+    { "name": "Jayne Belanger", "quote": "Fantastic massaging chairs, excellent job on both feet and hands. They have the largest variety of colours I have ever seen." },
+    { "name": "Gabriela", "quote": "I found P&A when I desperately needed a salon open on Sundays, And I've been coming back since!" },
+    { "name": "Bailey", "quote": "Not only did they do an amazing job with my mani/pedi but they were so kind and accommodating the whole way through!" }
+  ],
+  "features": [
+    "Online appointment booking",
+    "Gift certificates",
+    "Multiple parking spaces",
+    "Fume removal fans at nail tables",
+    "Complimentary WiFi",
+    "Massaging pedicure chairs",
+    "Largest variety of nail polish colours",
+    "Open 7 days a week"
+  ]
+}

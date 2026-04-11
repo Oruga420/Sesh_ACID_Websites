@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "businessName": "P & A Nails Hamilton Mountain",
+    "slug": "p-and-a-nails-hamilton",
+    "website": "http://www.panailshamilton.ca/",
+    "generatedAt": "2026-04-11T00:00:00Z",
+    "version": "1.0"
+  },
+  "businessData": {
+    "address": "598 Upper Sherman Ave, Hamilton, ON L8V 3M2",
+    "phone": "(905) 387-8246",
+    "textPhone": "905-921-8246",
+    "email": "panails@hotmail.com",
+    "hours": {
+      "mondayToSaturday": "8:30 AM - 9:00 PM",
+      "sunday": "9:00 AM - 8:00 PM"
+    },
+    "established": "10+ years",
+    "industry": "Nail Salon / Beauty Salon",
+    "neighborhood": "Hamilton Mountain",
+    "servingAreas": ["Hamilton", "Ancaster", "Dundas", "Stoney Creek", "Burlington", "Grimsby"]
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "overallTheme": "light-warm-clean",
+      "overallThemeEvidence": "bgMain source: body background-color: #ffffff found in stylesheet. Site uses white backgrounds with coral/salmon accents.",
+      "primary": {
+        "hex": "#ff887d",
+        "usage": "Table headers, accent buttons, highlight elements, coral/salmon warmth",
+        "name": "Coral Blush"
+      },
+      "secondary": {
+        "hex": "#e9e0db",
+        "usage": "Soft neutral backgrounds, section alternation, warm cream tone",
+        "name": "Warm Linen"
+      },
+      "accent": {
+        "hex": "#fdb1aa",
+        "usage": "Hover states, lighter accent, translucent overlays",
+        "name": "Soft Rose"
+      },
+      "background": {
+        "main": {
+          "hex": "#ffffff",
+          "usage": "Primary page background"
+        },
+        "alternate": {
+          "hex": "#efefef",
+          "usage": "Alternating section backgrounds"
+        },
+        "card": {
+          "hex": "#ffffff",
+          "usage": "Card and content block backgrounds"
+        },
+        "warm": {
+          "hex": "#e9e0db",
+          "usage": "Warm linen sections for testimonials/about"
+        }
+      },
+      "text": {
+        "heading": {
+          "hex": "#222222",
+          "usage": "Primary headings, bold titles"
+        },
+        "body": {
+          "hex": "#444444",
+          "usage": "Body text, descriptions"
+        },
+        "muted": {
+          "hex": "#666666",
+          "usage": "Secondary text, captions, meta info"
+        },
+        "nav": {
+          "hex": "#333333",
+          "usage": "Navigation links"
+        }
+      },
+      "gradients": [],
+      "shadows": [
+        {
+          "type": "card",
+          "value": "0px 0px 9px 0px rgba(0,0,0,0.1)",
+          "usage": "Subtle card elevation"
+        },
+        {
+          "type": "hover",
+          "value": "6px 6px 9px rgba(0,0,0,0.2)",
+          "usage": "Hover state depth"
+        }
+      ]
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Droid Serif",
+        "fallback": "Georgia, serif",
+        "weights": [400, 700],
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Droid+Serif:wght@400;700&display=swap"
+      },
+      "bodyFont": {
+        "family": "Droid Serif",
+        "fallback": "Georgia, serif",
+        "weights": [400, 700],
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Droid+Serif:wght@400;700&display=swap"
+      },
+      "navFont": {
+        "family": "Droid Serif",
+        "weight": 400,
+        "textTransform": "none",
+        "letterSpacing": "0.03em"
+      },
+      "scale": {
+        "h1": { "size": "42px", "weight": 700, "lineHeight": 1.2 },
+        "h2": { "size": "36px", "weight": 700, "lineHeight": 1.3 },
+        "h3": { "size": "20px", "weight": 700, "lineHeight": 1.4 },
+        "body": { "size": "16px", "weight": 400, "lineHeight": 1.6 },
+        "small": { "size": "13px", "weight": 400, "lineHeight": 1.5 }
+      }
+    },
+    "components": {
+      "header": {
+        "type": "sticky",
+        "position": "sticky",
+        "background": "#ffffff",
+        "logoPosition": "left",
+        "navPosition": "right",
+        "mobileMenu": "hamburger",
+        "shadow": "0px 0px 9px 0px rgba(0,0,0,0.1)"
+      },
+      "hero": {
+        "type": "image-overlay",
+        "textAlignment": "center",
+        "overlayStyle": "rgba(0,0,0,0.4)",
+        "ctaStyle": "coral button"
+      },
+      "buttons": {
+        "primary": {
+          "background": "#ff887d",
+          "textColor": "#ffffff",
+          "borderRadius": "3px",
+          "padding": "10px 20px",
+          "fontWeight": 700,
+          "hoverEffect": "darken"
+        },
+        "secondary": {
+          "background": "transparent",
+          "textColor": "#ff887d",
+          "border": "2px solid #ff887d",
+          "borderRadius": "3px",
+          "padding": "10px 20px",
+          "fontWeight": 700,
+          "hoverEffect": "fill"
+        },
+        "borderRadius": "3px",
+        "padding": "10px 20px",
+        "textTransform": "none",
+        "fontWeight": 700,
+        "hoverEffect": "darken"
+      },
+      "cards": {
+        "background": "#ffffff",
+        "border": "none",
+        "borderRadius": "3px",
+        "shadow": "0px 0px 9px 0px rgba(0,0,0,0.1)",
+        "hoverEffect": "shadow-deepen"
+      },
+      "footer": {
+        "background": "#222222",
+        "textColor": "#ffffff",
+        "style": "dark-simple"
+      },
+      "images": {
+        "borderRadius": "3px",
+        "aspectRatio": "auto",
+        "hoverEffect": "none",
+        "filter": "none"
+      }
+    }
+  },
+  "spacing": {
+    "sectionPadding": "60px 0",
+    "contentMaxWidth": "1240px",
+    "cardGap": "20px",
+    "borderRadius": {
+      "buttons": "3px",
+      "cards": "3px",
+      "images": "3px"
+    }
+  },
+  "brandVoice": {
+    "tone": "Warm, friendly, approachable, family-run, welcoming, unpretentious",
+    "personality": ["warm", "welcoming", "family-oriented", "reliable", "accommodating"],
+    "vocabulary": {
+      "wordsTheyUse": ["passionate", "hard-working", "certified", "great nails", "smile", "welcome", "accommodating", "affordable"],
+      "wordsTheyAvoid": ["luxury", "exclusive", "boutique", "artisan", "bespoke"]
+    },
+    "messagingPatterns": {
+      "headlines": ["Your neighbourhood nail salon on the Mountain", "10+ years of making Hamilton beautiful", "Where every visit feels like coming home"],
+      "ctas": ["Book Your Appointment", "View Our Services", "Visit Us Today"]
+    },
+    "socialMediaSamples": {
+      "instagram": {
+        "handle": "@panailhamilton",
+        "followers": 522,
+        "posts": 1817,
+        "tone": "Casual, photo-forward, showcasing nail art and client results",
+        "themes": ["nail art", "seasonal designs", "client showcases", "promotions", "holiday specials"]
+      }
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "handle": "@panailhamilton",
+        "followers": 522,
+        "posts": 1817,
+        "sampleCaptions": [
+          "Happy nails, happy life! Come visit us for your next set",
+          "Love this design! What do you think?",
+          "Christmas nails are HERE! Book your appointment today",
+          "Another beautiful set leaving the salon today",
+          "Summer vibes! Ready for vacation nails?",
+          "Thank you to our amazing clients for the love and support!"
+        ],
+        "visualStyle": "Nail art close-ups, seasonal designs, client showcase photos",
+        "postingFrequency": "2-3 times per week"
+      }
+    },
+    "customerPerception": {
+      "keywords": ["warm", "welcoming", "friendly", "accommodating", "kind", "patient", "great job", "amazing", "fantastic"],
+      "loyaltySignals": ["15+ year clients", "10+ year clients", "clients who wait to come back from travel"],
+      "emotionalDrivers": ["feeling safe and welcomed", "no judgement", "feels like home", "genuine care"]
+    }
+  },
+  "contentStrategy": {
+    "primaryCTA": "Book Your Appointment",
+    "secondaryCTA": "View Our Services",
+    "valueProposition": "Hamilton Mountain's most welcoming nail salon — 10+ years of making clients feel at home"
+  },
+  "people": [
+    {
+      "name": "Janet",
+      "role": "Owner",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": "Owner of P & A Nails. Known by customers for creating a warm, welcoming atmosphere.",
+      "featured": true,
+      "photoVerified": false
+    },
+    {
+      "name": "Paul",
+      "role": "Nail Technician",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": "Nail technician praised for friendly, considerate service and excellent nail work.",
+      "featured": true,
+      "photoVerified": false
+    },
+    {
+      "name": "Sally",
+      "role": "Manicurist",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "bio": "Manicurist with dedicated following. Known for making nails look 'soooo pretty'.",
+      "featured": true,
+      "photoVerified": false
+    }
+  ],
+  "images": {
+    "hero": "https://www.panailshamilton.ca/wp-content/uploads/2024/05/store-front-1024x642.jpg",
+    "logo": "http://www.panailshamilton.ca/wp-content/uploads/2019/12/logo.png",
+    "gallery": [
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2020/06/19081795-7759-40f1-a1f0-dc4ad165bae2.jpg", "description": "Nail art design", "verified": true },
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2020/06/19736c87-3a95-44e8-b1ab-269c5a1d759d-768x1024.jpg", "description": "Nail art design", "verified": true },
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2020/06/5210c731-c979-473f-a559-5750abe895f4.jpg", "description": "Nail art design", "verified": true },
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2020/06/67cf3622-037a-430b-8c11-178524e5fb15.jpg", "description": "Nail art design", "verified": true },
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2020/01/13.jpg", "description": "Nail work sample", "verified": true },
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2020/01/12.jpg", "description": "Nail work sample", "verified": true },
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2020/01/11.jpg", "description": "Nail work sample", "verified": true },
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2020/01/10.jpg", "description": "Nail work sample", "verified": true },
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2020/01/9.png", "description": "Nail work sample", "verified": true },
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2020/01/8.png", "description": "Nail work sample", "verified": true },
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2020/01/7.jpg", "description": "Nail work sample", "verified": true },
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2020/01/8.jpg", "description": "Nail work sample", "verified": true },
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2020/01/6.jpg", "description": "Nail work sample", "verified": true },
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2020/01/5.jpg", "description": "Nail work sample", "verified": true },
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2020/01/4.jpg", "description": "Nail work sample", "verified": true },
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2020/01/3.png", "description": "Nail work sample", "verified": true },
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2020/01/1.jpg", "description": "Nail work sample", "verified": true },
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2020/01/2.png", "description": "Nail work sample", "verified": true }
+    ],
+    "atmosphere": [
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2024/05/store-front-1024x642.jpg", "description": "Storefront exterior", "verified": true },
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2019/12/IMG_4053fx-1024x690.jpg", "description": "Salon interior", "verified": true },
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2019/12/IMG_4056fx-1024x683.jpg", "description": "Salon interior", "verified": true },
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2019/12/IMG_4048fx-1024x677.jpg", "description": "Salon interior", "verified": true }
+    ],
+    "services": [
+      { "url": "https://www.panailshamilton.ca/wp-content/uploads/2020/01/manicure.jpg", "description": "Manicure service", "verified": true },
+      { "url": "http://www.panailshamilton.ca/wp-content/uploads/2020/01/pedicure.jpg", "description": "Pedicure service", "verified": true }
+    ]
+  },
+  "demographics": {
+    "primaryLanguage": "en",
+    "secondaryLanguage": null,
+    "languageEvidence": "All reviews are in English. Instagram captions in English. Website entirely in English. Hamilton Mountain is a primarily English-speaking community. No significant non-English comment presence detected.",
+    "commentAudit": {
+      "googleReviews": { "en": 15, "other": 0 },
+      "instagramComments": { "en": "majority", "other": 0 },
+      "totalNonEnglishPercent": 0,
+      "dominantNonEnglish": null
+    },
+    "additionalLanguages": [],
+    "neighborhood": "Hamilton Mountain — suburban, diverse, family-oriented community on the Niagara Escarpment",
+    "targetCustomer": "Women and men on Hamilton Mountain and surrounding areas seeking affordable, reliable nail care in a warm, family-run environment"
+  },
+  "archetype": {
+    "type": "portfolio-first",
+    "rationale": "Nail salon where the work IS the product. 1800+ Instagram posts showcase nail art. Gallery-forward approach with prominent booking CTA for neighborhood foot traffic.",
+    "sectionOrder": ["hero", "gallery-teaser", "services-teaser", "testimonials-teaser", "cta"]
+  }
+}
