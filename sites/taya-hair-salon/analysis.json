@@ -1,0 +1,112 @@
+{
+  "businessName": "TAYA Hair Salon",
+  "slug": "taya-hair-salon",
+  "websiteUrl": "http://www.tayasalon.com/",
+  "websiteStatus": "SSL certificate expired - site inaccessible via HTTPS",
+  "industry": "Korean Hair Salon",
+  "city": "North York, ON",
+  "addresses": [
+    {
+      "label": "Sheppard Location",
+      "street": "21 Spring Garden Avenue",
+      "city": "North York, Toronto",
+      "province": "ON",
+      "postalCode": "M2N 7M2",
+      "phone": "(416) 221-8788"
+    },
+    {
+      "label": "Park Home Location (TAYA 2)",
+      "street": "6 Park Home Avenue",
+      "city": "North York, Toronto",
+      "province": "ON",
+      "postalCode": "M2N 0J4",
+      "phone": "647-248-8790"
+    }
+  ],
+  "hours": {
+    "monday": "10:00 AM - 7:00 PM",
+    "tuesday": "10:00 AM - 7:00 PM",
+    "wednesday": "10:00 AM - 7:00 PM",
+    "thursday": "10:00 AM - 7:00 PM",
+    "friday": "10:00 AM - 7:00 PM",
+    "saturday": "10:00 AM - 7:00 PM",
+    "sunday": "Closed (Sheppard) / 10:00 AM - 4:00 PM (Park Home)"
+  },
+  "description": "Professional and trendy Toronto hair salon specializing in K-beauty. Two locations near Yonge & Sheppard Station. Expert stylists deliver chic cuts, seamless balayage, and K-perms.",
+  "tagline": "You deserve to have beautiful hair.",
+  "socialMedia": {
+    "instagram": "@tayasalon",
+    "instagramUrl": "https://www.instagram.com/tayasalon/",
+    "instagramFollowers": 6116,
+    "instagramPosts": 1244,
+    "instagram2": "@tayasalon2",
+    "instagram2Url": "https://www.instagram.com/tayasalon2/",
+    "facebook": "https://www.facebook.com/tayasalon/",
+    "fresha": "https://www.fresha.com/a/taya-hair-salon-sheppard-toronto-21-spring-garden-avenue-z2o5x0yd",
+    "fresha2": "https://www.fresha.com/a/taya2-hair-salon-north-york-center-toronto-6-park-home-avenue-x6til5rj"
+  },
+  "ratings": {
+    "birdeye": { "stars": 4.6, "reviews": 1348 },
+    "fresha_sheppard": { "stars": 4.9, "reviews": 143 },
+    "fresha_parkhome": { "stars": 4.9, "reviews": 158 },
+    "bestprosintown": { "stars": 4.6, "reviews": 230 }
+  },
+  "services": {
+    "haircuts": [
+      { "name": "Women's Cut", "price": 60, "duration": "1 hr" },
+      { "name": "Men's Cut", "price": 45, "duration": "30-45 min" },
+      { "name": "Girl's Haircut", "price": 45, "duration": "45 min - 1 hr" },
+      { "name": "Boy's Haircut", "price": 35, "duration": "30-45 min" },
+      { "name": "Bang Cut", "price": 15, "duration": "15 min" }
+    ],
+    "styling": [
+      { "name": "Women's Blow Dry", "price": 45, "duration": "45 min" },
+      { "name": "Men's Styling", "price": 25, "duration": "30 min" },
+      { "name": "Blow Dry + Curling Iron", "price": 65 },
+      { "name": "Blow Dry + Flat Iron", "price": 65 },
+      { "name": "Updo", "price": 90 }
+    ],
+    "perms": [
+      { "name": "Straight Setting Perm", "price": 350, "duration": "4 hrs" },
+      { "name": "Digital/Setting Perm", "price": 300, "duration": "3 hrs" },
+      { "name": "Digital Hippie/Jelly Perm", "price": 320, "duration": "3.5 hrs" },
+      { "name": "Straightening", "price": 300, "duration": "3 hrs" },
+      { "name": "Men's Perm", "price": 150, "duration": "2 hrs" },
+      { "name": "Men's Down Perm", "price": 100, "duration": "1.25 hrs" }
+    ],
+    "color": [
+      { "name": "Root Touch Up", "price": 100, "duration": "1.5 hrs" },
+      { "name": "Root Touch Up & Haircut", "price": 160, "duration": "2 hrs" },
+      { "name": "Full Color", "price": 150, "duration": "1.5 hrs" },
+      { "name": "Full Color & Haircut", "price": 200, "duration": "2-2.5 hrs" },
+      { "name": "Balayage", "price": 380, "duration": "5-5.5 hrs" },
+      { "name": "Full Highlights + Color", "price": 380, "duration": "5 hrs" },
+      { "name": "Partial Highlights + Color", "price": 250, "duration": "3 hrs" },
+      { "name": "Full Bleach & Toner", "price": 350, "duration": "5 hrs" },
+      { "name": "Toner Only", "price": 170, "duration": "1.5 hrs" },
+      { "name": "Toner & Haircut", "price": 200, "duration": "2 hrs" },
+      { "name": "Men Color", "price": 120, "duration": "1.5 hrs" },
+      { "name": "Men Bleach & Toner", "price": 250, "duration": "3.5 hrs" }
+    ],
+    "treatments": [
+      { "name": "Milbon Treatment", "price": 150, "duration": "1.5 hrs" },
+      { "name": "Hair Botox", "price": 300, "duration": "3 hrs" }
+    ]
+  },
+  "team": {
+    "sheppard": ["Matthew", "Lia (Senior)", "Anna (Senior)", "Yena (Senior)", "Katie (Senior)", "Jin (Senior)", "Sky (Senior)", "Ellie (Senior)"],
+    "parkHome": ["Matthew", "Michelle", "Debbie", "Yuki (Master)", "Hera", "Tony (Master)", "Richard (Master)", "Maryann (Master)", "Jenny"]
+  },
+  "reviews": [
+    { "reviewer": "Julie P", "text": "I was given the Milbon treatment from Ellie today. She was very professional and efficient.", "source": "Google/Birdeye" },
+    { "reviewer": "Zanta Ji", "text": "Jin was a great stylist! Gave me exactly what I wanted with great layers", "source": "Google/Birdeye" },
+    { "reviewer": "Aletha Mari Azarcon", "text": "This is my first time in Taya's salon and I am really satisfied. Ellie is talented and really knows how to make your hair best.", "source": "Google/Birdeye" },
+    { "reviewer": "Donald", "text": "Professional service and friendly staff! Highly recommend!", "source": "Google/Birdeye" },
+    { "reviewer": "Anonymous", "text": "My barber is absolutely amazing! Very skilled, professional, and pays great attention to detail.", "source": "BestProsInTown" },
+    { "reviewer": "Anonymous", "text": "LIA took her time with my cut, asked the right questions, and paid attention to how my hair sits.", "source": "BestProsInTown" },
+    { "reviewer": "Anonymous", "text": "The staff was very welcoming and friendly. Anna, my stylist, did an amazing job walking me through options.", "source": "BestProsInTown" },
+    { "reviewer": "Anonymous", "text": "Returned for a third time for a korean perm and cut and absolutely love how it turned out.", "source": "Fresha" },
+    { "reviewer": "Anonymous", "text": "Always a pleasure visiting this hair salon.", "source": "Fresha" }
+  ],
+  "bookingSystem": "Fresha"
+}

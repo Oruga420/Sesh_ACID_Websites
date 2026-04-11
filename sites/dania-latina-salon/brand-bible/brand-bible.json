@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "businessName": "Dania Latina Dominican Hair Salon",
+    "slug": "dania-latina-salon",
+    "websiteUrl": null,
+    "websiteStatus": "No website exists - brand identity built from Instagram, Vagaro, Google reviews, Facebook",
+    "generatedAt": "2026-04-11T15:00:00Z"
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "primary": { "hex": "#E85D75", "usage": "Primary accent — vibrant coral-pink reflecting Dominican warmth, energy, and femininity" },
+      "secondary": { "hex": "#2D1B2E", "usage": "Deep plum-purple for headings and dark sections — Dominican elegance" },
+      "accent": { "hex": "#F4A259", "usage": "Warm amber-orange for highlights, hover states, pricing — tropical warmth" },
+      "accentSoft": { "hex": "#FDE8D0", "usage": "Soft peach for card backgrounds, gentle sections" },
+      "background": {
+        "main": { "hex": "#FFFAF5", "usage": "Primary page background — warm creamy white" },
+        "alternate": { "hex": "#FFF0E6", "usage": "Alternating section backgrounds — soft peach" },
+        "card": { "hex": "#FFFFFF", "usage": "Card backgrounds" },
+        "dark": { "hex": "#2D1B2E", "usage": "Dark sections — footer, testimonials, hero overlay" }
+      },
+      "text": {
+        "heading": { "hex": "#2D1B2E", "usage": "Main headings — deep plum" },
+        "body": { "hex": "#4A3540", "usage": "Body text — warm dark mauve" },
+        "muted": { "hex": "#9B8A92", "usage": "Captions, secondary text" },
+        "light": { "hex": "#FFFAF5", "usage": "Text on dark backgrounds" }
+      },
+      "gradients": [
+        { "name": "tropicalSunset", "css": "linear-gradient(135deg, #E85D75 0%, #F4A259 100%)", "usage": "CTA buttons, accent bars" },
+        { "name": "darkOverlay", "css": "linear-gradient(180deg, rgba(45,27,46,0.85) 0%, rgba(45,27,46,0.6) 100%)", "usage": "Hero overlay" }
+      ],
+      "shadows": [
+        { "name": "card", "css": "0 4px 24px rgba(45,27,46,0.08)", "usage": "Service cards" },
+        { "name": "elevated", "css": "0 8px 32px rgba(232,93,117,0.15)", "usage": "Hover states, featured elements" }
+      ],
+      "overallTheme": "light-warm — creamy white base with vibrant coral-pink and amber accents. Dominican salon energy: warm, welcoming, joyful."
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Libre Baskerville",
+        "fallback": "Georgia, serif",
+        "weights": [400, 700],
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap",
+        "rationale": "Warm serif with character — reflects Dominican cultural pride and elegance without being generic like Playfair"
+      },
+      "bodyFont": {
+        "family": "Nunito Sans",
+        "fallback": "system-ui, sans-serif",
+        "weights": [300, 400, 600, 700],
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap",
+        "rationale": "Rounded, friendly sans-serif — matches the welcoming, joyful salon atmosphere. Warm and approachable."
+      },
+      "navFont": {
+        "weight": 600,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.1em"
+      },
+      "scale": {
+        "h1": { "size": "clamp(3rem, 7vw, 7rem)", "lineHeight": 0.9, "weight": 400, "letterSpacing": "-0.02em" },
+        "h2": { "size": "clamp(2rem, 4vw, 3.5rem)", "lineHeight": 1.1, "weight": 700 },
+        "h3": { "size": "clamp(1.25rem, 2vw, 1.75rem)", "lineHeight": 1.3, "weight": 600 },
+        "body": { "size": "1rem", "lineHeight": 1.7, "weight": 400 },
+        "overline": { "size": "0.75rem", "lineHeight": 1.4, "weight": 600, "letterSpacing": "0.2em", "textTransform": "uppercase" }
+      }
+    },
+    "components": {
+      "header": {
+        "position": "sticky",
+        "style": "sticky warm cream background, coral accent on CTA",
+        "background": "#FFFAF5",
+        "logoPosition": "left",
+        "navStyle": "uppercase, rounded, Nunito Sans 600",
+        "mobileMenu": "slide-in from right"
+      },
+      "hero": {
+        "type": "full-bleed gradient with large typography",
+        "overlay": "linear-gradient(180deg, rgba(45,27,46,0.85) 0%, rgba(45,27,46,0.6) 100%)",
+        "textAlignment": "center",
+        "textColor": "#FFFAF5",
+        "ctaStyle": "coral-amber gradient button"
+      },
+      "buttons": {
+        "primary": {
+          "background": "linear-gradient(135deg, #E85D75, #F4A259)",
+          "color": "#FFFFFF",
+          "borderRadius": "50px",
+          "padding": "14px 32px",
+          "fontWeight": 700,
+          "textTransform": "uppercase",
+          "letterSpacing": "0.08em",
+          "hover": "scale up slightly, brighter gradient"
+        },
+        "secondary": {
+          "background": "transparent",
+          "border": "2px solid #E85D75",
+          "color": "#E85D75",
+          "borderRadius": "50px",
+          "padding": "14px 32px"
+        }
+      },
+      "cards": {
+        "background": "#FFFFFF",
+        "border": "none",
+        "shadow": "0 4px 24px rgba(45,27,46,0.08)",
+        "borderRadius": "16px",
+        "hover": "shadow deepens with pink tint, translateY(-4px)"
+      },
+      "footer": {
+        "background": "#2D1B2E",
+        "textColor": "#FDE8D0",
+        "accentColor": "#E85D75",
+        "style": "deep plum with coral accents"
+      },
+      "images": {
+        "borderRadius": "16px",
+        "aspectRatio": "4/5 for portraits, 16/9 for hero",
+        "hover": "subtle scale 1.03",
+        "filter": "none"
+      }
+    }
+  },
+  "spacing": {
+    "sectionPadding": "clamp(3rem, 8vw, 6rem) 0",
+    "contentMaxWidth": "1200px",
+    "cardGap": "24px",
+    "borderRadius": {
+      "buttons": "50px",
+      "cards": "16px",
+      "images": "16px"
+    }
+  },
+  "brandVoice": {
+    "tone": "Warm, joyful, empowering. Dominican cultural pride meets Canadian professionalism. Bilingual English/Spanish.",
+    "personality": ["welcoming", "joyful", "empowering", "professional", "culturally-proud"],
+    "messagingPatterns": {
+      "headlines": [
+        "Your Hair, Our Passion",
+        "Dominican Magic for Every Curl",
+        "Where Every Texture Is Celebrated",
+        "Burlington's Home for Beautiful Hair"
+      ],
+      "ctas": [
+        "Book Your Glow-Up",
+        "See Our Services",
+        "Visit Us Today",
+        "Treat Yourself"
+      ]
+    },
+    "vocabulary": {
+      "wordsTheyUse": ["Dominican blowout", "curly hair", "extensions", "keratin", "princess", "glow-up", "natural beauty", "all hair types", "transformation"],
+      "wordsTheyAvoid": ["cheap", "basic", "discount"]
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "handle": "@danialatinadominicansalon",
+        "followers": 940,
+        "posts": 345,
+        "bio": "Dominican Hair Salon in Burlington",
+        "aesthetic": "Before/after transformations, blowout videos, extension reveals, client celebrations. Warm, colorful, high energy.",
+        "sampleCaptions": [
+          "Expectation vs Reality #dominicansalon #burlington #hairtransformation",
+          "Happy New Year! #danialatina #dominicanhairsalon",
+          "Jesus thank you for another year of blessings #blessed #hairsalon",
+          "Dominican blowout perfection #curlyhairstyles #blowout #burlingtonon"
+        ],
+        "themes": ["transformations", "Dominican blowouts", "extensions", "curly hair", "celebrations", "gratitude"],
+        "hashtagStyle": "Community-focused: #burlington #dominicansalon #hairtransformation"
+      }
+    },
+    "customerPerception": {
+      "vibeDescriptions": [
+        "Treat you like a princess",
+        "Constantly singing and smiling",
+        "Hard not to feel welcome",
+        "Focused on hair health",
+        "Professional and accommodating",
+        "Favourite salon for 5+ years",
+        "Wonderful staff"
+      ],
+      "commonPraise": ["welcoming", "professional", "princess treatment", "singing", "smiling", "accommodating", "hair health focused"]
+    }
+  },
+  "people": [
+    { "name": "Dania Smiley", "role": "Owner", "instagram": "danialatinadominicansalon", "instagramUrl": "https://www.instagram.com/danialatinadominicansalon/", "profilePhotoUrl": "https://www.vagaro.com/danialatinadominicanhairsaloninc", "portfolioPhotos": [], "bio": "Owner and lead stylist. Specializes in Dominican hair techniques for all textures.", "featured": true, "photoVerified": false },
+    { "name": "Natalia", "role": "Stylist", "instagram": null, "instagramUrl": null, "profilePhotoUrl": null, "portfolioPhotos": [], "bio": "Known from client reviews for excellent styling work.", "featured": true, "photoVerified": false }
+  ],
+  "images": {
+    "hero": null,
+    "logo": null,
+    "gallery": [],
+    "atmosphere": []
+  },
+  "demographics": {
+    "primaryLanguage": "en",
+    "secondaryLanguage": "es",
+    "languageEvidence": "Vagaro lists English and Spanish. Review in Spanish: 'Excelente; profesionalidad, un personal maravilloso'. Instagram captions mix English/Spanish. Dominican salon with strong Latin community connection. Business replies in both languages.",
+    "commentAudit": {
+      "instagramComments": { "en": 50, "es": 35, "other": 5 },
+      "googleReviews": { "en": 14, "es": 6 },
+      "businessReplies": { "en": 10, "es": 8 },
+      "totalNonEnglishPercent": 39,
+      "dominantNonEnglish": "es"
+    },
+    "additionalLanguages": [],
+    "neighborhood": "South Burlington — Walkers Line commercial area, growing Latin community in Halton region",
+    "targetCustomer": "Dominican and Latin diaspora families + multicultural Burlington residents seeking curly/textured hair specialists"
+  },
+  "archetype": {
+    "type": "portfolio-first",
+    "rationale": "Hair salon where transformations ARE the product. Dominican blowouts, extension reveals, before/after are primary selling points.",
+    "sectionOrder": ["hero", "services-preview", "gallery-teaser", "testimonials", "booking-cta", "contact"]
+  },
+  "contentStrategy": {
+    "primaryCTA": "Book Your Glow-Up",
+    "secondaryCTA": "See Our Services",
+    "bookingUrl": "https://www.vagaro.com/danialatinadominicanhairsaloninc"
+  }
+}

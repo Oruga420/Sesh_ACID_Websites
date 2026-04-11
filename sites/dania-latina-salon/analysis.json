@@ -1,0 +1,53 @@
+{
+  "businessName": "Dania Latina Dominican Hair Salon",
+  "slug": "dania-latina-salon",
+  "websiteUrl": null,
+  "websiteStatus": "NO WEBSITE - data sourced from Vagaro, Fresha, Instagram, Google reviews, Facebook, HeyHairSalons",
+  "industry": "Dominican Hair Salon",
+  "city": "Burlington, ON",
+  "address": "1900 Walkers Line Unit 7, Burlington, ON L7M 4W5",
+  "phone": "(905) 465-0007",
+  "owner": "Dania Smiley",
+  "hours": {
+    "monday": "10:00 AM - 5:00 PM",
+    "tuesday": "10:00 AM - 6:00 PM",
+    "wednesday": "10:00 AM - 6:00 PM",
+    "thursday": "10:00 AM - 6:00 PM",
+    "friday": "10:00 AM - 7:00 PM",
+    "saturday": "8:30 AM - 5:00 PM",
+    "sunday": "Closed"
+  },
+  "description": "Dominican hair salon specializing in Afro and curly hair types. Comprehensive range of services including Dominican blowouts, keratin treatments, hair extensions, braiding, coloring, and styling for women, men, and children. 93 services offered.",
+  "socialMedia": {
+    "instagram": "@danialatinadominicansalon",
+    "instagramUrl": "https://www.instagram.com/danialatinadominicansalon/",
+    "instagramFollowers": 940,
+    "instagramPosts": 345,
+    "facebook": "https://www.facebook.com/p/Dania-Latina-Dominican-Hair-Salon-100063635948519/",
+    "facebookLikes": 610,
+    "vagaro": "https://www.vagaro.com/danialatinadominicanhairsaloninc"
+  },
+  "ratings": {
+    "heyhairsalons": { "score": "8.9/10", "reviews": 20, "stars": 4.9 },
+    "facebook": { "likes": 610, "checkins": 253 }
+  },
+  "services": [
+    "Dominican Blowout", "Wash & Blow Dry", "Women's Haircut", "Men's Haircut",
+    "Balayage", "Highlights", "Hair Coloring", "Color Correction",
+    "Keratin Treatment", "Permanent Hair Straightening",
+    "Hair Extensions", "Hair Weaves", "Hair Braiding",
+    "Makeup Services", "Curly Hair Styling", "Kids Haircuts",
+    "Spa Services"
+  ],
+  "languages": ["English", "Spanish"],
+  "amenities": ["Free Parking", "WiFi", "TV", "Disabled Access", "Walk-ins Welcome"],
+  "reviews": [
+    { "reviewer": "Anonymous", "text": "Dania has been doing my hair and extensions for over 5 years now. It's by far my favourite salon!", "source": "HeyHairSalons" },
+    { "reviewer": "Anonymous", "text": "They treat you like a princess when you go there", "source": "HeyHairSalons" },
+    { "reviewer": "Anonymous", "text": "Completely focused on the health of my hair, understood what I needed", "source": "HeyHairSalons" },
+    { "reviewer": "Anonymous", "text": "They are constantly singing and smiling, it's really hard not to feel welcome", "source": "HeyHairSalons" },
+    { "reviewer": "Anonymous", "text": "Best salon ever!!! Very professional and accommodating!!!", "source": "HeyHairSalons" },
+    { "reviewer": "Anonymous", "text": "Excelente; profesionalidad, un personal maravilloso", "source": "HeyHairSalons" },
+    { "reviewer": "Natalia client", "text": "Just had my hair done at Dania Latina by Natalia....am soooo happy!", "source": "HeyHairSalons" }
+  ]
+}

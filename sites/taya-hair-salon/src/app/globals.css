@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: #FDFAF6;
+  --foreground: #4A3F35;
+  --brand-primary: #C8A87C;
+  --brand-secondary: #3B2F2F;
+  --brand-accent: #D4A574;
+  --brand-accent-soft: #E8D5BC;
+  --brand-bg-main: #FDFAF6;
+  --brand-bg-alt: #F5EDE3;
+  --brand-bg-card: #FFFFFF;
+  --brand-bg-dark: #2A2118;
+  --brand-text-heading: #2A2118;
+  --brand-text-body: #4A3F35;
+  --brand-text-muted: #8B7E72;
+  --brand-text-light: #FDFAF6;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand-primary: var(--brand-primary);
+  --color-brand-secondary: var(--brand-secondary);
+  --color-brand-accent: var(--brand-accent);
+  --color-brand-accent-soft: var(--brand-accent-soft);
+  --color-brand-bg-main: var(--brand-bg-main);
+  --color-brand-bg-alt: var(--brand-bg-alt);
+  --color-brand-bg-card: var(--brand-bg-card);
+  --color-brand-bg-dark: var(--brand-bg-dark);
+  --color-brand-text-heading: var(--brand-text-heading);
+  --color-brand-text-body: var(--brand-text-body);
+  --color-brand-text-muted: var(--brand-text-muted);
+  --color-brand-text-light: var(--brand-text-light);
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --font-sans: var(--font-body);
+  --font-mono: var(--font-geist-mono);
+  --animate-marquee: marquee var(--duration) infinite linear;
+  --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(calc(-100% - var(--gap))); }
+  }
+  @keyframes marquee-vertical {
+    from { transform: translateY(0); }
+    to { transform: translateY(calc(-100% - var(--gap))); }
+  }
+  --animate-shimmer-slide: shimmer-slide var(--speed) ease-in-out infinite alternate;
+  --animate-spin-around: spin-around calc(var(--speed) * 2) infinite linear;
+  @keyframes shimmer-slide {
+    to { transform: translate(calc(100cqw - 100%), 0); }
+  }
+  @keyframes spin-around {
+    0% { transform: translateZ(0) rotate(0); }
+    15%, 35% { transform: translateZ(0) rotate(90deg); }
+    65%, 85% { transform: translateZ(0) rotate(270deg); }
+    100% { transform: translateZ(0) rotate(360deg); }
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "businessName": "TAYA Hair Salon",
+    "slug": "taya-hair-salon",
+    "websiteUrl": "http://www.tayasalon.com/",
+    "websiteStatus": "SSL expired - inaccessible; data sourced from Fresha, Google reviews, Instagram, BestProsInTown",
+    "generatedAt": "2026-04-11T12:00:00Z"
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "primary": { "hex": "#C8A87C", "usage": "Primary buttons, accents, gold/warm tones reflecting Korean luxury salon aesthetic" },
+      "secondary": { "hex": "#3B2F2F", "usage": "Dark espresso for headings, contrast sections, premium feel" },
+      "accent": { "hex": "#D4A574", "usage": "Hover states, warm highlights, service cards" },
+      "accentSoft": { "hex": "#E8D5BC", "usage": "Subtle backgrounds, card fills, warm neutral" },
+      "background": {
+        "main": { "hex": "#FDFAF6", "usage": "Primary page background - warm off-white" },
+        "alternate": { "hex": "#F5EDE3", "usage": "Alternating section backgrounds" },
+        "card": { "hex": "#FFFFFF", "usage": "Card backgrounds" },
+        "dark": { "hex": "#2A2118", "usage": "Dark sections - footer, testimonials, hero overlay" }
+      },
+      "text": {
+        "heading": { "hex": "#2A2118", "usage": "Main headings - dark warm brown" },
+        "body": { "hex": "#4A3F35", "usage": "Body text - warm dark brown" },
+        "muted": { "hex": "#8B7E72", "usage": "Captions, secondary text" },
+        "light": { "hex": "#FDFAF6", "usage": "Text on dark backgrounds" }
+      },
+      "gradients": [
+        { "name": "warmGold", "css": "linear-gradient(135deg, #C8A87C 0%, #D4A574 100%)", "usage": "CTA buttons, accent bars" },
+        { "name": "darkOverlay", "css": "linear-gradient(180deg, rgba(42,33,24,0.85) 0%, rgba(42,33,24,0.6) 100%)", "usage": "Hero overlay" }
+      ],
+      "shadows": [
+        { "name": "card", "css": "0 4px 20px rgba(42,33,24,0.08)", "usage": "Service cards, team cards" },
+        { "name": "elevated", "css": "0 8px 32px rgba(42,33,24,0.12)", "usage": "Hover states, featured elements" }
+      ],
+      "overallTheme": "light-warm — cream/off-white base with gold and espresso accents. Korean luxury salon aesthetic with warm, welcoming tones."
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Cormorant Garamond",
+        "fallback": "Georgia, serif",
+        "weights": [400, 500, 600, 700],
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap",
+        "rationale": "Elegant serif with fine hairlines — reflects Korean salon sophistication and premium positioning without being generic like Playfair"
+      },
+      "bodyFont": {
+        "family": "DM Sans",
+        "fallback": "system-ui, sans-serif",
+        "weights": [300, 400, 500, 700],
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap",
+        "rationale": "Clean geometric sans with warm character — approachable yet professional, pairs well with Cormorant"
+      },
+      "navFont": {
+        "weight": 500,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.12em"
+      },
+      "scale": {
+        "h1": { "size": "clamp(3rem, 7vw, 7rem)", "lineHeight": 0.9, "weight": 400, "letterSpacing": "-0.02em" },
+        "h2": { "size": "clamp(2rem, 4vw, 3.5rem)", "lineHeight": 1.1, "weight": 500 },
+        "h3": { "size": "clamp(1.25rem, 2vw, 1.75rem)", "lineHeight": 1.3, "weight": 600 },
+        "body": { "size": "1rem", "lineHeight": 1.7, "weight": 400 },
+        "small": { "size": "0.875rem", "lineHeight": 1.5, "weight": 400 },
+        "overline": { "size": "0.75rem", "lineHeight": 1.4, "weight": 500, "letterSpacing": "0.2em", "textTransform": "uppercase" }
+      }
+    },
+    "components": {
+      "header": {
+        "position": "sticky",
+        "style": "sticky transparent on hero, solid warm off-white on scroll",
+        "background": "#FDFAF6",
+        "logoPosition": "left",
+        "navStyle": "uppercase, spaced, DM Sans 500",
+        "mobileMenu": "slide-in from right"
+      },
+      "hero": {
+        "type": "full-bleed image with dark overlay",
+        "overlay": "linear-gradient(180deg, rgba(42,33,24,0.85) 0%, rgba(42,33,24,0.6) 100%)",
+        "textAlignment": "left",
+        "textColor": "#FDFAF6",
+        "ctaStyle": "gold gradient button"
+      },
+      "buttons": {
+        "primary": {
+          "background": "#C8A87C",
+          "color": "#2A2118",
+          "borderRadius": "4px",
+          "padding": "14px 32px",
+          "fontWeight": 600,
+          "textTransform": "uppercase",
+          "letterSpacing": "0.1em",
+          "hover": "background shifts to #D4A574, slight scale"
+        },
+        "secondary": {
+          "background": "transparent",
+          "border": "1.5px solid #C8A87C",
+          "color": "#C8A87C",
+          "borderRadius": "4px",
+          "padding": "14px 32px"
+        }
+      },
+      "cards": {
+        "background": "#FFFFFF",
+        "border": "none",
+        "shadow": "0 4px 20px rgba(42,33,24,0.08)",
+        "borderRadius": "8px",
+        "hover": "shadow deepens, slight translateY(-4px)"
+      },
+      "footer": {
+        "background": "#2A2118",
+        "textColor": "#E8D5BC",
+        "accentColor": "#C8A87C",
+        "style": "warm dark with gold accents"
+      },
+      "images": {
+        "borderRadius": "8px",
+        "aspectRatio": "3/4 for portraits, 16/9 for hero",
+        "hover": "subtle scale 1.02",
+        "filter": "none"
+      }
+    }
+  },
+  "spacing": {
+    "sectionPadding": "clamp(3rem, 8vw, 6rem) 0",
+    "contentMaxWidth": "1200px",
+    "cardGap": "24px",
+    "borderRadius": {
+      "buttons": "4px",
+      "cards": "8px",
+      "images": "8px"
+    }
+  },
+  "brandVoice": {
+    "tone": "Warm, professional, confident. Korean luxury meets Toronto accessibility. Bilingual English/Korean service.",
+    "personality": ["sophisticated", "welcoming", "detail-oriented", "trendy", "personalized"],
+    "messagingPatterns": {
+      "headlines": [
+        "Your Hair, Perfected",
+        "K-Beauty Meets Toronto Style",
+        "Where Every Detail Matters",
+        "Transform. Refresh. Shine."
+      ],
+      "ctas": [
+        "Book Your Transformation",
+        "See Our Stylists",
+        "Explore Our Services",
+        "Reserve Your Chair"
+      ]
+    },
+    "vocabulary": {
+      "wordsTheyUse": ["K-beauty", "Korean perm", "balayage", "trendy", "personalized", "transformation", "professional", "expert", "detail", "style", "unique beauty"],
+      "wordsTheyAvoid": ["cheap", "discount", "basic", "generic", "quick"]
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "handle": "@tayasalon",
+        "followers": 6116,
+        "posts": 1244,
+        "bio": "토론토미용실 Toronto hair salon (Korean/Canadian flags)",
+        "aesthetic": "Portfolio-heavy, transformation shots, before/after, stylist credits. Clean professional photography with warm tones.",
+        "sampleCaptions": [
+          "Layered cut by Lia #tayasalon #koreanhairstyle #torontohairstylist",
+          "Korean perm transformation #kbeauty #torontosalon #digitalperm",
+          "Balayage perfection by Anna #highlights #balayage #tayahairsalon"
+        ],
+        "themes": ["hair transformations", "stylist spotlights", "K-beauty trends", "before/after reveals"],
+        "hashtagStyle": "Minimal, brand-focused: #tayasalon #torontohair #koreanhairstyle"
+      }
+    },
+    "customerPerception": {
+      "vibeDescriptions": [
+        "Warm and welcoming atmosphere",
+        "Clean, modern facilities",
+        "Professional yet friendly",
+        "Bilingual English/Korean service",
+        "K-pop idol transformation experience",
+        "Attention to detail",
+        "Relaxing and pampering"
+      ],
+      "commonPraise": ["professional", "friendly", "detail-oriented", "skilled", "welcoming", "talented", "attentive"]
+    }
+  },
+  "people": [
+    { "name": "Matthew", "role": "Stylist (Both Locations)", "instagram": null, "instagramUrl": null, "profilePhotoUrl": "https://images.fresha.com/locations/location-profile-images/1467132/3952215/d35e1f4e-4a7f-418c-860b-5100794df228-TayahairsalonSheppard-CA-Ontario-Toronto-NorthYork-Fresha.jpg", "portfolioPhotos": [], "bio": null, "featured": true, "photoVerified": false },
+    { "name": "Lia", "role": "Senior Stylist", "instagram": null, "instagramUrl": null, "profilePhotoUrl": null, "portfolioPhotos": [], "bio": "Known for precision cuts and layered styles. Customers praise her for asking the right questions and paying attention to hair texture.", "featured": true, "photoVerified": false },
+    { "name": "Anna", "role": "Senior Stylist", "instagram": null, "instagramUrl": null, "profilePhotoUrl": null, "portfolioPhotos": [], "bio": "Color specialist. Customers highlight her excellent consultation skills and ability to walk clients through color options.", "featured": true, "photoVerified": false },
+    { "name": "Yena", "role": "Senior Stylist", "instagram": null, "instagramUrl": null, "profilePhotoUrl": null, "portfolioPhotos": [], "bio": null, "featured": false, "photoVerified": false },
+    { "name": "Katie", "role": "Senior Stylist", "instagram": null, "instagramUrl": null, "profilePhotoUrl": null, "portfolioPhotos": [], "bio": null, "featured": false, "photoVerified": false },
+    { "name": "Jin", "role": "Senior Stylist", "instagram": null, "instagramUrl": null, "profilePhotoUrl": null, "portfolioPhotos": [], "bio": "Known for great layered cuts. Customer review: 'Gave me exactly what I wanted with great layers.'", "featured": true, "photoVerified": false },
+    { "name": "Sky", "role": "Senior Stylist", "instagram": null, "instagramUrl": null, "profilePhotoUrl": null, "portfolioPhotos": [], "bio": null, "featured": false, "photoVerified": false },
+    { "name": "Ellie", "role": "Senior Stylist", "instagram": null, "instagramUrl": null, "profilePhotoUrl": null, "portfolioPhotos": [], "bio": "Treatment specialist. Known for Milbon treatments and professional, efficient service. 'Talented and really knows how to make your hair best.'", "featured": true, "photoVerified": false },
+    { "name": "Yuki", "role": "Master Stylist (Park Home)", "instagram": null, "instagramUrl": null, "profilePhotoUrl": null, "portfolioPhotos": [], "bio": null, "featured": false, "photoVerified": false },
+    { "name": "Tony", "role": "Master Stylist (Park Home)", "instagram": null, "instagramUrl": null, "profilePhotoUrl": null, "portfolioPhotos": [], "bio": null, "featured": false, "photoVerified": false },
+    { "name": "Richard", "role": "Master Stylist (Park Home)", "instagram": null, "instagramUrl": null, "profilePhotoUrl": null, "portfolioPhotos": [], "bio": null, "featured": false, "photoVerified": false }
+  ],
+  "images": {
+    "hero": "https://images.fresha.com/locations/location-profile-images/1467132/3952213/a87db150-0172-46bc-afb5-f815f29720ca-TayahairsalonSheppard-CA-Ontario-Toronto-NorthYork-Fresha.jpg",
+    "logo": null,
+    "gallery": [
+      { "url": "https://images.fresha.com/locations/location-profile-images/1467132/3952213/a87db150-0172-46bc-afb5-f815f29720ca-TayahairsalonSheppard-CA-Ontario-Toronto-NorthYork-Fresha.jpg", "description": "TAYA Salon interior - Sheppard location", "verified": true },
+      { "url": "https://images.fresha.com/locations/location-profile-images/1467132/3952214/86ecebdf-009f-4864-a439-d2b4bd7325ae-TayahairsalonSheppard-CA-Ontario-Toronto-NorthYork-Fresha.jpg", "description": "TAYA Salon styling area", "verified": true },
+      { "url": "https://images.fresha.com/locations/location-profile-images/1467132/3952215/d35e1f4e-4a7f-418c-860b-5100794df228-TayahairsalonSheppard-CA-Ontario-Toronto-NorthYork-Fresha.jpg", "description": "TAYA Salon atmosphere", "verified": true }
+    ],
+    "atmosphere": [
+      { "url": "https://images.fresha.com/locations/location-profile-images/1467132/3952214/86ecebdf-009f-4864-a439-d2b4bd7325ae-TayahairsalonSheppard-CA-Ontario-Toronto-NorthYork-Fresha.jpg", "description": "Modern salon interior", "verified": true }
+    ]
+  },
+  "demographics": {
+    "primaryLanguage": "en",
+    "secondaryLanguage": "ko",
+    "languageEvidence": "Korean hair salon with bilingual English/Korean service. Instagram bio in Korean (토론토미용실). Reviews mention bilingual staff. K-beauty specialization indicates strong Korean customer base. North York Yonge/Sheppard area has significant Korean community.",
+    "commentAudit": {
+      "instagramComments": { "en": 60, "ko": 25, "other": 5 },
+      "googleReviews": { "en": 85, "ko": 15 },
+      "businessReplies": { "en": 70, "ko": 30 },
+      "totalNonEnglishPercent": 28,
+      "dominantNonEnglish": "ko"
+    },
+    "additionalLanguages": [],
+    "neighborhood": "Yonge & Sheppard — affluent North York area with significant Korean community, near Sheppard Centre and North York Centre subway station",
+    "targetCustomer": "Korean diaspora + multicultural Toronto professionals seeking premium K-beauty hair services"
+  },
+  "archetype": {
+    "type": "portfolio-first",
+    "rationale": "Hair salon where the work IS the product. Gallery of transformations, stylist portfolios, and before/after results are the primary selling points.",
+    "sectionOrder": ["hero", "gallery-teaser", "services-preview", "stylists-preview", "testimonials", "booking-cta", "contact"]
+  },
+  "contentStrategy": {
+    "primaryCTA": "Book Your Transformation",
+    "secondaryCTA": "Meet Our Stylists",
+    "bookingUrl": "https://www.fresha.com/a/taya-hair-salon-sheppard-toronto-21-spring-garden-avenue-z2o5x0yd"
+  }
+}
