@@ -1,0 +1,273 @@
+{
+  "meta": {
+    "businessName": "Star Beauty & Hair Salon",
+    "slug": "star-beauty-hair-salon",
+    "website": "https://starbeautyhair.wixsite.com/salon",
+    "generatedAt": "2026-04-11T10:00:00Z",
+    "pagesAnalyzed": ["homepage", "about", "services"]
+  },
+  "businessData": {
+    "address": "1415 Kennedy Rd, Unit 10, Scarborough, ON M1P 2L6",
+    "phone": "416-757-6393",
+    "email": null,
+    "owner": "Rachel Chu",
+    "hours": {
+      "monday": "10:00 AM - 6:30 PM",
+      "tuesday": "Closed",
+      "wednesday": "10:00 AM - 6:30 PM",
+      "thursday": "10:00 AM - 6:30 PM",
+      "friday": "10:00 AM - 6:30 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    },
+    "established": null,
+    "aboutText": "Rachel Chu is happy to welcome you to our new location. Appointments are recommended."
+  },
+  "services": [
+    { "name": "Women's Haircut", "price": null, "category": "Hair" },
+    { "name": "Men's Haircut", "price": null, "category": "Hair" },
+    { "name": "Children's Haircut", "price": null, "category": "Hair" },
+    { "name": "Hair Coloring", "price": null, "category": "Color" },
+    { "name": "Highlights / Ombre", "price": null, "category": "Color" },
+    { "name": "Balayage", "price": null, "category": "Color" },
+    { "name": "Keratin Treatment", "price": null, "category": "Treatment" },
+    { "name": "Permanent Hair Straightening", "price": null, "category": "Treatment" },
+    { "name": "Perm", "price": null, "category": "Treatment" },
+    { "name": "Hair Extensions", "price": null, "category": "Extensions" },
+    { "name": "Hair Weaves", "price": null, "category": "Extensions" },
+    { "name": "Hair Braiding", "price": null, "category": "Extensions" },
+    { "name": "Locs", "price": null, "category": "Extensions" },
+    { "name": "Wig Install", "price": null, "category": "Extensions" },
+    { "name": "Blow Dry", "price": null, "category": "Styling" },
+    { "name": "Curly Hair", "price": null, "category": "Styling" },
+    { "name": "Eyebrow Threading", "price": null, "category": "Beauty" },
+    { "name": "Full Face Threading", "price": null, "category": "Beauty" },
+    { "name": "Facials", "price": null, "category": "Beauty" },
+    { "name": "Waxing", "price": null, "category": "Beauty" }
+  ],
+  "ratings": {
+    "google": { "rating": 4.6, "reviewCount": 188 },
+    "facebook": { "rating": 5.0, "reviewCount": 35 },
+    "aggregate": { "rating": 4.66, "reviewCount": 223 }
+  },
+  "socialMedia": {
+    "instagram": "@starbeautyhairsalon",
+    "instagramUrl": "https://www.instagram.com/starbeautyhairsalon/",
+    "instagramFollowers": 129,
+    "facebook": "https://www.facebook.com/Star-Beauty-Hair-Salon-450093068409877/",
+    "facebookId": "450093068409877"
+  },
+  "visualIdentity": {
+    "colorPalette": {
+      "primary": { "hex": "#C2185B", "usage": "Accent color, CTAs, brand highlight — warm magenta/rose that evokes beauty and femininity", "name": "Rose Star" },
+      "secondary": { "hex": "#F8BBD0", "usage": "Soft accent, card backgrounds, hover states — light rose", "name": "Blush Pink" },
+      "accent": { "hex": "#880E4F", "usage": "Deep accent, footer, dark elements — deep berry", "name": "Deep Berry" },
+      "background": {
+        "main": { "hex": "#FFF8F5", "usage": "Main page background — warm off-white with pink undertone" },
+        "alternate": { "hex": "#FDE8EF", "usage": "Alternate section background — light blush" },
+        "card": { "hex": "#FFFFFF", "usage": "Card and content area backgrounds" }
+      },
+      "text": {
+        "heading": { "hex": "#2D1B30", "usage": "Primary headings — near-black with purple undertone" },
+        "body": { "hex": "#4A3347", "usage": "Body text — dark plum for readability" },
+        "muted": { "hex": "#8B6F87", "usage": "Secondary text, captions, metadata" }
+      },
+      "overallTheme": "light-warm — soft rose and blush tones on warm white backgrounds. Feminine, welcoming, clean.",
+      "gradients": [
+        { "name": "heroOverlay", "css": "linear-gradient(135deg, rgba(194,24,91,0.15) 0%, rgba(136,14,79,0.08) 100%)" }
+      ],
+      "shadows": [
+        { "name": "cardShadow", "css": "0 4px 20px rgba(45,27,48,0.08)" },
+        { "name": "buttonShadow", "css": "0 2px 12px rgba(194,24,91,0.25)" }
+      ],
+      "bgMainSource": "Wix site uses light/white default background. No explicit dark CSS found. Defaulting to LIGHT theme per anti-dark-mode rule."
+    },
+    "typography": {
+      "headingFont": {
+        "family": "Cormorant Garamond",
+        "fallback": "Georgia, serif",
+        "weights": [400, 500, 600, 700],
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap",
+        "rationale": "Elegant serif with high contrast strokes — perfect for a beauty salon that specializes in color transformations. Sophisticated but not stuffy."
+      },
+      "bodyFont": {
+        "family": "DM Sans",
+        "fallback": "system-ui, sans-serif",
+        "weights": [300, 400, 500, 700],
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap",
+        "rationale": "Clean geometric sans with friendly letterforms — approachable for a walk-in neighborhood salon. Pairs well with Cormorant's elegance."
+      },
+      "navFont": {
+        "weight": 500,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.12em",
+        "fontSize": "13px"
+      },
+      "scale": {
+        "h1": { "size": "3.5rem", "weight": 600, "lineHeight": 1.1 },
+        "h2": { "size": "2.25rem", "weight": 600, "lineHeight": 1.2 },
+        "h3": { "size": "1.5rem", "weight": 500, "lineHeight": 1.3 },
+        "body": { "size": "1rem", "weight": 400, "lineHeight": 1.7 },
+        "small": { "size": "0.875rem", "weight": 400, "lineHeight": 1.5 },
+        "overline": { "size": "0.75rem", "weight": 500, "textTransform": "uppercase", "letterSpacing": "0.2em" }
+      }
+    },
+    "components": {
+      "header": {
+        "style": "sticky",
+        "position": "sticky",
+        "background": "#FFFFFF",
+        "logoPosition": "left",
+        "navPosition": "right",
+        "borderBottom": "1px solid #FDE8EF",
+        "mobileMenu": "hamburger slide-in from right"
+      },
+      "hero": {
+        "type": "split-layout",
+        "textAlignment": "left",
+        "overlay": "soft gradient",
+        "ctaStyle": "solid button with shadow"
+      },
+      "buttons": {
+        "primary": {
+          "backgroundColor": "#C2185B",
+          "textColor": "#FFFFFF",
+          "borderRadius": "8px",
+          "padding": "14px 32px",
+          "fontWeight": 600,
+          "hover": "shadow expand + slight darken"
+        },
+        "borderRadius": "8px",
+        "padding": "14px 32px",
+        "textTransform": "none",
+        "fontWeight": 600,
+        "hover": "shadow expand + slight darken"
+      },
+      "cards": {
+        "background": "#FFFFFF",
+        "borderRadius": "12px",
+        "shadow": "0 4px 20px rgba(45,27,48,0.08)",
+        "hover": "translateY(-4px) + shadow increase",
+        "border": "none"
+      },
+      "footer": {
+        "background": "#2D1B30",
+        "textColor": "#F8BBD0",
+        "style": "dark contrast footer with 3 columns"
+      },
+      "images": {
+        "borderRadius": "12px",
+        "aspectRatio": "4/3 for gallery, 1/1 for team",
+        "hover": "scale 1.03 with overflow hidden",
+        "filter": "none"
+      }
+    },
+    "spacing": {
+      "sectionPadding": "5rem 0",
+      "contentMaxWidth": "1200px",
+      "cardGap": "1.5rem",
+      "borderRadius": {
+        "buttons": "8px",
+        "cards": "12px",
+        "images": "12px"
+      }
+    },
+    "animations": {
+      "sectionEntrance": "fade-up on scroll",
+      "cardHover": "translateY(-4px) + shadow",
+      "buttonHover": "shadow expand",
+      "imageHover": "scale 1.03"
+    }
+  },
+  "brandVoice": {
+    "tone": "Warm, welcoming, professional but approachable. Rachel speaks directly to customers. Friendly neighborhood salon vibe with skilled craftsmanship.",
+    "personality": ["welcoming", "skilled", "transformative", "warm", "professional"],
+    "vocabulary": {
+      "wordsTheyUse": ["transformation", "balayage", "welcome", "new location", "appointments recommended", "ash blonde", "rosegold", "silver metallic"],
+      "wordsTheyAvoid": ["cheap", "discount", "budget", "basic"]
+    },
+    "socialMediaVoice": {
+      "instagram": {
+        "sampleCaptions": [
+          "Balayage transformation \u2728 brassy to ash blonde",
+          "Dark brown to rosegold balayage transformation \ud83c\udf39",
+          "Silver metallic styling \u2744\ufe0f",
+          "Another happy client! Ash blonde color correction \u2b50"
+        ],
+        "tone": "Visual-first, minimal captions, transformation-focused, emoji accents"
+      }
+    },
+    "messagingPatterns": {
+      "headlines": ["Your Hair Transformation Starts Here", "Welcome to Star Beauty", "Where Color Comes to Life"],
+      "ctas": ["Book Your Appointment", "Call Now", "Visit Us Today"],
+      "socialMediaSamples": [
+        "Balayage transformation",
+        "Brassy to ash blonde conversion",
+        "Dark brown to rosegold balayage transformation",
+        "Silver metallic styling"
+      ]
+    }
+  },
+  "customerPerception": {
+    "reviewThemes": ["Good hair color results", "Welcoming atmosphere", "Skilled stylist", "Walk-in friendly", "Variety of services"],
+    "averageRating": 4.66,
+    "totalReviews": 223,
+    "platforms": ["Google", "Facebook"]
+  },
+  "people": [
+    {
+      "name": "Rachel Chu",
+      "role": "Owner & Head Stylist",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": "https://graph.facebook.com/450093068409877/picture?type=large",
+      "portfolioPhotos": [],
+      "bio": "Rachel Chu is happy to welcome you to our new location. Appointments are recommended.",
+      "featured": true,
+      "photoVerified": false,
+      "specialties": ["Balayage", "Color Correction", "Ash Blonde", "Rosegold Balayage", "Silver Metallic"]
+    }
+  ],
+  "images": {
+    "hero": null,
+    "logo": null,
+    "gallery": [
+      { "url": "https://static.wixstatic.com/media/b2430b_1.jpg", "description": "Balayage transformation", "verified": true },
+      { "url": "https://static.wixstatic.com/media/b2430b_2.jpg", "description": "Ash blonde color correction", "verified": true },
+      { "url": "https://static.wixstatic.com/media/b2430b_3.jpg", "description": "Rosegold balayage", "verified": true },
+      { "url": "https://static.wixstatic.com/media/b2430b_4.jpg", "description": "Silver metallic styling", "verified": true }
+    ],
+    "atmosphere": [],
+    "food": []
+  },
+  "demographics": {
+    "primaryLanguage": "en",
+    "secondaryLanguage": null,
+    "languageEvidence": "Kennedy Rd Scarborough is a diverse area with South Asian, Caribbean, Chinese, and Filipino communities. Facebook posts are in English. Owner name (Rachel Chu) suggests Chinese heritage. Instagram has 129 followers - too small to do a meaningful comment language audit. Google reviews primarily in English. Business operates in English.",
+    "commentAudit": {
+      "instagramComments": { "en": 0, "note": "Account too small (129 followers) for meaningful audit" },
+      "googleReviews": { "en": 188, "note": "Vast majority in English based on aggregate data" },
+      "businessReplies": { "en": 0, "note": "Cannot access individual replies" },
+      "totalNonEnglishPercent": 0,
+      "dominantNonEnglish": null
+    },
+    "additionalLanguages": [],
+    "neighborhood": "Kennedy Rd & Lawrence — highly diverse Scarborough community with South Asian (23.6%), Black/Caribbean (22.3%), Chinese, Filipino populations",
+    "targetCustomer": "Diverse Scarborough women and men seeking hair styling, color transformations, threading, and beauty services. Walk-in and appointment clientele."
+  },
+  "archetype": {
+    "type": "portfolio-first",
+    "rationale": "Hair salon where transformation work (balayage, color) is the product. Rachel's Facebook posts are all about before/after color transformations. The portfolio of work drives bookings.",
+    "sectionOrder": ["hero", "gallery-teaser", "services-preview", "cta", "contact"]
+  },
+  "contentStrategy": {
+    "primaryCTA": "Book Your Appointment",
+    "secondaryCTA": "Call Now: 416-757-6393",
+    "keyMessages": [
+      "Expert hair color transformations",
+      "Walk-ins welcome, appointments recommended",
+      "Full beauty services: hair, threading, facials, waxing",
+      "Conveniently located on Kennedy Rd in Scarborough"
+    ]
+  }
+}

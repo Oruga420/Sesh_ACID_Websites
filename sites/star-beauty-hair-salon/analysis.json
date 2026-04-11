@@ -1,0 +1,80 @@
+{
+  "businessName": "Star Beauty & Hair Salon",
+  "slug": "star-beauty-hair-salon",
+  "website": "https://starbeautyhair.wixsite.com/salon",
+  "address": "1415 Kennedy Rd, Unit 10, Scarborough, ON M1P 2L6",
+  "phone": "416-757-6393",
+  "email": null,
+  "owner": "Rachel Chu",
+  "hours": {
+    "monday": "10:00 AM - 6:30 PM",
+    "tuesday": "Closed",
+    "wednesday": "10:00 AM - 6:30 PM",
+    "thursday": "10:00 AM - 6:30 PM",
+    "friday": "10:00 AM - 6:30 PM",
+    "saturday": "10:00 AM - 5:00 PM",
+    "sunday": "Closed"
+  },
+  "services": [
+    "Women's Haircut",
+    "Men's Haircut",
+    "Children's Haircut",
+    "Hair Coloring",
+    "Highlights / Ombre",
+    "Balayage",
+    "Keratin Treatment",
+    "Permanent Hair Straightening",
+    "Perm",
+    "Hair Extensions",
+    "Hair Weaves",
+    "Hair Braiding",
+    "Locs",
+    "Wig Install",
+    "Blow Dry",
+    "Curly Hair",
+    "Eyebrow Threading",
+    "Full Face Threading",
+    "Facials",
+    "Waxing (Arms, Underarms, Legs)"
+  ],
+  "pricing": null,
+  "team": [
+    {
+      "name": "Rachel Chu",
+      "role": "Owner & Head Stylist",
+      "specialties": ["Balayage", "Color Correction", "Ash Blonde", "Rosegold Balayage", "Silver Metallic"]
+    }
+  ],
+  "ratings": {
+    "google": { "rating": 4.6, "reviewCount": 188 },
+    "facebook": { "rating": 5.0, "reviewCount": 35 },
+    "aggregate": { "rating": 4.66, "reviewCount": 223 }
+  },
+  "socialMedia": {
+    "instagram": "@starbeautyhairsalon",
+    "instagramUrl": "https://www.instagram.com/starbeautyhairsalon/",
+    "facebook": "https://www.facebook.com/Star-Beauty-Hair-Salon-450093068409877/",
+    "facebookId": "450093068409877"
+  },
+  "testimonials": [],
+  "industry": "Beauty Salon / Hair Salon",
+  "city": "Scarborough, ON",
+  "aboutText": "Rachel Chu is happy to welcome you to our new location. Appointments are recommended.",
+  "facebookPosts": [
+    { "date": "2023-10-19", "content": "Balayage transformation" },
+    { "date": "2023-10-01", "content": "Brassy to ash blonde conversion" },
+    { "date": "2023-05-17", "content": "Hair transformation" },
+    { "date": "2022-08-21", "content": "Styling post" },
+    { "date": "2021-08-22", "content": "Silver metallic styling" },
+    { "date": "2021-07-04", "content": "Dark brown to rosegold balayage transformation" }
+  ],
+  "badSignals": [
+    "Wix FREE tier (wixsite.com subdomain)",
+    "No custom domain",
+    "No contact info visible on site",
+    "No social links on site",
+    "Low revision count",
+    "No local SEO",
+    "Unclaimed Yelp"
+  ]
+}
