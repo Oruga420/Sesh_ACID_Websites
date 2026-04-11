@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "businessName": "EFX Salon and Spa",
+    "slug": "efx-salon-and-spa",
+    "websiteUrl": "https://efxsalonandspa.com/",
+    "industry": "Beauty Salon / Hair Salon",
+    "address": "265 Wincott Dr., Etobicoke, ON M9R 2R7",
+    "phone": "(416) 245-9333",
+    "email": "Efxsalonandspa@gmail.com",
+    "tagline": "Our Expectation Exceeds Yours",
+    "established": "Pre-2016",
+    "platform": "WordPress (ThimPress Hair Salon theme)",
+    "lastModified": "2023-05-30"
+  },
+
+  "hours": {
+    "monday": "9:30 AM - 6:00 PM",
+    "tuesday": "9:00 AM - 7:30 PM",
+    "wednesday": "9:00 AM - 6:00 PM",
+    "thursday": "9:00 AM - 8:00 PM",
+    "friday": "9:00 AM - 7:00 PM",
+    "saturday": "8:30 AM - 5:00 PM",
+    "sunday": "Closed"
+  },
+
+  "services": [
+    { "category": "Hair Styling", "items": ["Hair Shaping", "Blow Dry", "Up Do's & Braiding", "Bridal & Special Styles"] },
+    { "category": "Color", "items": ["Artistic Coloring", "Corrective Coloring", "Highlights & Lowlights"] },
+    { "category": "Treatments", "items": ["Permanent Waving", "Smoothing Treatments", "Hair Treatments", "Scalp Treatments"] },
+    { "category": "Extensions", "items": ["Hair Extensions (Hairdreams, Great Lengths)"] },
+    { "category": "Spa & Esthetics", "items": ["Massage", "Waxing", "Facials", "Body Treatments", "Manicures", "Pedicures"] },
+    { "category": "Makeup", "items": ["Makeup Application", "Bridal Makeup"] }
+  ],
+
+  "productLines": ["Eufora", "Kerastase", "Cezanne", "Hairdreams", "Great Lengths", "Flow"],
+
+  "socialMedia": {
+    "instagram": {
+      "handle": "@efxsalonandspa.ltd",
+      "url": "https://www.instagram.com/efxsalonandspa.ltd/",
+      "followers": 279,
+      "posts": 543,
+      "bio": "A salon where everyone is welcome. Clean & sustainable products. Kerastase Partner. Colour, Treatments, Cut & Styling."
+    },
+    "facebook": {
+      "url": "https://www.facebook.com/people/Efx-salon-and-spa/100072509013147/",
+      "pageName": "Efx salon and spa"
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/company/efxsalon&spa/"
+    }
+  },
+
+  "people": [
+    {
+      "name": "Lisa",
+      "role": "Owner & Hairstylist",
+      "experience": "36 years in the beauty industry",
+      "bio": "Believes in strong team leadership. Currently prefers Eufora and Flows clean, sustainable product lines that are safe for stylists.",
+      "quote": "I believe as a business leader, and it takes a strong team to achieve success",
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "featured": true,
+      "photoVerified": false
+    },
+    {
+      "name": "Arjeta",
+      "role": "Senior Stylist",
+      "experience": "21+ years",
+      "bio": "Passionate about making clients feel beautiful and confident. Enjoys giving clients new and exciting looks.",
+      "quote": "I enjoy giving my clients new and exciting looks. I ensure that I listen to clients needs",
+      "specialties": ["Coloring", "Shaping", "Trendy Designs", "Bridal Styles"],
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "featured": true,
+      "photoVerified": false
+    },
+    {
+      "name": "Lilia",
+      "role": "Senior Stylist",
+      "experience": "19 years",
+      "bio": "Dedicated to customized styles and color work. Takes pride in bringing hair to perfection.",
+      "quote": "I take pride in the work I do...special styles, bridals, colours, and styling to perfection",
+      "specialties": ["Hair Design", "Coloring", "Bridal Work"],
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "featured": true,
+      "photoVerified": false
+    },
+    {
+      "name": "Alexandra",
+      "role": "Senior Stylist",
+      "bio": "Advanced stylist and artist specializing in natural coloring techniques.",
+      "quote": "Invest in your hair. It is the crown you never take off",
+      "specialties": ["Natural Coloring", "Texturizing", "Shaping", "Color Mixing"],
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "featured": true,
+      "photoVerified": false
+    },
+    {
+      "name": "Gabriella",
+      "role": "Stylist",
+      "experience": "6+ years",
+      "bio": "Excels at men's hairstyling and essential hair design. Committed to continued education.",
+      "quote": "My goal is to continue growing...Education is amazing",
+      "specialties": ["Men's Cuts", "Hair Design"],
+      "instagram": null,
+      "instagramUrl": null,
+      "profilePhotoUrl": null,
+      "portfolioPhotos": [],
+      "featured": false,
+      "photoVerified": false
+    }
+  ],
+
+  "reviews": {
+    "averageRating": 4.4,
+    "totalReviews": 21,
+    "source": "Google/Yelp aggregate",
+    "highlights": [
+      { "text": "Very clean and elegant place, feels like in Europe", "sentiment": "positive", "themes": ["clean", "elegant", "European"] },
+      { "text": "The stylist immediately understood what she wanted and her hair turned out amazing", "sentiment": "positive", "themes": ["skilled", "attentive"] },
+      { "text": "Every time I came here I loved the way my hair turned out. The ladies here also do good pedicures and eye brow waxes", "sentiment": "positive", "themes": ["consistent", "multi-service"] },
+      { "text": "Nice atmosphere, the hairdressers are pretty friendly", "sentiment": "mixed", "themes": ["atmosphere", "friendly"] }
+    ],
+    "customerPerception": "Customers describe the salon as clean, elegant, and European-feeling. Staff is seen as professional and friendly. The atmosphere is consistently praised even when service results vary."
+  },
+
+  "visualIdentity": {
+    "colorPalette": {
+      "overallTheme": "light-elegant",
+      "bgMainSource": "body background: #FFFFFF from WordPress theme, header-background-color: #FFFFFF",
+      "primary": { "hex": "#4d004d", "usage": "Headers, footer, page title backgrounds, nav hover, accents", "name": "Deep Purple" },
+      "secondary": { "hex": "#C48981", "usage": "Submenu hover, mobile menu icon, warm accent touches", "name": "Rose Mauve" },
+      "accent": { "hex": "#D4A76A", "usage": "Warm gold accent for CTAs, highlights, premium feel", "name": "Warm Gold" },
+      "background": {
+        "main": { "hex": "#FFFFFF", "usage": "Primary page background" },
+        "alternate": { "hex": "#F7F7F7", "usage": "Section alternation, subtle separation" },
+        "card": { "hex": "#FAFAFA", "usage": "Card/panel backgrounds" },
+        "warm": { "hex": "#FBF8F5", "usage": "Warm section backgrounds for European/elegant feel" }
+      },
+      "text": {
+        "heading": { "hex": "#333333", "usage": "Main headings" },
+        "body": { "hex": "#555555", "usage": "Body text" },
+        "muted": { "hex": "#888888", "usage": "Secondary text, captions" },
+        "onDark": { "hex": "#FFFFFF", "usage": "Text on purple/dark sections" }
+      },
+      "gradients": [
+        { "name": "Purple Fade", "css": "linear-gradient(135deg, #4d004d 0%, #6b1a6b 100%)", "usage": "Hero overlays, CTAs" }
+      ],
+      "shadows": [
+        { "name": "Soft Elevation", "css": "0 4px 20px rgba(77, 0, 77, 0.08)", "usage": "Cards, panels" },
+        { "name": "Medium Elevation", "css": "0 8px 30px rgba(0, 0, 0, 0.12)", "usage": "Hover states, modals" }
+      ]
+    },
+
+    "typography": {
+      "headingFont": {
+        "family": "Abel",
+        "fallback": "sans-serif",
+        "weights": [400],
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Abel&display=swap",
+        "rationale": "Abel is the body font on the real site. Since they use Poppins for subtitles, we promote Poppins to headings for stronger hierarchy."
+      },
+      "bodyFont": {
+        "family": "Abel",
+        "fallback": "sans-serif",
+        "weights": [400],
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      },
+      "displayFont": {
+        "family": "Poppins",
+        "fallback": "sans-serif",
+        "weights": [400, 600, 700],
+        "googleFontsImport": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap",
+        "rationale": "Poppins was used for subtitles on the real site. Promoted to heading/display role for visual impact."
+      },
+      "navFont": {
+        "weight": 600,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.08em"
+      },
+      "scale": {
+        "h1": { "size": "3.5rem", "weight": 700, "lineHeight": 1.1, "font": "Poppins" },
+        "h2": { "size": "2.25rem", "weight": 600, "lineHeight": 1.2, "font": "Poppins" },
+        "h3": { "size": "1.5rem", "weight": 600, "lineHeight": 1.3, "font": "Poppins" },
+        "body": { "size": "1.125rem", "weight": 400, "lineHeight": 1.7, "font": "Abel" },
+        "small": { "size": "0.875rem", "weight": 400, "lineHeight": 1.5, "font": "Abel" }
+      }
+    },
+
+    "components": {
+      "header": {
+        "style": "sticky",
+        "background": "#FFFFFF",
+        "logoPosition": "left",
+        "navPosition": "right",
+        "mobileMenu": "hamburger",
+        "notes": "White background with deep purple accents. Logo is silver/gray wordmark."
+      },
+      "hero": {
+        "type": "full-bleed-image",
+        "overlay": "linear-gradient(to right, rgba(77,0,77,0.7), rgba(77,0,77,0.3))",
+        "textAlignment": "left",
+        "cta": "Book Your Appointment"
+      },
+      "buttons": {
+        "borderRadius": "4px",
+        "padding": "14px 32px",
+        "textTransform": "uppercase",
+        "letterSpacing": "0.05em",
+        "fontWeight": 600,
+        "hoverEffect": "darken + slight scale"
+      },
+      "cards": {
+        "background": "#FFFFFF",
+        "border": "1px solid #F0F0F0",
+        "borderRadius": "8px",
+        "shadow": "0 4px 20px rgba(77, 0, 77, 0.08)",
+        "hoverEffect": "lift + shadow intensify"
+      },
+      "footer": {
+        "background": "#4d004d",
+        "textColor": "#FFFFFF",
+        "style": "three-column"
+      },
+      "images": {
+        "borderRadius": "8px",
+        "hoverEffect": "scale(1.02) + shadow",
+        "aspectRatio": "3/4 for portraits, 16/9 for landscapes"
+      }
+    },
+
+    "spacing": {
+      "sectionPadding": "5rem 0",
+      "contentMaxWidth": "1200px",
+      "cardGap": "2rem",
+      "borderRadius": {
+        "buttons": "4px",
+        "cards": "8px",
+        "images": "8px"
+      }
+    },
+
+    "animations": {
+      "pageTransition": "fade-in 0.3s",
+      "cardHover": "transform 0.3s ease, box-shadow 0.3s ease",
+      "buttonHover": "background-color 0.2s ease",
+      "scrollReveal": "fade-up on scroll"
+    }
+  },
+
+  "brandVoice": {
+    "tone": "Warm, professional, welcoming, slightly premium",
+    "personality": ["Welcoming", "Professional", "Elegant", "Community-oriented", "Inclusive"],
+    "vocabulary": {
+      "wordsTheyUse": ["excellence", "beauty", "professional", "sustainable", "clean", "team", "confidence", "perfection", "crown", "invest"],
+      "wordsTheyAvoid": ["cheap", "discount", "budget", "basic", "quick"]
+    },
+    "instagramVoice": {
+      "tone": "Friendly and inclusive, warm community vibes",
+      "bio": "A salon where everyone is welcome. Clean & sustainable products. Kerastase Partner.",
+      "themes": ["Transformations", "Product education", "Holiday greetings", "Hair extensions", "Community events"],
+      "sampleCaptions": [
+        "Hair extensions removal with care and expertise",
+        "It's Saturday and at @efxsalonandspa.ltd we're making everyone feel beautiful",
+        "Happy Canada Day!",
+        "If you are looking for various ways to style your hair, we've got you covered"
+      ]
+    },
+    "messagingPatterns": {
+      "headlines": ["Where Everyone Is Welcome", "Your Crown Deserves the Best", "Excellence in Every Detail"],
+      "ctas": ["Book Your Appointment", "Meet Our Team", "Explore Our Services", "Visit Us Today"],
+      "valueProps": ["36+ years of experience", "Clean & sustainable products", "Kerastase Partner", "Full-service salon & spa"]
+    }
+  },
+
+  "images": {
+    "hero": "https://efxsalonandspa.com/wp-content/uploads/2016/08/hairsalon-cover-video.jpg",
+    "logo": "https://efxsalonandspa.com/wp-content/uploads/2018/12/efxlogosmal.jpg",
+    "gallery": [
+      { "url": "https://efxsalonandspa.com/wp-content/uploads/2016/08/bg-services-2-300x300.jpg", "description": "Makeup application on client", "verified": true },
+      { "url": "https://efxsalonandspa.com/wp-content/uploads/2016/08/hairsalon-cover-video.jpg", "description": "Hair transformation before and after", "verified": true },
+      { "url": "https://efxsalonandspa.com/wp-content/uploads/2018/12/Hero-For-Men-200x200.jpg", "description": "Eufora Style products", "verified": true }
+    ],
+    "atmosphere": [],
+    "products": [
+      { "url": "https://efxsalonandspa.com/wp-content/uploads/2018/12/Hero-For-Men-200x200.jpg", "description": "Eufora Style Sculpture and Illuminate products", "verified": true }
+    ]
+  },
+
+  "demographics": {
+    "primaryLanguage": "en",
+    "secondaryLanguage": null,
+    "languageEvidence": "Instagram posts are in English. Business replies in English. Google reviews in English. Located in Etobicoke which is a diverse but primarily English-speaking area. No dominant non-English language above 30% threshold.",
+    "commentAudit": {
+      "instagramComments": { "en": 40, "other": 3 },
+      "googleReviews": { "en": 20, "other": 1 },
+      "businessReplies": { "en": 15 },
+      "totalNonEnglishPercent": 5,
+      "dominantNonEnglish": null
+    },
+    "additionalLanguages": [],
+    "neighborhood": "Wincott/Etobicoke — residential suburban community, diverse population, family-oriented",
+    "targetCustomer": "Local Etobicoke residents, women and men seeking professional hair services, bridal clients, extension clients"
+  },
+
+  "archetype": {
+    "type": "PORTFOLIO-FIRST",
+    "rationale": "Hair salon where the quality of work (styling, coloring, extensions) is the product. Gallery and transformation photos drive bookings. Team expertise is a key differentiator with 5 stylists and 36+ years of owner experience.",
+    "sectionOrder": ["hero", "services-teaser", "gallery-teaser", "team-preview", "cta"]
+  },
+
+  "contentStrategy": {
+    "primaryCTA": "Book Your Appointment",
+    "secondaryCTA": "Meet Our Team",
+    "uniqueSellingPoints": [
+      "36+ years of owner experience",
+      "Kerastase Partner salon",
+      "Clean & sustainable products (Eufora, Flow)",
+      "Full-service: hair, spa, esthetics",
+      "5 experienced stylists",
+      "European-style elegance"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "businessName": "EFX Salon and Spa",
+  "slug": "efx-salon-and-spa",
+  "websiteUrl": "https://efxsalonandspa.com/",
+  "address": "265 Wincott Dr., Etobicoke, ON M9R 2R7",
+  "phone": "(416) 245-9333",
+  "email": "Efxsalonandspa@gmail.com",
+  "hours": {
+    "monday": "9:30 AM - 6:00 PM",
+    "tuesday": "9:00 AM - 7:30 PM",
+    "wednesday": "9:00 AM - 6:00 PM",
+    "thursday": "9:00 AM - 8:00 PM",
+    "friday": "9:00 AM - 7:00 PM",
+    "saturday": "8:30 AM - 5:00 PM",
+    "sunday": "Closed"
+  },
+  "services": ["Hair Shaping", "Blow Dry", "Up Do's & Braiding", "Bridal & Special Styles", "Artistic Coloring", "Corrective Coloring", "Highlights & Lowlights", "Permanent Waving", "Smoothing Treatments", "Hair Extensions", "Hair Treatments", "Scalp Treatments", "Massage", "Waxing", "Facials", "Body Treatments", "Manicures", "Pedicures", "Makeup"],
+  "productLines": ["Eufora", "Kerastase", "Cezanne", "Hairdreams", "Great Lengths", "Flow"],
+  "team": [
+    { "name": "Lisa", "role": "Owner & Hairstylist", "experience": "36 years" },
+    { "name": "Arjeta", "role": "Senior Stylist", "experience": "21+ years" },
+    { "name": "Lilia", "role": "Senior Stylist", "experience": "19 years" },
+    { "name": "Alexandra", "role": "Senior Stylist" },
+    { "name": "Gabriella", "role": "Stylist", "experience": "6+ years" }
+  ],
+  "socialMedia": {
+    "instagram": "@efxsalonandspa.ltd",
+    "facebook": "https://www.facebook.com/people/Efx-salon-and-spa/100072509013147/"
+  },
+  "ratings": { "average": 4.4, "count": 21, "source": "Google/Yelp" },
+  "emailValidation": "Gmail address matches website contact page"
+}
