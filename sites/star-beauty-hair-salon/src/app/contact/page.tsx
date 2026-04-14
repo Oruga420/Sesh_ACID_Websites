@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
-  const mapSrc = `https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${encodeURIComponent(BRAND.business.address)}&zoom=15`;
+  const mapSrc = `https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=${encodeURIComponent(BRAND.business.address)}&zoom=15`;
 
   return (
     <>

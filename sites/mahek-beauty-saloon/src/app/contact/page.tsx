@@ -89,7 +89,7 @@ export default function ContactPage() {
                 {/* Map Embed */}
                 <div className="mt-6" style={{ height: '250px' }}>
                   <iframe
-                    src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${encodeURIComponent(loc.address)}`}
+                    src={`https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=${encodeURIComponent(loc.address)}`}
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
